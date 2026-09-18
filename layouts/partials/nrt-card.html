@@ -1,0 +1,16 @@
+{{/* North7 card – expects a Page as context (.) */}}
+{{ $page := . }}
+<article class="nrt-card">
+  <a class="nrt-card-media" href="{{ $page.RelPermalink }}" aria-label="{{ $page.Title }}">
+    {{ partial "nrt-img.html" (dict "page" $page "width" 800) }}
+  </a>
+  <div class="nrt-card-body">
+    {{ with $page.Params.categories }}
+    <div class="nrt-cats">
+      {{ range first 3 . }}{{ $slug := ((replace . "/" "-") | urlize) }}<a href="{{ (printf "/kategori/%s/" $slug) | relLangURL }}">{{ . }}</a><span>, </span>{{ end }}
+    </div>
+    {{ end }}
+    <h3 class="nrt-card-title"><a href="{{ $page.RelPermalink }}">{{ $page.Title }}</a></h3>
+    <div class="nrt-card-date">{{ $page.Date | time.Format ":date_long" }}</div>
+  </div>
+</article>

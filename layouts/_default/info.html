@@ -1,0 +1,13 @@
+{{ define "main" }}
+<div class="nrt-wrap">
+  <div class="nrt-static">
+    <div class="nrt-crumb">
+      <a href="{{ "/" | relLangURL }}">Beranda</a><span>/</span><em>{{ .Title }}</em>
+    </div>
+    <h1>{{ .Title | emojify }}</h1>
+    <div class="nrt-static-body">
+      {{ .Content }}
+    </div>
+  </div>
+</div>
+{{ end }}

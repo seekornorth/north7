@@ -1,0 +1,48 @@
+{{/* <img> teroptimasi: resize + WebP + lazy-load + prioritas LCP.
+  Args: page (Page), width (int, default 800), eager (bool), class (str), alt (str) */}}
+{{ $p := .page }}
+{{ $w := .width | default 800 }}
+{{ $eager := .eager | default false }}
+{{ $class := .class | default "" }}
+{{ $alt := .alt | default $p.Title }}
+{{ $res := "" }}
+{{ $url := "" }}
+{{ $iw := 0 }}
+{{ $ih := 0 }}
+{{ with partial "functions/feature-image.html" $p }}
+  {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
+    {{ $url = . }}
+  {{ else }}
+    {{ $res = $p.Resources.Get . }}
+    {{ if not $res }}{{ $res = resources.Get . }}{{ end }}
+  {{ end }}
+{{ end }}
+{{ if and (not $res) (not $url) }}
+  {{ $images := $p.Resources.ByType "image" }}
+  {{ range slice "*feature*" "*cover*" "*thumbnail*" "*hero*" }}
+    {{ if not $res }}{{ $res = $images.GetMatch . }}{{ end }}
+  {{ end }}
+{{ end }}
+{{ if and (not $res) (not $url) }}{{ $res = resources.Get "img/cover.png" }}{{ end }}
+{{ if $res }}
+  {{ if eq $res.MediaType.SubType "svg" }}
+    {{ $url = $res.RelPermalink }}
+  {{ else }}
+    {{ with try ($res.Resize (printf "%dx webp q75" $w)) }}
+      {{ with .Value }}
+        {{ $url = .RelPermalink }}
+        {{ $iw = .Width }}
+        {{ $ih = .Height }}
+      {{ end }}
+    {{ else }}
+      {{ $url = $res.RelPermalink }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+<img
+  src="{{ $url }}"
+  alt="{{ $alt }}"
+  {{ with $class }}class="{{ . }}"{{ end }}
+  loading="{{ cond $eager "eager" "lazy" }}"
+  decoding="async"
+  fetchpriority="{{ cond $eager "high" "low" }}"{{ if and $iw $ih }} width="{{ $iw }}" height="{{ $ih }}"{{ end }} />

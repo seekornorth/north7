@@ -1,0 +1,37 @@
+/* Catppuccin Mocha scheme (dark) */
+:root {
+  --color-neutral: 205, 214, 244;
+  /* Text → Mantle */
+  --color-neutral-50: 205, 214, 244;
+  --color-neutral-100: 186, 194, 222;
+  --color-neutral-200: 166, 173, 200;
+  --color-neutral-300: 147, 153, 178;
+  --color-neutral-400: 127, 132, 156;
+  --color-neutral-500: 108, 112, 134;
+  --color-neutral-600: 88, 91, 112;
+  --color-neutral-700: 69, 71, 90;
+  --color-neutral-800: 30, 30, 46;
+  --color-neutral-900: 24, 24, 37;
+  /* Mauve */
+  --color-primary-50: 245, 238, 254;
+  --color-primary-100: 235, 222, 252;
+  --color-primary-200: 224, 201, 250;
+  --color-primary-300: 213, 180, 248;
+  --color-primary-400: 203, 166, 247;
+  --color-primary-500: 190, 145, 240;
+  --color-primary-600: 170, 120, 228;
+  --color-primary-700: 145, 95, 205;
+  --color-primary-800: 115, 72, 170;
+  --color-primary-900: 88, 52, 132;
+  /* Blue → Sapphire */
+  --color-secondary-50: 238, 244, 254;
+  --color-secondary-100: 222, 234, 253;
+  --color-secondary-200: 200, 219, 252;
+  --color-secondary-300: 170, 200, 251;
+  --color-secondary-400: 137, 180, 250;
+  --color-secondary-500: 116, 160, 245;
+  --color-secondary-600: 116, 199, 236;
+  --color-secondary-700: 90, 150, 210;
+  --color-secondary-800: 65, 115, 175;
+  --color-secondary-900: 45, 85, 135;
+}

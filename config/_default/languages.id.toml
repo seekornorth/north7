@@ -1,0 +1,24 @@
+locale = "id-ID"
+label = "Indonesia"
+weight = 1
+title = "North7"
+
+[params]
+displayName = "ID"
+isoCode = "id"
+rtl = false
+description = "Situs nongkrong para gamer untuk berita gaming terbaru, review mendalam, dan artikel unik"
+dateFormat = ":date_long"
+copyright = "Copyright 2024 — North7. All rights reserved."
+
+  [params.author]
+  name = "North7"
+  image = "img/avatar.png"
+  headline = "Situs nongkrong para gamer untuk berita gaming terbaru"
+  bio = "Berita gaming terbaru, review mendalam, dan artikel gaming unik"
+
+    [[params.author.links]]
+    facebook = "#"
+
+    [[params.author.links]]
+    youtube = "#"

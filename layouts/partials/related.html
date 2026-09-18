@@ -1,0 +1,17 @@
+{{/* Override: cocokkan related per kategori dulu,
+  kalau kosong fallback ke artikel terbaru (selain halaman ini). */}}
+{{ if .Params.showRelatedContent | default (.Site.Params.article.showRelatedContent | default false) }}
+  {{ $limit := .Site.Params.article.relatedContentLimit | default 4 }}
+  {{ $related := .Site.RegularPages.Related . | first $limit }}
+  {{ if lt (len $related) 1 }}
+    {{ $related = first $limit (where (sort (where site.RegularPages "Section" "posts") "Date" "desc") "Permalink" "!=" .Permalink) }}
+  {{ end }}
+  {{ with $related }}
+    <h2 class="mt-8 text-2xl font-extrabold mb-10">{{ i18n "article.related_articles" | emojify }}</h2>
+    <section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
+      {{ range . }}
+        {{ partial "article-link/card-related.html" . }}
+      {{ end }}
+    </section>
+  {{ end }}
+{{ end }}

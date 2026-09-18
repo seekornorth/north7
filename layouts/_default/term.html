@@ -1,0 +1,32 @@
+{{ define "main" }}
+{{ $paginator := .Paginate .Pages }}
+<div class="nrt-wrap">
+
+  <div class="nrt-page-head">
+    <div class="nrt-crumb">
+      {{ $taxLabel := index (dict "categories" "Kategori" "tags" "Topik") .Data.Plural | default (.Data.Plural | humanize | title) }}
+      {{ $taxBase := index (dict "categories" "kategori" "tags" "topik") .Data.Plural | default .Data.Plural }}
+      <a href="{{ "/" | relLangURL }}">Beranda</a><span>/</span><a href="{{ (printf "/%s/" $taxBase) | relLangURL }}">{{ $taxLabel }}</a><span>/</span><em>{{ .Title }}</em>
+    </div>
+    <h1>{{ .Title }}</h1>
+    <p>{{ len .Pages }} artikel</p>
+  </div>
+
+  <div class="nrt-layout">
+    <div class="nrt-main">
+      {{ if gt (len $paginator.Pages) 0 }}
+      <div class="nrt-grid">
+        {{ range $paginator.Pages }}
+          {{ partial "nrt-card.html" . }}
+        {{ end }}
+      </div>
+      {{ partial "pagination.html" . }}
+      {{ else }}
+      <p class="nrt-empty">Belum ada artikel di kategori ini.</p>
+      {{ end }}
+    </div>
+    {{ partial "nrt-sidebar.html" . }}
+  </div>
+
+</div>
+{{ end }}

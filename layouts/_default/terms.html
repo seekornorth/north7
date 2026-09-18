@@ -1,0 +1,30 @@
+{{ define "main" }}
+<div class="nrt-wrap">
+
+  {{ $taxTitle := index (dict "categories" "Kategori" "tags" "Topik") (lower .Title) | default .Title }}
+  <div class="nrt-page-head">
+    <div class="nrt-crumb">
+      <a href="{{ "/" | relLangURL }}">Beranda</a><span>/</span><em>{{ $taxTitle }}</em>
+    </div>
+    <h1>{{ $taxTitle }}</h1>
+    <p>{{ len .Pages }} topik</p>
+  </div>
+
+  <div class="nrt-layout">
+    <div class="nrt-main">
+      <div class="nrt-grid">
+        {{ range .Pages }}
+        <a class="nrt-term-card" href="{{ .RelPermalink }}">
+          <strong>{{ .Title }}</strong>
+          <span>{{ len .Pages }} artikel</span>
+        </a>
+        {{ else }}
+        <p class="nrt-empty">Belum ada topik.</p>
+        {{ end }}
+      </div>
+    </div>
+    {{ partial "nrt-sidebar.html" . }}
+  </div>
+
+</div>
+{{ end }}

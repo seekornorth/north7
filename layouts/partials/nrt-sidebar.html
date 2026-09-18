@@ -1,0 +1,58 @@
+{{/* Sidebar kanan: hanya widget yang tidak ada di tempat lain.
+  (Pencarian→menu atas, sosmed→footer, buletin→section bawah, widget ulasan→section Ulasan.) */}}
+{{ $all := sort (where site.RegularPages "Section" "posts") "Date" "desc" }}
+{{ $trending := first 5 $all }}
+<aside class="nrt-sidebar" aria-label="Sidebar">
+
+  <!-- Terpopuler -->
+  <div class="nrt-widget">
+    <h3 class="nrt-widget-title">Terpopuler</h3>
+    <ol class="nrt-trend">
+      {{ range $i, $p := $trending }}
+      <li>
+        <span class="nrt-rank">{{ add $i 1 }}</span>
+        <a class="nrt-trend-thumb" href="{{ $p.RelPermalink }}">{{ partial "nrt-img.html" (dict "page" $p "width" 200) }}</a>
+        <div class="nrt-trend-text">
+          <a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a>
+          <small>{{ $p.Date | time.Format ":date_long" }}</small>
+        </div>
+      </li>
+      {{ end }}
+    </ol>
+  </div>
+
+  <!-- Iklan 
+  <div class="nrt-widget nrt-ad">
+    <small>Iklan</small>
+    <div class="nrt-ad-box">Ruang Iklan<br/>300 × 250</div>
+  </div>
+  -->
+  <!-- Kategori -->
+  <div class="nrt-widget">
+    <h3 class="nrt-widget-title">Kategori</h3>
+    {{ with site.Taxonomies.categories }}
+    <ul class="nrt-cat-list">
+      {{ range $name, $tax := . }}
+      {{ $termPage := site.GetPage (printf "/categories/%s" $name) }}
+      <li>
+        <a href="{{ (printf "/kategori/%s/" ($name | urlize)) | relLangURL }}">{{ with $termPage }}{{ .Title }}{{ else }}{{ $name | title }}{{ end }}</a>
+        <span>{{ len $tax.Pages }}</span>
+      </li>
+      {{ end }}
+    </ul>
+    {{ end }}
+  </div>
+
+  <!-- Topik -->
+  {{ with site.Taxonomies.tags }}
+  <div class="nrt-widget">
+    <h3 class="nrt-widget-title">Topik Populer</h3>
+    <div class="nrt-tags">
+      {{ range $name, $tax := . }}
+      <a href="{{ (printf "/topik/%s/" ($name | urlize)) | relLangURL }}">#{{ $name }}</a>
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
+
+</aside>
