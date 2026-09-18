@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div class="nrt-wrap">
 
-  {{ $taxTitle := index (dict "categories" "Kategori" "tags" "Topik") (lower .Title) | default .Title }}
+  {{ $taxTitle := index (dict "categories" "Kategori" "tags" "Topik" "authors" "Penulis") (lower .Title) | default .Title }}
   <div class="nrt-page-head">
     <div class="nrt-crumb">
       <a href="{{ "/" | relLangURL }}">Beranda</a><span>/</span><em>{{ $taxTitle }}</em>

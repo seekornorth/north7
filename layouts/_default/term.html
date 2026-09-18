@@ -4,13 +4,34 @@
 
   <div class="nrt-page-head">
     <div class="nrt-crumb">
-      {{ $taxLabel := index (dict "categories" "Kategori" "tags" "Topik") .Data.Plural | default (.Data.Plural | humanize | title) }}
-      {{ $taxBase := index (dict "categories" "kategori" "tags" "topik") .Data.Plural | default .Data.Plural }}
+      {{ $taxLabel := index (dict "categories" "Kategori" "tags" "Topik" "authors" "Penulis") .Data.Plural | default (.Data.Plural | humanize | title) }}
+      {{ $taxBase := index (dict "categories" "kategori" "tags" "topik" "authors" "authors") .Data.Plural | default .Data.Plural }}
       <a href="{{ "/" | relLangURL }}">Beranda</a><span>/</span><a href="{{ (printf "/%s/" $taxBase) | relLangURL }}">{{ $taxLabel }}</a><span>/</span><em>{{ .Title }}</em>
     </div>
     <h1>{{ .Title }}</h1>
     <p>{{ len .Pages }} artikel</p>
   </div>
+
+  {{/* Profil penulis di halaman author */}}
+  {{ if eq .Data.Plural "authors" }}
+    {{ with index hugo.Data.authors .Data.Term }}
+    <div class="nrt-author">
+      {{ with .image }}
+        {{ $av := resources.Get . }}
+        {{ with $av }}<img src="{{ (.Fill "240x240 Center q80").RelPermalink }}" alt="{{ $.Title }}" loading="lazy" decoding="async" />{{ end }}
+      {{ end }}
+      <div class="nrt-author-text">
+        <strong>{{ .name }}</strong>
+        {{ with .bio }}<p>{{ . }}</p>{{ end }}
+        {{ with .social }}
+        <div class="nrt-author-social">
+          {{ range . }}{{ range $platform, $url := . }}<a href="{{ $url | safeURL }}" target="_blank" rel="noopener">{{ $platform | title }}</a>{{ end }}{{ end }}
+        </div>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+  {{ end }}
 
   <div class="nrt-layout">
     <div class="nrt-main">

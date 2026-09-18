@@ -147,10 +147,17 @@ Sidebar (di `layouts/partials/nrt-sidebar.html`, dipakai homepage + halaman list
 - **Footer**: `layouts/partials/footer.html` (Brand, Jelajah, Bantuan).
 - **Halaman statis** Contact / Privacy / Terms: `content/*.md` dengan `layout: info`
   (tampil minimalis: judul + isi rata tengah, tanpa sidebar/TOC/related).
-- **Sosmed placeholder**: link `#` masih tersebar (topbar sudah dihapus) di
-  `layouts/partials/footer.html`, `layouts/partials/nrt-sidebar.html`,
-  `content/contact-us.md`, `config/_default/languages.id.toml` (author links).
+- **Sosmed placeholder**: link `#` masih tersebar di
+  `layouts/partials/footer.html`, `content/contact-us.md`,
+  `config/_default/languages.id.toml` (author links), `data/authors/north7.json`.
   Ganti `#` dengan URL Facebook/YouTube asli North7.
+- **Favicon**: `layouts/partials/favicons.html` — SVG inline (huruf N di kotak mauve).
+  Untuk ganti: edit huruf/warna di data-URI itu, atau taruh `favicon.png` /
+  `apple-touch-icon.png` di folder `static/` lalu sesuaikan isi partial.
+- **Halaman penulis**: `data/authors/north7.json` (nama, foto `img/avatar.png`,
+  bio, sosmed) → tampil di `/authors/north7/` lengkap dengan daftar artikelnya.
+  Penulis baru: duplikat JSON (nama file huruf kecil semua) + isi `authors: ["id-baru"]`
+  di artikelnya. Foto profil diganti lewat field `image` (file di `assets/img/`).
 
 ## 8. Warna (Catppuccin Mocha, dark dikunci)
 

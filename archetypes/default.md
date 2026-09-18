@@ -6,6 +6,7 @@ draft: true
 # Jangan pakai slug yang tabrakan dengan halaman lain (posts, categories, tags, contact-us, ...).
 categories: ["Games"]
 tags: []
+authors: ["north7"]
 summary: ""
 description: ""
 # Tampilkan di hero slider homepage: featured: true (maksimal 3, terbaru duluan)

@@ -313,6 +313,20 @@ main article > section.flex { max-width: 1024px; margin-inline-start: auto; marg
 .nrt-page-desc { color: var(--nrt-muted); margin: 12px 0 4px; max-width: 70ch; }
 .nrt-layout .nrt-main > .nrt-grid { margin-top: 22px; }
 
+/* Profil penulis (halaman /authors/<nama>/) */
+.nrt-author {
+  display: flex; gap: 20px; align-items: center;
+  background: var(--nrt-card); border: 1px solid var(--nrt-border);
+  border-radius: 16px; padding: 24px; margin-top: 22px;
+}
+.nrt-author img { width: 110px; height: 110px; border-radius: 999px; object-fit: cover; flex-shrink: 0; border: 2px solid var(--nrt-red); }
+.nrt-author-text strong { font-size: 22px; font-weight: 900; }
+.nrt-author-text p { margin: 6px 0 12px; color: var(--nrt-muted); font-size: 15px; }
+.nrt-author-social { display: flex; gap: 10px; flex-wrap: wrap; }
+.nrt-author-social a { font-size: 13px; font-weight: 700; color: var(--nrt-muted); border: 1px solid var(--nrt-border); padding: 5px 14px; border-radius: 999px; text-decoration: none; }
+.nrt-author-social a:hover { color: var(--nrt-ink); background: var(--nrt-red); border-color: var(--nrt-red); }
+@media (max-width: 600px) { .nrt-author { flex-direction: column; text-align: center; } }
+
 /* Kartu indeks taksonomi (/categories/) */
 .nrt-term-card {
   background: var(--nrt-card); border: 1px solid var(--nrt-border); border-radius: 14px;

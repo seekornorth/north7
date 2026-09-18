@@ -23,6 +23,7 @@ enableEmoji = true
 [taxonomies]
   tag = "tags"
   category = "categories"
+  author = "authors"
 
 # URL artikel otomatis di root: /{slug}/ (tanpa /posts/ dan tanpa kategori)
 [permalinks]
