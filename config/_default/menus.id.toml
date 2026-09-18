@@ -1,14 +1,5 @@
 # -- Main Menu --
-# The main menu is displayed in the header at the top of the page.
-# Acceptable parameters are name, pageRef, page, url, title, weight.
-# 
-# The simplest menu configuration is to provide:
-#   name = The name to be displayed for this menu link
-#   pageRef = The identifier of the page or section to link to
-#
-# By default the menu is ordered alphabetically. This can be
-# overridden by providing a weight value. The menu will then be
-# ordered by weight from lowest to highest.
+# Menu utama North7: blog hobi (Games, Linux, Networking, Anime).
 
 [[main]]
   name = "Postingan Terbaru"
@@ -16,68 +7,71 @@
   weight = 10
 
 [[main]]
+  name = "Games"
+  identifier = "games"
+  url = "/kategori/games/"
+  weight = 20
+
+[[main]]
+  name = "PlayStation"
+  parent = "games"
+  url = "/kategori/playstation/"
+  weight = 21
+
+[[main]]
+  name = "Xbox/PC"
+  parent = "games"
+  url = "/kategori/xbox-pc/"
+  weight = 22
+
+[[main]]
+  name = "Nintendo"
+  parent = "games"
+  url = "/kategori/nintendo/"
+  weight = 23
+
+[[main]]
+  name = "Gacha"
+  parent = "games"
+  url = "/kategori/gacha/"
+  weight = 24
+
+[[main]]
+  name = "Hardware"
+  parent = "games"
+  url = "/kategori/hardware/"
+  weight = 25
+
+[[main]]
+  name = "Linux"
+  url = "/kategori/linux/"
+  weight = 30
+
+[[main]]
+  name = "Networking"
+  url = "/kategori/networking/"
+  weight = 40
+
+[[main]]
+  name = "Anime"
+  url = "/kategori/anime/"
+  weight = 50
+
+[[main]]
   name = "Ulasan"
   url = "/kategori/ulasan/"
-  weight = 20
+  weight = 60
 
 [[main]]
   name = "Fitur"
   url = "/kategori/fitur/"
-  weight = 30
-
-[[main]]
-  name = "Gaming"
-  identifier = "gaming"
-  url = "/kategori/gaming/"
-  weight = 40
-
-[[main]]
-  name = "PlayStation"
-  parent = "gaming"
-  url = "/kategori/playstation/"
-  weight = 41
-
-[[main]]
-  name = "Xbox/PC"
-  parent = "gaming"
-  url = "/kategori/xbox-pc/"
-  weight = 42
-
-[[main]]
-  name = "Nintendo"
-  parent = "gaming"
-  url = "/kategori/nintendo/"
-  weight = 43
-
-[[main]]
-  name = "Gacha"
-  parent = "gaming"
-  url = "/kategori/gacha/"
-  weight = 44
-
-[[main]]
-  name = "Hardware"
-  parent = "gaming"
-  url = "/kategori/hardware/"
-  weight = 45
-
-[[main]]
-  name = "Teknologi"
-  url = "/kategori/teknologi/"
-  weight = 50
-
-[[main]]
-  name = "Hiburan"
-  url = "/kategori/hiburan/"
-  weight = 60
+  weight = 70
 
 
 # -- Footer Menu --
-# The footer menu is displayed at the bottom of the page, just before
-# the copyright notice. Configure as per the main menu above.
 
 
- [[footer]]
-   name = "Tags"
-   pageRef = "tags"
-   weight = 10
+  [[footer]]
+    name = "Tags"
+    pageRef = "tags"
+    weight = 10

@@ -5,6 +5,7 @@
 <aside class="nrt-sidebar" aria-label="Sidebar">
 
   <!-- Terpopuler -->
+  {{ if $trending }}
   <div class="nrt-widget">
     <h3 class="nrt-widget-title">Terpopuler</h3>
     <ol class="nrt-trend">
@@ -20,6 +21,7 @@
       {{ end }}
     </ol>
   </div>
+  {{ end }}
 
   <!-- Iklan 
   <div class="nrt-widget nrt-ad">
@@ -28,9 +30,9 @@
   </div>
   -->
   <!-- Kategori -->
+  {{ with site.Taxonomies.categories }}
   <div class="nrt-widget">
     <h3 class="nrt-widget-title">Kategori</h3>
-    {{ with site.Taxonomies.categories }}
     <ul class="nrt-cat-list">
       {{ range $name, $tax := . }}
       {{ $termPage := site.GetPage (printf "/categories/%s" $name) }}
@@ -40,8 +42,8 @@
       </li>
       {{ end }}
     </ul>
-    {{ end }}
   </div>
+  {{ end }}
 
   <!-- Topik -->
   {{ with site.Taxonomies.tags }}

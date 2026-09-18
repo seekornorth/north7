@@ -1,8 +1,9 @@
-# North7 — Situs Berita Gaming (Hugo + Blowfish)
+# North7 — Blog Hobi (Hugo + Blowfish)
 
-Situs media gaming berbahasa Indonesia: hero slider, seksi Berita/Ulasan/Teknologi/Hiburan,
-tab Gaming per platform, sidebar (Terpopuler, Iklan, Kategori, Topik), tema Catppuccin Mocha (dark),
-dan SEO dasar (sitemap, JSON-LD, OG/Twitter cards, canonical).
+Blog hobi berbahasa Indonesia yang menulis tentang **games, Linux, networking, dan anime**:
+hero slider, seksi per niche, tab Games per platform, sidebar (Terpopuler, Iklan,
+Kategori, Topik), tema Catppuccin Mocha (dark), dan SEO dasar (sitemap, JSON-LD,
+OG/Twitter cards, canonical).
 
 > Theme Blowfish dipasang sebagai **submodule** di `themes/blowfish/`.
 > Jangan edit file di dalam `themes/` — semua kustomisasi ada di `layouts/`, `assets/`, `config/`, `content/`.
@@ -86,16 +87,17 @@ Aturan main:
 
 ## 4. Kategori & Tag
 
-### Kategori (`categories:`) — vokal buler terkontrol, huruf persis seperti ini:
+### Kategori (`categories:`) — kosakata terkontrol, huruf persis seperti ini:
 
 | Nilai | Tampil di | URL |
 |---|---|---|
-| `Gaming` | Tab Gaming | `/kategori/gaming/` |
-| `PlayStation`, `Xbox-PC`, `Nintendo`, `Gacha`, `Hardware` | Tab Gaming + dropdown menu | `/kategori/<slug>/` |
+| `Games` | Tab Games | `/kategori/games/` |
+| `PlayStation`, `Xbox-PC`, `Nintendo`, `Gacha`, `Hardware` | Tab Games + dropdown menu | `/kategori/<slug>/` |
+| `Linux` | Seksi Linux + menu | `/kategori/linux/` |
+| `Networking` | Seksi Networking + menu | `/kategori/networking/` |
+| `Anime` | Seksi Anime + menu | `/kategori/anime/` |
 | `Ulasan` | Seksi Ulasan + menu | `/kategori/ulasan/` |
 | `Fitur` | Menu | `/kategori/fitur/` |
-| `Teknologi` | Seksi Teknologi + menu | `/kategori/teknologi/` |
-| `Hiburan` | Seksi Hiburan + menu | `/kategori/hiburan/` |
 
 - Kategori **pertama** = kategori utama artikel.
 - Tambah kategori baru? Bisa langsung dipakai di frontmatter — halaman
@@ -123,12 +125,12 @@ Ditampilkan di breadcrumb artikel (`wolverine / review / ...`) dan widget
 
 Urutan section (di `layouts/index.html`):
 
-1. Hero slider (3 terbaru) — full width
+1. Hero slider (maksimal 3 `featured`, sisanya terbaru) — full width
 2. **Berita Terbaru** (6 terbaru) + sidebar kanan
-3. **Gaming** — tab otomatis berisi 5 kategori dengan artikel terbanyak
-   (di luar "Gaming" itu sendiri; 4 artikel per tab)
-4. **Ulasan** (4) → Teknologi (4) → Hiburan (4)
-5. Footer site-wide (Brand, Jelajah, Bantuan)
+3. **Games** — tab otomatis berisi 5 kategori dengan artikel terbanyak
+   (di luar "Games" itu sendiri; 4 artikel per tab)
+4. **Ulasan** (4) → Linux (4) → Networking (4) → Anime (4)
+5. Footer site-wide (Brand, Bantuan)
 
 Sidebar (di `layouts/partials/nrt-sidebar.html`, dipakai homepage + halaman list/kategori):
 

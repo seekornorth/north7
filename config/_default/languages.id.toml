@@ -7,15 +7,15 @@ title = "North7"
 displayName = "ID"
 isoCode = "id"
 rtl = false
-description = "Situs nongkrong para gamer untuk berita gaming terbaru, review mendalam, dan artikel unik"
+description = "Blog hobi yang menulis tentang games, Linux, networking, dan anime"
 dateFormat = ":date_long"
 copyright = "Copyright 2024 — North7. All rights reserved."
 
   [params.author]
   name = "North7"
   image = "img/avatar.png"
-  headline = "Situs nongkrong para gamer untuk berita gaming terbaru"
-  bio = "Berita gaming terbaru, review mendalam, dan artikel gaming unik"
+  headline = "Blog hobi: games, Linux, networking, dan anime"
+  bio = "Artikel, ulasan, dan tutorial seputar hobi favorit"
 
     [[params.author.links]]
     facebook = "#"

@@ -16,7 +16,7 @@
 
 <div class="nrt-wrap">
 
-  <h1 class="nrt-sr">North7 — Berita Gaming Terbaru, Review Mendalam, dan Artikel Gaming Unik</h1>
+  <h1 class="nrt-sr">North7 — Blog Hobi: Games, Linux, Networking, dan Anime</h1>
 
   <!-- HERO SLIDER (full width) -->
   {{ if gt (len $featured) 0 }}
@@ -64,20 +64,21 @@
         <div class="nrt-more"><a href="{{ "/posts/" | relLangURL }}">Lihat Selengkapnya</a></div>
       </section>
 
-      <!-- GAMING + TABS -->
-      <section class="nrt-section">
-        <div class="nrt-section-head">
-          <h2>Gaming</h2>
+  <!-- GAMES + TABS (sembunyi kalau belum ada kategori berisi) -->
+  {{/* Tab otomatis: 5 kategori berisi artikel terbanyak (di luar "Games"). */}}
+  {{ $catRank := slice }}
+  {{ range $name, $tax := site.Taxonomies.categories }}
+    {{ if ne (lower $name) "games" }}
+      {{ $catRank = $catRank | append (dict "name" $name "count" (len $tax.Pages)) }}
+    {{ end }}
+  {{ end }}
+  {{ $tabDefs := first 5 (sort $catRank "count" "desc") }}
+  {{ if $tabDefs }}
+  <section class="nrt-section">
+    <div class="nrt-section-head">
+      <h2>Games</h2>
           <span class="nrt-head-line"></span>
         </div>
-        {{/* Tab otomatis: 5 kategori berisi artikel terbanyak (di luar "Gaming"). */}}
-        {{ $catRank := slice }}
-        {{ range $name, $tax := site.Taxonomies.categories }}
-          {{ if ne (lower $name) "gaming" }}
-            {{ $catRank = $catRank | append (dict "name" $name "count" (len $tax.Pages)) }}
-          {{ end }}
-        {{ end }}
-        {{ $tabDefs := first 5 (sort $catRank "count" "desc") }}
         <div class="nrt-tabs" role="tablist">
           {{ range $i, $t := $tabDefs }}
           {{ $tp := site.GetPage (printf "/categories/%s" $t.name) }}
@@ -111,6 +112,7 @@
           </div>
         {{ end }}
       </section>
+      {{ end }}
 
       <!-- REVIEWS -->
       {{ if gt (len $reviews) 0 }}
@@ -121,23 +123,31 @@
       </section>
       {{ end }}
 
-      <!-- TECHNOLOGY & ENTERTAINMENT -->
-      {{ $tech := where $all "Params.categories" "intersect" (slice "Teknologi" "teknologi") }}
-      {{ $ent := where $all "Params.categories" "intersect" (slice "Hiburan" "hiburan") }}
-      {{ if or (gt (len $tech) 0) (gt (len $ent) 0) }}
+      <!-- LINUX, NETWORKING & ANIME -->
+      {{ $lnx := where $all "Params.categories" "intersect" (slice "Linux" "linux") }}
+      {{ $net := where $all "Params.categories" "intersect" (slice "Networking" "networking") }}
+      {{ $anm := where $all "Params.categories" "intersect" (slice "Anime" "anime") }}
+      {{ if or (or (gt (len $lnx) 0) (gt (len $net) 0)) (gt (len $anm) 0) }}
       <section class="nrt-section">
-        {{ if gt (len $tech) 0 }}
+        {{ if gt (len $lnx) 0 }}
         <div class="nrt-subblock">
-          <div class="nrt-section-head"><h2>Teknologi</h2><span class="nrt-head-line"></span></div>
-          <div class="nrt-grid">{{ range first 4 $tech }}{{ partial "nrt-card.html" . }}{{ end }}</div>
-          <div class="nrt-more"><a href="{{ "/kategori/teknologi/" | relLangURL }}">Lihat Selengkapnya</a></div>
+          <div class="nrt-section-head"><h2>Linux</h2><span class="nrt-head-line"></span></div>
+          <div class="nrt-grid">{{ range first 4 $lnx }}{{ partial "nrt-card.html" . }}{{ end }}</div>
+          <div class="nrt-more"><a href="{{ "/kategori/linux/" | relLangURL }}">Lihat Selengkapnya</a></div>
         </div>
         {{ end }}
-        {{ if gt (len $ent) 0 }}
+        {{ if gt (len $net) 0 }}
         <div class="nrt-subblock">
-          <div class="nrt-section-head"><h2>Hiburan</h2><span class="nrt-head-line"></span></div>
-          <div class="nrt-grid">{{ range first 4 $ent }}{{ partial "nrt-card.html" . }}{{ end }}</div>
-          <div class="nrt-more"><a href="{{ "/kategori/hiburan/" | relLangURL }}">Lihat Selengkapnya</a></div>
+          <div class="nrt-section-head"><h2>Networking</h2><span class="nrt-head-line"></span></div>
+          <div class="nrt-grid">{{ range first 4 $net }}{{ partial "nrt-card.html" . }}{{ end }}</div>
+          <div class="nrt-more"><a href="{{ "/kategori/networking/" | relLangURL }}">Lihat Selengkapnya</a></div>
+        </div>
+        {{ end }}
+        {{ if gt (len $anm) 0 }}
+        <div class="nrt-subblock">
+          <div class="nrt-section-head"><h2>Anime</h2><span class="nrt-head-line"></span></div>
+          <div class="nrt-grid">{{ range first 4 $anm }}{{ partial "nrt-card.html" . }}{{ end }}</div>
+          <div class="nrt-more"><a href="{{ "/kategori/anime/" | relLangURL }}">Lihat Selengkapnya</a></div>
         </div>
         {{ end }}
       </section>
