@@ -58,7 +58,7 @@
           {{ range $news }}
             {{ partial "nrt-card.html" . }}
           {{ else }}
-            <p class="nrt-empty">Belum ada artikel. Tambahkan konten di <code>content/posts/</code>.</p>
+            <p class="nrt-empty">Belum ada artikel. Silakan kembali lagi nanti.</p>
           {{ end }}
         </div>
         <div class="nrt-more"><a href="{{ "/posts/" | relLangURL }}">Lihat Selengkapnya</a></div>
