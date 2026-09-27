@@ -108,8 +108,8 @@ header div.max-w-7xl {
 /* Footer site-wide */
 .nrt-site-footer { margin-top: 56px; border-top: 1px solid var(--nrt-border); }
 .nrt-foot { display: grid; grid-template-columns: 1.5fr 1fr; gap: 28px; padding: 36px 4px 28px; }
-.nrt-foot-logo { margin-bottom: 8px; display: flex; align-items: center; }
-.nrt-foot-logo img { width: 46px; height: 46px; }
+.nrt-foot-logo { margin-bottom: 8px; display: flex; align-items: center; gap: 8px; font-size: 18px; font-weight: 800; letter-spacing: -0.01em; }
+.nrt-foot-logo img { width: 40px; height: 40px; }
 .nrt-foot p { color: var(--nrt-muted); font-size: 14px; line-height: 1.6; }
 .nrt-foot-col h4 { margin: 0 0 12px; font-size: 14px; text-transform: uppercase; letter-spacing: 0.06em; }
 .nrt-foot-col a { display: block; color: var(--nrt-muted); text-decoration: none; font-size: 14px; margin-bottom: 8px; }
@@ -199,8 +199,17 @@ header div.max-w-7xl {
 /* ---- Header & menu ala North7 ---- */
 header > div.fixed { border-bottom: 1px solid var(--nrt-border); }
 
-/* Brand: hanya logo (teks disembunyikan, link logo tetap ke beranda) */
-.main-menu > a[href="/"] { display: none; }
+/* Brand: logo + teks kecil rapat */
+.main-menu { gap: 6px !important; }
+.main-menu > a[href="/"] {
+  font-weight: 800 !important;
+  font-size: 16px !important;
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+  flex-shrink: 0 !important;
+  overflow: visible !important;
+  text-overflow: clip !important;
+}
 /* Logo header (SVG di-inline theme, batasi ukurannya) */
 .main-menu .logo svg { width: 40px; height: 40px; display: block; }
 .main-menu img.logo { width: 40px; height: 40px; object-fit: contain; }
