@@ -192,6 +192,8 @@ header div.max-w-7xl {
 .nrt-search-input::placeholder { color: #6C7086; }
 .nrt-search-close { color: #A6ADC8; }
 .nrt-search-close:hover { color: #F38BA8; }
+.nrt-search-close:focus { outline: none; }
+.nrt-search-close:focus-visible { outline: 2px solid var(--nrt-red); outline-offset: 2px; }
 
 /* ---- Header & menu ala North7 ---- */
 header > div.fixed { border-bottom: 1px solid var(--nrt-border); }
@@ -264,8 +266,12 @@ header > div.fixed { border-bottom: 1px solid var(--nrt-border); }
   gap: 8px;
   min-width: 190px;
   justify-content: flex-start;
+  color: var(--nrt-muted);
 }
-#search-button:hover { border-color: var(--nrt-red); }
+#search-button:hover { border-color: var(--nrt-red); color: var(--nrt-red); }
+#search-button:focus { outline: none; }
+#search-button:focus-visible { outline: 2px solid var(--nrt-red); outline-offset: 2px; }
+#search-button-mobile:hover { color: var(--nrt-red); }
 #search-shortcut-hint { display: none; }
 #search-button::after {
   content: "Search...";
@@ -274,6 +280,7 @@ header > div.fixed { border-bottom: 1px solid var(--nrt-border); }
   letter-spacing: 0.02em;
   color: var(--nrt-muted);
 }
+#search-button:hover::after { color: var(--nrt-red); }
 @media (max-width: 1100px) {
   #search-button { min-width: 150px; }
   #search-button::after { font-size: 12px; }
