@@ -15,8 +15,8 @@ showTableOfContents: false
 
 Dengan mengakses dan menggunakan North7 ("situs", "kami"), kamu menyetujui syarat
 dan ketentuan di halaman ini. Jika tidak setuju, mohon tidak menggunakan situs ini.
-North7 adalah blog hobi pribadi yang memuat artikel, ulasan, dan tutorial seputar
-games, Linux, networking, dan anime.
+North7 adalah media independen yang memuat artikel, ulasan, dan tutorial seputar
+Linux, networking, dan teknologi.
 
 ## 2. Penggunaan yang Wajar
 

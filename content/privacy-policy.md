@@ -20,9 +20,9 @@ kebijakan ini.
 
 ## 2. Pengelola Data
 
-Pengelola situs ini adalah **North7**, blog hobi pribadi yang membahas games, Linux,
-networking, dan anime. Untuk pertanyaan seputar data pribadi, hubungi kami melalui
-halaman [Contact Us](/contact-us/).
+Pengelola situs ini adalah **North7**, media independen yang membahas Linux,
+networking, dan update teknologi. Untuk pertanyaan seputar data pribadi, hubungi
+kami melalui halaman [Contact Us](/contact-us/).
 
 ## 3. Data yang Kami Kumpulkan
 

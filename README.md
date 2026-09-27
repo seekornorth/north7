@@ -1,9 +1,9 @@
-# North7 — Blog Hobi (Hugo + Blowfish)
+# North7 — Media Linux & Teknologi (Hugo + Blowfish)
 
-Blog hobi berbahasa Indonesia yang menulis tentang **games, Linux, networking, dan anime**:
-hero slider, seksi per niche, tab Games per platform, sidebar (Terpopuler, Iklan,
-Kategori, Topik), tema Catppuccin Mocha (dark), dan SEO dasar (sitemap, JSON-LD,
-OG/Twitter cards, canonical).
+Media berbahasa Indonesia yang membahas **Linux, networking, dan update teknologi**:
+hero slider, seksi per kategori, sidebar (Terpopuler, Iklan,
+Kategori, Topik), tema Catppuccin Mocha (dark),
+dan SEO dasar (sitemap, JSON-LD, OG/Twitter cards, canonical).
 
 > Theme Blowfish dipasang sebagai **submodule** di `themes/blowfish/`.
 > Jangan edit file di dalam `themes/` — semua kustomisasi ada di `layouts/`, `assets/`, `config/`, `content/`.
@@ -91,13 +91,10 @@ Aturan main:
 
 | Nilai | Tampil di | URL |
 |---|---|---|
-| `Games` | Tab Games | `/kategori/games/` |
-| `PlayStation`, `Xbox-PC`, `Nintendo`, `Gacha`, `Hardware` | Tab Games + dropdown menu | `/kategori/<slug>/` |
 | `Linux` | Seksi Linux + menu | `/kategori/linux/` |
 | `Networking` | Seksi Networking + menu | `/kategori/networking/` |
-| `Anime` | Seksi Anime + menu | `/kategori/anime/` |
+| `Teknologi` | Seksi Teknologi + menu | `/kategori/teknologi/` |
 | `Ulasan` | Seksi Ulasan + menu | `/kategori/ulasan/` |
-| `Fitur` | Menu | `/kategori/fitur/` |
 
 - Kategori **pertama** = kategori utama artikel.
 - Tambah kategori baru? Bisa langsung dipakai di frontmatter — halaman
@@ -127,10 +124,8 @@ Urutan section (di `layouts/index.html`):
 
 1. Hero slider (maksimal 3 `featured`, sisanya terbaru) — full width
 2. **Berita Terbaru** (6 terbaru) + sidebar kanan
-3. **Games** — tab otomatis berisi 5 kategori dengan artikel terbanyak
-   (di luar "Games" itu sendiri; 4 artikel per tab)
-4. **Ulasan** (4) → Linux (4) → Networking (4) → Anime (4)
-5. Footer site-wide (Brand, Bantuan)
+3. **Ulasan** (4) → Linux (4) → Networking (4) → Teknologi (4)
+4. Footer site-wide (Brand, Bantuan)
 
 Sidebar (di `layouts/partials/nrt-sidebar.html`, dipakai homepage + halaman list/kategori):
 

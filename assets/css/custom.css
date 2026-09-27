@@ -88,13 +88,6 @@ header div.max-w-7xl {
 .nrt-more a { border: 1px solid var(--nrt-red); color: var(--nrt-text); padding: 10px 28px; border-radius: 10px; text-decoration: none; font-weight: 700; font-size: 14px; background: transparent; }
 .nrt-more a:hover { background: var(--nrt-red); color: var(--nrt-ink); }
 
-/* Tabs */
-.nrt-tabs { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 18px; }
-.nrt-tab { border: 1px solid var(--nrt-border); background: #313244; color: var(--nrt-text); padding: 8px 16px; border-radius: 999px; font-size: 14px; font-weight: 700; cursor: pointer; }
-.nrt-tab.is-active, .nrt-tab:hover { background: var(--nrt-red); border-color: var(--nrt-red); color: var(--nrt-ink); }
-.nrt-tabpanel { display: none; }
-.nrt-tabpanel.is-active { display: block; }
-
 /* Newsletter */
 .nrt-newsletter { margin-top: 48px; text-align: center; padding: 44px 24px; border-radius: 18px; background: radial-gradient(600px 200px at 50% 0%, rgba(203,166,247,.22), transparent), #181825; border: 1px solid var(--nrt-border); }
 .nrt-newsletter h2 { margin: 0 0 8px; font-size: clamp(24px, 3vw, 34px); font-weight: 900; }

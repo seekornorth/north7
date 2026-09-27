@@ -16,7 +16,7 @@
 
 <div class="nrt-wrap">
 
-  <h1 class="nrt-sr">North7 — Blog Hobi: Games, Linux, Networking, dan Anime</h1>
+  <h1 class="nrt-sr">North7 — Media Linux, Networking, dan Update Teknologi</h1>
 
   <!-- HERO SLIDER (full width) -->
   {{ if gt (len $featured) 0 }}
@@ -64,56 +64,6 @@
         <div class="nrt-more"><a href="{{ "/posts/" | relLangURL }}">Lihat Selengkapnya</a></div>
       </section>
 
-  <!-- GAMES + TABS (sembunyi kalau belum ada kategori berisi) -->
-  {{/* Tab otomatis: 5 kategori berisi artikel terbanyak (di luar "Games"). */}}
-  {{ $catRank := slice }}
-  {{ range $name, $tax := site.Taxonomies.categories }}
-    {{ if ne (lower $name) "games" }}
-      {{ $catRank = $catRank | append (dict "name" $name "count" (len $tax.Pages)) }}
-    {{ end }}
-  {{ end }}
-  {{ $tabDefs := first 5 (sort $catRank "count" "desc") }}
-  {{ if $tabDefs }}
-  <section class="nrt-section">
-    <div class="nrt-section-head">
-      <h2>Games</h2>
-          <span class="nrt-head-line"></span>
-        </div>
-        <div class="nrt-tabs" role="tablist">
-          {{ range $i, $t := $tabDefs }}
-          {{ $tp := site.GetPage (printf "/categories/%s" $t.name) }}
-          {{ $label := $t.name }}{{ with $tp }}{{ $label = .Title }}{{ end }}
-          <button class="nrt-tab{{ if eq $i 0 }} is-active{{ end }}" data-tab="nrt-tab-{{ $i }}" role="tab">{{ $label }}</button>
-          {{ end }}
-        </div>
-        {{ range $i, $t := $tabDefs }}
-          {{ $tp := site.GetPage (printf "/categories/%s" $t.name) }}
-          {{ $label := $t.name }}{{ with $tp }}{{ $label = .Title }}{{ end }}
-          {{ $url := (printf "/kategori/%s/" ($t.name | urlize)) | relLangURL }}
-          {{ $list := where $all "Params.categories" "intersect" (slice $label) }}
-          {{ if lt (len $list) 1 }}
-            {{/* fallback: cocokkan tanpa peduli kapital */}}
-            {{ $tmp := slice }}
-            {{ range $all }}
-              {{ $pg := . }}
-              {{ range $pg.Params.categories }}
-                {{ if eq (lower .) (lower $label) }}{{ $tmp = $tmp | append $pg }}{{ end }}
-              {{ end }}
-            {{ end }}
-            {{ $list = $tmp }}
-          {{ end }}
-          {{ if lt (len $list) 1 }}{{ $list = first 4 $all }}{{ end }}
-          {{ $list = first 4 $list }}
-          <div class="nrt-tabpanel{{ if eq $i 0 }} is-active{{ end }}" id="nrt-tab-{{ $i }}">
-            <div class="nrt-grid">
-              {{ range $list }}{{ partial "nrt-card.html" . }}{{ end }}
-            </div>
-            <div class="nrt-more"><a href="{{ $url }}">Lihat Selengkapnya</a></div>
-          </div>
-        {{ end }}
-      </section>
-      {{ end }}
-
       <!-- REVIEWS -->
       {{ if gt (len $reviews) 0 }}
       <section class="nrt-section">
@@ -123,11 +73,11 @@
       </section>
       {{ end }}
 
-      <!-- LINUX, NETWORKING & ANIME -->
+      <!-- LINUX, NETWORKING & TEKNOLOGI -->
       {{ $lnx := where $all "Params.categories" "intersect" (slice "Linux" "linux") }}
       {{ $net := where $all "Params.categories" "intersect" (slice "Networking" "networking") }}
-      {{ $anm := where $all "Params.categories" "intersect" (slice "Anime" "anime") }}
-      {{ if or (or (gt (len $lnx) 0) (gt (len $net) 0)) (gt (len $anm) 0) }}
+      {{ $tkn := where $all "Params.categories" "intersect" (slice "Teknologi" "teknologi") }}
+      {{ if or (or (gt (len $lnx) 0) (gt (len $net) 0)) (gt (len $tkn) 0) }}
       <section class="nrt-section">
         {{ if gt (len $lnx) 0 }}
         <div class="nrt-subblock">
@@ -143,11 +93,11 @@
           <div class="nrt-more"><a href="{{ "/kategori/networking/" | relLangURL }}">Lihat Selengkapnya</a></div>
         </div>
         {{ end }}
-        {{ if gt (len $anm) 0 }}
+        {{ if gt (len $tkn) 0 }}
         <div class="nrt-subblock">
-          <div class="nrt-section-head"><h2>Anime</h2><span class="nrt-head-line"></span></div>
-          <div class="nrt-grid">{{ range first 4 $anm }}{{ partial "nrt-card.html" . }}{{ end }}</div>
-          <div class="nrt-more"><a href="{{ "/kategori/anime/" | relLangURL }}">Lihat Selengkapnya</a></div>
+          <div class="nrt-section-head"><h2>Teknologi</h2><span class="nrt-head-line"></span></div>
+          <div class="nrt-grid">{{ range first 4 $tkn }}{{ partial "nrt-card.html" . }}{{ end }}</div>
+          <div class="nrt-more"><a href="{{ "/kategori/teknologi/" | relLangURL }}">Lihat Selengkapnya</a></div>
         </div>
         {{ end }}
       </section>
@@ -193,18 +143,6 @@
     window.addEventListener('mouseup', function(){ if(dragging){ dragging = false; hero.classList.remove('is-drag'); swipeEnd(); } });
     hero.addEventListener('click', function(e){ if(Math.abs(dx) > 10){ e.preventDefault(); e.stopPropagation(); } }, true);
   }
-  // Tabs
-  var tabs = document.querySelectorAll('.nrt-tab');
-  var panels = document.querySelectorAll('.nrt-tabpanel');
-  tabs.forEach(function(t){
-    t.addEventListener('click', function(){
-      tabs.forEach(function(x){ x.classList.remove('is-active'); });
-      panels.forEach(function(p){ p.classList.remove('is-active'); });
-      t.classList.add('is-active');
-      var el = document.getElementById(t.dataset.tab);
-      if(el) el.classList.add('is-active');
-    });
-  });
 })();
 </script>
 {{ end }}

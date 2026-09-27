@@ -1,5 +1,5 @@
 # -- Main Menu --
-# Menu utama North7: blog hobi (Games, Linux, Networking, Anime).
+# Menu utama North7: media Linux, Networking, dan update Teknologi.
 
 [[main]]
   name = "Postingan Terbaru"
@@ -7,65 +7,24 @@
   weight = 10
 
 [[main]]
-  name = "Games"
-  identifier = "games"
-  url = "/kategori/games/"
-  weight = 20
-
-[[main]]
-  name = "PlayStation"
-  parent = "games"
-  url = "/kategori/playstation/"
-  weight = 21
-
-[[main]]
-  name = "Xbox/PC"
-  parent = "games"
-  url = "/kategori/xbox-pc/"
-  weight = 22
-
-[[main]]
-  name = "Nintendo"
-  parent = "games"
-  url = "/kategori/nintendo/"
-  weight = 23
-
-[[main]]
-  name = "Gacha"
-  parent = "games"
-  url = "/kategori/gacha/"
-  weight = 24
-
-[[main]]
-  name = "Hardware"
-  parent = "games"
-  url = "/kategori/hardware/"
-  weight = 25
-
-[[main]]
   name = "Linux"
   url = "/kategori/linux/"
-  weight = 30
+  weight = 20
 
 [[main]]
   name = "Networking"
   url = "/kategori/networking/"
-  weight = 40
+  weight = 30
 
 [[main]]
-  name = "Anime"
-  url = "/kategori/anime/"
-  weight = 50
+  name = "Teknologi"
+  url = "/kategori/teknologi/"
+  weight = 40
 
 [[main]]
   name = "Ulasan"
   url = "/kategori/ulasan/"
-  weight = 60
-
-[[main]]
-  name = "Fitur"
-  url = "/kategori/fitur/"
-  weight = 70
+  weight = 50
 
 
 # -- Footer Menu --

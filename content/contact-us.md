@@ -14,7 +14,7 @@ kami untuk keperluan berikut:
 
 - **Koreksi & masukan** — menemukan fakta keliru, tautan mati, atau salah ketik?
   Kirimkan beserta URL artikelnya.
-- **Usulan topik** — ada bahasan games, Linux, networking, atau anime yang ingin
+- **Usulan topik** — ada bahasan Linux, networking, atau teknologi yang ingin
   kami ulas? Sampaikan idemu.
 - **Kerjasama & sponsorship** — penawaran review, placement, atau kolaborasi konten.
 - **Laporan masalah** — halaman error, gambar tidak tampil, atau kendala akses.
