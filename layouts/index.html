@@ -64,70 +64,13 @@
         <div class="nrt-more"><a href="{{ "/posts/" | relLangURL }}">Lihat Selengkapnya</a></div>
       </section>
 
-      <!-- REVIEWS -->
-      {{ if gt (len $reviews) 0 }}
+      <!-- SEKSI KATEGORI (tab tag otomatis per kategori) -->
       <section class="nrt-section">
-        <div class="nrt-section-head"><h2>Ulasan</h2><span class="nrt-head-line"></span></div>
-        <div class="nrt-grid">{{ range first 4 $reviews }}{{ partial "nrt-card.html" . }}{{ end }}</div>
-        <div class="nrt-more"><a href="{{ "/kategori/ulasan/" | relLangURL }}">Lihat Selengkapnya</a></div>
+        {{ partial "nrt-cat-tabs.html" (dict "title" "Ulasan" "cat" "Ulasan" "url" "/kategori/ulasan/") }}
+        {{ partial "nrt-cat-tabs.html" (dict "title" "Linux" "cat" "Linux" "url" "/kategori/linux/") }}
+        {{ partial "nrt-cat-tabs.html" (dict "title" "Networking" "cat" "Networking" "url" "/kategori/networking/") }}
+        {{ partial "nrt-cat-tabs.html" (dict "title" "Teknologi" "cat" "Teknologi" "url" "/kategori/teknologi/") }}
       </section>
-      {{ end }}
-
-      <!-- LINUX, NETWORKING & TEKNOLOGI -->
-      {{ $lnx := where $all "Params.categories" "intersect" (slice "Linux" "linux") }}
-      {{ $net := where $all "Params.categories" "intersect" (slice "Networking" "networking") }}
-      {{ $tkn := where $all "Params.categories" "intersect" (slice "Teknologi" "teknologi") }}
-      {{ if or (or (gt (len $lnx) 0) (gt (len $net) 0)) (gt (len $tkn) 0) }}
-      <section class="nrt-section">
-        {{ if gt (len $lnx) 0 }}
-        <div class="nrt-subblock">
-          <div class="nrt-section-head"><h2>Linux</h2><span class="nrt-head-line"></span></div>
-          {{/* Tab otomatis dari 5 tag terbanyak di artikel Linux (di luar tag "linux"). */}}
-          {{ $tagCounts := dict }}
-          {{ range $lnx }}{{ range .Params.tags }}{{ $tagCounts = merge $tagCounts (dict . (add (index $tagCounts . | default 0) 1)) }}{{ end }}{{ end }}
-          {{ $tmpTabs := slice }}
-          {{ range $t, $c := $tagCounts }}{{ if ne (lower $t) "linux" }}{{ $tmpTabs = $tmpTabs | append (dict "tag" $t "count" $c) }}{{ end }}{{ end }}
-          {{ $lnxTabs := first 5 (sort $tmpTabs "count" "desc") }}
-          {{ if $lnxTabs }}
-          <div class="nrt-tabs" role="tablist">
-            <button class="nrt-tab is-active" data-tab="nrt-lnx-all" role="tab">Semua</button>
-            {{ range $i, $t := $lnxTabs }}
-            <button class="nrt-tab" data-tab="nrt-lnx-{{ $i }}" role="tab">{{ $t.tag }}</button>
-            {{ end }}
-          </div>
-          <div class="nrt-tabpanel is-active" id="nrt-lnx-all">
-            <div class="nrt-grid">{{ range first 4 $lnx }}{{ partial "nrt-card.html" . }}{{ end }}</div>
-            <div class="nrt-more"><a href="{{ "/kategori/linux/" | relLangURL }}">Lihat Selengkapnya</a></div>
-          </div>
-          {{ range $i, $t := $lnxTabs }}
-          {{ $tagged := where $lnx "Params.tags" "intersect" (slice $t.tag) }}
-          <div class="nrt-tabpanel" id="nrt-lnx-{{ $i }}">
-            <div class="nrt-grid">{{ range first 4 $tagged }}{{ partial "nrt-card.html" . }}{{ end }}</div>
-            <div class="nrt-more"><a href="{{ (printf "/topik/%s/" ($t.tag | urlize)) | relLangURL }}">Lihat Selengkapnya</a></div>
-          </div>
-          {{ end }}
-          {{ else }}
-          <div class="nrt-grid">{{ range first 4 $lnx }}{{ partial "nrt-card.html" . }}{{ end }}</div>
-          <div class="nrt-more"><a href="{{ "/kategori/linux/" | relLangURL }}">Lihat Selengkapnya</a></div>
-          {{ end }}
-        </div>
-        {{ end }}
-        {{ if gt (len $net) 0 }}
-        <div class="nrt-subblock">
-          <div class="nrt-section-head"><h2>Networking</h2><span class="nrt-head-line"></span></div>
-          <div class="nrt-grid">{{ range first 4 $net }}{{ partial "nrt-card.html" . }}{{ end }}</div>
-          <div class="nrt-more"><a href="{{ "/kategori/networking/" | relLangURL }}">Lihat Selengkapnya</a></div>
-        </div>
-        {{ end }}
-        {{ if gt (len $tkn) 0 }}
-        <div class="nrt-subblock">
-          <div class="nrt-section-head"><h2>Teknologi</h2><span class="nrt-head-line"></span></div>
-          <div class="nrt-grid">{{ range first 4 $tkn }}{{ partial "nrt-card.html" . }}{{ end }}</div>
-          <div class="nrt-more"><a href="{{ "/kategori/teknologi/" | relLangURL }}">Lihat Selengkapnya</a></div>
-        </div>
-        {{ end }}
-      </section>
-      {{ end }}
 
     </div><!-- /nrt-main -->
 

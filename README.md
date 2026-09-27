@@ -124,7 +124,8 @@ Urutan section (di `layouts/index.html`):
 
 1. Hero slider (maksimal 3 `featured`, sisanya terbaru) — full width
 2. **Berita Terbaru** (6 terbaru) + sidebar kanan
-3. **Ulasan** (4) → Linux (tab otomatis: Semua + 5 tag terbanyak, mis. ubuntu/debian/arch) → Networking (4) → Teknologi (4)
+3. **Ulasan** → Linux → Networking → Teknologi — masing-masing berupa tab otomatis:
+   Semua + 5 tag terbanyak di kategorinya (lihat `layouts/partials/nrt-cat-tabs.html`)
 4. Footer site-wide (Brand, Bantuan)
 
 Sidebar (di `layouts/partials/nrt-sidebar.html`, dipakai homepage + halaman list/kategori):

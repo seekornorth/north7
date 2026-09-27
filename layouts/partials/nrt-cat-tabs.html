@@ -1,0 +1,43 @@
+{{/* Seksi kategori + tab tag otomatis. Args: title, cat, url.
+  Contoh: (dict "title" "Linux" "cat" "Linux" "url" "/kategori/linux/") */}}
+{{ $all := sort (where site.RegularPages "Section" "posts") "Date" "desc" }}
+{{ $catPages := slice }}
+{{ range $all }}
+  {{ $pg := . }}
+  {{ range $pg.Params.categories }}
+    {{ if eq (lower .) (lower $.cat) }}{{ $catPages = $catPages | append $pg }}{{ end }}
+  {{ end }}
+{{ end }}
+{{ if gt (len $catPages) 0 }}
+{{ $pfx := $.title | urlize }}
+<div class="nrt-subblock">
+  <div class="nrt-section-head"><h2>{{ $.title }}</h2><span class="nrt-head-line"></span></div>
+  {{ $tagCounts := dict }}
+  {{ range $catPages }}{{ range .Params.tags }}{{ $tagCounts = merge $tagCounts (dict . (add (index $tagCounts . | default 0) 1)) }}{{ end }}{{ end }}
+  {{ $tmpTabs := slice }}
+  {{ range $t, $c := $tagCounts }}{{ if ne (lower $t) (lower $.cat) }}{{ $tmpTabs = $tmpTabs | append (dict "tag" $t "count" $c) }}{{ end }}{{ end }}
+  {{ $tabs := first 5 (sort $tmpTabs "count" "desc") }}
+  {{ if $tabs }}
+  <div class="nrt-tabs" role="tablist">
+    <button class="nrt-tab is-active" data-tab="nrt-{{ $pfx }}-all" role="tab">Semua</button>
+    {{ range $i, $t := $tabs }}
+    <button class="nrt-tab" data-tab="nrt-{{ $pfx }}-{{ $i }}" role="tab">{{ $t.tag }}</button>
+    {{ end }}
+  </div>
+  <div class="nrt-tabpanel is-active" id="nrt-{{ $pfx }}-all">
+    <div class="nrt-grid">{{ range first 4 $catPages }}{{ partial "nrt-card.html" . }}{{ end }}</div>
+    <div class="nrt-more"><a href="{{ $.url | relLangURL }}">Lihat Selengkapnya</a></div>
+  </div>
+  {{ range $i, $t := $tabs }}
+  {{ $tagged := where $catPages "Params.tags" "intersect" (slice $t.tag) }}
+  <div class="nrt-tabpanel" id="nrt-{{ $pfx }}-{{ $i }}">
+    <div class="nrt-grid">{{ range first 4 $tagged }}{{ partial "nrt-card.html" . }}{{ end }}</div>
+    <div class="nrt-more"><a href="{{ (printf "/topik/%s/" ($t.tag | urlize)) | relLangURL }}">Lihat Selengkapnya</a></div>
+  </div>
+  {{ end }}
+  {{ else }}
+  <div class="nrt-grid">{{ range first 4 $catPages }}{{ partial "nrt-card.html" . }}{{ end }}</div>
+  <div class="nrt-more"><a href="{{ $.url | relLangURL }}">Lihat Selengkapnya</a></div>
+  {{ end }}
+</div>
+{{ end }}
