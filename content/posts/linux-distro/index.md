@@ -6,6 +6,7 @@ categories: ["Linux"]
 tags: ["distro", "linux", "gaming"]
 date: 2026-09-12
 draft: false
+authors: ["mifthakhul-huda"]
 ---
 
 Konten contoh untuk kategori Linux. Ganti dengan artikel asli.

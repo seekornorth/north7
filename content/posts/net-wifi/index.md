@@ -6,6 +6,7 @@ categories: ["Networking"]
 tags: ["wifi", "tutorial", "networking"]
 date: 2026-09-11
 draft: false
+authors: ["mifthakhul-huda"]
 ---
 
 Konten contoh untuk kategori Networking. Ganti dengan artikel asli.

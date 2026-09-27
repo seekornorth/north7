@@ -6,7 +6,8 @@ draft: true
 # Jangan pakai slug yang tabrakan dengan halaman lain (posts, categories, tags, contact-us, ...).
 categories: ["Linux"]
 tags: []
-authors: ["north7"]
+# Penulis: ["mifthakhul-huda"] (Linux/Networking) atau ["tri-wulandari"] (Teknologi)
+authors: ["mifthakhul-huda"]
 summary: ""
 description: ""
 # Tampilkan di hero slider homepage: featured: true (maksimal 3, terbaru duluan)

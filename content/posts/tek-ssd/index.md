@@ -6,6 +6,7 @@ categories: ["Teknologi"]
 tags: ["ssd", "teknologi", "tutorial"]
 date: 2026-09-11
 draft: false
+authors: ["tri-wulandari"]
 ---
 
 Konten contoh untuk kategori Teknologi. Ganti dengan artikel asli.

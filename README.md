@@ -151,10 +151,11 @@ Sidebar (di `layouts/partials/nrt-sidebar.html`, dipakai homepage + halaman list
   Untuk versi PNG, convert logo ke `static/favicon-32x32.png` (32×32),
   `static/favicon-16x16.png` (16×16), dan `static/apple-touch-icon.png`
   (180×180); partial sudah mereferensikannya, tinggal taruh filenya.
-- **Halaman penulis**: `data/authors/north7.json` (nama, foto `img/avatar.png`,
-  bio, sosmed) → tampil di `/authors/north7/` lengkap dengan daftar artikelnya.
-  Penulis baru: duplikat JSON (nama file huruf kecil semua) + isi `authors: ["id-baru"]`
-  di artikelnya. Foto profil diganti lewat field `image` (file di `assets/img/`).
+- **Halaman penulis**: `data/authors/<id>.json` (nama, foto, bio, sosmed, nama file
+  huruf kecil semua) → tampil di `/authors/<id>/` lengkap dengan daftar artikelnya.
+  Daftarkan penulis di frontmatter artikel: `authors: ["mifthakhul-huda"]`.
+  Penulis saat ini: Mifthakhul Huda (Linux/Networking), Tri Wulandari (Teknologi).
+  Foto profil diganti lewat field `image` (file di `assets/img/`).
 
 ## 8. Warna (Catppuccin Mocha, dark dikunci)
 

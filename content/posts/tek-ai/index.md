@@ -6,6 +6,7 @@ categories: ["Teknologi"]
 tags: ["ai", "teknologi"]
 date: 2026-09-12
 draft: false
+authors: ["tri-wulandari"]
 ---
 
 Konten contoh untuk kategori Teknologi. Ganti dengan artikel asli.

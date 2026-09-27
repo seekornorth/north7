@@ -6,6 +6,7 @@ categories: ["Linux"]
 tags: ["terminal", "linux", "tutorial"]
 date: 2026-09-13
 draft: false
+authors: ["mifthakhul-huda"]
 ---
 
 Konten contoh untuk kategori Linux. Ganti dengan artikel asli.

@@ -6,6 +6,7 @@ categories: ["Networking"]
 tags: ["homelab", "server", "networking"]
 date: 2026-09-14
 draft: false
+authors: ["mifthakhul-huda"]
 ---
 
 Konten contoh untuk kategori Networking. Ganti dengan artikel asli.
