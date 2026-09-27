@@ -23,6 +23,7 @@ disableTextInHeader = false
 [footer]
 showCopyright = true
 showThemeAttribution = false
+showAppearanceSwitcher = false
 showScrollToTop = true
 
 [homepage]
