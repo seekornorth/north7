@@ -118,9 +118,9 @@ header div.max-w-7xl {
 .nrt-foot-social a { border: 1px solid var(--nrt-border); padding: 6px 12px; border-radius: 8px; margin-bottom: 0; }
 .nrt-foot-social a:hover { border-color: var(--nrt-red); }
 .nrt-bottom {
-  display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap;
+  display: flex; justify-content: center; align-items: center; gap: 12px; flex-wrap: wrap;
   padding: 16px 4px 8px; border-top: 1px solid var(--nrt-border);
-  font-size: 13px; color: var(--nrt-muted);
+  font-size: 13px; color: var(--nrt-muted); text-align: center;
 }
 .nrt-bottom p { margin: 0; }
 .nrt-bottom a { color: var(--nrt-muted); }

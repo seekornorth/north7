@@ -22,8 +22,7 @@ disableTextInHeader = false
 
 [footer]
 showCopyright = true
-showThemeAttribution = true
-showAppearanceSwitcher = false
+showThemeAttribution = false
 showScrollToTop = true
 
 [homepage]
