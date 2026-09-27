@@ -18,7 +18,13 @@
     <div class="nrt-author">
       {{ with .image }}
         {{ $av := resources.Get . }}
-        {{ with $av }}<img src="{{ (.Fill "240x240 Center q80").RelPermalink }}" alt="{{ $.Title }}" loading="lazy" decoding="async" />{{ end }}
+        {{ with $av }}
+          {{ if eq .MediaType.SubType "svg" }}
+            <img src="{{ .RelPermalink }}" alt="{{ $.Title }}" loading="lazy" decoding="async" />
+          {{ else }}
+            <img src="{{ (.Fill "240x240 Center q80").RelPermalink }}" alt="{{ $.Title }}" loading="lazy" decoding="async" />
+          {{ end }}
+        {{ end }}
       {{ end }}
       <div class="nrt-author-text">
         <strong>{{ .name }}</strong>
