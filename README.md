@@ -58,7 +58,7 @@ Lengkapi frontmatter-nya:
 title: "Judul Artikel yang Menarik dan Mengandung Keyword"
 summary: "1-2 kalimat (≈150 karakter) untuk cuplikan kartu + meta description Google."
 description: "Boleh sama dengan summary, dipakai untuk schema JSON-LD."
-categories: ["Gaming"]   # lihat daftar kategori di bawah. Urutan PERTAMA = kategori utama
+categories: ["Linux"]   # lihat daftar kategori di bawah. Urutan PERTAMA = kategori utama
 tags: ["witcher-4", "cd-projekt"]   # topik bebas, huruf kecil, tanda hubung
 date: 2026-09-20
 draft: false              # true = tidak tampil di situs
@@ -99,7 +99,7 @@ Aturan main:
 - Kategori **pertama** = kategori utama artikel.
 - Tambah kategori baru? Bisa langsung dipakai di frontmatter — halaman
   `/kategori/<slug>/`, kartu sidebar, dan breadcrumb ikut otomatis.
-  (Tab Gaming homepage hanya untuk 5 platform di atas; kategori lain muncul di News.)
+
 - URL dasar taksonomi: `/kategori/...` untuk kategori, `/topik/...` untuk tag
   (diatur `[permalinks.taxonomy]` + `[permalinks.term]` di `hugo.toml`).
   Jangan ubah tanpa memperbarui link di `layouts/` dan `menus.id.toml`.
@@ -199,7 +199,7 @@ Setiap push berikutnya otomatis build + live.
 ## 11. Struktur File Kustom (cheatsheet)
 
 ```text
-layouts/index.html              → homepage (hero, seksi, tab Gaming)
+layouts/index.html              → homepage (hero, seksi)
 layouts/_default/list.html      → halaman /posts/
 layouts/_default/term.html      → halaman /kategori/<x>/, /topik/<y>/
 layouts/_default/terms.html     → indeks /kategori/, /topik/
