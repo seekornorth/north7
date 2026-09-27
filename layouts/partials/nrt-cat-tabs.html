@@ -1,5 +1,5 @@
-{{/* Seksi kategori + tab tag otomatis. Args: title, cat, url.
-  Contoh: (dict "title" "Linux" "cat" "Linux" "url" "/kategori/linux/") */}}
+{{/* Seksi kategori. Tab tag otomatis hanya jika args memuat "tabs" true.
+  Contoh: (dict "title" "Linux" "cat" "Linux" "url" "/kategori/linux/" "tabs" true) */}}
 {{ $all := sort (where site.RegularPages "Section" "posts") "Date" "desc" }}
 {{ $catPages := slice }}
 {{ range $all }}
@@ -17,7 +17,7 @@
   {{ $tmpTabs := slice }}
   {{ range $t, $c := $tagCounts }}{{ if ne (lower $t) (lower $.cat) }}{{ $tmpTabs = $tmpTabs | append (dict "tag" $t "count" $c) }}{{ end }}{{ end }}
   {{ $tabs := first 5 (sort $tmpTabs "count" "desc") }}
-  {{ if $tabs }}
+  {{ if and $.tabs $tabs }}
   <div class="nrt-tabs" role="tablist">
     <button class="nrt-tab is-active" data-tab="nrt-{{ $pfx }}-all" role="tab">Semua</button>
     {{ range $i, $t := $tabs }}
