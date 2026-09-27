@@ -190,6 +190,7 @@ header div.max-w-7xl {
 .nrt-search-icon { color: #CBA6F7; }
 .nrt-search-input { color: #CDD6F4; caret-color: #CBA6F7; }
 .nrt-search-input::placeholder { color: #6C7086; }
+.nrt-search-input:focus { outline: 2px solid var(--nrt-red) !important; outline-offset: -2px; box-shadow: none !important; }
 .nrt-search-close { color: #A6ADC8; }
 .nrt-search-close:hover { color: #F38BA8; }
 .nrt-search-close:focus { outline: none; }
