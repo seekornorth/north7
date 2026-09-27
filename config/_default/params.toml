@@ -15,6 +15,7 @@ backgroundCanvas = false
 hotlinkFeatureImage = true
 showViews = false
 defaultSocialImage = "img/cover.png"
+Logo = "img/logo.svg"
 
 [header]
 layout = "fixed-fill"
