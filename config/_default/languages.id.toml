@@ -13,7 +13,7 @@ copyright = "Copyright 2024 — North7. All rights reserved."
 
   [params.author]
   name = "North7"
-  image = "img/logo.svg"
+  image = "img/logo.png"
   headline = "Blog hobi: games, Linux, networking, dan anime"
   bio = "Artikel, ulasan, dan tutorial seputar hobi favorit"
 

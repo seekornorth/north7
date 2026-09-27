@@ -14,8 +14,8 @@ defaultBackgroundImage = "false"
 backgroundCanvas = false
 hotlinkFeatureImage = true
 showViews = false
-defaultSocialImage = "img/cover.png"
-Logo = "img/logo.svg"
+defaultSocialImage = "img/logo.png"
+Logo = "img/logo.png"
 
 [header]
 layout = "fixed-fill"
@@ -29,7 +29,7 @@ showScrollToTop = true
 
 [homepage]
 layout = "custom"
-homepageImage = "img/cover.png"
+homepageImage = "img/logo.png"
 showRecent = false
 showRecentItems = 6
 showMoreLink = false

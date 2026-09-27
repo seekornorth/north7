@@ -151,9 +151,10 @@ Sidebar (di `layouts/partials/nrt-sidebar.html`, dipakai homepage + halaman list
   `layouts/partials/footer.html`, `content/contact-us.md`,
   `config/_default/languages.id.toml` (author links), `data/authors/north7.json`.
   Ganti `#` dengan URL Facebook/YouTube asli North7.
-- **Favicon**: `layouts/partials/favicons.html` — SVG inline (huruf N di kotak mauve).
-  Untuk ganti: edit huruf/warna di data-URI itu, atau taruh `favicon.png` /
-  `apple-touch-icon.png` di folder `static/` lalu sesuaikan isi partial.
+- **Favicon**: `layouts/partials/favicons.html` — memakai `assets/img/logo.svg`.
+  Untuk versi PNG, convert logo ke `static/favicon-32x32.png` (32×32),
+  `static/favicon-16x16.png` (16×16), dan `static/apple-touch-icon.png`
+  (180×180); partial sudah mereferensikannya, tinggal taruh filenya.
 - **Halaman penulis**: `data/authors/north7.json` (nama, foto `img/avatar.png`,
   bio, sosmed) → tampil di `/authors/north7/` lengkap dengan daftar artikelnya.
   Penulis baru: duplikat JSON (nama file huruf kecil semua) + isi `authors: ["id-baru"]`
