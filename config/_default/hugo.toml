@@ -3,9 +3,8 @@
 # https://nunocoracao.github.io/blowfish/docs/getting-started/
 
 theme = "blowfish"
-# PENTING (SEO): ganti dengan domain asli situs kamu, diakhiri garis miring.
-# Tanpa ini, canonical, sitemap, dan OG URL tidak valid di Google.
-baseURL = "https://example.com/"
+# Domain produksi North7.
+baseURL = "https://north7.biz.id/"
 defaultContentLanguage = "id"
 
 enableRobotsTXT = true

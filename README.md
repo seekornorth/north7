@@ -27,7 +27,7 @@ hugo server -D --poll 700ms
 ```
 
 > Catatan: `localhost:1313` selalu dipakai mode dev — URL produksi berasal dari `baseURL`
-> dan **wajib** diganti domain asli di `config/_default/hugo.toml` (saat ini masih placeholder).
+> (`https://north7.biz.id/`).
 
 ## 2. Build Produksi
 
