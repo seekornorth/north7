@@ -82,8 +82,34 @@
         {{ if gt (len $lnx) 0 }}
         <div class="nrt-subblock">
           <div class="nrt-section-head"><h2>Linux</h2><span class="nrt-head-line"></span></div>
+          {{/* Tab otomatis dari 5 tag terbanyak di artikel Linux (di luar tag "linux"). */}}
+          {{ $tagCounts := dict }}
+          {{ range $lnx }}{{ range .Params.tags }}{{ $tagCounts = merge $tagCounts (dict . (add (index $tagCounts . | default 0) 1)) }}{{ end }}{{ end }}
+          {{ $tmpTabs := slice }}
+          {{ range $t, $c := $tagCounts }}{{ if ne (lower $t) "linux" }}{{ $tmpTabs = $tmpTabs | append (dict "tag" $t "count" $c) }}{{ end }}{{ end }}
+          {{ $lnxTabs := first 5 (sort $tmpTabs "count" "desc") }}
+          {{ if $lnxTabs }}
+          <div class="nrt-tabs" role="tablist">
+            <button class="nrt-tab is-active" data-tab="nrt-lnx-all" role="tab">Semua</button>
+            {{ range $i, $t := $lnxTabs }}
+            <button class="nrt-tab" data-tab="nrt-lnx-{{ $i }}" role="tab">{{ $t.tag }}</button>
+            {{ end }}
+          </div>
+          <div class="nrt-tabpanel is-active" id="nrt-lnx-all">
+            <div class="nrt-grid">{{ range first 4 $lnx }}{{ partial "nrt-card.html" . }}{{ end }}</div>
+            <div class="nrt-more"><a href="{{ "/kategori/linux/" | relLangURL }}">Lihat Selengkapnya</a></div>
+          </div>
+          {{ range $i, $t := $lnxTabs }}
+          {{ $tagged := where $lnx "Params.tags" "intersect" (slice $t.tag) }}
+          <div class="nrt-tabpanel" id="nrt-lnx-{{ $i }}">
+            <div class="nrt-grid">{{ range first 4 $tagged }}{{ partial "nrt-card.html" . }}{{ end }}</div>
+            <div class="nrt-more"><a href="{{ (printf "/topik/%s/" ($t.tag | urlize)) | relLangURL }}">Lihat Selengkapnya</a></div>
+          </div>
+          {{ end }}
+          {{ else }}
           <div class="nrt-grid">{{ range first 4 $lnx }}{{ partial "nrt-card.html" . }}{{ end }}</div>
           <div class="nrt-more"><a href="{{ "/kategori/linux/" | relLangURL }}">Lihat Selengkapnya</a></div>
+          {{ end }}
         </div>
         {{ end }}
         {{ if gt (len $net) 0 }}
@@ -143,6 +169,18 @@
     window.addEventListener('mouseup', function(){ if(dragging){ dragging = false; hero.classList.remove('is-drag'); swipeEnd(); } });
     hero.addEventListener('click', function(e){ if(Math.abs(dx) > 10){ e.preventDefault(); e.stopPropagation(); } }, true);
   }
+  // Tabs section (mis. tab distro di seksi Linux)
+  var tabs = document.querySelectorAll('.nrt-tab');
+  var panels = document.querySelectorAll('.nrt-tabpanel');
+  tabs.forEach(function(t){
+    t.addEventListener('click', function(){
+      tabs.forEach(function(x){ x.classList.remove('is-active'); });
+      panels.forEach(function(p){ p.classList.remove('is-active'); });
+      t.classList.add('is-active');
+      var el = document.getElementById(t.dataset.tab);
+      if(el) el.classList.add('is-active');
+    });
+  });
 })();
 </script>
 {{ end }}
