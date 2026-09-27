@@ -19,7 +19,7 @@ Logo = "img/logo.svg"
 
 [header]
 layout = "fixed-fill"
-disableTextInHeader = false
+disableTextInHeader = true
 
 [footer]
 showCopyright = true
