@@ -2,7 +2,7 @@
   <div class="nrt-foot">
     <div class="nrt-foot-col nrt-foot-brand">
       <div class="nrt-foot-logo">{{ with resources.Get "img/logo.png" }}<img src="{{ .RelPermalink }}" alt="North7" />{{ end }}<span>North7</span></div>
-      <p>Media Linux, Networking, dan update teknologi — plus ulasan dan tutorial.</p>
+      <p>{{ .Site.Params.description }}</p>
       <div class="nrt-foot-social">
         <a href="#" target="_blank" rel="noopener">Facebook</a>
         <a href="#" target="_blank" rel="noopener">YouTube</a>
