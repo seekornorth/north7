@@ -1,13 +1,13 @@
 locale = "id-ID"
 label = "Indonesia"
 weight = 1
-title = "North7"
+title = "North7 - Ngulik Linux, Networking & Teknologi"
 
 [params]
 displayName = "ID"
 isoCode = "id"
 rtl = false
-description = "Media Linux, Networking, dan update teknologi terkini dalam Bahasa Indonesia"
+description = "Ngulik Linux, networking, open source, dan teknologi dari hal sederhana sampai yang bikin penasaran, lengkap dengan tutorial, panduan, tips, dan berita terbaru."
 dateFormat = ":date_long"
 copyright = "Copyright 2024 — North7. All rights reserved."
 
