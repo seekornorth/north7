@@ -42,7 +42,7 @@
 <img
   src="{{ $url }}"
   alt="{{ $alt }}"
-  {{ with $class }}class="{{ . }}"{{ end }}
+  class="nozoom{{ with $class }} {{ . }}{{ end }}"
   loading="{{ cond $eager "eager" "lazy" }}"
   decoding="async"
   fetchpriority="{{ cond $eager "high" "low" }}"{{ if and $iw $ih }} width="{{ $iw }}" height="{{ $ih }}"{{ end }} />

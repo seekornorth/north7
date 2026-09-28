@@ -70,8 +70,7 @@ header div.max-w-7xl {
 .nrt-card { background: var(--nrt-card); border: 1px solid var(--nrt-border); border-radius: 14px; overflow: hidden; display: flex; flex-direction: column; transition: transform .25s ease, border-color .25s ease; }
 .nrt-card:hover { transform: translateY(-3px); border-color: var(--nrt-red); }
 .nrt-card-media { display: block; aspect-ratio: 16/9; overflow: hidden; background: #000; }
-.nrt-card-media img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .5s ease; }
-.nrt-card:hover .nrt-card-media img { transform: scale(1.04); }
+.nrt-card-media img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .nrt-card-body { padding: 14px 16px 16px; display: flex; flex-direction: column; gap: 8px; }
 .nrt-cats { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .03em; }
 .nrt-cats a { color: var(--nrt-red); text-decoration: none; }

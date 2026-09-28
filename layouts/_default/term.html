@@ -20,9 +20,9 @@
         {{ $av := resources.Get . }}
         {{ with $av }}
           {{ if eq .MediaType.SubType "svg" }}
-            <img src="{{ .RelPermalink }}" alt="{{ $.Title }}" loading="lazy" decoding="async" />
+            <img class="nozoom" src="{{ .RelPermalink }}" alt="{{ $.Title }}" loading="lazy" decoding="async" />
           {{ else }}
-            <img src="{{ (.Fill "240x240 Center q80").RelPermalink }}" alt="{{ $.Title }}" loading="lazy" decoding="async" />
+            <img class="nozoom" src="{{ (.Fill "240x240 Center q80").RelPermalink }}" alt="{{ $.Title }}" loading="lazy" decoding="async" />
           {{ end }}
         {{ end }}
       {{ end }}
