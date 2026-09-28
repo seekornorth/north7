@@ -1,0 +1,140 @@
+{{ if .IsHome -}}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": {{ site.Home.Permalink | safeURL }},
+    "name": "{{ .Site.Title | safeJS }}",
+    {{ with .Site.Params.description }}"description": "{{ . | safeJS }}",{{ end }}
+    {{ with .Site.Language.Locale }}"inLanguage": "{{ . }}",{{ end }}
+    "url": {{ site.Home.Permalink | safeURL }},
+    {{ with .Site.Params.keywords }}"keywords": {{ . }},{{ end }}
+    "publisher" : {
+      "@type": "Organization",
+      "name": "{{ .Site.Title | safeJS }}"
+      {{ with resources.Get "img/logo.png" }},
+      "logo": {
+        "@type": "ImageObject",
+        "url": {{ .Permalink }}
+      }{{ end }}
+    }
+  }
+  </script>
+{{ else }}
+  {{- $iso8601 := "2006-01-02T15:04:05-07:00" -}}
+  {{- $author := .Site.Params.Author -}}
+  {{- with .Params.authors -}}
+    {{- with index hugo.Data.authors (index . 0 | lower) -}}
+      {{- $author = . -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $sameAs := slice -}}
+  {{- range (or $author.social $author.links) -}}
+    {{- range $platform, $url := . -}}
+      {{- if not (strings.HasPrefix $url "mailto:") -}}
+        {{- $sameAs = $sameAs | append $url -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- /* Gambar utama: feature image, lalu cover/thumbnail, lalu gambar sosial default. */ -}}
+  {{- $schemaImage := "" -}}
+  {{- with partial "functions/feature-image.html" . -}}
+    {{- if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") -}}
+      {{- $schemaImage = . -}}
+    {{- else -}}
+      {{- with $.Resources.Get . -}}{{- $schemaImage = .Permalink -}}{{- end -}}
+      {{- if not $schemaImage -}}
+        {{- with resources.Get . -}}{{- $schemaImage = .Permalink -}}{{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if not $schemaImage -}}
+    {{- $pageImages := .Resources.ByType "image" -}}
+    {{- range slice "*feature*" "*cover*" "*thumbnail*" -}}
+      {{- if not $schemaImage -}}
+        {{- with $pageImages.GetMatch . -}}{{- $schemaImage = .Permalink -}}{{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if not $schemaImage -}}
+    {{- with site.Params.defaultSocialImage -}}
+      {{- with resources.Get . -}}{{- $schemaImage = .Permalink -}}{{- end -}}
+    {{- end -}}
+  {{- end -}}
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "articleSection": "{{ (site.GetPage .Section).Title | safeJS }}",
+    "name": "{{ .Title | safeJS }}",
+    "headline": "{{ .Title | safeJS }}",
+    {{ with .Description }}"description": "{{ . | safeJS }}",
+    {{ else }}{{ with .Summary }}"description": "{{ . | plainify | safeJS }}",{{ end }}{{ end }}
+    {{ with $schemaImage }}"image": [{{ . }}],{{ end }}
+    {{ with .Site.Language.Locale }}"inLanguage": "{{ . }}",{{ end }}
+    "url" : {{ .Permalink }},
+    "author" : {
+      "@type": "Person",
+      "name": "{{ $author.name | safeJS }}"{{ with $author.image }},
+      {{- $authorImageURL := "" }}
+      {{- if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
+        {{- $authorImageURL = . }}
+      {{- else }}
+        {{- with resources.Get . }}
+          {{- $authorImageURL = .Permalink }}
+        {{- else }}
+          {{- $authorImageURL = . | absURL }}
+        {{- end }}
+      {{- end }}
+      "image": {{ $authorImageURL }}{{ end }}{{ if $sameAs }},
+      "sameAs": [{{ range $i, $u := $sameAs }}{{ if $i }}, {{ end }}{{ $u }}{{ end }}]{{ end }}
+    },
+    "publisher" : {
+      "@type": "Organization",
+      "name": "{{ .Site.Title | safeJS }}"
+      {{ with resources.Get "img/logo.png" }},
+      "logo": {
+        "@type": "ImageObject",
+        "url": {{ .Permalink }}
+      }{{ end }}
+    },
+    {{ with .PublishDate }}"copyrightYear": "{{ .Format "2006" }}",{{ end }}
+    {{ with .Date }}"dateCreated": "{{ .Format $iso8601 }}",{{ end }}
+    {{ with .PublishDate }}"datePublished": "{{ .Format $iso8601 }}",{{ end }}
+    {{ with .ExpiryDate }}"expires": "{{ .Format $iso8601 }}",{{ end }}
+    {{ with .Lastmod }}"dateModified": "{{ .Format $iso8601 }}",{{ end }}
+    {{ if .Keywords }}
+    {{ with .Keywords }}"keywords": {{ . }},{{ end }}
+    {{ else }}
+    {{ with .Params.tags }}"keywords": {{ . }},{{ end }}
+    {{ end }}
+    "mainEntityOfPage": {{ .Permalink }},
+    "wordCount": {{ .WordCount | int }}
+  }{{ if site.Params.enableStructuredBreadcrumbs | default false }},
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{- $position := 0 -}}
+      {{- range .Ancestors -}}
+        {{- if not .IsHome -}}
+          {{- $position = add $position 1 -}}
+          {
+            "@type": "ListItem",
+            "position": {{ $position }},
+            "name": "{{ .Title }}",
+            "item": {{ .Permalink }}
+          },
+        {{- end -}}
+      {{- end -}}
+      {{- $position = add $position 1 -}}
+      {
+        "@type": "ListItem",
+        "position": {{ $position }},
+        "name": "{{ .Title }}",
+        "item": {{ .Permalink }}
+      }
+    ]
+  }{{ end }}]
+  </script>
+{{ end }}
