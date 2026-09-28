@@ -112,7 +112,3 @@ Jika Anda memiliki pertanyaan, masukan, atau permintaan yang berkaitan dengan Ke
 **Email:** [northsevent012@gmail.com](mailto:northsevent012@gmail.com)
 
 Kami akan berusaha menanggapi setiap pertanyaan terkait privasi dalam waktu yang wajar.
-
----
-
-Kebijakan Privasi ini dibuat untuk menjelaskan praktik privasi North7 secara transparan kepada pengunjung. Ketentuan di dalamnya dapat diperbarui apabila terdapat perubahan pada fitur, layanan, teknologi, atau operasional North7.
