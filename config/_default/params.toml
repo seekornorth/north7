@@ -6,7 +6,7 @@ enableCodeCopy = true
 mainSections = [ "posts" ]
 firebase = { }
 fathomAnalytics = { }
-verification = { }
+verification = { google = "2Vx8phN3hr3V8WQnVlhQl5UgRotsx0vbuWnVx_oC1gY" }
 enableA11y = false
 enableStructuredBreadcrumbs = true
 enableStyledScrollbar = true
