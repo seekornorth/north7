@@ -308,10 +308,10 @@ main article > section.flex { max-width: 1024px; margin-inline-start: auto; marg
 
 /* ---- Halaman statis (contact, privacy, terms): center, justify, tanpa embel-embel ---- */
 .nrt-static { max-width: 780px; margin: 24px auto 0; }
-.nrt-static h1 { margin: 8px 0 20px; font-size: clamp(28px, 4vw, 40px); font-weight: 900; letter-spacing: -0.02em; }
-.nrt-static-body { color: var(--nrt-text); font-size: 17px; line-height: 1.8; text-align: justify; hyphens: auto; }
+.nrt-static h1 { margin: 8px 0 20px; font-size: clamp(26px, 3.5vw, 36px); font-weight: 900; letter-spacing: -0.02em; }
+.nrt-static-body.prose { max-width: 100%; font-size: 16px; text-align: justify; hyphens: auto; }
 .nrt-static-body h2,
-.nrt-static-body h3 { text-align: left; margin-top: 1.6em; }
+.nrt-static-body h3 { text-align: left; }
 .nrt-static-body a { color: var(--nrt-red); }
 
 /* ---- Halaman list / kategori ---- */.nrt-page-head { margin: 22px 0 6px; padding-bottom: 16px; border-bottom: 2px solid transparent; border-image: linear-gradient(90deg, var(--nrt-red), transparent) 1; }
