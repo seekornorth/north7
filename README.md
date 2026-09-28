@@ -70,7 +70,7 @@ Aturan main:
 
 - **URL otomatis**: judul `Review X` → `/{review-x}/` di root (diatur `[permalinks]` di `hugo.toml`).
   Jangan pakai judul yang slug-nya tabrakan dengan halaman lain
-  (`posts`, `kategori`, `topik`, `contact-us`, `privacy-policy`, `terms`, ...).
+  (`posts`, `kategori`, `topik`, `kontak`, `tentang-kami`, ...).
 - **Sampul/cover**: taruh SATU gambar di folder artikel dengan nama mengandung
   `cover` / `feature` / `thumbnail`, mis. `content/posts/judul-artikel/cover.jpg`.
   Disarankan JPG/WebP lebar ±1600px dan < 500KB — saat build otomatis dibuatkan
@@ -126,7 +126,7 @@ Urutan section (di `layouts/index.html`):
 2. **Berita Terbaru** (6 terbaru) + sidebar kanan
 3. **Ulasan** → Linux → Networking → Teknologi (tab otomatis Semua + 5 tag
    terbanyak hanya di Linux via `"tabs" true`, lihat `layouts/partials/nrt-cat-tabs.html`)
-4. Footer site-wide (Brand, Bantuan)
+4. Footer site-wide (Brand, Tentang, Legal)
 
 Sidebar (di `layouts/partials/nrt-sidebar.html`, dipakai homepage + halaman list/kategori):
 
@@ -140,8 +140,8 @@ Sidebar (di `layouts/partials/nrt-sidebar.html`, dipakai homepage + halaman list
 ## 7. Menu, Footer & Halaman Statis
 
 - **Menu atas**: `config/_default/menus.id.toml` (`name`, `url`, `weight`, `parent` untuk dropdown).
-- **Footer**: `layouts/partials/footer.html` (Brand, Jelajah, Bantuan).
-- **Halaman statis** Contact / Privacy / Terms: `content/*.md` dengan `layout: info`
+- **Footer**: `layouts/partials/footer.html` (Brand, Tentang, Legal).
+- **Halaman statis** Tentang Kami / Kontak / Kebijakan Privasi / Disclaimer: `content/*.md` dengan `layout: info`
   (tampil minimalis: judul + isi rata tengah, tanpa sidebar/TOC/related).
 - **Sosmed placeholder**: link `#` masih tersebar di
   `layouts/partials/footer.html`, `content/contact-us.md`,

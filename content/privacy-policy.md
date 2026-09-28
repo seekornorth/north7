@@ -1,111 +1,118 @@
 ---
-title: "Privacy Policy"
+title: "Kebijakan Privasi"
 summary: "Kebijakan privasi North7: data yang dikumpulkan, cookie, analitik, dan hak pembaca."
-date: 2026-09-16
+date: 2026-09-28
 draft: false
 layout: info
+url: /kebijakan-privasi/
+aliases: [/privacy-policy/]
 showAuthor: false
 showReadingTime: false
 showTableOfContents: false
 ---
 
-*Berlaku sejak 18 September 2026.*
+*Terakhir diperbarui: 28 September 2026*
 
-## 1. Pendahuluan
+North7 ("kami") menghargai privasi setiap pengunjung yang mengakses situs North7. Kebijakan Privasi ini menjelaskan bagaimana informasi dapat dikumpulkan, digunakan, disimpan, dan dilindungi ketika Anda mengunjungi atau menggunakan situs North7.
 
-North7 ("kami") menghormati privasi pembaca. Kebijakan ini menjelaskan data apa yang
-terkumpul saat kamu mengunjungi situs ini, untuk apa data itu dipakai, dan hak apa yang
-kamu miliki. Dengan terus menggunakan situs ini, kamu dianggap telah membaca dan memahami
-kebijakan ini.
+Dengan mengakses North7, Anda dianggap telah membaca dan memahami Kebijakan Privasi ini.
 
-## 2. Pengelola Data
+## 1. Informasi yang Kami Kumpulkan
 
-Pengelola situs ini adalah **North7**, media independen yang membahas Linux,
-networking, dan update teknologi. Untuk pertanyaan seputar data pribadi, hubungi
-kami melalui halaman [Contact Us](/contact-us/).
+North7 berupaya meminimalkan pengumpulan informasi pribadi dan tidak meminta informasi pribadi hanya untuk membaca atau menjelajahi artikel di situs.
 
-## 3. Data yang Kami Kumpulkan
+Informasi dapat dikumpulkan dalam beberapa keadaan, antara lain:
 
-**a. Data yang kamu berikan secara sukarela.**
-Saat ini situs ini tidak memiliki formulir pendaftaran, akun, atau kolom komentar,
-sehingga kami tidak meminta maupun menyimpan nama, email, atau data pribadi lain
-milikmu di server kami.
+### Informasi yang Anda Berikan
 
-**b. Data teknis yang terkumpul otomatis.**
-Seperti lazimnya situs web, penyedia hosting kami (GitHub Pages) dapat mencatat data
-teknis kunjungan, misalnya alamat IP, halaman yang dibuka, waktu akses, jenis perangkat
-dan peramban. Data ini dipakai agregat untuk keamanan dan evaluasi performa situs.
+Apabila Anda menghubungi kami melalui email atau metode komunikasi lainnya, kami dapat menerima informasi yang Anda berikan secara sukarela, seperti nama, alamat email, isi pesan, atau informasi lain yang Anda sertakan dalam komunikasi tersebut.
 
-## 4. Tujuan Penggunaan Data
+Informasi tersebut digunakan hanya sejauh diperlukan untuk menanggapi pesan, menangani pertanyaan, menerima koreksi, atau keperluan komunikasi lainnya.
 
-Data teknis di atas dipakai semata-mata untuk:
+### Informasi Teknis
 
+Ketika Anda mengakses situs, informasi teknis tertentu dapat secara otomatis diproses oleh layanan yang digunakan untuk menjalankan dan mengamankan situs. Informasi tersebut dapat mencakup alamat IP, jenis perangkat, jenis browser, sistem operasi, waktu akses, halaman yang dikunjungi, serta informasi teknis lainnya.
+
+Informasi ini pada umumnya digunakan untuk memastikan keamanan, menjaga kinerja situs, menganalisis penggunaan situs apabila layanan analitik digunakan, dan membantu memperbaiki pengalaman pengunjung.
+
+## 2. Cookies dan Teknologi Serupa
+
+North7 dapat menggunakan cookies atau teknologi serupa apabila diperlukan untuk fungsi tertentu pada situs, analitik, keamanan, atau layanan pihak ketiga.
+
+Cookies merupakan data berukuran kecil yang dapat disimpan pada perangkat Anda ketika mengunjungi sebuah situs.
+
+Anda dapat mengatur atau menonaktifkan cookies melalui pengaturan browser yang digunakan. Namun, menonaktifkan cookies tertentu dapat memengaruhi fungsi atau pengalaman penggunaan situs.
+
+Apabila North7 menggunakan layanan pihak ketiga yang memiliki mekanisme cookies atau teknologi pelacakan sendiri, penggunaan tersebut juga tunduk pada kebijakan privasi penyedia layanan terkait.
+
+## 3. Layanan Pihak Ketiga
+
+North7 dapat menggunakan layanan dari pihak ketiga untuk mendukung operasional situs, seperti hosting, analitik, keamanan, penyematan konten, distribusi konten, atau layanan lainnya.
+
+Penyedia layanan tersebut dapat memproses informasi tertentu sesuai dengan fungsi layanan yang mereka sediakan dan kebijakan privasi masing-masing.
+
+North7 tidak mengendalikan bagaimana pihak ketiga mengelola informasi yang berada dalam lingkup layanan mereka. Oleh karena itu, kami menyarankan Anda untuk membaca kebijakan privasi masing-masing penyedia layanan apabila diperlukan.
+
+## 4. Penggunaan Informasi
+
+Informasi yang diperoleh dapat digunakan untuk:
+
+- Menanggapi pertanyaan dan komunikasi dari pengunjung.
+- Menindaklanjuti koreksi atau laporan mengenai artikel.
 - Menjaga keamanan dan stabilitas situs.
-- Memahami performa halaman dan meningkatkan kualitas konten.
-- Menindaklanjuti pesan yang kamu kirimkan lewat halaman kontak.
+- Memahami penggunaan situs dan meningkatkan kualitas konten serta pengalaman pengunjung, apabila layanan analitik digunakan.
+- Menjalankan dan mengembangkan layanan North7.
+- Memenuhi kewajiban hukum apabila diwajibkan oleh peraturan yang berlaku.
 
-Kami tidak menjual, menyewakan, atau membagikan data pembaca kepada pihak mana pun
-untuk kepentingan pemasaran.
+North7 tidak menjual informasi pribadi pengunjung kepada pihak lain.
 
-## 5. Cookie
+## 5. Penyimpanan dan Keamanan Informasi
 
-Situs ini **tidak memasang cookie sendiri**. Preferensi tampilan (mode gelap) disimpan
-murni di sisi perambanmu dan tidak dikirim ke mana pun. Kamu tetap dapat menghapus
-atau memblokir cookie kapan saja lewat pengaturan peramban; pemblokiran tidak akan
-merusak fungsi utama situs ini.
+Kami mengambil langkah yang wajar untuk menjaga informasi yang berada dalam pengelolaan kami dari akses, penggunaan, perubahan, atau pengungkapan yang tidak sah.
 
-## 6. Analitik dan Layanan Pihak Ketiga
+Namun, tidak ada metode penyimpanan maupun transmisi data melalui internet yang dapat dijamin sepenuhnya aman. Oleh karena itu, kami tidak dapat menjamin keamanan absolut atas setiap informasi yang dikirimkan melalui internet.
 
-Saat ini situs ini **belum memakai** layanan analitik (misalnya Google Analytics).
-Apabila di kemudian hari kami memasang analitik atau layanan sejenis, bagian ini akan
-diperbarui dan menyebutkan vendor, data, serta tujuannya secara eksplisit.
+## 6. Tautan ke Situs Eksternal
 
-Dua hal yang perlu kamu ketahui:
+Artikel North7 dapat memuat tautan menuju situs, layanan, atau sumber eksternal.
 
-- **Tautan keluar.** Artikel dapat memuat tautan ke situs lain. Kami tidak bertanggung
-  jawab atas praktik privasi situs-situs tersebut; bacalah kebijakan masing-masing.
-- **Video YouTube yang disematkan.** Pemutar video memakai mode hemat data (facade):
-  tidak ada koneksi ke server YouTube sebelum kamu menekan tombol putar. Setelah
-  diputar, [kebijakan privasi Google](https://policies.google.com/privacy) berlaku.
+Apabila Anda mengikuti tautan tersebut, Anda akan meninggalkan situs North7 dan tunduk pada kebijakan privasi serta ketentuan situs yang Anda kunjungi.
 
-## 7. Iklan
+North7 tidak bertanggung jawab atas praktik privasi, keamanan, maupun isi dari situs eksternal tersebut.
 
-Situs ini menyiapkan slot iklan. Selama belum ada iklan yang tayang, tidak ada data
-yang dibagikan untuk periklanan. Jika slot terisi vendor iklan, vendor dapat memakai
-cookie atau teknologi sejenis sesuai kebijakannya masing-masing, dan bagian ini akan
-diperbarui.
+## 7. Privasi Anak
 
-## 8. Penyimpanan Data
+North7 tidak secara khusus ditujukan untuk mengumpulkan informasi pribadi dari anak-anak.
 
-Karena kami tidak mengumpulkan data pribadi lewat situs ini, tidak ada basis data
-pembaca yang perlu disimpan atau dihapus di sisi kami. Log teknis agregat milik
-penyedia hosting tunduk pada kebijakan retensi mereka.
+Apabila kami mengetahui bahwa informasi pribadi seorang anak telah diberikan kepada kami tanpa persetujuan yang sesuai, kami akan mengambil langkah yang wajar untuk menangani dan menghapus informasi tersebut apabila diperlukan.
 
-## 9. Keamanan
+## 8. Hak Pengunjung
 
-Situs disajikan melalui koneksi terenkripsi (HTTPS) dan dibangun sebagai situs statis,
-yang secara inheren meminimalkan permukaan serangan. Meski demikian, tidak ada metode
-transmisi internet yang 100% aman.
+Bergantung pada keadaan dan peraturan yang berlaku, Anda dapat memiliki hak tertentu atas informasi pribadi yang Anda berikan kepada North7, termasuk meminta informasi mengenai data yang kami simpan, melakukan koreksi, atau meminta penghapusan informasi tersebut.
 
-## 10. Hak Kamu atas Data Pribadi
+Untuk mengajukan permintaan terkait privasi, Anda dapat menghubungi kami melalui:
 
-Sesuai Undang-Undang No. 27 Tahun 2022 tentang Pelindungan Data Pribadi (UU PDP),
-kamu berhak meminta informasi, akses, koreksi, penghapusan, pembatasan pemrosesan,
-penarikan persetujuan, dan keberatan atas pemrosesan data pribadimu. Ajukan lewat
-halaman [Contact Us](/contact-us/) dengan subjek "Privasi Data" — kami berusaha
-merespons dalam 1–2 hari kerja.
+**Email:** [northsevent012@gmail.com](mailto:northsevent012@gmail.com)
 
-## 11. Anak-Anak
+Kami dapat meminta informasi tambahan yang wajar untuk memastikan bahwa permintaan tersebut berkaitan dengan data yang dimaksud sebelum memprosesnya.
 
-Konten situs ini bersifat umum dan tidak ditujukan khusus untuk anak-anak. Kami
-menganjurkan pendampingan orang tua/wali bagi pembaca di bawah umur.
+## 9. Perubahan Kebijakan Privasi
 
-## 12. Perubahan Kebijakan
+North7 dapat memperbarui Kebijakan Privasi ini dari waktu ke waktu untuk mencerminkan perubahan pada situs, layanan yang digunakan, atau persyaratan hukum yang berlaku.
 
-Kebijakan ini dapat diperbarui mengikuti perkembangan situs dan peraturan yang berlaku.
-Versi terbaru selalu tersedia di halaman ini beserta tanggal berlakunya. Perubahan
-material akan kami umumkan lewat artikel singkat.
+Perubahan akan dicantumkan pada halaman ini beserta tanggal pembaruan terakhir.
 
-## 13. Kontak
+Kami menyarankan pengunjung untuk memeriksa halaman ini secara berkala agar tetap mengetahui bagaimana informasi dikelola.
 
-Ada pertanyaan soal kebijakan ini? Hubungi kami via [Contact Us](/contact-us/).
+## 10. Hubungi Kami
+
+Jika Anda memiliki pertanyaan, masukan, atau permintaan yang berkaitan dengan Kebijakan Privasi North7, silakan hubungi:
+
+**North7**
+**Email:** [northsevent012@gmail.com](mailto:northsevent012@gmail.com)
+
+Kami akan berusaha menanggapi setiap pertanyaan terkait privasi dalam waktu yang wajar.
+
+---
+
+Kebijakan Privasi ini dibuat untuk menjelaskan praktik privasi North7 secara transparan kepada pengunjung. Ketentuan di dalamnya dapat diperbarui apabila terdapat perubahan pada fitur, layanan, teknologi, atau operasional North7.

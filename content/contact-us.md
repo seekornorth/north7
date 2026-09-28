@@ -1,28 +1,34 @@
 ---
-title: "Contact Us"
-summary: "Hubungi tim North7: koreksi, usulan topik, kerjasama, atau laporan masalah."
-date: 2026-09-16
+title: "Kontak"
+summary: "Hubungi North7: pertanyaan, koreksi, usulan topik, atau ajakan kerja sama."
+date: 2026-09-28
 draft: false
 layout: info
+url: /kontak/
+aliases: [/contact-us/]
 showAuthor: false
 showReadingTime: false
 showTableOfContents: false
 ---
 
-North7 dikelola personal dan kami senang mendengar dari pembaca. Silakan hubungi
-kami untuk keperluan berikut:
+Punya pertanyaan, menemukan kesalahan dalam artikel, atau sekadar ingin ngobrol soal teknologi?
 
-- **Koreksi & masukan** — menemukan fakta keliru, tautan mati, atau salah ketik?
-  Kirimkan beserta URL artikelnya.
-- **Usulan topik** — ada bahasan Linux, networking, atau teknologi yang ingin
-  kami ulas? Sampaikan idemu.
-- **Kerjasama & sponsorship** — penawaran review, placement, atau kolaborasi konten.
-- **Laporan masalah** — halaman error, gambar tidak tampil, atau kendala akses.
+Jangan ragu untuk menghubungi kami.
 
-## Kanal Resmi
+North7 terbuka untuk berbagai masukan, koreksi, saran topik, informasi, maupun ajakan kerja sama yang masih berkaitan dengan dunia teknologi.
 
-- **Facebook:** [North7](#)
-- **YouTube:** [North7](#)
+## Hubungi Kami
 
-Kami berusaha membalas dalam 1–2 hari kerja. Untuk pertanyaan seputar data pribadi,
-cantumkan subjek "Privasi Data" (lihat [Privacy Policy](/privacy-policy/)).
+**Email:** [northsevent012@gmail.com](mailto:northsevent012@gmail.com)
+
+Untuk koreksi atau masukan mengenai artikel, silakan sertakan judul atau tautan artikel yang dimaksud agar kami dapat memeriksanya dengan lebih mudah.
+
+Kami akan berusaha membaca dan merespons setiap pesan yang masuk sebaik mungkin.
+
+### Mau Ngobrol?
+
+Kalau ada sesuatu yang menurutmu menarik, jangan disimpan sendiri.
+
+Kirim saja ke North7. Siapa tahu, rasa penasaranmu bisa jadi bahan ngulik berikutnya.
+
+**North7 — Mari ngulik bareng.**
