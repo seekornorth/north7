@@ -106,7 +106,7 @@ header div.max-w-7xl {
 
 /* Footer site-wide */
 .nrt-site-footer { margin-top: 56px; border-top: 1px solid var(--nrt-border); }
-.nrt-foot { display: grid; grid-template-columns: 1.5fr 1fr 1fr; gap: 28px; padding: 36px 4px 28px; }
+.nrt-foot { display: grid; grid-template-columns: minmax(0, 1fr) auto auto; gap: 24px 48px; padding: 36px 4px 28px; }
 .nrt-foot-logo { font-size: 22px; font-weight: 900; margin-bottom: 8px; display: flex; align-items: center; gap: 8px; letter-spacing: -0.02em; }
 .nrt-foot-logo img { width: 46px; height: 46px; border-radius: 10px; }
 .nrt-foot-logo span::after { content: "."; color: var(--nrt-red); margin-inline-start: -0.1em; }
