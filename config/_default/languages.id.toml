@@ -9,7 +9,7 @@ isoCode = "id"
 rtl = false
 description = "Ngulik Linux, networking, open source, dan teknologi dari hal sederhana sampai yang bikin penasaran, lengkap dengan tutorial, panduan, tips, dan berita terbaru."
 dateFormat = ":date_long"
-copyright = "Copyright 2024 — North7. All rights reserved."
+copyright = "Copyright 2024 - North7. All rights reserved."
 
   [params.author]
   name = "North7"
