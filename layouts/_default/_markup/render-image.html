@@ -1,0 +1,97 @@
+{{- /* Override: gambar isi artikel otomatis WebP responsif. */ -}}
+{{- define "NrtRenderImageSimple" -}}
+  {{- $imgObj := .imgObj -}}
+  {{- $src := .src -}}
+  {{- $alt := .alt -}}
+  <img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="low"
+    alt="{{ $alt }}"
+    src="{{ $src }}"
+    {{ with $imgObj -}}
+      {{ with $imgObj.Width }}width="{{ . }}"{{ end }}
+      {{ with $imgObj.Height }}height="{{ . }}"{{ end }}
+    {{- end }}>
+{{- end -}}
+
+{{- define "NrtRenderImageResponsive" -}}
+  {{- $imgObj := .imgObj -}}
+  {{- $alt := .alt -}}
+  {{- $originalWidth := $imgObj.Width -}}
+
+  {{- $img800 := $imgObj -}}
+  {{- $img1280 := $imgObj -}}
+  {{- if gt $originalWidth 800 -}}
+    {{- with try ($imgObj.Resize "800x webp q75") -}}
+      {{- with .Value }}{{ $img800 = . }}{{ end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if gt $originalWidth 1280 -}}
+    {{- with try ($imgObj.Resize "1280x webp q75") -}}
+      {{- with .Value }}{{ $img1280 = . }}{{ end -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- $srcset := printf "%s 800w, %s 1280w" $img800.RelPermalink $img1280.RelPermalink -}}
+
+  <img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="auto"
+    alt="{{ $alt }}"
+    {{ with $imgObj.Width }}width="{{ . }}"{{ end }}
+    {{ with $imgObj.Height }}height="{{ . }}"{{ end }}
+    src="{{ $img800.RelPermalink }}"
+    srcset="{{ $srcset }}"
+    sizes="(min-width: 768px) 50vw, 65vw"
+    data-zoom-src="{{ $imgObj.RelPermalink }}">
+{{- end -}}
+
+{{- define "NrtRenderImageCaption" -}}
+  {{- with .caption -}}
+    <figcaption>{{ . | markdownify }}</figcaption>
+  {{- end -}}
+{{- end -}}
+
+{{- $disableImageOptimizationMD := .Page.Site.Params.disableImageOptimizationMD | default false -}}
+{{- $urlStr := .Destination | safeURL -}}
+{{- $url := urls.Parse $urlStr -}}
+{{- $altText := .Text -}}
+{{- $caption := .Title -}}
+{{- $isRemote := findRE "^(https?|data)" $url.Scheme -}}
+{{- $resource := "" -}}
+
+{{- if not $isRemote -}}
+  {{- $resource = or ($.Page.Resources.GetMatch $urlStr) (resources.Get $urlStr) -}}
+{{- end -}}
+
+
+<figure
+  {{- range $k, $v := .Attributes -}}
+    {{- if $v -}}
+      {{- printf " %s=%q" $k ($v | transform.HTMLEscape) | safeHTMLAttr -}}
+    {{- end -}}
+  {{- end -}}>
+  {{- if $isRemote -}}
+    {{- template "NrtRenderImageSimple" (dict "imgObj" "" "src" $urlStr "alt" $altText) -}}
+  {{- else if $resource -}}
+    {{- $isSVG := eq $resource.MediaType.SubType "svg" -}}
+    {{- $shouldOptimize := and (not $disableImageOptimizationMD) (not $isSVG) -}}
+    {{- if $shouldOptimize -}}
+      {{- template "NrtRenderImageResponsive" (dict "imgObj" $resource "alt" $altText) -}}
+    {{- else -}}
+      {{- if $isSVG -}}
+        {{- template "NrtRenderImageSimple" (dict "imgObj" "" "src" $resource.RelPermalink "alt" $altText) -}}
+      {{- else -}}
+        {{- template "NrtRenderImageSimple" (dict "imgObj" $resource "src" $resource.RelPermalink "alt" $altText) -}}
+      {{- end -}}
+    {{- end -}}
+  {{- else -}}
+    {{- template "NrtRenderImageSimple" (dict "imgObj" "" "src" $urlStr "alt" $altText) -}}
+  {{- end -}}
+
+  {{- template "NrtRenderImageCaption" (dict "caption" $caption) -}}
+</figure>

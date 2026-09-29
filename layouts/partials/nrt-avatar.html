@@ -1,0 +1,16 @@
+{{/* Avatar bulat yang konsisten di semua tempat.
+  Args: image (path di assets), alt, size (px, default 96). */}}
+{{ $s := .size | default 96 }}
+{{ with resources.Get .image }}
+  {{ if eq .MediaType.SubType "svg" }}
+    <img class="nozoom nrt-avatar" src="{{ .RelPermalink }}" alt="{{ $.alt }}" loading="lazy" decoding="async" width="{{ $s }}" height="{{ $s }}" />
+  {{ else }}
+    {{ with try (.Fill (printf "%dx%d Center q80" $s $s)) }}
+      {{ with .Value }}
+        <img class="nozoom nrt-avatar" src="{{ .RelPermalink }}" alt="{{ $.alt }}" loading="lazy" decoding="async" width="{{ .Width }}" height="{{ .Height }}" />
+      {{ end }}
+    {{ else }}
+      <img class="nozoom nrt-avatar" src="{{ .RelPermalink }}" alt="{{ $.alt }}" loading="lazy" decoding="async" />
+    {{ end }}
+  {{ end }}
+{{ end }}

@@ -16,16 +16,9 @@
   {{ if eq .Data.Plural "authors" }}
     {{ with index hugo.Data.authors .Data.Term }}
     <div class="nrt-author">
-      {{ with .image }}
-        {{ $av := resources.Get . }}
-        {{ with $av }}
-          {{ if eq .MediaType.SubType "svg" }}
-            <img class="nozoom" src="{{ .RelPermalink }}" alt="{{ $.Title }}" loading="lazy" decoding="async" />
-          {{ else }}
-            <img class="nozoom" src="{{ (.Fill "240x240 Center q80").RelPermalink }}" alt="{{ $.Title }}" loading="lazy" decoding="async" />
-          {{ end }}
-        {{ end }}
-      {{ end }}
+    {{ with .image }}
+      {{ partial "nrt-avatar.html" (dict "image" . "alt" $.Title "size" 110) }}
+    {{ end }}
       <div class="nrt-author-text">
         <strong>{{ .name }}</strong>
         {{ with .bio }}<p>{{ . }}</p>{{ end }}
