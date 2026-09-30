@@ -149,30 +149,31 @@ header div.max-w-7xl {
 .nrt-widget { background: var(--nrt-card); border: 1px solid var(--nrt-border); border-radius: 14px; padding: 18px; }
 .nrt-widget-title { margin: 0 0 14px; font-size: 15px; font-weight: 900; text-transform: uppercase; letter-spacing: .06em; padding-bottom: 10px; border-bottom: 2px solid var(--nrt-red); display: inline-block; }
 
-/* Trending */
-.nrt-trend { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 14px; }
-.nrt-trend li { display: flex; gap: 12px; align-items: flex-start; }
-.nrt-rank { font-size: 26px; font-weight: 900; color: transparent; -webkit-text-stroke: 1.5px var(--nrt-red); line-height: 1; min-width: 30px; }
-.nrt-trend li:first-child .nrt-rank { color: var(--nrt-red); -webkit-text-stroke: 0; }
-.nrt-trend-thumb { width: 84px; height: 60px; flex-shrink: 0; border-radius: 8px; overflow: hidden; display: block; background: #000; }
-.nrt-trend-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
-.nrt-trend-text { min-width: 0; display: flex; flex-direction: column; gap: 4px; }
-.nrt-trend-text a { color: var(--nrt-text); text-decoration: none; font-size: 14px; font-weight: 700; line-height: 1.35; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-.nrt-trend-text a:hover { color: var(--nrt-red); }
-.nrt-trend-text small { color: var(--nrt-muted); font-size: 12px; }
-
 /* Ad */
 .nrt-ad { text-align: center; }
 .nrt-ad small { color: var(--nrt-muted); font-size: 11px; text-transform: uppercase; letter-spacing: .08em; }
 .nrt-ad-box { margin-top: 8px; background: repeating-linear-gradient(45deg, #313244, #313244 12px, #1E1E2E 12px, #1E1E2E 24px); border: 1px dashed var(--nrt-border); border-radius: 10px; min-height: 250px; display: flex; align-items: center; justify-content: center; color: var(--nrt-muted); font-weight: 800; text-align: center; line-height: 1.6; }
 
-/* Categories */
-.nrt-cat-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; }
-.nrt-cat-list li { display: flex; justify-content: space-between; align-items: center; padding: 9px 0; border-bottom: 1px solid var(--nrt-border); }
-.nrt-cat-list li:last-child { border-bottom: none; }
-.nrt-cat-list a { color: var(--nrt-text); text-decoration: none; font-size: 14px; font-weight: 600; }
-.nrt-cat-list a:hover { color: var(--nrt-red); }
-.nrt-cat-list span { background: #45475A; color: var(--nrt-muted); font-size: 12px; font-weight: 800; padding: 2px 10px; border-radius: 999px; }
+/* Profil mini + penulis */
+.nrt-profile { display: flex; gap: 12px; align-items: flex-start; margin-bottom: 14px; }
+.nrt-profile img { width: 46px; height: 46px; border-radius: 12px; flex-shrink: 0; }
+.nrt-profile strong { font-size: 16px; font-weight: 900; }
+.nrt-profile p { margin: 4px 0 0; color: var(--nrt-muted); font-size: 13px; line-height: 1.5; }
+.nrt-side-authors { display: flex; flex-direction: column; gap: 8px; border-top: 1px solid var(--nrt-border); padding-top: 12px; }
+.nrt-side-author { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--nrt-text); font-size: 14px; font-weight: 700; }
+.nrt-side-author:hover { color: var(--nrt-red); }
+
+/* Bagikan website */
+.nrt-share { display: grid; grid-template-columns: repeat(auto-fit, minmax(44px, 1fr)); gap: 8px; }
+.nrt-share a, .nrt-share button.nrt-copy {
+  display: flex; align-items: center; justify-content: center;
+  height: 44px; border-radius: 10px; cursor: pointer;
+  background: #1E1E2E; border: 1px solid var(--nrt-border);
+  color: var(--nrt-red); text-decoration: none; padding: 0;
+}
+.nrt-share a:hover, .nrt-share button.nrt-copy:hover { border-color: var(--nrt-red); }
+.nrt-share svg { width: 20px; height: 20px; }
+.nrt-share button.nrt-copy.is-ok { border-color: #94E2D5; color: #94E2D5; }
 
 /* Tags */
 .nrt-tags { display: flex; flex-wrap: wrap; gap: 8px; }

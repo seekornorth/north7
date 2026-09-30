@@ -7,7 +7,7 @@
   <div class="nrt-card-body">
     {{ with $page.Params.categories }}
     <div class="nrt-cats">
-      {{ range first 3 . }}{{ $slug := ((replace . "/" "-") | urlize) }}<a href="{{ (printf "/kategori/%s/" $slug) | relLangURL }}">{{ . }}</a><span>, </span>{{ end }}
+      {{ range $i, $c := first 3 . }}{{ if $i }}<span>, </span>{{ end }}{{ $slug := ((replace $c "/" "-") | urlize) }}<a href="{{ (printf "/kategori/%s/" $slug) | relLangURL }}">{{ $c }}</a>{{ end }}
     </div>
     {{ end }}
     <h3 class="nrt-card-title"><a href="{{ $page.RelPermalink }}">{{ $page.Title }}</a></h3>
