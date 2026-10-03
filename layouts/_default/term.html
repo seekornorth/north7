@@ -1,5 +1,6 @@
 {{ define "main" }}
 {{ $paginator := .Paginate .Pages }}
+{{ $isAuthor := eq .Data.Plural "authors" }}
 <div class="nrt-wrap">
 
   <div class="nrt-page-head">
@@ -8,12 +9,12 @@
       {{ $taxBase := index (dict "categories" "kategori" "tags" "topik" "authors" "authors") .Data.Plural | default .Data.Plural }}
       <a href="{{ "/" | relLangURL }}">Beranda</a><span>/</span><a href="{{ (printf "/%s/" $taxBase) | relLangURL }}">{{ $taxLabel }}</a><span>/</span><em>{{ .Title }}</em>
     </div>
-    <h1>{{ .Title }}</h1>
+    <h1>{{ with .Params.metaTitle }}{{ . }}{{ else }}{{ $.Title }}{{ end }}</h1>
     <p>{{ len .Pages }} artikel</p>
   </div>
 
   {{/* Profil penulis di halaman author */}}
-  {{ if eq .Data.Plural "authors" }}
+  {{ if $isAuthor }}
     {{ with index hugo.Data.authors .Data.Term }}
     <div class="nrt-author">
     {{ with .image }}
@@ -26,12 +27,32 @@
         <div class="nrt-author-social">
           {{ range . }}{{ range $platform, $url := . }}<a href="{{ $url | safeURL }}" target="_blank" rel="noopener">{{ $platform | title }}</a>{{ end }}{{ end }}
         </div>
-        {{ end }}
-      </div>
-    </div>
     {{ end }}
+  </div>
   {{ end }}
 
+  {{ with .Content }}
+  <div class="nrt-author-story prose dark:prose-invert">
+    {{ . }}
+  </div>
+  {{ end }}
+  {{ end }}
+
+  {{ if $isAuthor }}
+  <div class="nrt-author-articles">
+    {{ if gt (len $paginator.Pages) 0 }}
+    <div class="nrt-section-head"><h2>Artikel oleh {{ .Title }}</h2><span class="nrt-head-line"></span></div>
+    <div class="nrt-grid">
+      {{ range $paginator.Pages }}
+        {{ partial "nrt-card.html" . }}
+      {{ end }}
+    </div>
+    {{ partial "pagination.html" . }}
+    {{ else }}
+    <p class="nrt-empty">Belum ada artikel di kategori ini.</p>
+    {{ end }}
+  </div>
+  {{ else }}
   <div class="nrt-layout">
     <div class="nrt-main">
       {{ if gt (len $paginator.Pages) 0 }}
@@ -47,6 +68,7 @@
     </div>
     {{ partial "nrt-sidebar.html" . }}
   </div>
+  {{ end }}
 
 </div>
 {{ end }}

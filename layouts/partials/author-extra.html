@@ -17,6 +17,14 @@
     {{ with .data.bio | markdownify }}
       <div class="text-sm text-neutral-700 dark:text-neutral-400">{{ . }}</div>
     {{ end }}
+    {{/* Deskripsi sama dengan meta description halaman author. */}}
+    {{ with .link }}
+      {{ with site.GetPage (urls.Parse .).Path }}
+        {{ with .Params.description }}
+          <div class="text-sm text-neutral-700 dark:text-neutral-400">{{ . }}</div>
+        {{ end }}
+      {{ end }}
+    {{ end }}
     <div class="text-2xl sm:text-lg">
       <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500 space-x-2">
         {{ range .data.social }}

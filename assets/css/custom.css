@@ -316,7 +316,7 @@ main article > section.flex { max-width: 1024px; margin-inline-start: auto; marg
 .nrt-static-body a { color: var(--nrt-red); }
 
 /* ---- Halaman list / kategori ---- */.nrt-page-head { margin: 22px 0 6px; padding-bottom: 16px; border-bottom: 2px solid transparent; border-image: linear-gradient(90deg, var(--nrt-red), transparent) 1; }
-.nrt-page-head h1 { margin: 8px 0 4px; font-size: clamp(28px, 4vw, 40px); font-weight: 900; letter-spacing: -0.02em; }
+.nrt-page-head h1 { margin: 8px 0 12px; font-size: clamp(26px, 3.5vw, 36px); font-weight: 900; letter-spacing: -0.02em; line-height: 1.25; text-wrap: balance; }
 .nrt-page-head p { margin: 0; color: var(--nrt-muted); font-size: 14px; }
 .nrt-crumb { display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--nrt-muted); }
 .nrt-crumb a { color: var(--nrt-muted); text-decoration: none; }
@@ -328,17 +328,23 @@ main article > section.flex { max-width: 1024px; margin-inline-start: auto; marg
 
 /* Profil penulis (halaman /authors/<nama>/) */
 .nrt-author {
-  display: flex; gap: 20px; align-items: center;
+  display: flex; flex-direction: column; align-items: center; text-align: center;
   background: var(--nrt-card); border: 1px solid var(--nrt-border);
-  border-radius: 16px; padding: 24px; margin-top: 22px;
+  border-radius: 16px; padding: 28px 24px; margin-top: 22px;
 }
 .nrt-avatar { border-radius: 999px; object-fit: cover; flex-shrink: 0; border: 2px solid var(--nrt-red); }
 .nrt-author-text strong { font-size: 22px; font-weight: 900; }
 .nrt-author-text p { margin: 6px 0 12px; color: var(--nrt-muted); font-size: 15px; }
-.nrt-author-social { display: flex; gap: 10px; flex-wrap: wrap; }
+.nrt-author-social { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; }
 .nrt-author-social a { font-size: 13px; font-weight: 700; color: var(--nrt-muted); border: 1px solid var(--nrt-border); padding: 5px 14px; border-radius: 999px; text-decoration: none; }
 .nrt-author-social a:hover { color: var(--nrt-ink); background: var(--nrt-red); border-color: var(--nrt-red); }
 @media (max-width: 600px) { .nrt-author { flex-direction: column; text-align: center; } }
+
+/* Cerita penulis (isi _index.md author) */
+.nrt-author-story.prose { max-width: 100%; font-size: 16px; text-align: justify; hyphens: auto; margin-top: 22px; }
+.nrt-author-articles { margin-top: 44px; }
+.nrt-author-story h2 { text-align: left; }
+.nrt-author-story a { color: var(--nrt-red); }
 
 /* Avatar bulat konsisten */
 .nrt-avatar { border-radius: 999px; object-fit: cover; flex-shrink: 0; }
