@@ -12,5 +12,7 @@ summary: ""
 description: ""
 # Tampilkan di hero slider homepage: featured: true (maksimal 3, terbaru duluan)
 # featured: true
+# Schema artikel berita (NewsArticle): schema: "news". Default: BlogPosting.
+# schema: "news"
 ---
 

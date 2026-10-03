@@ -11,7 +11,8 @@
     {{ with .Site.Params.keywords }}"keywords": {{ . }},{{ end }}
     "publisher" : {
       "@type": "Organization",
-      "name": "North7"
+      "name": "North7",
+      "url": {{ site.Home.Permalink }}
       {{ with resources.Get "img/logo.png" }},
       "logo": {
         "@type": "ImageObject",
@@ -64,8 +65,8 @@
   <script type="application/ld+json">
   [{
     "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    "articleSection": "{{ (site.GetPage .Section).Title | safeJS }}",
+    {{ if eq (.Params.schema | default "") "news" }}"@type": "NewsArticle",{{ else }}"@type": "BlogPosting",{{ end }}
+    "articleSection": "{{ with index .Params.categories 0 }}{{ . | safeJS }}{{ else }}{{ (site.GetPage .Section).Title | safeJS }}{{ end }}",
     "name": "{{ .Title | safeJS }}",
     "headline": "{{ .Title | safeJS }}",
     {{ with .Description }}"description": "{{ . | safeJS }}",
@@ -75,7 +76,15 @@
     "url" : {{ .Permalink }},
     "author" : {
       "@type": "Person",
-      "name": "{{ $author.name | safeJS }}"{{ with $author.image }},
+      "name": "{{ $author.name | safeJS }}",
+      {{- $authorURL := "" -}}
+      {{- with .Params.authors -}}
+        {{- with site.GetPage (printf "authors/%s" (index . 0 | lower)) -}}
+          {{- $authorURL = .Permalink -}}
+        {{- end -}}
+      {{- end -}}
+      {{ with $authorURL }}"url": {{ . }}{{ if or $author.image $sameAs }},{{ end }}{{ end }}
+      {{- with $author.image }}
       {{- $authorImageURL := "" }}
       {{- if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
         {{- $authorImageURL = . }}
@@ -91,7 +100,8 @@
     },
     "publisher" : {
       "@type": "Organization",
-      "name": "North7"
+      "name": "North7",
+      "url": {{ site.Home.Permalink }}
       {{ with resources.Get "img/logo.png" }},
       "logo": {
         "@type": "ImageObject",

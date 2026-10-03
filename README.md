@@ -174,7 +174,7 @@ Sidebar (di `layouts/partials/nrt-sidebar.html`, dipakai homepage + halaman list
 ## 9. SEO
 
 Sudah aktif: `robots.txt`, `sitemap.xml`, canonical, meta description (dari `summary`),
-JSON-LD (`WebSite`, `BlogPosting` + gambar + author Person + publisher Organization,
+JSON-LD (`WebSite`, `BlogPosting`/`NewsArticle` + gambar + author Person + publisher Organization,
 `BreadcrumbList`), OG/Twitter cards (gambar dari cover artikel,
 fallback `defaultSocialImage`), H1 tunggal per halaman, `lang="id"`, RSS.
 
