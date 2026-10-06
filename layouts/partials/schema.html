@@ -20,7 +20,7 @@
     }
   }
   </script>
-{{ else if and .IsPage (eq (.Params.schema | default "") "tech") }}
+{{ else if and .IsPage (eq (lower (.Params.schema | default "")) "tech") }}
   {{- $iso8601 := "2006-01-02T15:04:05-07:00" -}}
   {{- $techAuthor := .Site.Params.Author -}}
   {{- $techAuthorID := "" -}}
@@ -226,7 +226,7 @@
   <script type="application/ld+json">
   [{
     "@context": "https://schema.org",
-    {{ if eq (.Params.schema | default "") "news" }}"@type": "NewsArticle",{{ else }}"@type": "BlogPosting",{{ end }}
+    {{ if eq (lower (.Params.schema | default "")) "news" }}"@type": "NewsArticle",{{ else }}"@type": "BlogPosting",{{ end }}
     "articleSection": "{{ with index .Params.categories 0 }}{{ . | safeJS }}{{ else }}{{ (site.GetPage .Section).Title | safeJS }}{{ end }}",
     "name": "{{ .Title | safeJS }}",
     "headline": "{{ .Title | safeJS }}",
