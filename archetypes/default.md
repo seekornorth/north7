@@ -14,5 +14,10 @@ description: ""
 # featured: true
 # Schema artikel berita (NewsArticle): schema: "news". Default: BlogPosting.
 # schema: "news"
+# Schema artikel teknologi (TechArticle + about): schema: "tech".
+# schema: "tech"
+# about:
+#   - "@type": "Thing"
+#     name: "Contoh Topik"
 ---
 

@@ -1,5 +1,4 @@
-{{ if .IsHome -}}
-  <script type="application/ld+json">
+{{ if .IsHome -}}  <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "WebSite",
@@ -19,6 +18,168 @@
         "url": {{ .Permalink }}
       }{{ end }}
     }
+  }
+  </script>
+{{ else if and .IsPage (eq (.Params.schema | default "") "tech") }}
+  {{- $iso8601 := "2006-01-02T15:04:05-07:00" -}}
+  {{- $techAuthor := .Site.Params.Author -}}
+  {{- $techAuthorID := "" -}}
+  {{- with .Params.authors -}}
+    {{- $techAuthorID = index . 0 | lower -}}
+    {{- with index hugo.Data.authors $techAuthorID -}}
+      {{- $techAuthor = . -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $techAuthorPage := "" -}}
+  {{- with $techAuthorID -}}
+    {{- with site.GetPage (printf "authors/%s" .) -}}{{- $techAuthorPage = .Permalink -}}{{- end -}}
+  {{- end -}}
+  {{- $techCat := "" -}}
+  {{- with index .Params.categories 0 -}}{{ $techCat = . }}{{- end -}}
+  {{- $techCatPage := "" -}}
+  {{- with $techCat -}}
+    {{- with site.GetPage (printf "categories/%s" (lower .)) -}}{{- $techCatPage = .Permalink -}}{{- end -}}
+  {{- end -}}
+  {{- $techImg := "" -}}{{- $techImgW := 0 -}}{{- $techImgH := 0 -}}
+  {{- with partial "functions/feature-image.html" . -}}
+    {{- if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") -}}
+      {{- $techImg = . -}}
+    {{- else -}}
+      {{- with $.Resources.Get . -}}{{- $techImg = .Permalink -}}{{- $techImgW = .Width -}}{{- $techImgH = .Height -}}{{- end -}}
+      {{- if not $techImg -}}
+        {{- with resources.Get . -}}{{- $techImg = .Permalink -}}{{- $techImgW = .Width -}}{{- $techImgH = .Height -}}{{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if not $techImg -}}
+    {{- $techImages := .Resources.ByType "image" -}}
+    {{- range slice "*feature*" "*cover*" "*thumbnail*" -}}
+      {{- if not $techImg -}}
+        {{- with $techImages.GetMatch . -}}{{- $techImg = .Permalink -}}{{- $techImgW = .Width -}}{{- $techImgH = .Height -}}{{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if not $techImg -}}
+    {{- with site.Params.defaultSocialImage -}}
+      {{- with resources.Get . -}}{{- $techImg = .Permalink -}}{{- $techImgW = .Width -}}{{- $techImgH = .Height -}}{{- end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $techLogo := "" -}}
+  {{- with resources.Get "img/logo.png" -}}{{- $techLogo = .Permalink -}}{{- end -}}
+  {{- $techDesc := .Description | default (.Summary | plainify) -}}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "TechArticle",
+        "@id": {{ printf "%s#article" .Permalink }},
+        "url": {{ .Permalink }},
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": {{ .Permalink }}
+        },
+        "headline": "{{ .Title | safeJS }}",
+        "description": "{{ $techDesc | safeJS }}",
+        "image": {
+          "@type": "ImageObject",
+          "@id": {{ printf "%s#image" .Permalink }},
+          "url": {{ $techImg }},
+          "contentUrl": {{ $techImg }}{{ with $techImgW }},
+          "width": {{ . }}{{ end }}{{ with $techImgH }},
+          "height": {{ . }}{{ end }}
+        },
+        "author": {
+          "@type": "Person",
+          {{ with $techAuthorPage }}"@id": {{ printf "%sperson" $techAuthorPage }},{{ end }}
+          "name": "{{ $techAuthor.name | safeJS }}",
+          {{ with $techAuthorPage }}"url": {{ . }},{{ end }}
+          {{- $techSameAs := slice -}}
+          {{- range (or $techAuthor.social $techAuthor.links) -}}
+            {{- range $platform, $url := . -}}
+              {{- if not (strings.HasPrefix $url "mailto:") -}}
+                {{- $techSameAs = $techSameAs | append $url -}}
+              {{- end -}}
+            {{- end -}}
+          {{- end -}}
+          {{- with $techSameAs }}"sameAs": [{{ range $i, $u := . }}{{ if $i }}, {{ end }}{{ $u }}{{ end }}]{{ end }}
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": {{ printf "%s#organization" site.Home.Permalink }},
+          "name": "North7",
+          "url": {{ site.Home.Permalink }},
+          "logo": {
+            "@type": "ImageObject",
+            "url": {{ $techLogo }}
+          }
+        },
+        {{ with .PublishDate }}"datePublished": "{{ .Format $iso8601 }}",{{ end }}
+        {{ with .Lastmod }}"dateModified": "{{ .Format $iso8601 }}",{{ end }}
+        "articleSection": "{{ $techCat | safeJS }}",
+        {{ with .Site.Language.Locale }}"inLanguage": "{{ . }}",{{ end }}
+        {{ if .Keywords }}
+        {{ with .Keywords }}"keywords": {{ . }},{{ end }}
+        {{ else }}
+        {{ with .Params.tags }}"keywords": {{ . }},{{ end }}
+        {{ end }}
+        {{ with .Params.about }}"about": {{ . }},{{ end }}
+        "isPartOf": {
+          "@type": "WebSite",
+          "@id": {{ printf "%s#website" site.Home.Permalink }},
+          "name": "North7",
+          "url": {{ site.Home.Permalink }}
+        },
+        "breadcrumb": {
+          "@id": {{ printf "%s#breadcrumb" .Permalink }}
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": {{ printf "%s#breadcrumb" .Permalink }},
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Beranda",
+            "item": {{ site.Home.Permalink }}
+          }{{ with $techCat }},
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "{{ . | safeJS }}",
+            "item": {{ $techCatPage }}
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "{{ $.Title | safeJS }}",
+            "item": {{ $.Permalink }}
+          }{{ end }}
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": {{ printf "%s#website" site.Home.Permalink }},
+        "url": {{ site.Home.Permalink }},
+        "name": "North7",
+        "description": "{{ .Site.Params.description | safeJS }}",
+        "publisher": {
+          "@id": {{ printf "%s#organization" site.Home.Permalink }}
+        },
+        {{ with .Site.Language.Locale }}"inLanguage": "{{ . }}"{{ end }}
+      },
+      {
+        "@type": "Organization",
+        "@id": {{ printf "%s#organization" site.Home.Permalink }},
+        "name": "North7",
+        "url": {{ site.Home.Permalink }},
+        "logo": {
+          "@type": "ImageObject",
+          "url": {{ $techLogo }}
+        }
+      }
+    ]
   }
   </script>
 {{ else }}
