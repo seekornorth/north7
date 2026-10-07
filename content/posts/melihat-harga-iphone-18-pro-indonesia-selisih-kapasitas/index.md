@@ -1,31 +1,16 @@
-Judul:
-Melihat Harga iPhone 18 Pro di Indonesia, Selisih Tiap Kapasitasnya Ternyata Lumayan Jauh
-
-Slug:
-melihat-harga-iphone-18-pro-indonesia-selisih-kapasitas
-
-Meta Description:
-Pre-order iPhone 18 Pro dan 18 Pro Max di Indonesia resmi dibuka. mengecek daftar harganya dan menemukan selisih unik tiap naik kapasitas memori.
-
-Keyword Utama:
-harga iPhone 18 Pro Indonesia
-
-Tag:
-Apple, iPhone 18 Pro, iPhone 18 Pro Max, Smartphone, Hardware
-
-Kategori:
-Teknologi
-
-Penulis:
-Tri Wulandari
-
-Schema:
-news
-
-Gambar Utama:
-1.png
-
-Artikel:
+---
+title: "Melihat Harga iPhone 18 Pro di Indonesia, Selisih Tiap Kapasitasnya Ternyata Lumayan Jauh"
+slug: "melihat-harga-iphone-18-pro-indonesia-selisih-kapasitas"
+summary: "Pre-order iPhone 18 Pro dan 18 Pro Max di Indonesia resmi dibuka. mengecek daftar harganya dan menemukan selisih unik tiap naik kapasitas memori."
+description: "Pre-order iPhone 18 Pro dan 18 Pro Max di Indonesia resmi dibuka. mengecek daftar harganya dan menemukan selisih unik tiap naik kapasitas memori."
+categories: ["Teknologi"]
+tags: ["apple", "iphone-18-pro", "iphone-18-pro-max", "smartphone", "hardware"]
+keywords: ["harga iPhone 18 Pro Indonesia"]
+authors: ["tri-wulandari"]
+schema: "news"
+date: 2026-10-07
+draft: false
+---
 
 Pagi ini saya iseng mengecek situs beberapa distributor resmi Apple di Indonesia. Mengingat hari ini, 7 Oktober 2026, memang jadwal resminya keran pre-order iPhone 18 Pro dan 18 Pro Max dibuka.
 
@@ -36,7 +21,9 @@ Dari yang saya baca, Apple langsung membawa keempat pilihan kapasitas penyimpana
 Tapi, saat melihat-lihat daftar harganya, ada satu bagian yang bikin saya sedikit heran. Bukan soal perangkat dasarnya, melainkan biaya yang harus kita bayar kalau ingin kapasitas penyimpanan yang lebih lega.
 
 ## Biaya Naik Memori yang Terasa Jauh
-{gambar dalam artikel dengan allintitle Harga iPhone 18 Pro gambar 2.png}
+
+![Harga iPhone 18 Pro](2.png)
+
 Mari kita lihat iPhone 18 Pro versi biasa dulu. Untuk ukuran paling bawah, yaitu 256 GB, harganya dipatok di angka Rp27.499.000.
 
 Lalu, kalau kita merasa 256 GB itu bakal cepat penuh dan ingin naik ke 512 GB (seharga Rp32.999.000), kita butuh tambahan dana sekitar Rp5,5 juta. Sampai di sini mungkin masih terdengar wajar untuk ukuran produk Apple.
@@ -54,7 +41,9 @@ Biar lebih mudah membayangkannya, ini rincian harga iPhone 18 Pro:
 - iPhone 18 Pro 2 TB: Rp56.999.000
 
 ## Selisih Konstan dengan Versi Pro Max
-{gambar dalam artikel dengan allintitle Harga iPhone 18 Pro Max gambar 3.png}
+
+![Harga iPhone 18 Pro Max](3.png)
+
 Setelah melihat-lihat versi Pro, saya lanjut mengecek harga iPhone 18 Pro Max.
 
 Ternyata polanya jauh lebih sederhana untuk ditebak. Kalau diperhatikan, Apple mematok selisih angka yang sangat konstan antara iPhone 18 Pro dan Pro Max. Untuk kapasitas memori yang sama persis, selisihnya selalu pas di angka Rp2 juta.
@@ -75,5 +64,4 @@ Masa pemesanan lewat situs resmi dan distributor ini sudah berjalan mulai hari i
 
 Melihat selisih harga memori yang lumayan melompat tadi, sepertinya kita memang harus pintar-pintar memperkirakan kebutuhan memori jangka panjang sebelum memutuskan mau checkout varian yang mana.
 
-Sumber:
-{Ibox link ke https://ibox.co.id/product/iphone-18-pro-s9600006453}
+Sumber: [Ibox](https://ibox.co.id/product/iphone-18-pro-s9600006453)
