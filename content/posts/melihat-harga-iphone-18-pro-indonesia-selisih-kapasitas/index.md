@@ -8,7 +8,7 @@ tags: ["apple", "iphone-18-pro", "iphone-18-pro-max", "smartphone", "hardware"]
 keywords: ["harga iPhone 18 Pro Indonesia"]
 authors: ["tri-wulandari"]
 schema: "news"
-date: 2026-10-07
+date: 2026-10-07T10:00:00+07:00
 draft: false
 ---
 
