@@ -9,6 +9,7 @@ keywords: ["cara cek keamanan link"]
 authors: ["tri-wulandari"]
 date: 2026-10-03T14:49:00+07:00
 draft: false
+featured: true
 ---
 
 Pernah dapat pesan di WhatsApp, SMS, atau email yang isinya sebuah link, tapi rasanya agak ragu untuk membukanya?

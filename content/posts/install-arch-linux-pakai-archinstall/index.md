@@ -10,6 +10,7 @@ authors: ["mifthakhul-huda"]
 schema: "tech"
 date: 2026-10-06
 draft: false
+featured: true
 about:
   - "@type": "Thing"
     name: "Arch Linux"
