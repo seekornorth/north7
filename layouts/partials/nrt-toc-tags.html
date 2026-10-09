@@ -1,0 +1,12 @@
+{{/* Tag artikel di bawah TOC (sidebar kanan), gaya sama dengan .nrt-tags homepage.
+  Hanya tampil di halaman artikel yang punya tags. */}}
+{{ with .Params.tags }}
+  <div class="nrt-toc-tags" aria-label="Topik artikel">
+    <h3 class="nrt-widget-title">Topik</h3>
+    <div class="nrt-tags">
+      {{ range . }}
+        <a href="{{ (printf "/topik/%s/" (. | urlize)) | relLangURL }}">#{{ . }}</a>
+      {{ end }}
+    </div>
+  </div>
+{{ end }}

@@ -1,0 +1,76 @@
+{{/* Sisipkan "Baca juga" otomatis di tengah artikel (format blockquote ala editorial).
+  Dipakai layouts/_default/single.html (override) sebagai pengganti {{ .Content }}.
+  Cara kerja:
+  1. Hitung dulu daftar artikel yang akan tampil di related bawah artikel
+     (partials/related.html: Related | first relatedContentLimit, fallback terbaru).
+  2. Kandidat inline = hasil Hugo Related MINUS daftar bawah tadi, ambil 1
+     (inArticleRelatedLimit) — jadi link di tengah selalu beda dari related bawah.
+  3. Kalau kandidat kosong, fallback: artikel terbaru yang juga tidak ada di bawah.
+  4. Pecah .Content pada penutup `</p>` lalu sisipkan blockquote setelah paragraf
+     tengah (aman utk code block karena < > di <code> sudah di-escape).
+  5. Skip untuk non-posts, artikel pendek, atau front matter `readAlso: false`.
+  Konfigurasi (params.toml):
+    [article] inArticleRelatedLimit (default 1), inArticleRelatedMinParagraphs (default 3),
+    inArticleRelatedTitle (default "Baca juga")
+  Front matter: readAlso: false | readAlsoAfter: N
+*/}}
+{{ $enabled := .Params.readAlso | default true }}
+{{ $isPost := eq .Section "posts" }}
+
+{{ if and $enabled $isPost }}
+  {{ $limit := site.Params.article.inArticleRelatedLimit | default 1 }}
+  {{ $allRelated := .Site.RegularPages.Related . }}
+
+  {{/* replikasi daftar related bawah supaya bisa dikecualikan */}}
+  {{ $bottomLimit := site.Params.article.relatedContentLimit | default 4 }}
+  {{ $bottom := first $bottomLimit $allRelated }}
+  {{ if lt (len $bottom) 1 }}
+    {{ $bottom = first $bottomLimit (where (sort (where site.RegularPages "Section" "posts") "Date" "desc") "RelPermalink" "!=" .RelPermalink) }}
+  {{ end }}
+  {{ $excl := slice .RelPermalink }}
+  {{ range $bottom }}{{ $excl = $excl | append .RelPermalink }}{{ end }}
+
+  {{ $cands := where $allRelated "RelPermalink" "not in" $excl }}
+  {{ if lt (len $cands) 1 }}
+    {{ $latest := first (add $bottomLimit 1) (where (sort (where site.RegularPages "Section" "posts") "Date" "desc") "RelPermalink" "!=" .RelPermalink) }}
+    {{ $cands = where $latest "RelPermalink" "not in" $excl }}
+  {{ end }}
+
+  {{ $related := first $limit $cands }}
+
+  {{ if ge (len $related) 1 }}
+    {{ $parts := split .Content "</p>" }}
+    {{ $paraCount := sub (len $parts) 1 }}
+    {{ $min := 3 }}
+    {{ with site.Params.article.inArticleRelatedMinParagraphs }}{{ $min = . }}{{ end }}
+    {{ $need := add (mul $min 2) 1 }}
+    {{ if ge $paraCount $need }}
+      {{/* posisi sisip p (1-based, setelah paragraf ke-p) */}}
+      {{ $p := div (add $paraCount 1) 2 }}
+      {{ with .Params.readAlsoAfter }}{{ $p = . }}{{ end }}
+      {{ $maxP := sub $paraCount $min }}
+      {{ if lt $p $min }}{{ $p = $min }}{{ end }}
+      {{ if gt $p $maxP }}{{ $p = $maxP }}{{ end }}
+
+      {{ $box := partial "nrt-read-also-box.html" (dict "page" . "related" $related) }}
+      {{ $buf := slice }}
+      {{ range $i, $frag := $parts }}
+        {{ if lt $i $paraCount }}
+          {{ $buf = $buf | append (printf "%s</p>" $frag) }}
+        {{ else }}
+          {{ $buf = $buf | append $frag }}
+        {{ end }}
+        {{ if and (lt $i $paraCount) (eq (add $i 1) $p) }}
+          {{ $buf = $buf | append $box }}
+        {{ end }}
+      {{ end }}
+      {{ delimit $buf "" | safeHTML }}
+    {{ else }}
+      {{ .Content }}
+    {{ end }}
+  {{ else }}
+    {{ .Content }}
+  {{ end }}
+{{ else }}
+  {{ .Content }}
+{{ end }}

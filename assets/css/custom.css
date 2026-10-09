@@ -104,6 +104,34 @@ header div.max-w-7xl {
 .nrt-news-form button:hover { background: var(--nrt-red-dark); }
 @media (max-width: 600px) { .nrt-news-form { flex-direction: column; } }
 
+/* Widget Newsletter (Google Preferred Sources) di sidebar */
+.nrt-news {
+  text-align: center; padding: 20px 16px 18px; border-radius: 14px;
+  background: radial-gradient(220px 90px at 50% 0%, rgba(203,166,247,.15), transparent), var(--nrt-card);
+  border: 1px solid var(--nrt-border);
+}
+.nrt-news-icon { display: flex; justify-content: center; margin-bottom: 8px; }
+.nrt-news-icon svg { width: 26px; height: 26px; color: var(--nrt-red); }
+.nrt-news-title { margin: 0 0 6px; font-size: 15px; font-weight: 800; color: var(--nrt-text); }
+.nrt-news-desc { margin: 0 0 12px; font-size: 12.5px; line-height: 1.5; color: var(--nrt-muted); }
+.nrt-news-btn {
+  display: inline-block; background: var(--nrt-red); color: var(--nrt-ink);
+  font-size: 13px; font-weight: 700; padding: 9px 16px; border-radius: 8px;
+  text-decoration: none; transition: background .2s ease;
+}
+.nrt-news-btn:hover { background: var(--nrt-red-dark); }
+
+/* Topik artikel: di bawah TOC (desktop), di bawah isi artikel (mobile) */
+.nrt-toc-tags { margin-top: 30px; padding-inline-start: 20px; }
+@media (min-width: 1024px) {
+  .nrt-toc-tags { padding-inline-start: 0; margin-inline-start: -20px; }
+}
+.nrt-toc-tags .nrt-widget-title { font-size: 13px; margin: 0 0 10px; padding-bottom: 8px; }
+.nrt-toc-tags .nrt-tags { gap: 6px; }
+.nrt-toc-tags .nrt-tags a { font-size: 11px; padding: 3px 9px; }
+/* Versi mobile di dalam .article-content: sejajar penuh dengan teks artikel */
+.article-content .nrt-toc-tags { padding-inline-start: 0; margin-block: 28px 0; }
+
 /* Footer site-wide */
 .nrt-site-footer { margin-top: 56px; border-top: 1px solid var(--nrt-border); }
 .nrt-foot { display: grid; grid-template-columns: auto auto auto; gap: 24px 64px; justify-content: start; padding: 36px 4px 28px; }
@@ -366,3 +394,10 @@ html:not(.dark) .nrt-wrap { color: #18181b; }
 html:not(.dark) .nrt-card { background: #fff; }
 html:not(.dark) .nrt-card-title a { color: #18181b; }
 html:not(.dark) .nrt-slide-content { color: #fff; }
+
+/* ---- "Baca juga" inline ala editorial (blockquote sederhana di tengah artikel) ---- */
+.nrt-readalso { margin: 24px 0; padding-left: 16px; border-left: 3px solid var(--nrt-red); }
+.nrt-readalso p { margin: 0; font-size: 16px; }
+.nrt-readalso p + p { margin-top: 6px; }
+.nrt-readalso a { color: var(--nrt-red); text-decoration: none; font-weight: 600; }
+.nrt-readalso a:hover { color: var(--nrt-red-dark); text-decoration: underline; }

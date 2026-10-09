@@ -57,16 +57,14 @@
   </div>
   -->
 
-  <!-- Topik -->
-  {{ with site.Taxonomies.tags }}
+  <!-- Newsletter: Google Preferred Sources -->
   <div class="nrt-widget">
-    <h3 class="nrt-widget-title">Topik Populer</h3>
-    <div class="nrt-tags">
-      {{ range $name, $tax := . }}
-      <a href="{{ (printf "/topik/%s/" ($name | urlize)) | relLangURL }}">#{{ $name }}</a>
-      {{ end }}
+    <div class="nrt-news">
+      <div class="nrt-news-icon">{{ partial "icon.html" "email" }}</div>
+      <h3 class="nrt-news-title">Ikuti North7 di Google</h3>
+      <p class="nrt-news-desc">Jadikan North7 sumber pilihanmu di Google Search &amp; News.</p>
+      <a class="nrt-news-btn" href="https://www.google.com/preferences/source?q=north7.biz.id" target="_blank" rel="noopener">Preferred Sources</a>
     </div>
   </div>
-  {{ end }}
 
 </aside>
