@@ -1,18 +1,17 @@
 <ol class="text-sm text-neutral-500 dark:text-neutral-400 print:hidden">
   {{ if and .IsPage (eq .Section "posts") }}
-    {{/* Breadcrumb artikel: Home (hidden) / Tag 1 / Tag 2 ... / Judul (hidden) */}}
-    <li class="hidden">
-      <a class="hover:underline decoration-neutral-300 dark:underline-neutral-600" href="{{ .Site.Home.RelPermalink }}">{{ .Site.Home.Title }}</a><span class="px-1 text-primary-500">/</span>
+    {{/* Breadcrumb artikel: Beranda / Kategori pertama / Tag pertama / Judul (hidden) */}}
+    <li class="inline">
+      <a class="hover:underline decoration-neutral-300 dark:underline-neutral-600" href="{{ .Site.Home.RelPermalink }}">Beranda</a><span class="px-1 text-primary-500">/</span>
     </li>
     {{ $crumbs := slice }}
+    {{ with .Params.categories }}
+      {{ $first := index . 0 }}
+      {{ $crumbs = $crumbs | append (dict "name" $first "url" (printf "/kategori/%s/" ((replace $first "/" "-") | urlize))) }}
+    {{ end }}
     {{ with .Params.tags }}
-      {{ range first 3 . }}
-        {{ $crumbs = $crumbs | append (dict "name" . "url" (printf "/topik/%s/" (. | urlize))) }}
-      {{ end }}
-    {{ else }}
-      {{ range first 3 (.Params.categories | default slice) }}
-        {{ $crumbs = $crumbs | append (dict "name" . "url" (printf "/kategori/%s/" ((replace . "/" "-") | urlize))) }}
-      {{ end }}
+      {{ $first := index . 0 }}
+      {{ $crumbs = $crumbs | append (dict "name" $first "url" (printf "/topik/%s/" ($first | urlize))) }}
     {{ end }}
     {{ range $crumbs }}
       <li class="inline">

@@ -143,19 +143,25 @@
             "position": 1,
             "name": "Beranda",
             "item": {{ site.Home.Permalink }}
-          }{{ with $techCat }},
+          }{{ $bpos := 1 }}{{ with $techCat }}{{ $bpos = add $bpos 1 }},
           {
             "@type": "ListItem",
-            "position": 2,
+            "position": {{ $bpos }},
             "name": "{{ . | safeJS }}",
-            "item": {{ $techCatPage }}
-          },
+            "item": {{ with $techCatPage }}{{ . }}{{ else }}{{ printf "%skategori/%s/" site.Home.Permalink ((replace . "/" "-") | urlize) }}{{ end }}
+          }{{ end }}{{ with index $.Params.tags 0 }}{{ $bpos = add $bpos 1 }},
           {
             "@type": "ListItem",
-            "position": 3,
+            "position": {{ $bpos }},
+            "name": "{{ . | safeJS }}",
+            "item": {{ printf "%stopik/%s/" site.Home.Permalink (. | urlize) }}
+          }{{ end }}{{ $bpos = add $bpos 1 }},
+          {
+            "@type": "ListItem",
+            "position": {{ $bpos }},
             "name": "{{ $.Title | safeJS }}",
             "item": {{ $.Permalink }}
-          }{{ end }}
+          }
         ]
       },
       {
@@ -281,28 +287,33 @@
     {{ end }}
     "mainEntityOfPage": {{ .Permalink }},
     "wordCount": {{ .WordCount | int }}
-  }{{ if site.Params.enableStructuredBreadcrumbs | default false }},
+  }{{ if site.Params.enableStructuredBreadcrumbs | default false }}{{ $bpos := 0 }},
   {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      {{- $position := 0 -}}
-      {{- range .Ancestors -}}
-        {{- if not .IsHome -}}
-          {{- $position = add $position 1 -}}
-          {
-            "@type": "ListItem",
-            "position": {{ $position }},
-            "name": "{{ .Title }}",
-            "item": {{ .Permalink }}
-          },
-        {{- end -}}
-      {{- end -}}
-      {{- $position = add $position 1 -}}
       {
         "@type": "ListItem",
-        "position": {{ $position }},
-        "name": "{{ .Title }}",
+        "position": 1,
+        "name": "Beranda",
+        "item": {{ site.Home.Permalink }}
+      }{{ with index .Params.categories 0 }}{{ $bpos = 2 }},
+      {
+        "@type": "ListItem",
+        "position": {{ $bpos }},
+        "name": "{{ . | safeJS }}",
+        "item": {{ printf "%skategori/%s/" site.Home.Permalink ((replace . "/" "-") | urlize) }}
+      }{{ end }}{{ with index .Params.tags 0 }}{{ $bpos = add $bpos 1 }},
+      {
+        "@type": "ListItem",
+        "position": {{ $bpos }},
+        "name": "{{ . | safeJS }}",
+        "item": {{ printf "%stopik/%s/" site.Home.Permalink (. | urlize) }}
+      }{{ end }}{{ $bpos = add $bpos 1 }},
+      {
+        "@type": "ListItem",
+        "position": {{ $bpos }},
+        "name": "{{ .Title | safeJS }}",
         "item": {{ .Permalink }}
       }
     ]
