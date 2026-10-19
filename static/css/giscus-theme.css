@@ -1,0 +1,212 @@
+/*!
+ * North7 Custom Giscus Theme (Catppuccin Mocha + Mauve Accent)
+ * Matches north7.biz.id Blowfish Theme
+ */
+
+main {
+  /* Syntax Highlighting (Catppuccin Mocha) */
+  --color-prettylights-syntax-comment: #7f849c;
+  --color-prettylights-syntax-constant: #89b4fa;
+  --color-prettylights-syntax-entity: #89b4fa;
+  --color-prettylights-syntax-storage-modifier-import: #fab387;
+  --color-prettylights-syntax-entity-tag: #94e2d5;
+  --color-prettylights-syntax-keyword: #f5c2e7;
+  --color-prettylights-syntax-string: #a6e3a1;
+  --color-prettylights-syntax-variable: #fab387;
+  --color-prettylights-syntax-invalid-illegal-text: #f38ba8;
+  --color-prettylights-syntax-invalid-illegal-bg: rgb(243 139 168 / 15%);
+  --color-prettylights-syntax-markup-heading: #94e2d5;
+  --color-prettylights-syntax-markup-italic: #f9e2af;
+  --color-prettylights-syntax-markup-bold: #f9e2af;
+  --color-prettylights-syntax-markup-deleted-text: #cdd6f4;
+  --color-prettylights-syntax-markup-deleted-bg: rgb(243 139 168 / 30%);
+  --color-prettylights-syntax-markup-inserted-text: #cdd6f4;
+  --color-prettylights-syntax-markup-inserted-bg: rgb(166 227 161 / 30%);
+  --color-prettylights-syntax-markup-changed-text: #cdd6f4;
+  --color-prettylights-syntax-markup-changed-bg: rgb(249 226 175 / 30%);
+  --color-prettylights-syntax-markup-ignored-text: #cdd6f4;
+
+  /* Standard Buttons */
+  --color-btn-text: #cdd6f4;
+  --color-btn-bg: #1e1e2e;
+  --color-btn-border: #313244;
+  --color-btn-shadow: 0 0 transparent;
+  --color-btn-inset-shadow: 0 0 transparent;
+  --color-btn-hover-bg: #313244;
+  --color-btn-hover-border: #45475a;
+  --color-btn-active-bg: #45475a;
+  --color-btn-selected-bg: #45475a;
+  --color-btn-counter-bg: #313244;
+  --color-btn-outline-text: #cba6f7;
+
+  /* Primary Button (Mauve #cba6f7 - matching North7 brand primary) */
+  --color-btn-primary-text: #11111b;
+  --color-btn-primary-bg: #cba6f7;
+  --color-btn-primary-border: transparent;
+  --color-btn-primary-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --color-btn-primary-inset-shadow: 0 0 transparent;
+  --color-btn-primary-hover-bg: #d7bdf9;
+  --color-btn-primary-hover-border: transparent;
+  --color-btn-primary-selected-bg: #be91f0;
+  --color-btn-primary-selected-shadow: 0 0 transparent;
+  --color-btn-primary-disabled-text: #6c7086;
+  --color-btn-primary-disabled-bg: rgb(203 166 247 / 25%);
+  --color-btn-primary-disabled-border: transparent;
+
+  /* Controls & Lists */
+  --color-action-list-item-default-hover-bg: #313244;
+  --color-segmented-control-bg: #181825;
+  --color-segmented-control-button-bg: #1e1e2e;
+  --color-segmented-control-button-selected-border: #45475a;
+
+  /* Typography / Foreground */
+  --color-fg-default: #cdd6f4;
+  --color-fg-muted: #a6adc8;
+  --color-fg-subtle: #7f849c;
+
+  /* Canvas / Backgrounds (Transparent to seamlessly blend into North7 posts) */
+  --color-canvas-default: transparent;
+  --color-canvas-overlay: #1e1e2e;
+  --color-canvas-inset: #11111b;
+  --color-canvas-subtle: #181825;
+
+  /* Borders */
+  --color-border-default: #313244;
+  --color-border-muted: #262738;
+  --color-neutral-muted: rgb(108 112 134 / 20%);
+  --color-neutral-subtle: rgb(108 112 134 / 10%);
+
+  /* Brand Accents */
+  --color-accent-fg: #cba6f7;
+  --color-accent-emphasis: #cba6f7;
+  --color-accent-muted: rgb(203 166 247 / 40%);
+  --color-accent-subtle: rgb(203 166 247 / 15%);
+
+  /* Status Colors */
+  --color-success-fg: #a6e3a1;
+  --color-attention-fg: #fab387;
+  --color-attention-muted: #cba6f7;
+  --color-attention-subtle: rgb(203 166 247 / 15%);
+  --color-danger-fg: #f38ba8;
+  --color-danger-muted: rgb(243 139 168 / 40%);
+  --color-danger-subtle: rgb(243 139 168 / 20%);
+
+  /* Social Reactions */
+  --color-scale-gray-7: #313244;
+  --color-scale-blue-8: #cba6f7;
+  --color-social-reaction-bg-hover: #313244;
+  --color-social-reaction-bg-reacted-hover: rgb(203 166 247 / 20%);
+}
+
+/* Custom Component Polish for North7 */
+.gsc-comment-box {
+  background-color: #181825 !important;
+  border: 1px solid #313244 !important;
+  border-radius: 14px !important;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.gsc-comment-box-textarea {
+  background-color: #1e1e2e !important;
+  color: #cdd6f4 !important;
+  border: 1px solid #313244 !important;
+  border-radius: 10px !important;
+  font-family: inherit !important;
+  font-size: 15px !important;
+}
+
+.gsc-comment-box-textarea:focus {
+  border-color: #cba6f7 !important;
+  box-shadow: 0 0 0 2px rgb(203 166 247 / 25%) !important;
+  outline: none !important;
+}
+
+.gsc-comment-box-textarea::placeholder {
+  color: #6c7086 !important;
+}
+
+.gsc-comment {
+  background-color: #181825 !important;
+  border: 1px solid #313244 !important;
+  border-radius: 14px !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  margin-bottom: 1.25rem;
+}
+
+.gsc-comment-header {
+  background-color: #1e1e2e !important;
+  border-top-left-radius: 14px !important;
+  border-top-right-radius: 14px !important;
+  border-bottom: 1px solid #313244 !important;
+  padding: 10px 16px !important;
+}
+
+.gsc-comment-content {
+  font-family: inherit !important;
+  font-size: 15px !important;
+  line-height: 1.6 !important;
+  color: #cdd6f4 !important;
+  padding: 16px !important;
+}
+
+.gsc-reply {
+  background-color: #181825 !important;
+  border: 1px solid #313244 !important;
+  border-radius: 10px !important;
+}
+
+.gsc-reply-box {
+  background-color: #1e1e2e !important;
+  border: 1px solid #313244 !important;
+  border-radius: 10px !important;
+}
+
+.gsc-reactions-popover {
+  background-color: #1e1e2e !important;
+  border: 1px solid #45475a !important;
+  border-radius: 10px !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4) !important;
+}
+
+.gsc-comment-reaction {
+  border-radius: 8px !important;
+}
+
+.gsc-comment-reaction:hover {
+  background-color: #313244 !important;
+}
+
+.gsc-comment-reaction.has-reacted {
+  background-color: rgb(203 166 247 / 15%) !important;
+  border-color: #cba6f7 !important;
+}
+
+/* Code blocks inside comments */
+.gsc-comment-content pre {
+  background-color: #11111b !important;
+  border: 1px solid #313244 !important;
+  border-radius: 8px !important;
+  padding: 12px !important;
+}
+
+.gsc-comment-content code {
+  background-color: #11111b !important;
+  color: #f5c2e7 !important;
+  border-radius: 4px !important;
+  padding: 2px 6px !important;
+  font-size: 0.9em !important;
+}
+
+/* Pagination & Links */
+.gsc-pagination-button {
+  background-color: #1e1e2e !important;
+  border: 1px solid #313244 !important;
+  color: #cdd6f4 !important;
+  border-radius: 8px !important;
+}
+
+.gsc-pagination-button:hover {
+  background-color: #313244 !important;
+  border-color: #45475a !important;
+}
