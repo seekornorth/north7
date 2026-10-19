@@ -75,7 +75,7 @@ showRelatedContent = true
 showCategories = true
 showTags = true
 relatedContentLimit = 3
-showComments = false
+showComments = true
 
 [list]
 layoutBackgroundHeaderSpace = false
