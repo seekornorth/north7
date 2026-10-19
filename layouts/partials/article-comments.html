@@ -1,6 +1,6 @@
 {{ if .Params.showComments | default (site.Params.article.showComments | default false) }}
   {{ if templates.Exists "partials/comments.html" }}
-    <div class="w-full max-w-prose my-10 print:hidden">
+    <div class="w-full my-10 print:hidden">
       {{ partial "comments.html" . }}
     </div>
   {{ end }}
