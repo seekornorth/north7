@@ -84,6 +84,7 @@
         {{ end }}
         {{ partial "series/series-closed.html" . }}
         {{ partial "sharing-links.html" . }}
+        {{ partial "article-comments.html" . }}
         {{ partial "related.html" . }}
       </div>
     </section>
@@ -91,7 +92,6 @@
     {{/* Footer */}}
     <footer class="pt-8 max-w-prose print:hidden">
       {{ partial "article-pagination.html" . }}
-      {{ partial "article-comments.html" . }}
     </footer>
   </article>
 {{ end }}
