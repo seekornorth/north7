@@ -36,10 +36,8 @@
   {{ with  .Params.Tags | default .Site.Params.keywords }}
     <meta name="keywords" content="{{ range . }}{{ . }},{{ end }}">
   {{ end }}
-  {{ with .Site.Params.robots }}
-    <meta name="robots" content="{{ . }}">
-  {{ end }}
-  {{ with .Params.robots }}
+  {{ $robots := .Params.robots | default .Site.Params.robots }}
+  {{ with $robots }}
     <meta name="robots" content="{{ . }}">
   {{ end }}
   <link rel="canonical" href="{{ .Permalink }}">
