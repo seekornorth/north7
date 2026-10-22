@@ -7,20 +7,7 @@ categories: ["Networking"]
 tags: ["ubuntu-server", "ubuntu", "netplan", "networking", "tutorial-linux", "server", "linux"]
 keywords: ["cara setting ip static ubuntu server"]
 authors: ["mifthakhul-huda"]
-schema: "howto"
-steps:
-  - name: "Cek interface jaringan Ubuntu Server"
-    text: "Jalankan perintah ip addr untuk mengetahui nama interface jaringan yang digunakan. Periksa juga ip route untuk melihat gateway yang aktif."
-  - name: "Periksa konfigurasi Netplan"
-    text: "Jalankan ls -l /etc/netplan/ untuk menemukan file konfigurasi Netplan yang digunakan oleh sistem."
-  - name: "Cadangkan dan buka file konfigurasi"
-    text: "Buat salinan cadangan file konfigurasi Netplan sebelum mengeditnya. Buka file yang sesuai menggunakan editor teks seperti Nano."
-  - name: "Atur alamat IP static"
-    text: "Edit konfigurasi YAML untuk menonaktifkan DHCP IPv4, menentukan alamat IP beserta prefix jaringan, mengatur gateway melalui rute default, dan menentukan DNS. Sesuaikan nama interface serta alamat IP dengan jaringan yang digunakan."
-  - name: "Validasi dan terapkan konfigurasi"
-    text: "Jalankan sudo netplan generate untuk memeriksa konfigurasi, kemudian sudo netplan try untuk menguji perubahan. Konfirmasikan konfigurasi jika koneksi berjalan baik. Perhatikan risiko koneksi terputus ketika mengelola server melalui SSH."
-  - name: "Verifikasi koneksi jaringan"
-    text: "Periksa alamat IP menggunakan ip addr show, periksa rute menggunakan ip route, lalu uji koneksi ke gateway, alamat IP publik, dan nama domain."
+schema: "tech"
 date: 2026-10-10
 draft: false
 about:
