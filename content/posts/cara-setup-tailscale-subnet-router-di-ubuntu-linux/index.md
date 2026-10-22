@@ -8,7 +8,7 @@ tags: ["networking", "tailscale", "vpn", "ubuntu-server", "linux", "homelab", "s
 keywords: ["cara setup tailscale subnet router di ubuntu"]
 authors: ["mifthakhul-huda"]
 schema: "tech"
-date: 2026-10-22T18:00:00+07:00
+date: 2026-10-22T19:17:17+07:00
 draft: false
 about:
   - "@type": "SoftwareApplication"
