@@ -1,0 +1,32 @@
+# North7
+
+> North7 (https://north7.biz.id) adalah media teknologi independen berbahasa Indonesia yang menyajikan panduan mendalam Linux, konfigurasi jaringan networking, kabar kernel, dan tips smartphone praktis.
+
+Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, ditujukan untuk pengguna Linux pemula hingga administrator sistem rumahan (homelab). Konten disusun terstruktur dan ramah dibaca oleh Large Language Models (LLM) serta AI Agents.
+
+## Panduan Networking & Homelab
+- [Cara Install AdGuard Home di Ubuntu Server Lengkap](https://north7.biz.id/cara-install-adguard-home-di-ubuntu-server/): Panduan instalasi AdGuard Home DNS sinkhole di Ubuntu Server, mengatasi bentrok port 53 systemd-resolved, dan setting DoH.
+- [Cara Setup Tailscale Subnet Router di Ubuntu Linux](https://north7.biz.id/cara-setup-tailscale-subnet-router-di-ubuntu-linux/): Panduan routing subnet lokal untuk akses remote CCTV, NAS, dan server rumah menembus CGNAT ISP.
+- [Cara Setup WireGuard VPN Server Sendiri di Ubuntu](https://north7.biz.id/cara-setup-wireguard-vpn-server-sendiri-di-ubuntu/): Tutorial membangun server VPN pribadi cepat dan aman menggunakan protokol WireGuard di Ubuntu.
+- [Cara Setup Caddy Reverse Proxy dengan SSL Otomatis](https://north7.biz.id/cara-setup-caddy-reverse-proxy-ssl-otomatis/): Konfigurasi reverse proxy modern dan sertifikat HTTPS TLS otomatis Let's Encrypt via Caddyfile.
+- [Cara Setting Firewall UFW di Ubuntu Server Lengkap](https://north7.biz.id/cara-setting-firewall-ufw-ubuntu-server/): Langkah dasar dan aturan terbaik mengamankan port server Linux menggunakan Uncomplicated Firewall (UFW).
+- [Cara Setting IP Static Ubuntu Server dengan Netplan](https://north7.biz.id/cara-setting-ip-static-ubuntu-server/): Panduan konfigurasi Netplan YAML untuk menetapkan alamat IP statis, gateway, dan DNS server.
+
+## Panduan Gadget & Tips Konsumer
+- [Cara Aktifkan Perlindungan Perangkat yang Dicuri di iPhone](https://north7.biz.id/cara-aktifkan-perlindungan-perangkat-yang-dicuri-di-iphone/): Panduan mengaktifkan fitur Stolen Device Protection Apple untuk melindungi Apple ID saat iPhone hilang.
+- [Cara Kirim File Android ke PC Tanpa Kabel Pakai Quick Share](https://north7.biz.id/cara-kirim-file-android-ke-pc-tanpa-kabel-pakai-quick-share/): Langkah transfer file nirkabel berkecepatan tinggi antara HP Android dan laptop Windows.
+- [Cara Aktifkan Passkey Google Biar Login Tanpa Password](https://north7.biz.id/cara-aktifkan-passkey-google-biar-login-tanpa-password/): Tutorial login akun Google aman dan praktis menggunakan sidik jari atau Face ID tanpa sandi.
+- [Cara Hapus Riwayat Suara Google Assistant dan Gemini](https://north7.biz.id/cara-hapus-riwayat-suara-google-assistant-dan-gemini/): Langkah menghapus rekaman audio percakapan asisten suara untuk menjaga privasi akun Google.
+- [Cara Kalibrasi Baterai iPhone Baru yang Benar dan Aman](https://north7.biz.id/cara-kalibrasi-baterai-iphone-baru/): Tips kalibrasi siklus daya baterai iPhone agar persentase baterai akurat dan kesehatan baterai awet.
+
+## Berita Linux & Open Source
+- [BleachBit 6.0.6 Rilis, Bersihkan Cache AI dan Docker](https://north7.biz.id/bleachbit-6-0-6-bersihkan-cache-ai-docker/): Rilis alat pembersih sistem open source dengan fitur pembersihan cache model AI dan image container.
+- [Kbuild Linux 7.4 Pangkas Waktu Kompilasi Kernel 36 Persen](https://north7.biz.id/kbuild-linux-7-4-percepat-kompilasi-kernel/): Pembaruan subsistem build kernel Linux yang mempercepat waktu kompilasi bagi para developer.
+- [Linux 7.3 Rilis Resmi, Performa IO Kencang dan Siap Zen 6](https://north7.biz.id/linux-7-3-rilis-performa-io-zen-6/): Pembaruan kernel Linux terbaru dengan dukungan prosesor AMD Zen 6 dan optimalisasi I/O btrfs/ext4.
+- [VirtIO-FS Uji Antrean Sinkron, Kompilasi di VM Makin Kencang](https://north7.biz.id/virtio-fs-antrean-sinkron-performa-vm/): Inovasi antrean I/O sinkron pada sistem berkas virtualisasi Linux untuk mempercepat kompilasi software.
+
+## Optional
+- [Sitemap XML](https://north7.biz.id/sitemap.xml): Peta situs lengkap seluruh indeks artikel North7.
+- [RSS Feed Utama](https://north7.biz.id/index.xml): Umpan sindikasi artikel terbaru North7.
+- [Katalog Agen AI](https://north7.biz.id/.well-known/ai-catalog.json): Manifest katalog kapabilitas AI dan agen (ARD 1.0).
+- [Skema WebMCP](https://north7.biz.id/webmcp.json): Skema alat agen berbasis peramban (WebMCP tools).

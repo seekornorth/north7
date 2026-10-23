@@ -1,0 +1,57 @@
+# North7 Full Knowledge Index
+
+> North7 (https://north7.biz.id) adalah media teknologi independen berbahasa Indonesia yang menyajikan panduan mendalam Linux, konfigurasi jaringan networking, kabar kernel, dan tips smartphone praktis.
+
+Dokumentasi lengkap seluruh artikel dan arsip publikasi North7 untuk Large Language Models (LLM) dan AI Agents.
+
+## Panduan Networking & Homelab
+- [Cara Install AdGuard Home di Ubuntu Server Lengkap](https://north7.biz.id/cara-install-adguard-home-di-ubuntu-server/): Panduan instalasi AdGuard Home DNS sinkhole di Ubuntu Server, mengatasi bentrok port 53 systemd-resolved, dan setting DoH.
+- [Cara Setup Tailscale Subnet Router di Ubuntu Linux](https://north7.biz.id/cara-setup-tailscale-subnet-router-di-ubuntu-linux/): Panduan routing subnet lokal untuk akses remote CCTV, NAS, dan server rumah menembus CGNAT ISP.
+- [Cara Setup WireGuard VPN Server Sendiri di Ubuntu](https://north7.biz.id/cara-setup-wireguard-vpn-server-sendiri-di-ubuntu/): Tutorial membangun server VPN pribadi cepat dan aman menggunakan protokol WireGuard di Ubuntu.
+- [Cara Setup Caddy Reverse Proxy dengan SSL Otomatis](https://north7.biz.id/cara-setup-caddy-reverse-proxy-ssl-otomatis/): Konfigurasi reverse proxy modern dan sertifikat HTTPS TLS otomatis Let's Encrypt via Caddyfile.
+- [Cara Setting Firewall UFW di Ubuntu Server Lengkap](https://north7.biz.id/cara-setting-firewall-ufw-ubuntu-server/): Langkah dasar dan aturan terbaik mengamankan port server Linux menggunakan Uncomplicated Firewall (UFW).
+- [Cara Setting IP Static Ubuntu Server dengan Netplan](https://north7.biz.id/cara-setting-ip-static-ubuntu-server/): Panduan konfigurasi Netplan YAML untuk menetapkan alamat IP statis, gateway, dan DNS server.
+
+## Panduan Gadget & Tips Praktis
+- [Cara Aktifkan Perlindungan Perangkat yang Dicuri di iPhone](https://north7.biz.id/cara-aktifkan-perlindungan-perangkat-yang-dicuri-di-iphone/): Panduan mengaktifkan fitur Stolen Device Protection Apple untuk melindungi Apple ID saat iPhone hilang.
+- [Cara Kirim File Android ke PC Tanpa Kabel Pakai Quick Share](https://north7.biz.id/cara-kirim-file-android-ke-pc-tanpa-kabel-pakai-quick-share/): Langkah transfer file nirkabel berkecepatan tinggi antara HP Android dan laptop Windows.
+- [Cara Aktifkan Passkey Google Biar Login Tanpa Password](https://north7.biz.id/cara-aktifkan-passkey-google-biar-login-tanpa-password/): Tutorial login akun Google aman dan praktis menggunakan sidik jari atau Face ID tanpa sandi.
+- [Cara Hapus Riwayat Suara Google Assistant dan Gemini](https://north7.biz.id/cara-hapus-riwayat-suara-google-assistant-dan-gemini/): Langkah menghapus rekaman audio percakapan asisten suara untuk menjaga privasi akun Google.
+- [Cara Kalibrasi Baterai iPhone Baru yang Benar dan Aman](https://north7.biz.id/cara-kalibrasi-baterai-iphone-baru/): Tips kalibrasi siklus daya baterai iPhone agar persentase baterai akurat dan kesehatan baterai awet.
+- [Sering Dapat Link Mencurigakan? Begini Cara Cek Biar Nggak Salah Klik](https://north7.biz.id/cara-cek-link-mencurigakan-sebelum-klik/): Panduan memeriksa keamanan tautan phising atau malware sebelum mengekliknya di ponsel atau browser.
+
+## Berita Linux, Kernel & Open Source
+- [antiX 26.1 Rilis, Bawa Kernel Baru dan Tetap Tanpa systemd](https://north7.biz.id/antix-26-1-rilis-kernel-baru-tanpa-systemd/): Rilis distro Linux ringan antiX dengan init SysVinit/runit dan konsumsi RAM ultra-rendah.
+- [BleachBit 6.0.6 Rilis, Bersihkan Cache AI dan Docker](https://north7.biz.id/bleachbit-6-0-6-bersihkan-cache-ai-docker/): Rilis alat pembersih sistem open source dengan fitur pembersihan cache model AI dan image container.
+- [Debian 13 “Trixie” Dapat Update Kernel, Tutup 1.313 CVE](https://north7.biz.id/debian-13-update-kernel-1300-cve/): Pembaruan keamanan kernel Linux besar-besaran untuk stabilitas sistem Debian server.
+- [Cara Install Arch Linux Mudah Pakai Archinstall](https://north7.biz.id/install-arch-linux-pakai-archinstall/): Tutorial panduan instalasi Arch Linux resmi menggunakan skrip CLI otomatis archinstall.
+- [Canonical Umumkan Jadwal Ubuntu Summit 26.10, Digelar November 2026](https://north7.biz.id/jadwal-ubuntu-summit-26-10-november-2026/): Konferensi tahunan komunitas pengembang open source dan ekosistem Canonical Ubuntu.
+- [Kbuild Linux 7.4 Pangkas Waktu Kompilasi Kernel 36 Persen](https://north7.biz.id/kbuild-linux-7-4-percepat-kompilasi-kernel/): Pembaruan subsistem build kernel Linux yang mempercepat waktu kompilasi bagi para developer.
+- [Linus Torvalds Pakai Claude Code Buat Garap Kernel Linux](https://north7.biz.id/linus-torvalds-claude-code-kernel-linux/): Diskusi pencipta Linux mengenai pemanfaatan alat AI coding agent dalam workflow pengembangan.
+- [Linux 7.3 Rilis Resmi, Performa IO Kencang dan Siap Zen 6](https://north7.biz.id/linux-7-3-rilis-performa-io-zen-6/): Pembaruan kernel Linux terbaru dengan dukungan prosesor AMD Zen 6 dan optimalisasi I/O btrfs/ext4.
+- [Riset Linux Foundation, 25 Persen Pull Request Jadi AI Slop](https://north7.biz.id/linux-foundation-25-persen-pull-request-ai-slop/): Analisis fenomena pengiriman kontribusi kode otomatis berbasis model bahasa besar di proyek open source.
+- [Parrot OS 7.4 Rilis, Bawa AnonSurf 6, ISO x86-64-v3, dan Log Update](https://north7.biz.id/parrot-os-7-4-rilis-fitur-baru/): Distro Linux keamanan siber dan privasi dengan fitur routing anonim AnonSurf terbaru.
+- [Steam Linux Masuk Beta 64-bit dan Berjalan di Container](https://north7.biz.id/steam-linux-masuk-beta-64-bit/): Evolusi klien gaming Steam di Linux menuju arsitektur 64-bit murni dan isolasi runtime container.
+- [VirtIO-FS Uji Antrean Sinkron, Kompilasi di VM Makin Kencang](https://north7.biz.id/virtio-fs-antrean-sinkron-performa-vm/): Inovasi antrean I/O sinkron pada sistem berkas virtualisasi Linux untuk mempercepat kompilasi software.
+- [ZDI Tak Sengaja Bocorkan Celah Kernel Linux ke Milis Publik](https://north7.biz.id/zdi-bocorkan-celah-kernel-linux-ke-milis-publik/): Insiden transparansi pengungkapan kerentanan zero-day di subsistem jaringan kernel Linux.
+
+## Berita Teknologi & Inovasi Perangkat
+- [ASRock Bikin NUC Core 300 dengan Intel Wildcat Lake](https://north7.biz.id/asrock-nuc-core-300-intel-wildcat-lake-5-core/): Mini PC kompak hemat daya dengan arsitektur chip prosesor Intel terbaru.
+- [Ember Mug 3 Rilis, Bisa Atur Suhu Tanpa Buka Aplikasi](https://north7.biz.id/ember-mug-3-bisa-atur-suhu-tanpa-aplikasi/): Cangkir pintar generasi baru dengan tombol fisik pengatur suhu langsung di alas cangkir.
+- [Fairbuds 2 Rilis, TWS yang Baterainya Bisa Diganti Sendiri](https://north7.biz.id/fairbuds-2-tws-baterai-bisa-diganti-sendiri/): Earphone nirkabel modular ramah lingkungan yang mengusung hak untuk memperbaiki mandiri.
+- [Gemini Resmi Hadir di Mobil Lewat Android Auto dan CarPlay](https://north7.biz.id/gemini-hadir-di-mobil-android-auto-carplay/): Integrasi asisten AI Google pada dashboard kendaraan untuk navigasi cerdas.
+- [Git 2.56 Rilis, Bawa Opsi Baru Buat Bersihin Branch dan Atasi Konflik](https://north7.biz.id/git-2-56-rilis-fitur-baru/): Pembaruan sistem version control Git dengan efisiensi pengelolaan repository besar.
+- [Insta360 Mic Bawa Layar E-Ink Warna dan Slot MicroSD](https://north7.biz.id/insta360-mic-layar-e-ink-microsd/): Mikrofon nirkabel profesional dengan layar hemat daya dan perekaman onboard cadangan.
+- [Intel Rilis LLM-Scaler 1.5, vLLM di GPU Arc Makin Kencang](https://north7.biz.id/intel-llm-scaler-1-5-vllm-gpu-arc/): Pustaka akselerasi inferensi AI open source yang dioptimalkan untuk kartu grafis Intel Arc.
+- [Karyawan Anthropic Lebih Sering Rapat dan Mengasuh Claude](https://north7.biz.id/karyawan-anthropic-sering-rapat-mengasuh-claude/): Dinamika kerja tim AI safety dalam melakukan evaluasi dan mitigasi risiko model Claude.
+- [Melihat Harga iPhone 18 Pro di Indonesia](https://north7.biz.id/melihat-harga-iphone-18-pro-indonesia-selisih-kapasitas/): Komparasi varian harga dan strategi pemilihan kapasitas memori smartphone flagship Apple.
+- [Raspberry Pi Punya Modul Baru Buat Layar Komersial](https://north7.biz.id/raspberry-pi-smart-display-module-intel-sdm/): Modul komputasi ringkas untuk signage digital dan display industri berstandar Intel SDM.
+- [Ray-Ban Meta Sempat Merekam Suara Pengguna Tanpa Izin](https://north7.biz.id/ray-ban-meta-rekam-suara-tanpa-izin/): Isu privasi kacamata pintar cerdas dan evaluasi kebijakan pengumpulan data Meta AI.
+- [Razer Basilisk V4 Pro Resmi Meluncur, Bawa Sensor 50K DPI](https://north7.biz.id/razer-basilisk-v4-pro-sensor-50k-dpi/): Mouse gaming nirkabel ergonomis dengan sensor optik presisi tinggi dan scroll wheel taktil.
+- [TikTok Siapkan Asisten AI Biar Pengguna Belanja Langsung dari FYP](https://north7.biz.id/tiktok-siapkan-asisten-ai-belanja-fyp/): Fitur conversational shopping berbasis kecerdasan buatan pada platform media sosial TikTok.
+
+## Optional
+- [Sitemap XML](https://north7.biz.id/sitemap.xml): Peta situs lengkap seluruh indeks artikel North7.
+- [RSS Feed Utama](https://north7.biz.id/index.xml): Umpan sindikasi artikel terbaru North7.
+- [Katalog Agen AI](https://north7.biz.id/.well-known/ai-catalog.json): Manifest katalog kapabilitas AI dan agen (ARD 1.0).
+- [Skema WebMCP](https://north7.biz.id/webmcp.json): Skema alat agen berbasis peramban (WebMCP tools).

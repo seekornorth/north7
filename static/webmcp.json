@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "name": "north7-webmcp",
+  "version": "1.0.0",
+  "description": "WebMCP client-side agent tools schema for North7 media (Linux, Networking, Gadget, and Open Source)",
+  "tools": [
+    {
+      "name": "search_articles",
+      "title": "Cari Artikel North7",
+      "description": "Mencari artikel panduan Linux, konfigurasi jaringan networking, dan tips gadget di North7.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Kata kunci pencarian yang ingin dicari (misal: adguard, wireguard, tailscale, netplan, baterai iphone)."
+          }
+        },
+        "required": ["query"]
+      },
+      "annotations": {
+        "readOnlyHint": true
+      }
+    },
+    {
+      "name": "get_article_content",
+      "title": "Baca Konten Artikel",
+      "description": "Mengambil teks lengkap atau ringkasan artikel yang sedang dibuka beserta metadata judul, tanggal publikasi, dan penulis.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {}
+      },
+      "annotations": {
+        "readOnlyHint": true
+      }
+    },
+    {
+      "name": "get_site_navigation",
+      "title": "Daftar Kategori & Sumber Daya",
+      "description": "Mengambil tautan navigasi kategori utama, indeks llms.txt, RSS feed, dan katalog AI di blog North7.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {}
+      },
+      "annotations": {
+        "readOnlyHint": true
+      }
+    }
+  ]
+}

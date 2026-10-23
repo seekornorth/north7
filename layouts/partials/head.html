@@ -58,6 +58,41 @@
   {{ with site.Home.OutputFormats.Get "LLMS" }}
     <link rel="describedby" href="{{ .RelPermalink }}">
   {{ end }}
+  {{/* Agentic Browsing & AI Standards: WebMCP, llms.txt, AI Catalog */}}
+  <link rel="alternate" type="text/markdown" href="{{ "llms.txt" | relURL }}" title="LLM Knowledge Index">
+  <link rel="describedby" href="{{ "llms.txt" | relURL }}">
+  <link rel="ai-catalog" href="{{ ".well-known/ai-catalog.json" | relURL }}" type="application/ai-catalog+json">
+  <link rel="webmcp" href="{{ "webmcp.json" | relURL }}" type="application/webmcp+json">
+  <script defer src="{{ "js/webmcp.js" | relURL }}"></script>
+  <script type="application/webmcp+json">
+  {
+    "@context": "https://json-schema.org/draft/2020-12/schema",
+    "name": "north7-webmcp",
+    "tools": [
+      {
+        "name": "search_articles",
+        "description": "Cari artikel teknologi, Linux, networking, dan tips gadget di North7",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "query": { "type": "string", "description": "Kata kunci pencarian" }
+          },
+          "required": ["query"]
+        }
+      },
+      {
+        "name": "get_article_content",
+        "description": "Mengambil isi konten dan metadata artikel yang sedang dibuka",
+        "inputSchema": { "type": "object", "properties": {} }
+      },
+      {
+        "name": "get_site_navigation",
+        "description": "Mengambil tautan navigasi dan kategori utama di North7",
+        "inputSchema": { "type": "object", "properties": {} }
+      }
+    ]
+  }
+  </script>
 
   {{/* Me */}}
   {{ with .Site.Params.Author.name }}
