@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "name": "North7 Tech Assistant Agent",
+  "version": "1.0.0",
+  "description": "Autonomous AI assistant for searching open-source software guides, homelab tutorials, and tech news on North7.",
+  "capabilities": ["ArticleSearch", "TechnicalGuideRetrieval", "LinuxDocs"],
+  "endpoints": {
+    "llms": "https://north7.biz.id/llms.txt",
+    "sitemap": "https://north7.biz.id/sitemap.xml",
+    "news": "https://north7.biz.id/news-sitemap.xml"
+  }
+}

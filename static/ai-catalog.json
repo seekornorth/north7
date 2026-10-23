@@ -1,45 +1,49 @@
 {
-  "$schema": "https://ai-catalog.io/schemas/v1.0/ai-catalog.json",
   "specVersion": "1.0",
   "host": {
     "displayName": "North7",
-    "identifier": "north7.biz.id"
+    "identifier": "did:web:north7.biz.id",
+    "documentationUrl": "https://north7.biz.id/tentang-kami/",
+    "logoUrl": "https://north7.biz.id/img/logo.png"
   },
   "entries": [
     {
-      "identifier": "urn:air:north7.biz.id:webmcp:tools",
+      "identifier": "urn:air:north7.biz.id:server:mcp",
       "displayName": "North7 WebMCP Tools",
-      "type": "application/webmcp+json",
-      "url": "https://north7.biz.id/webmcp.json",
-      "description": "Client-side WebMCP in-browser tools enabling AI agents to search articles, retrieve content, and query site metadata directly."
+      "type": "application/mcp-server-card+json",
+      "url": "https://north7.biz.id/.well-known/mcp/server-card.json",
+      "description": "In-browser WebMCP capability enabling AI agents to search Linux guides and query networking tutorials.",
+      "representativeQueries": [
+        "cara install adguard home di ubuntu server",
+        "tutorial setup wireguard vpn di ubuntu",
+        "panduan setting firewall ufw ubuntu",
+        "cara setup tailscale subnet router di linux"
+      ]
     },
     {
-      "identifier": "urn:air:north7.biz.id:knowledge:llms-txt",
-      "displayName": "North7 Knowledge Index (llms.txt)",
-      "type": "text/plain",
-      "url": "https://north7.biz.id/llms.txt",
-      "description": "Curated LLM-optimized knowledge index of Linux, networking, and technology guides on North7."
+      "identifier": "urn:air:north7.biz.id:agent:reader",
+      "displayName": "North7 Tech Assistant Agent",
+      "type": "application/agent-card+json",
+      "url": "https://north7.biz.id/.well-known/agent-card.json",
+      "description": "Autonomous AI assistant for searching open-source software guides, homelab tutorials, and tech news.",
+      "representativeQueries": [
+        "berita kernel linux terbaru zen 6",
+        "cara setting ip static ubuntu server netplan",
+        "tips baterai iphone baru agar awet",
+        "cara transfer file quick share android pc"
+      ]
     },
     {
-      "identifier": "urn:air:north7.biz.id:knowledge:llms-full",
-      "displayName": "North7 Full Knowledge Index (llms-full.txt)",
-      "type": "text/plain",
-      "url": "https://north7.biz.id/llms-full.txt",
-      "description": "Complete technical archive of all North7 guides and news for LLMs and autonomous browsing agents."
-    },
-    {
-      "identifier": "urn:air:north7.biz.id:feed:rss",
-      "displayName": "North7 RSS Feed",
-      "type": "application/rss+xml",
-      "url": "https://north7.biz.id/index.xml",
-      "description": "Syndication feed of latest technology, networking, and Linux news and evergreen tutorials."
-    },
-    {
-      "identifier": "urn:air:north7.biz.id:feed:sitemap",
-      "displayName": "North7 XML Sitemap",
-      "type": "application/xml",
-      "url": "https://north7.biz.id/sitemap.xml",
-      "description": "Complete site map containing all article URLs, update timestamps, and image metadata."
+      "identifier": "urn:air:north7.biz.id:catalog:main",
+      "displayName": "North7 AI Capability Catalog",
+      "type": "application/ai-catalog+json",
+      "url": "https://north7.biz.id/.well-known/ai-catalog.json",
+      "description": "Federated AI catalog indexing North7 agentic capabilities and documentation.",
+      "representativeQueries": [
+        "panduan lengkap networking linux",
+        "tips teknologi dan gadget konsumer",
+        "koleksi tutorial open source indonesia"
+      ]
     }
   ]
 }

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "name": "North7 WebMCP Tools",
+  "version": "1.0.0",
+  "description": "In-browser WebMCP capability enabling AI agents to search Linux guides and query networking tutorials on North7.",
+  "transport": {
+    "type": "webmcp",
+    "url": "https://north7.biz.id/js/webmcp.js"
+  },
+  "tools": [
+    {
+      "name": "search_articles",
+      "description": "Cari artikel teknologi, tutorial Linux, panduan networking, dan tips gadget di North7",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "query": { "type": "string", "description": "Kata kunci pencarian" }
+        },
+        "required": ["query"]
+      }
+    },
+    {
+      "name": "get_article_content",
+      "description": "Mengambil isi konten dan metadata artikel yang sedang dibuka",
+      "inputSchema": { "type": "object", "properties": {} }
+    },
+    {
+      "name": "get_site_navigation",
+      "description": "Mengambil tautan navigasi dan kategori utama di North7",
+      "inputSchema": { "type": "object", "properties": {} }
+    }
+  ]
+}
