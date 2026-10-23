@@ -1,6 +1,6 @@
 ---
 title: "Pedoman Pemberitaan & Kebijakan Redaksi"
-summary: "Standar operasional redaksi North7: verifikasi fakta, kebijakan koreksi, atribusi sumber, etika jurnalisme teknologi, dan transparansi AI."
+summary: "Standar operasional redaksi North7: verifikasi fakta langsung, kebijakan koreksi, rujukan sumber primer, dan etika jurnalisme teknologi."
 date: 2026-10-23
 draft: false
 layout: info
@@ -11,33 +11,27 @@ showReadingTime: false
 showTableOfContents: true
 ---
 
-North7 (https://north7.biz.id) berpedoman pada standar akurasi, independensi, dan tanggung jawab jurnalisme teknologi dalam memproduksi seluruh konten panduan, analisis teknis, dan berita. Kebijakan ini disusun untuk memenuhi Pedoman Pemberitaan Media Siber Dewan Pers serta standar kepatuhan Google News dan Google Discover.
+North7 (https://north7.biz.id) berpedoman pada standar akurasi, independensi, dan tanggung jawab jurnalisme teknologi dalam memproduksi seluruh konten panduan, analisis teknis, dan berita. Seluruh karya jurnalistik dan tutorial di situs ini disusun, ditulis, serta ditinjau langsung oleh Mifthakhul Huda dan Tri Wulandari sesuai dengan Pedoman Pemberitaan Media Siber Dewan Pers serta prinsip jurnalisme teknologi terpercaya.
 
-## 1. Verifikasi Fakta dan Sumber Primer
-Setiap panduan teknis, tutorial instalasi, maupun ulasan perangkat di North7 wajib memenuhi standar verifikasi berikut:
-- **Pengujian Langsung:** Seluruh baris perintah CLI, file konfigurasi (YAML/conf), dan langkah panduan diuji coba terlebih dahulu di lingkungan server nyata (bare-metal/VM) sebelum diterbitkan.
-- **Rujukan Sumber Primer:** Berita perkembangan software, rilis distro, maupun celah keamanan wajib merujuk langsung ke pengumuman resmi pengembang, changelog git kernel, atau dokumentasi resmi vendor, bukan spekulasi pihak ketiga.
-- **Atribusi Transparan:** Setiap kutipan atau tangkapan layar antarmuka open source selalu disertai tautan ke dokumentasi sumber resmi.
+## 1. Verifikasi Fakta dan Pengujian Langsung
+Keandalan informasi teknis adalah komitmen utama redaksi North7:
+- **Pengujian Praktis:** Setiap baris perintah terminal, skrip shell, konfigurasi jaringan (seperti Netplan, UFW, WireGuard, Caddy), dan langkah penanganan masalah (troubleshooting) diuji coba langsung di perangkat fisik maupun mesin virtual (VM) sebelum dipublikasikan.
+- **Rujukan Sumber Primer:** Pembahasan seputar kernel Linux, pembaruan keamanan, dan rilis perangkat keras selalu diverifikasi melalui rujukan dokumentasi teknis resmi, repositori git resmi pengembang, rilis pers pabrikan, atau milis publik teknis terkait.
+- **Atribusi Transparan:** Setiap dokumentasi eksternal atau gambar pendukung resmi selalu dicantumkan sumber aslinya sebagai bentuk penghargaan terhadap karya intelektual dan mempermudah pembaca melakukan penelusuran mandiri.
 
 ## 2. Kebijakan Koreksi dan Ralat (Correction Policy)
-Kepercayaan pembaca adalah prioritas utama North7:
-- Apabila ditemukan kekeliruan data teknis, perintah terminal yang tidak lagi kompatibel dengan versi terbaru, atau kesalahan penulisan, redaksi akan segera melakukan koreksi langsung pada artikel bersangkutan.
-- Perubahan material akan disertai catatan tanggal pembaruan (*dateModified*) yang transparan pada bagian atas artikel agar pembaca mengetahui riwayat revisi.
-- Pembaca dapat melaporkan ralat atau kekeliruan kapan saja melalui email resmi redaksi di [northsevent012@gmail.com](mailto:northsevent012@gmail.com) dengan menyertakan judul artikel dan bukti koreksi.
+Redaksi North7 berkomitmen untuk menyajikan informasi yang akurat dan terbuka terhadap pembaruan:
+- Apabila ditemukan kekeliruan data teknis, perintah yang usang akibat pembaruan software, atau salah ketik, redaksi akan segera memverifikasi dan memperbarui artikel yang bersangkutan.
+- Artikel yang mengalami penyesuaian isi akan menampilkan tanggal pembaruan (*dateModified*) yang transparan pada header artikel.
+- Pembaca yang menemukan ketidaksesuaian data atau tautan rusak dapat mengirimkan masukan atau koreksi melalui email [northsevent012@gmail.com](mailto:northsevent012@gmail.com) dengan menyertakan judul artikel bersangkutan.
 
-## 3. Kebijakan Transparansi Kecerdasan Buatan (AI Policy)
-Sejalan dengan perkembangan era komputasi modern:
-- North7 memanfaatkan alat bantu komputasi dan model kecerdasan buatan hanya sebatas asisten riset awal, pemantau siaran pers resmi, dan optimasi format data terstruktur.
-- Seluruh isi materi, sudut pandang analisis, kurasi kebenaran teknis, dan validasi langkah akhir diuji dan ditulis dengan supervisi penuh manusia (Human-in-the-Loop) oleh Mifthakhul Huda dan Tri Wulandari.
-- Kami menolak publikasi *AI slop* atau konten otomatis massal yang tidak teruji di dunia nyata.
+## 3. Independensi dan Standar Etika Redaksi
+- Penulisan artikel di North7 dilakukan secara mandiri, berimbang, dan tidak dipengaruhi oleh kepentingan komersial pihak luar atau vendor tertentu.
+- Pendapat, evaluasi performa, dan kelebihan maupun kekurangan suatu teknologi disampaikan secara objektif berdasarkan hasil pengujian serta fakta teknis di lapangan.
+- Apabila di masa mendatang terdapat kemitraan atau ulasan produk berbayar, konten tersebut akan diberi penanda khusus yang tegas agar pembaca dapat membedakannya dari artikel redaksional murni.
 
-## 4. Independensi dan Bebas Konflik Kepentingan
-- Redaksi North7 bekerja secara independen tanpa intervensi pihak sponsor atau vendor teknologi mana pun.
-- Ulasan perangkat maupun software open source dinilai secara objektif berdasarkan kelebihan, kekurangan, serta keamanan data pengguna.
-- Konten bersponsor atau kemitraan afiliasi (jika ada di masa depan) akan selalu dilabeli secara jelas dan terpisah dari artikel redaksional reguler.
+## 4. Hak Cipta dan Penggunaan Wajar (Fair Use)
+- Seluruh artikel panduan dan ulasan di North7 merupakan karya tulis orisinal yang dilindungi hak cipta redaksi North7.
+- Penggunaan logo proyek open source, logo merek dagang, dan tangkapan layar antarmuka software semata-mata ditujukan untuk keperluan identifikasi edukatif dan panduan pembaca (*Nominative Fair Use*).
 
-## 5. Hak Cipta dan Penggunaan Wajar (Fair Use)
-- Seluruh artikel teks orisinal di North7 dilindungi hak cipta redaksi North7.
-- Penggunaan logo merek dan tangkapan layar perangkat lunak ditujukan semata-mata untuk identifikasi produk dan edukasi panduan teknis (*Nominative Fair Use*).
-
-*Ditetapkan dan berlaku efektif untuk seluruh publikasi di media North7.*
+*Pedoman ini ditetapkan dan berlaku bagi seluruh publikasi di media North7.*
