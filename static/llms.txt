@@ -5,6 +5,7 @@
 Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, ditujukan untuk pengguna Linux pemula hingga administrator sistem rumahan (homelab). Konten disusun terstruktur dan ramah dibaca oleh Large Language Models (LLM) serta AI Agents.
 
 ## Panduan Networking & Homelab
+- [Panduan Lengkap UFW Firewall Debian](https://north7.biz.id/panduan-lengkap-ufw-firewall-debian/): Pelajari cara instalasi dan setting UFW firewall di Debian Linux secara lengkap. Panduan aman mengonfigurasi aturan port, default policy, dan proteksi SSH.
 - [Cara Setting Pihole DNS di Android untuk Blokir Iklan](https://north7.biz.id/panduan-lengkap-pihole-dns-android/): Panduan lengkap setting Pihole DNS di Android lewat Wi-Fi lokal dan WireGuard split tunnel agar bebas iklan serta hemat kuota.
 - [Cara Install AdGuard Home di Ubuntu Server Lengkap](https://north7.biz.id/cara-install-adguard-home-di-ubuntu-server/): Panduan lengkap cara install dan setting AdGuard Home di Ubuntu Server. Blokir iklan, pelacak, dan malware untuk semua perangkat di jaringan WiFi rumah.
 - [Cara Setup Tailscale Subnet Router di Ubuntu Linux](https://north7.biz.id/cara-setup-tailscale-subnet-router-di-ubuntu-linux/): Panduan praktis setup Tailscale subnet router di Ubuntu Linux untuk mengakses seluruh perangkat LAN rumah tanpa repot port forwarding.
