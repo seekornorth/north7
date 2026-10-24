@@ -54,7 +54,7 @@ Sebagian materi yang digunakan dalam artikel dapat merujuk atau mengacu pada sum
 
 Apabila Anda merupakan pemilik hak atas suatu materi yang terdapat di North7 dan merasa penggunaannya perlu diperbaiki, diubah, atau dihapus, silakan hubungi kami melalui email.
 
-**Email:** [northsevent012@gmail.com](mailto:northsevent012@gmail.com)
+**Email:** [admin@north7.biz.id](mailto:admin@north7.biz.id)
 
 ## Perubahan Disclaimer
 
@@ -67,6 +67,6 @@ Perubahan akan dicantumkan pada halaman ini beserta tanggal pembaruan terakhir.
 Apabila Anda memiliki pertanyaan, menemukan kesalahan dalam artikel, atau memiliki masukan terkait informasi yang diterbitkan di North7, silakan hubungi kami melalui:
 
 **North7**
-**Email:** [northsevent012@gmail.com](mailto:northsevent012@gmail.com)
+**Email:** [admin@north7.biz.id](mailto:admin@north7.biz.id)
 
 Kami menghargai setiap koreksi dan masukan dari pembaca.

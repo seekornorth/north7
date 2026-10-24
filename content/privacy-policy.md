@@ -92,7 +92,7 @@ Bergantung pada keadaan dan peraturan yang berlaku, Anda dapat memiliki hak tert
 
 Untuk mengajukan permintaan terkait privasi, Anda dapat menghubungi kami melalui:
 
-**Email:** [northsevent012@gmail.com](mailto:northsevent012@gmail.com)
+**Email:** [admin@north7.biz.id](mailto:admin@north7.biz.id)
 
 Kami dapat meminta informasi tambahan yang wajar untuk memastikan bahwa permintaan tersebut berkaitan dengan data yang dimaksud sebelum memprosesnya.
 
@@ -109,6 +109,6 @@ Kami menyarankan pengunjung untuk memeriksa halaman ini secara berkala agar teta
 Jika Anda memiliki pertanyaan, masukan, atau permintaan yang berkaitan dengan Kebijakan Privasi North7, silakan hubungi:
 
 **North7**
-**Email:** [northsevent012@gmail.com](mailto:northsevent012@gmail.com)
+**Email:** [admin@north7.biz.id](mailto:admin@north7.biz.id)
 
 Kami akan berusaha menanggapi setiap pertanyaan terkait privasi dalam waktu yang wajar.

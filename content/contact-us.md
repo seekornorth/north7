@@ -19,7 +19,7 @@ North7 terbuka untuk berbagai masukan, koreksi, saran topik, informasi, maupun a
 
 ## Hubungi Kami
 
-**Email:** [northsevent012@gmail.com](mailto:northsevent012@gmail.com)
+**Email:** [admin@north7.biz.id](mailto:admin@north7.biz.id)
 
 Untuk koreksi atau masukan mengenai artikel, silakan sertakan judul atau tautan artikel yang dimaksud agar kami dapat memeriksanya dengan lebih mudah.
 

@@ -23,7 +23,7 @@ Keandalan informasi teknis adalah komitmen utama redaksi North7:
 Redaksi North7 berkomitmen untuk menyajikan informasi yang akurat dan terbuka terhadap pembaruan:
 - Apabila ditemukan kekeliruan data teknis, perintah yang usang akibat pembaruan software, atau salah ketik, redaksi akan segera memverifikasi dan memperbarui artikel yang bersangkutan.
 - Artikel yang mengalami penyesuaian isi akan menampilkan tanggal pembaruan (*dateModified*) yang transparan pada header artikel.
-- Pembaca yang menemukan ketidaksesuaian data atau tautan rusak dapat mengirimkan masukan atau koreksi melalui email [northsevent012@gmail.com](mailto:northsevent012@gmail.com) dengan menyertakan judul artikel bersangkutan.
+- Pembaca yang menemukan ketidaksesuaian data atau tautan rusak dapat mengirimkan masukan atau koreksi melalui email [admin@north7.biz.id](mailto:admin@north7.biz.id) dengan menyertakan judul artikel bersangkutan.
 
 ## 3. Independensi dan Standar Etika Redaksi
 - Penulisan artikel di North7 dilakukan secara mandiri, berimbang, dan tidak dipengaruhi oleh kepentingan komersial pihak luar atau vendor tertentu.
