@@ -14,6 +14,7 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Cara Setting IP Static Ubuntu Server dengan Netplan](https://north7.biz.id/cara-setting-ip-static-ubuntu-server/): Tutorial setting IP static Ubuntu Server pakai Netplan, lengkap dengan contoh konfigurasi YAML, cara verifikasi hasilnya, dan solusi buat masalah yang sering muncul.
 
 ## Panduan Gadget & Tips Praktis
+- [Cara Bersihkan Cache TV Android Agar Bebas Lemot](https://north7.biz.id/cara-bersihkan-cache-tv-android/): Panduan praktis cara bersihkan cache TV Android untuk mengatasi aplikasi streaming macet, memori penuh, dan performa lambat tanpa menghapus data login.
 - [Cara Kalibrasi Baterai iPhone Baru yang Benar dan Aman](https://north7.biz.id/cara-kalibrasi-baterai-iphone-baru/): Panduan lengkap cara kalibrasi baterai iPhone baru atau setelah ganti baterai. Luruskan mitos cas delapan jam dan jaga kesehatan baterai iOS tetap prima.
 - [Cara Aktifkan Perlindungan Perangkat yang Dicuri di iPhone](https://north7.biz.id/cara-aktifkan-perlindungan-perangkat-yang-dicuri-di-iphone/): Panduan lengkap cara mengaktifkan Perlindungan Perangkat yang Dicuri di iPhone, syarat aktivasi, dan cara kerja jeda keamanan satu jam demi melindungi akun Apple.
 - [Cara Hapus Riwayat Suara Google Assistant dan Gemini](https://north7.biz.id/cara-hapus-riwayat-suara-google-assistant-dan-gemini/): Panduan lengkap cara memeriksa dan menghapus rekaman suara Google Assistant serta percakapan Gemini Live di akun Google demi menjaga privasi digital.
