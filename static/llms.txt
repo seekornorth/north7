@@ -35,6 +35,7 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Canonical Umumkan Jadwal Ubuntu Summit 26.10, Digelar November 2026](https://north7.biz.id/jadwal-ubuntu-summit-26-10-november-2026/): Ubuntu Summit 26.10 akan digelar 12–13 November 2026 secara online dan gratis. Simak jadwal, format acara, topik, dan cara ikutnya.
 
 ## Berita Teknologi & Inovasi Perangkat
+- [Boox Palma 2 Pro, E-Reader Seukuran HP Berlayar Warna](https://north7.biz.id/boox-palma-2-pro-ereader-seukuran-hp/): Boox Palma 2 Pro resmi meluncur membawa layar warna Kaleido 3, koneksi seluler 5G, Android 15, dan bodi seringan 175 gram seukuran ponsel pintar.
 - [Sigma FP2 Meluncur, Full Frame Mungil Kini Punya Layar Lipat](https://north7.biz.id/sigma-fp2-full-frame-mungil-layar-lipat/): Sigma FP2 resmi meluncur dengan sensor 24,5 MP partially stacked, layar lipat fleksibel, memori internal 70 GB, dan bodi ringkas seringan 376 gram.
 - [Insta360 Mic Bawa Layar E-Ink Warna dan Slot MicroSD](https://north7.biz.id/insta360-mic-layar-e-ink-microsd/): Insta360 meluncurkan Insta360 Mic dengan layar E-Ink warna dan slot kartu microSD. Hadir lebih terjangkau dibanding seri Pro dengan baterai hingga 34 jam.
 - [Gemini Resmi Hadir di Mobil Lewat Android Auto dan CarPlay](https://north7.biz.id/gemini-hadir-di-mobil-android-auto-carplay/): Google membawa fitur Personal Intelligence Gemini ke Android Auto dan percakapan interaktif ke Apple CarPlay untuk memudahkan navigasi saat berkendara.
@@ -44,7 +45,6 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Ember Mug 3 Rilis, Bisa Atur Suhu Tanpa Buka Aplikasi](https://north7.biz.id/ember-mug-3-bisa-atur-suhu-tanpa-aplikasi/): Ember merilis smart mug generasi ketiga dengan tombol pengatur suhu fisik di bodi cangkir, daya tahan baterai 3 jam, serta dukungan mesin cuci piring.
 - [Intel Rilis LLM-Scaler 1.5, vLLM di GPU Arc Makin Kencang](https://north7.biz.id/intel-llm-scaler-1-5-vllm-gpu-arc/): Intel merilis LLM-Scaler vLLM 1.5 dengan basis vLLM 0.26 dan PyTorch 2.12. Stack Docker ini bawa kuantisasi FP8 dan percepat inferensi AI di GPU Intel Arc.
 - [Ray-Ban Meta Sempat Merekam Suara Pengguna Tanpa Izin](https://north7.biz.id/ray-ban-meta-rekam-suara-tanpa-izin/): Pengguna Ray-Ban Meta melaporkan kacamata mereka merekam obrolan tanpa aba-aba suara. Meta mengklaim bug ini sudah beres, tapi celah privasi tetap bikin waswas.
-- [Melihat Harga iPhone 18 Pro di Indonesia, Selisih Tiap Kapasitasnya Ternyata Lumayan Jauh](https://north7.biz.id/melihat-harga-iphone-18-pro-indonesia-selisih-kapasitas/): Pre-order iPhone 18 Pro dan 18 Pro Max di Indonesia resmi dibuka. mengecek daftar harganya dan menemukan selisih unik tiap naik kapasitas memori.
 
 ## Optional
 - [Sitemap XML](https://north7.biz.id/sitemap.xml): Peta situs lengkap seluruh indeks artikel North7.

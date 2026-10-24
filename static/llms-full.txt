@@ -39,6 +39,7 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [antiX 26.1 Rilis, Bawa Kernel Baru dan Tetap Tanpa systemd](https://north7.biz.id/antix-26-1-rilis-kernel-baru-tanpa-systemd/): antiX 26.1 resmi rilis dengan pembaruan kernel, perbaikan bug, dan tetap mempertahankan sistem tanpa systemd untuk PC lawas.
 
 ## Berita Teknologi & Inovasi Perangkat
+- [Boox Palma 2 Pro, E-Reader Seukuran HP Berlayar Warna](https://north7.biz.id/boox-palma-2-pro-ereader-seukuran-hp/): Boox Palma 2 Pro resmi meluncur membawa layar warna Kaleido 3, koneksi seluler 5G, Android 15, dan bodi seringan 175 gram seukuran ponsel pintar.
 - [Sigma FP2 Meluncur, Full Frame Mungil Kini Punya Layar Lipat](https://north7.biz.id/sigma-fp2-full-frame-mungil-layar-lipat/): Sigma FP2 resmi meluncur dengan sensor 24,5 MP partially stacked, layar lipat fleksibel, memori internal 70 GB, dan bodi ringkas seringan 376 gram.
 - [Insta360 Mic Bawa Layar E-Ink Warna dan Slot MicroSD](https://north7.biz.id/insta360-mic-layar-e-ink-microsd/): Insta360 meluncurkan Insta360 Mic dengan layar E-Ink warna dan slot kartu microSD. Hadir lebih terjangkau dibanding seri Pro dengan baterai hingga 34 jam.
 - [Gemini Resmi Hadir di Mobil Lewat Android Auto dan CarPlay](https://north7.biz.id/gemini-hadir-di-mobil-android-auto-carplay/): Google membawa fitur Personal Intelligence Gemini ke Android Auto dan percakapan interaktif ke Apple CarPlay untuk memudahkan navigasi saat berkendara.

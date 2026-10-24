@@ -3,6 +3,21 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://north7.biz.id/boox-palma-2-pro-ereader-seukuran-hp/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>North7</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-24T22:06:03+07:00</news:publication_date>
+      <news:title>Boox Palma 2 Pro, E-Reader Seukuran HP Berlayar Warna</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://north7.biz.id/boox-palma-2-pro-ereader-seukuran-hp/cover.png</image:loc>
+      <image:title>Boox Palma 2 Pro, E-Reader Seukuran HP Berlayar Warna</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://north7.biz.id/obs-studio-33-0-lompatan-cef-dan-rombak-plugin/</loc>
     <news:news>
       <news:publication>
@@ -45,21 +60,6 @@
     <image:image>
       <image:loc>https://north7.biz.id/zdi-bocorkan-celah-kernel-linux-ke-milis-publik/cover.png</image:loc>
       <image:title>ZDI Tak Sengaja Bocorkan Celah Kernel Linux ke Milis Publik</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://north7.biz.id/insta360-mic-layar-e-ink-microsd/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>North7</news:name>
-        <news:language>id</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-22T22:05:04+07:00</news:publication_date>
-      <news:title>Insta360 Mic Bawa Layar E-Ink Warna dan Slot MicroSD</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://north7.biz.id/insta360-mic-layar-e-ink-microsd/cover.png</image:loc>
-      <image:title>Insta360 Mic Bawa Layar E-Ink Warna dan Slot MicroSD</image:title>
     </image:image>
   </url>
 </urlset>
