@@ -21,6 +21,7 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Cara Kirim File Android ke PC Tanpa Kabel Pakai Quick Share](https://north7.biz.id/cara-kirim-file-android-ke-pc-tanpa-kabel-pakai-quick-share/): Panduan lengkap cara transfer file dari Android ke PC Windows tanpa kabel memakai Quick Share dari Google, cepat tanpa kompresi dan mudah diatur.
 
 ## Berita Linux, Kernel & Open Source
+- [OBS Studio 33.0 Rilis, Bawa Lompatan CEF dan Rombak Plugin](https://north7.biz.id/obs-studio-33-0-lompatan-cef-dan-rombak-plugin/): OBS Studio 33.0 resmi meluncur membawa lompatan Chromium CEF 150, perombakan arsitektur plugin, dukungan NVENC Arm64, dan stabilitas desktop Linux.
 - [ZDI Tak Sengaja Bocorkan Celah Kernel Linux ke Milis Publik](https://north7.biz.id/zdi-bocorkan-celah-kernel-linux-ke-milis-publik/): Trend Micro ZDI keliru mengirim sejumlah laporan celah kritis kernel Linux berstatus zero-day langsung ke milis publik LKML tanpa patch resmi.
 - [Kbuild Linux 7.4 Pangkas Waktu Kompilasi Kernel 36 Persen](https://north7.biz.id/kbuild-linux-7-4-percepat-kompilasi-kernel/): Linux 7.4 resmi menerima rombakan Kbuild dari Lorenzo Stoakes, mempercepat kompilasi kernel hingga 36 persen dan build inkremental 70 persen.
 - [Riset Linux Foundation, 25 Persen Pull Request Jadi AI Slop](https://north7.biz.id/linux-foundation-25-persen-pull-request-ai-slop/): Survei terbaru Linux Foundation mengungkap produktivitas koding naik hingga 50 persen, namun 25 persen pull request baru di open source kini berupa AI slop.

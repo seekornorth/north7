@@ -21,6 +21,7 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Cara Kirim File Android ke PC Tanpa Kabel Pakai Quick Share](https://north7.biz.id/cara-kirim-file-android-ke-pc-tanpa-kabel-pakai-quick-share/): Panduan lengkap cara transfer file dari Android ke PC Windows tanpa kabel memakai Quick Share dari Google, cepat tanpa kompresi dan mudah diatur.
 
 ## Berita Linux, Kernel & Open Source
+- [OBS Studio 33.0 Rilis, Bawa Lompatan CEF dan Rombak Plugin](https://north7.biz.id/obs-studio-33-0-lompatan-cef-dan-rombak-plugin/): OBS Studio 33.0 resmi meluncur membawa lompatan Chromium CEF 150, perombakan arsitektur plugin, dukungan NVENC Arm64, dan stabilitas desktop Linux.
 - [ZDI Tak Sengaja Bocorkan Celah Kernel Linux ke Milis Publik](https://north7.biz.id/zdi-bocorkan-celah-kernel-linux-ke-milis-publik/): Trend Micro ZDI keliru mengirim sejumlah laporan celah kritis kernel Linux berstatus zero-day langsung ke milis publik LKML tanpa patch resmi.
 - [Kbuild Linux 7.4 Pangkas Waktu Kompilasi Kernel 36 Persen](https://north7.biz.id/kbuild-linux-7-4-percepat-kompilasi-kernel/): Linux 7.4 resmi menerima rombakan Kbuild dari Lorenzo Stoakes, mempercepat kompilasi kernel hingga 36 persen dan build inkremental 70 persen.
 - [Riset Linux Foundation, 25 Persen Pull Request Jadi AI Slop](https://north7.biz.id/linux-foundation-25-persen-pull-request-ai-slop/): Survei terbaru Linux Foundation mengungkap produktivitas koding naik hingga 50 persen, namun 25 persen pull request baru di open source kini berupa AI slop.
@@ -30,7 +31,6 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Steam Linux Masuk Beta 64-bit dan Berjalan di Container](https://north7.biz.id/steam-linux-masuk-beta-64-bit/): Valve merilis pembaruan Steam Client Beta di Linux dengan binary 64-bit murni dan berjalan di dalam container runtime steamrt3c. Ini detail teknisnya.
 - [Linus Torvalds Pakai Claude Code Buat Garap Kernel Linux](https://north7.biz.id/linus-torvalds-claude-code-kernel-linux/): Linus Torvalds rilis eksperimen kernel dibantu Claude Code. Throughput baca file 8-thread melonjak dari 10 juta jadi 33 juta ops per detik.
 - [Canonical Umumkan Jadwal Ubuntu Summit 26.10, Digelar November 2026](https://north7.biz.id/jadwal-ubuntu-summit-26-10-november-2026/): Ubuntu Summit 26.10 akan digelar 12–13 November 2026 secara online dan gratis. Simak jadwal, format acara, topik, dan cara ikutnya.
-- [Cara Install Arch Linux Mudah Pakai Archinstall](https://north7.biz.id/install-arch-linux-pakai-archinstall/): Panduan lengkap cara install Arch Linux menggunakan Archinstall, mulai dari menyiapkan installer hingga sistem Arch Linux siap digunakan.
 
 ## Berita Teknologi & Inovasi Perangkat
 - [Sigma FP2 Meluncur, Full Frame Mungil Kini Punya Layar Lipat](https://north7.biz.id/sigma-fp2-full-frame-mungil-layar-lipat/): Sigma FP2 resmi meluncur dengan sensor 24,5 MP partially stacked, layar lipat fleksibel, memori internal 70 GB, dan bodi ringkas seringan 376 gram.
