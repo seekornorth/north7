@@ -3,6 +3,21 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://north7.biz.id/armsom-sige7s-bawa-chip-rk3588s-seukuran-raspberry-pi/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>North7</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-25T22:06:46+07:00</news:publication_date>
+      <news:title>ArmSoM Sige7s Bawa Chip RK3588S Seukuran Raspberry Pi</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://north7.biz.id/armsom-sige7s-bawa-chip-rk3588s-seukuran-raspberry-pi/cover.png</image:loc>
+      <image:title>ArmSoM Sige7s Bawa Chip RK3588S Seukuran Raspberry Pi</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://north7.biz.id/systemd-resmi-dukung-rust-komponen-baru-tanpa-cargo/</loc>
     <news:news>
       <news:publication>
@@ -45,21 +60,6 @@
     <image:image>
       <image:loc>https://north7.biz.id/obs-studio-33-0-lompatan-cef-dan-rombak-plugin/cover.png</image:loc>
       <image:title>OBS Studio 33.0 Rilis, Bawa Lompatan CEF dan Rombak Plugin</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://north7.biz.id/sigma-fp2-full-frame-mungil-layar-lipat/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>North7</news:name>
-        <news:language>id</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-23T22:07:11+07:00</news:publication_date>
-      <news:title>Sigma FP2 Meluncur, Full Frame Mungil Kini Punya Layar Lipat</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://north7.biz.id/sigma-fp2-full-frame-mungil-layar-lipat/cover.png</image:loc>
-      <image:title>Sigma FP2 Meluncur, Full Frame Mungil Kini Punya Layar Lipat</image:title>
     </image:image>
   </url>
 </urlset>

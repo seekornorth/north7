@@ -37,6 +37,7 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Linus Torvalds Pakai Claude Code Buat Garap Kernel Linux](https://north7.biz.id/linus-torvalds-claude-code-kernel-linux/): Linus Torvalds rilis eksperimen kernel dibantu Claude Code. Throughput baca file 8-thread melonjak dari 10 juta jadi 33 juta ops per detik.
 
 ## Berita Teknologi & Inovasi Perangkat
+- [ArmSoM Sige7s Bawa Chip RK3588S Seukuran Raspberry Pi](https://north7.biz.id/armsom-sige7s-bawa-chip-rk3588s-seukuran-raspberry-pi/): ArmSoM merilis Sige7s, papan SBC bertenaga Rockchip RK3588S seukuran Raspberry Pi dengan NPU 6 TOPS, eMMC lepas-pasang, dan rentang daya hingga 23V.
 - [Boox Palma 2 Pro, E-Reader Seukuran HP Berlayar Warna](https://north7.biz.id/boox-palma-2-pro-ereader-seukuran-hp/): Boox Palma 2 Pro resmi meluncur membawa layar warna Kaleido 3, koneksi seluler 5G, Android 15, dan bodi seringan 175 gram seukuran ponsel pintar.
 - [Sigma FP2 Meluncur, Full Frame Mungil Kini Punya Layar Lipat](https://north7.biz.id/sigma-fp2-full-frame-mungil-layar-lipat/): Sigma FP2 resmi meluncur dengan sensor 24,5 MP partially stacked, layar lipat fleksibel, memori internal 70 GB, dan bodi ringkas seringan 376 gram.
 - [Insta360 Mic Bawa Layar E-Ink Warna dan Slot MicroSD](https://north7.biz.id/insta360-mic-layar-e-ink-microsd/): Insta360 meluncurkan Insta360 Mic dengan layar E-Ink warna dan slot kartu microSD. Hadir lebih terjangkau dibanding seri Pro dengan baterai hingga 34 jam.
@@ -46,7 +47,6 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Karyawan Anthropic Lebih Sering Rapat dan Mengasuh Claude](https://north7.biz.id/karyawan-anthropic-sering-rapat-mengasuh-claude/): Riset internal Anthropic membongkar fakta unik. Rekrutmen junior anjlok drastis, jam kerja AI lampaui staf manusia, dan waktu rapat malah naik 20 persen.
 - [Ember Mug 3 Rilis, Bisa Atur Suhu Tanpa Buka Aplikasi](https://north7.biz.id/ember-mug-3-bisa-atur-suhu-tanpa-aplikasi/): Ember merilis smart mug generasi ketiga dengan tombol pengatur suhu fisik di bodi cangkir, daya tahan baterai 3 jam, serta dukungan mesin cuci piring.
 - [Intel Rilis LLM-Scaler 1.5, vLLM di GPU Arc Makin Kencang](https://north7.biz.id/intel-llm-scaler-1-5-vllm-gpu-arc/): Intel merilis LLM-Scaler vLLM 1.5 dengan basis vLLM 0.26 dan PyTorch 2.12. Stack Docker ini bawa kuantisasi FP8 dan percepat inferensi AI di GPU Intel Arc.
-- [Ray-Ban Meta Sempat Merekam Suara Pengguna Tanpa Izin](https://north7.biz.id/ray-ban-meta-rekam-suara-tanpa-izin/): Pengguna Ray-Ban Meta melaporkan kacamata mereka merekam obrolan tanpa aba-aba suara. Meta mengklaim bug ini sudah beres, tapi celah privasi tetap bikin waswas.
 
 ## Optional
 - [Sitemap XML](https://north7.biz.id/sitemap.xml): Peta situs lengkap seluruh indeks artikel North7.
