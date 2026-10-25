@@ -62,19 +62,4 @@
       <image:title>Sigma FP2 Meluncur, Full Frame Mungil Kini Punya Layar Lipat</image:title>
     </image:image>
   </url>
-  <url>
-    <loc>https://north7.biz.id/zdi-bocorkan-celah-kernel-linux-ke-milis-publik/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>North7</news:name>
-        <news:language>id</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-23T08:07:55+07:00</news:publication_date>
-      <news:title>ZDI Tak Sengaja Bocorkan Celah Kernel Linux ke Milis Publik</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://north7.biz.id/zdi-bocorkan-celah-kernel-linux-ke-milis-publik/cover.png</image:loc>
-      <image:title>ZDI Tak Sengaja Bocorkan Celah Kernel Linux ke Milis Publik</image:title>
-    </image:image>
-  </url>
 </urlset>
