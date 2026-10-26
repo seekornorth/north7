@@ -62,19 +62,4 @@
       <image:title>Boox Palma 2 Pro, E-Reader Seukuran HP Berlayar Warna</image:title>
     </image:image>
   </url>
-  <url>
-    <loc>https://north7.biz.id/obs-studio-33-0-lompatan-cef-dan-rombak-plugin/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>North7</news:name>
-        <news:language>id</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-24T08:09:33+07:00</news:publication_date>
-      <news:title>OBS Studio 33.0 Rilis, Bawa Lompatan CEF dan Rombak Plugin</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://north7.biz.id/obs-studio-33-0-lompatan-cef-dan-rombak-plugin/cover.png</image:loc>
-      <image:title>OBS Studio 33.0 Rilis, Bawa Lompatan CEF dan Rombak Plugin</image:title>
-    </image:image>
-  </url>
 </urlset>
