@@ -3,6 +3,21 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://north7.biz.id/logitech-pebble-up-mouse-tipis-ergonomis/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>North7</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-26T22:08:43+07:00</news:publication_date>
+      <news:title>Logitech Pebble Up, Mouse Tipis yang Bisa Berubah Ergonomis</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://north7.biz.id/logitech-pebble-up-mouse-tipis-ergonomis/cover.png</image:loc>
+      <image:title>Logitech Pebble Up, Mouse Tipis yang Bisa Berubah Ergonomis</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://north7.biz.id/linux-7-4-hapus-driver-c-binder-resmikan-rust/</loc>
     <news:news>
       <news:publication>
@@ -45,21 +60,6 @@
     <image:image>
       <image:loc>https://north7.biz.id/systemd-resmi-dukung-rust-komponen-baru-tanpa-cargo/cover.png</image:loc>
       <image:title>systemd Resmi Dukung Rust, Siapkan Utilitas Baru Tanpa Cargo</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://north7.biz.id/boox-palma-2-pro-ereader-seukuran-hp/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>North7</news:name>
-        <news:language>id</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-24T22:06:03+07:00</news:publication_date>
-      <news:title>Boox Palma 2 Pro, E-Reader Seukuran HP Berlayar Warna</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://north7.biz.id/boox-palma-2-pro-ereader-seukuran-hp/cover.png</image:loc>
-      <image:title>Boox Palma 2 Pro, E-Reader Seukuran HP Berlayar Warna</image:title>
     </image:image>
   </url>
 </urlset>

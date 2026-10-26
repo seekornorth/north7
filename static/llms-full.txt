@@ -45,6 +45,7 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [antiX 26.1 Rilis, Bawa Kernel Baru dan Tetap Tanpa systemd](https://north7.biz.id/antix-26-1-rilis-kernel-baru-tanpa-systemd/): antiX 26.1 resmi rilis dengan pembaruan kernel, perbaikan bug, dan tetap mempertahankan sistem tanpa systemd untuk PC lawas.
 
 ## Berita Teknologi & Inovasi Perangkat
+- [Logitech Pebble Up, Mouse Tipis yang Bisa Berubah Ergonomis](https://north7.biz.id/logitech-pebble-up-mouse-tipis-ergonomis/): Logitech merilis Pebble Up, mouse nirkabel tipis yang bisa bertransformasi menjadi mouse ergonomis dengan sudut miring berkat mekanisme pop-up terintegrasi.
 - [ArmSoM Sige7s Bawa Chip RK3588S Seukuran Raspberry Pi](https://north7.biz.id/armsom-sige7s-bawa-chip-rk3588s-seukuran-raspberry-pi/): ArmSoM merilis Sige7s, papan SBC bertenaga Rockchip RK3588S seukuran Raspberry Pi dengan NPU 6 TOPS, eMMC lepas-pasang, dan rentang daya hingga 23V.
 - [Boox Palma 2 Pro, E-Reader Seukuran HP Berlayar Warna](https://north7.biz.id/boox-palma-2-pro-ereader-seukuran-hp/): Boox Palma 2 Pro resmi meluncur membawa layar warna Kaleido 3, koneksi seluler 5G, Android 15, dan bodi seringan 175 gram seukuran ponsel pintar.
 - [Sigma FP2 Meluncur, Full Frame Mungil Kini Punya Layar Lipat](https://north7.biz.id/sigma-fp2-full-frame-mungil-layar-lipat/): Sigma FP2 resmi meluncur dengan sensor 24,5 MP partially stacked, layar lipat fleksibel, memori internal 70 GB, dan bodi ringkas seringan 376 gram.
