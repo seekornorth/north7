@@ -1,16 +1,35 @@
-{{/* Avatar bulat yang konsisten di semua tempat.
+{{/* Avatar bulat yang konsisten di semua tempat (mendukung Retina 2x).
   Args: image (path di assets), alt, size (px, default 96). */}}
 {{ $s := .size | default 96 }}
+{{ $s2 := mul $s 2 }}
 {{ with resources.Get .image }}
   {{ if eq .MediaType.SubType "svg" }}
     <img class="nozoom nrt-avatar" src="{{ .RelPermalink }}" alt="{{ $.alt }}" loading="lazy" decoding="async" width="{{ $s }}" height="{{ $s }}" />
   {{ else }}
-    {{ with try (.Fill (printf "%dx%d Center q80" $s $s)) }}
-      {{ with .Value }}
-        <img class="nozoom nrt-avatar" src="{{ .RelPermalink }}" alt="{{ $.alt }}" loading="lazy" decoding="async" width="{{ .Width }}" height="{{ .Height }}" />
+    {{ $imgRes := . }}
+    {{ with try ($imgRes.Fill (printf "%dx%d Center q85" $s $s)) }}
+      {{ $img1x := .Value }}
+      {{ with try ($imgRes.Fill (printf "%dx%d Center q85" $s2 $s2)) }}
+        {{ $img2x := .Value }}
+        <img class="nozoom nrt-avatar"
+          src="{{ $img1x.RelPermalink }}"
+          srcset="{{ $img1x.RelPermalink }} 1x, {{ $img2x.RelPermalink }} 2x"
+          alt="{{ $.alt }}"
+          loading="lazy"
+          decoding="async"
+          width="{{ $s }}"
+          height="{{ $s }}" />
+      {{ else }}
+        <img class="nozoom nrt-avatar"
+          src="{{ $img1x.RelPermalink }}"
+          alt="{{ $.alt }}"
+          loading="lazy"
+          decoding="async"
+          width="{{ $s }}"
+          height="{{ $s }}" />
       {{ end }}
     {{ else }}
-      <img class="nozoom nrt-avatar" src="{{ .RelPermalink }}" alt="{{ $.alt }}" loading="lazy" decoding="async" />
+      <img class="nozoom nrt-avatar" src="{{ $imgRes.RelPermalink }}" alt="{{ $.alt }}" loading="lazy" decoding="async" width="{{ $s }}" height="{{ $s }}" />
     {{ end }}
   {{ end }}
 {{ end }}
