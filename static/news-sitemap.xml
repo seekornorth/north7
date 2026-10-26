@@ -3,6 +3,21 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://north7.biz.id/linux-7-4-hapus-driver-c-binder-resmikan-rust/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>North7</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-26T08:07:20+07:00</news:publication_date>
+      <news:title>Kernel Linux 7.4 Hapus Driver C Binder demi Rust</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://north7.biz.id/linux-7-4-hapus-driver-c-binder-resmikan-rust/cover.png</image:loc>
+      <image:title>Kernel Linux 7.4 Hapus Driver C Binder demi Rust</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://north7.biz.id/armsom-sige7s-bawa-chip-rk3588s-seukuran-raspberry-pi/</loc>
     <news:news>
       <news:publication>

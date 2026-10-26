@@ -25,6 +25,7 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Cara Kirim File Android ke PC Tanpa Kabel Pakai Quick Share](https://north7.biz.id/cara-kirim-file-android-ke-pc-tanpa-kabel-pakai-quick-share/): Panduan lengkap cara transfer file dari Android ke PC Windows tanpa kabel memakai Quick Share dari Google, cepat tanpa kompresi dan mudah diatur.
 
 ## Berita Linux, Kernel & Open Source
+- [Kernel Linux 7.4 Hapus Driver C Binder demi Rust](https://north7.biz.id/linux-7-4-hapus-driver-c-binder-resmikan-rust/): Kernel Linux 7.4 resmi menghapus driver Binder C warisan Google dan beralih penuh ke Rust Binder untuk miliaran perangkat Android.
 - [systemd Resmi Dukung Rust, Siapkan Utilitas Baru Tanpa Cargo](https://north7.biz.id/systemd-resmi-dukung-rust-komponen-baru-tanpa-cargo/): Proyek systemd resmi menggabungkan dukungan bahasa pemrograman Rust untuk komponen utilitas baru pada rilis systemd 263 tanpa mengandalkan Cargo.
 - [OBS Studio 33.0 Rilis, Bawa Lompatan CEF dan Rombak Plugin](https://north7.biz.id/obs-studio-33-0-lompatan-cef-dan-rombak-plugin/): OBS Studio 33.0 resmi meluncur membawa lompatan Chromium CEF 150, perombakan arsitektur plugin, dukungan NVENC Arm64, dan stabilitas desktop Linux.
 - [ZDI Tak Sengaja Bocorkan Celah Kernel Linux ke Milis Publik](https://north7.biz.id/zdi-bocorkan-celah-kernel-linux-ke-milis-publik/): Trend Micro ZDI keliru mengirim sejumlah laporan celah kritis kernel Linux berstatus zero-day langsung ke milis publik LKML tanpa patch resmi.
