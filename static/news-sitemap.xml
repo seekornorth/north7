@@ -3,6 +3,21 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://north7.biz.id/macbook-pro-14-inci-m6-baterai-24-jam/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>North7</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-27T22:05:46+07:00</news:publication_date>
+      <news:title>Apple Rilis MacBook Pro 14 Inci M6, Baterai Tahan 24 Jam</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://north7.biz.id/macbook-pro-14-inci-m6-baterai-24-jam/cover.png</image:loc>
+      <image:title>Apple Rilis MacBook Pro 14 Inci M6, Baterai Tahan 24 Jam</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://north7.biz.id/kernel-linux-bereskan-regresi-penjadwal-amd-strix-point/</loc>
     <news:news>
       <news:publication>

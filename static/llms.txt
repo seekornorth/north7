@@ -40,6 +40,7 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [VirtIO-FS Uji Antrean Sinkron, Kompilasi di VM Makin Kencang](https://north7.biz.id/virtio-fs-antrean-sinkron-performa-vm/): Uji coba antrean sinkron di VirtIO-FS pangkas waktu kompilasi sampai 28 persen dan kurangi latensi I/O. Ini ulasan arsitektur dan hasil pengujiannya.
 
 ## Berita Teknologi & Inovasi Perangkat
+- [Apple Rilis MacBook Pro 14 Inci M6, Baterai Tahan 24 Jam](https://north7.biz.id/macbook-pro-14-inci-m6-baterai-24-jam/): Apple resmi memperbarui MacBook Pro 14 inci dengan chip M6 fabrikasi 2nm, chip nirkabel N1 Wi-Fi 7, serta daya tahan baterai terpanjang hingga 24 jam.
 - [Logitech Pebble Up, Mouse Tipis yang Bisa Berubah Ergonomis](https://north7.biz.id/logitech-pebble-up-mouse-tipis-ergonomis/): Logitech merilis Pebble Up, mouse nirkabel tipis yang bisa bertransformasi menjadi mouse ergonomis dengan sudut miring berkat mekanisme pop-up terintegrasi.
 - [ArmSoM Sige7s Bawa Chip RK3588S Seukuran Raspberry Pi](https://north7.biz.id/armsom-sige7s-bawa-chip-rk3588s-seukuran-raspberry-pi/): ArmSoM merilis Sige7s, papan SBC bertenaga Rockchip RK3588S seukuran Raspberry Pi dengan NPU 6 TOPS, eMMC lepas-pasang, dan rentang daya hingga 23V.
 - [Boox Palma 2 Pro, E-Reader Seukuran HP Berlayar Warna](https://north7.biz.id/boox-palma-2-pro-ereader-seukuran-hp/): Boox Palma 2 Pro resmi meluncur membawa layar warna Kaleido 3, koneksi seluler 5G, Android 15, dan bodi seringan 175 gram seukuran ponsel pintar.
@@ -49,7 +50,6 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Razer Basilisk V4 Pro Resmi Meluncur, Bawa Sensor 50K DPI](https://north7.biz.id/razer-basilisk-v4-pro-sensor-50k-dpi/): Razer meluncurkan Basilisk V4 Pro dengan sensor Focus Pro 50K DPI, polling rate 8.000 Hz, baterai hingga 275 jam, dan bobot 12 gram lebih ringan.
 - [Fairbuds 2 Rilis, TWS yang Baterainya Bisa Diganti Sendiri](https://north7.biz.id/fairbuds-2-tws-baterai-bisa-diganti-sendiri/): Fairphone merilis Fairbuds 2 dengan baterai modular yang bisa diganti tanpa alat, dukungan audio resolusi tinggi LDAC, dan sertifikasi ramah lingkungan.
 - [Karyawan Anthropic Lebih Sering Rapat dan Mengasuh Claude](https://north7.biz.id/karyawan-anthropic-sering-rapat-mengasuh-claude/): Riset internal Anthropic membongkar fakta unik. Rekrutmen junior anjlok drastis, jam kerja AI lampaui staf manusia, dan waktu rapat malah naik 20 persen.
-- [Ember Mug 3 Rilis, Bisa Atur Suhu Tanpa Buka Aplikasi](https://north7.biz.id/ember-mug-3-bisa-atur-suhu-tanpa-aplikasi/): Ember merilis smart mug generasi ketiga dengan tombol pengatur suhu fisik di bodi cangkir, daya tahan baterai 3 jam, serta dukungan mesin cuci piring.
 
 ## Optional
 - [Sitemap XML](https://north7.biz.id/sitemap.xml): Peta situs lengkap seluruh indeks artikel North7.
