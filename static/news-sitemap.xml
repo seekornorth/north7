@@ -3,6 +3,21 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://north7.biz.id/kernel-linux-bereskan-regresi-penjadwal-amd-strix-point/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>North7</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-27T08:07:47+07:00</news:publication_date>
+      <news:title>Kernel Linux Bereskan Regresi Penjadwal AMD Strix Point</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://north7.biz.id/kernel-linux-bereskan-regresi-penjadwal-amd-strix-point/cover.png</image:loc>
+      <image:title>Kernel Linux Bereskan Regresi Penjadwal AMD Strix Point</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://north7.biz.id/logitech-pebble-up-mouse-tipis-ergonomis/</loc>
     <news:news>
       <news:publication>
@@ -45,21 +60,6 @@
     <image:image>
       <image:loc>https://north7.biz.id/armsom-sige7s-bawa-chip-rk3588s-seukuran-raspberry-pi/cover.png</image:loc>
       <image:title>ArmSoM Sige7s Bawa Chip RK3588S Seukuran Raspberry Pi</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://north7.biz.id/systemd-resmi-dukung-rust-komponen-baru-tanpa-cargo/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>North7</news:name>
-        <news:language>id</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-25T08:03:56+07:00</news:publication_date>
-      <news:title>systemd Resmi Dukung Rust, Siapkan Utilitas Baru Tanpa Cargo</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://north7.biz.id/systemd-resmi-dukung-rust-komponen-baru-tanpa-cargo/cover.png</image:loc>
-      <image:title>systemd Resmi Dukung Rust, Siapkan Utilitas Baru Tanpa Cargo</image:title>
     </image:image>
   </url>
 </urlset>
