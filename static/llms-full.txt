@@ -17,6 +17,7 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Cara Setting IP Static Ubuntu Server dengan Netplan](https://north7.biz.id/cara-setting-ip-static-ubuntu-server/): Tutorial setting IP static Ubuntu Server pakai Netplan, lengkap dengan contoh konfigurasi YAML, cara verifikasi hasilnya, dan solusi buat masalah yang sering muncul.
 
 ## Panduan Gadget & Tips Praktis
+- [Panduan Lengkap Backup WhatsApp ke pCloud](https://north7.biz.id/panduan-lengkap-backup-whatsapp-pcloud/): Panduan praktis cara backup WhatsApp ke pCloud mulai dari unggahan otomatis folder media, ekspor arsip obrolan penting, hingga pencadangan database lokal.
 - [Cara Backup Chat WhatsApp ke PC Praktis dan Aman](https://north7.biz.id/cara-backup-chat-whatsapp-ke-pc/): Panduan lengkap cara backup chat WhatsApp ke PC via fitur ekspor obrolan resmi, transfer web, hingga pencadangan database lokal di Windows dan Mac.
 - [Panduan Lengkap Cache Android Phone](https://north7.biz.id/panduan-lengkap-cache-android-phone/): Panduan lengkap memahami mekanisme cache android phone, perbedaan hapus cache vs hapus data, kapan waktu tepat membersihkannya, dan tips optimasi memori.
 - [Cara Bersihkan Cache TV Android Agar Bebas Lemot](https://north7.biz.id/cara-bersihkan-cache-tv-android/): Panduan praktis cara bersihkan cache TV Android untuk mengatasi aplikasi streaming macet, memori penuh, dan performa lambat tanpa menghapus data login.
