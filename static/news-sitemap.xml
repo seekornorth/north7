@@ -3,6 +3,21 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://north7.biz.id/raspberry-pi-zero-3-w-muncul-di-kernel-linux-bawa-bcm2711/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>North7</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-28T08:06:45+07:00</news:publication_date>
+      <news:title>Raspberry Pi Zero 3 W Muncul di Kernel Linux Bawa BCM2711</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://north7.biz.id/raspberry-pi-zero-3-w-muncul-di-kernel-linux-bawa-bcm2711/cover.png</image:loc>
+      <image:title>Raspberry Pi Zero 3 W Muncul di Kernel Linux Bawa BCM2711</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://north7.biz.id/macbook-pro-14-inci-m6-baterai-24-jam/</loc>
     <news:news>
       <news:publication>
@@ -60,21 +75,6 @@
     <image:image>
       <image:loc>https://north7.biz.id/linux-7-4-hapus-driver-c-binder-resmikan-rust/cover.png</image:loc>
       <image:title>Kernel Linux 7.4 Hapus Driver C Binder demi Rust</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://north7.biz.id/armsom-sige7s-bawa-chip-rk3588s-seukuran-raspberry-pi/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>North7</news:name>
-        <news:language>id</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-25T22:06:46+07:00</news:publication_date>
-      <news:title>ArmSoM Sige7s Bawa Chip RK3588S Seukuran Raspberry Pi</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://north7.biz.id/armsom-sige7s-bawa-chip-rk3588s-seukuran-raspberry-pi/cover.png</image:loc>
-      <image:title>ArmSoM Sige7s Bawa Chip RK3588S Seukuran Raspberry Pi</image:title>
     </image:image>
   </url>
 </urlset>
