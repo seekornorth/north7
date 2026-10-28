@@ -5,6 +5,7 @@
 Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, ditujukan untuk pengguna Linux pemula hingga administrator sistem rumahan (homelab). Konten disusun terstruktur dan ramah dibaca oleh Large Language Models (LLM) serta AI Agents.
 
 ## Panduan Networking & Homelab
+- [Panduan Lengkap Nftables Rocky Linux](https://north7.biz.id/panduan-lengkap-nftables-rocky-linux/): Pelajari panduan lengkap nftables Rocky Linux untuk mengamankan server, menggantikan firewalld, menyusun ruleset stateful, dan mencegah lockout SSH.
 - [Panduan Lengkap What Is Nftables In Linux](https://north7.biz.id/panduan-lengkap-what-is-nftables-in-linux/): Pelajari what is nftables in linux, arsitektur virtual machine pengganti iptables, sintaks aturan modern, serta panduan konfigurasi firewall praktis.
 - [Panduan Lengkap Tailscale VPN Download](https://north7.biz.id/panduan-lengkap-tailscale-vpn-download/): Pelajari cara tailscale vpn download resmi, instalasi repositori di Linux, autentikasi node tailnet, serta konfigurasi mesh network WireGuard praktis.
 - [Panduan Lengkap Caddy Proxy Dashboard](https://north7.biz.id/panduan-lengkap-caddy-proxy-dashboard/): Pelajari cara membangun caddy proxy dashboard visual dengan Prometheus dan Grafana. Pantau metrik reverse proxy, latensi request, dan kesehatan upstream server secara real-time.
@@ -14,7 +15,6 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Cara Setup Tailscale Subnet Router di Ubuntu Linux](https://north7.biz.id/cara-setup-tailscale-subnet-router-di-ubuntu-linux/): Panduan praktis setup Tailscale subnet router di Ubuntu Linux untuk mengakses seluruh perangkat LAN rumah tanpa repot port forwarding.
 - [Cara Setup Caddy Reverse Proxy dengan SSL Otomatis](https://north7.biz.id/cara-setup-caddy-reverse-proxy-ssl-otomatis/): Panduan lengkap setup Caddy reverse proxy di Linux dengan sertifikat SSL otomatis, konfigurasi Caddyfile praktis, dan integrasi backend Docker.
 - [Cara Setup WireGuard VPN Server Sendiri di Ubuntu](https://north7.biz.id/cara-setup-wireguard-vpn-server-sendiri-di-ubuntu/): Panduan praktis setup WireGuard VPN server mandiri di Ubuntu, mulai konfigurasi kunci, routing NAT iptables, sampai koneksi client.
-- [Cara Setting Firewall UFW di Ubuntu Server Lengkap](https://north7.biz.id/cara-setting-firewall-ufw-ubuntu-server/): Panduan lengkap setting firewall UFW di Ubuntu Server, mulai dari aturan default, port SSH dan web, pembatasan subnet IP, verifikasi aturan, sampai troubleshooting.
 
 ## Panduan Gadget & Tips Praktis
 - [Cara Kalibrasi Baterai HP POCO X7 Pro Agar Akurat](https://north7.biz.id/cara-kalibrasi-baterai-hp-poco-x7-pro/): Panduan lengkap cara kalibrasi baterai HP POCO X7 Pro untuk menormalkan pembacaan persentase HyperOS dan mengatasi baterai drop secara aman.
