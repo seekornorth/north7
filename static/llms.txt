@@ -17,6 +17,7 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Cara Setup WireGuard VPN Server Sendiri di Ubuntu](https://north7.biz.id/cara-setup-wireguard-vpn-server-sendiri-di-ubuntu/): Panduan praktis setup WireGuard VPN server mandiri di Ubuntu, mulai konfigurasi kunci, routing NAT iptables, sampai koneksi client.
 
 ## Panduan Gadget & Tips Praktis
+- [Panduan Lengkap Transfer File Android to PC Online](https://north7.biz.id/panduan-lengkap-transfer-file-android-to-pc-online/): Panduan lengkap transfer file Android to PC online via Google Drive, web relay terenkripsi, hingga cloud sync tanpa kabel data dengan kualitas berkas penuh.
 - [Cara Kalibrasi Baterai HP POCO X7 Pro Agar Akurat](https://north7.biz.id/cara-kalibrasi-baterai-hp-poco-x7-pro/): Panduan lengkap cara kalibrasi baterai HP POCO X7 Pro untuk menormalkan pembacaan persentase HyperOS dan mengatasi baterai drop secara aman.
 - [Panduan Lengkap Backup WhatsApp ke pCloud](https://north7.biz.id/panduan-lengkap-backup-whatsapp-pcloud/): Panduan praktis cara backup WhatsApp ke pCloud mulai dari unggahan otomatis folder media, ekspor arsip obrolan penting, hingga pencadangan database lokal.
 - [Cara Backup Chat WhatsApp ke PC Praktis dan Aman](https://north7.biz.id/cara-backup-chat-whatsapp-ke-pc/): Panduan lengkap cara backup chat WhatsApp ke PC via fitur ekspor obrolan resmi, transfer web, hingga pencadangan database lokal di Windows dan Mac.
@@ -26,7 +27,6 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Cara Aktifkan Perlindungan Perangkat yang Dicuri di iPhone](https://north7.biz.id/cara-aktifkan-perlindungan-perangkat-yang-dicuri-di-iphone/): Panduan lengkap cara mengaktifkan Perlindungan Perangkat yang Dicuri di iPhone, syarat aktivasi, dan cara kerja jeda keamanan satu jam demi melindungi akun Apple.
 - [Cara Hapus Riwayat Suara Google Assistant dan Gemini](https://north7.biz.id/cara-hapus-riwayat-suara-google-assistant-dan-gemini/): Panduan lengkap cara memeriksa dan menghapus rekaman suara Google Assistant serta percakapan Gemini Live di akun Google demi menjaga privasi digital.
 - [Cara Aktifkan Passkey Google Biar Login Tanpa Password](https://north7.biz.id/cara-aktifkan-passkey-google-biar-login-tanpa-password/): Panduan praktis cara membuat dan menggunakan passkey akun Google di Android, iPhone, dan PC. Login mudah dengan sidik jari, aman dari ancaman phishing.
-- [Cara Kirim File Android ke PC Tanpa Kabel Pakai Quick Share](https://north7.biz.id/cara-kirim-file-android-ke-pc-tanpa-kabel-pakai-quick-share/): Panduan lengkap cara transfer file dari Android ke PC Windows tanpa kabel memakai Quick Share dari Google, cepat tanpa kompresi dan mudah diatur.
 
 ## Berita Linux, Kernel & Open Source
 - [Canonical Bangkitkan Ubuntu Core Desktop Menuju Rilis 27.04](https://north7.biz.id/canonical-bangkitkan-ubuntu-core-desktop-27-04/): Canonical membentuk tim khusus untuk mempercepat Ubuntu Core Desktop, sistem operasi immutable berbasis snap penuh menjelang rilis Ubuntu 27.04.
