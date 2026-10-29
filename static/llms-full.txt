@@ -54,6 +54,7 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [antiX 26.1 Rilis, Bawa Kernel Baru dan Tetap Tanpa systemd](https://north7.biz.id/antix-26-1-rilis-kernel-baru-tanpa-systemd/): antiX 26.1 resmi rilis dengan pembaruan kernel, perbaikan bug, dan tetap mempertahankan sistem tanpa systemd untuk PC lawas.
 
 ## Berita Teknologi & Inovasi Perangkat
+- [XREAL AURA Meluncur Resmi, Kacamata Android XR Pertama](https://north7.biz.id/xreal-aura-kacamata-android-xr-pertama/): Google dan XREAL resmi merilis XREAL AURA, kacamata komputasi spasial Android XR pertama berbobot 95 gram dengan chip Snapdragon Reality Elite dan Gemini.
 - [Amazon Rilis Alexa Photo Frame, Bingkai Digital Tanpa Iklan](https://north7.biz.id/amazon-alexa-photo-frame-tanpa-iklan/): Amazon resmi merilis Alexa Photo Frame, bingkai foto digital 10 inci berlayar anti-glare dengan kurasi kecerdasan buatan Alexa Plus, fitur rekaman suara, dan tanpa iklan.
 - [Apple Rilis MacBook Pro 14 Inci M6, Baterai Tahan 24 Jam](https://north7.biz.id/macbook-pro-14-inci-m6-baterai-24-jam/): Apple resmi memperbarui MacBook Pro 14 inci dengan chip M6 fabrikasi 2nm, chip nirkabel N1 Wi-Fi 7, serta daya tahan baterai terpanjang hingga 24 jam.
 - [Logitech Pebble Up, Mouse Tipis yang Bisa Berubah Ergonomis](https://north7.biz.id/logitech-pebble-up-mouse-tipis-ergonomis/): Logitech merilis Pebble Up, mouse nirkabel tipis yang bisa bertransformasi menjadi mouse ergonomis dengan sudut miring berkat mekanisme pop-up terintegrasi.
