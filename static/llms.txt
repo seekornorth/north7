@@ -29,6 +29,7 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Cara Kirim File Android ke PC Tanpa Kabel Pakai Quick Share](https://north7.biz.id/cara-kirim-file-android-ke-pc-tanpa-kabel-pakai-quick-share/): Panduan lengkap cara transfer file dari Android ke PC Windows tanpa kabel memakai Quick Share dari Google, cepat tanpa kompresi dan mudah diatur.
 
 ## Berita Linux, Kernel & Open Source
+- [Canonical Bangkitkan Ubuntu Core Desktop Menuju Rilis 27.04](https://north7.biz.id/canonical-bangkitkan-ubuntu-core-desktop-27-04/): Canonical membentuk tim khusus untuk mempercepat Ubuntu Core Desktop, sistem operasi immutable berbasis snap penuh menjelang rilis Ubuntu 27.04.
 - [Raspberry Pi Zero 3 W Muncul di Kernel Linux Bawa BCM2711](https://north7.biz.id/raspberry-pi-zero-3-w-muncul-di-kernel-linux-bawa-bcm2711/): Patch pohon Device Tree di repositori kernel Linux resmi mengonfirmasi kehadiran Raspberry Pi Zero 3 W bertenaga SoC Broadcom BCM2711 dan Pi 4 Model A.
 - [Kernel Linux Bereskan Regresi Penjadwal AMD Strix Point](https://north7.biz.id/kernel-linux-bereskan-regresi-penjadwal-amd-strix-point/): Kernel Linux 7.4 resmi membereskan regresi penjadwal Cache Aware Scheduling yang sempat bikin performa CPU hybrid AMD Strix Point anjlok drastis.
 - [Kernel Linux 7.4 Hapus Driver C Binder demi Rust](https://north7.biz.id/linux-7-4-hapus-driver-c-binder-resmikan-rust/): Kernel Linux 7.4 resmi menghapus driver Binder C warisan Google dan beralih penuh ke Rust Binder untuk miliaran perangkat Android.
@@ -38,7 +39,6 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Kbuild Linux 7.4 Pangkas Waktu Kompilasi Kernel 36 Persen](https://north7.biz.id/kbuild-linux-7-4-percepat-kompilasi-kernel/): Linux 7.4 resmi menerima rombakan Kbuild dari Lorenzo Stoakes, mempercepat kompilasi kernel hingga 36 persen dan build inkremental 70 persen.
 - [Riset Linux Foundation, 25 Persen Pull Request Jadi AI Slop](https://north7.biz.id/linux-foundation-25-persen-pull-request-ai-slop/): Survei terbaru Linux Foundation mengungkap produktivitas koding naik hingga 50 persen, namun 25 persen pull request baru di open source kini berupa AI slop.
 - [BleachBit 6.0.6 Rilis, Bersihkan Cache AI dan Docker](https://north7.biz.id/bleachbit-6-0-6-bersihkan-cache-ai-docker/): BleachBit 6.0.6 resmi meluncur dengan dukungan Ubuntu 26.10, perbaikan permission sudo, dan pembersih cache untuk Docker hingga Claude Code.
-- [Linux 7.3 Rilis Resmi, Performa IO Kencang dan Siap Zen 6](https://north7.biz.id/linux-7-3-rilis-performa-io-zen-6/): Kernel Linux 7.3 resmi meluncur membawa peningkatan performa I/O, kesiapan arsitektur AMD Zen 6, dan driver anyar Valve. Simak rincian teknisnya.
 
 ## Berita Teknologi & Inovasi Perangkat
 - [Amazon Rilis Alexa Photo Frame, Bingkai Digital Tanpa Iklan](https://north7.biz.id/amazon-alexa-photo-frame-tanpa-iklan/): Amazon resmi merilis Alexa Photo Frame, bingkai foto digital 10 inci berlayar anti-glare dengan kurasi kecerdasan buatan Alexa Plus, fitur rekaman suara, dan tanpa iklan.
