@@ -17,6 +17,7 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Cara Setup Caddy Reverse Proxy dengan SSL Otomatis](https://north7.biz.id/cara-setup-caddy-reverse-proxy-ssl-otomatis/): Panduan lengkap setup Caddy reverse proxy di Linux dengan sertifikat SSL otomatis, konfigurasi Caddyfile praktis, dan integrasi backend Docker.
 
 ## Panduan Gadget & Tips Praktis
+- [Panduan Lengkap Cek Kebocoran Data Nomor HP](https://north7.biz.id/panduan-lengkap-cek-kebocoran-data-nomor-hp/): Panduan lengkap cek kebocoran data nomor HP melalui basis data keamanan resmi, audit akun Google, serta tips menghentikan teror spam dan scam.
 - [Panduan Lengkap Transfer File Android to PC Online](https://north7.biz.id/panduan-lengkap-transfer-file-android-to-pc-online/): Panduan lengkap transfer file Android to PC online via Google Drive, web relay terenkripsi, hingga cloud sync tanpa kabel data dengan kualitas berkas penuh.
 - [Cara Kalibrasi Baterai HP POCO X7 Pro Agar Akurat](https://north7.biz.id/cara-kalibrasi-baterai-hp-poco-x7-pro/): Panduan lengkap cara kalibrasi baterai HP POCO X7 Pro untuk menormalkan pembacaan persentase HyperOS dan mengatasi baterai drop secara aman.
 - [Panduan Lengkap Backup WhatsApp ke pCloud](https://north7.biz.id/panduan-lengkap-backup-whatsapp-pcloud/): Panduan praktis cara backup WhatsApp ke pCloud mulai dari unggahan otomatis folder media, ekspor arsip obrolan penting, hingga pencadangan database lokal.
@@ -26,7 +27,6 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Cara Kalibrasi Baterai iPhone Baru yang Benar dan Aman](https://north7.biz.id/cara-kalibrasi-baterai-iphone-baru/): Panduan lengkap cara kalibrasi baterai iPhone baru atau setelah ganti baterai. Luruskan mitos cas delapan jam dan jaga kesehatan baterai iOS tetap prima.
 - [Cara Aktifkan Perlindungan Perangkat yang Dicuri di iPhone](https://north7.biz.id/cara-aktifkan-perlindungan-perangkat-yang-dicuri-di-iphone/): Panduan lengkap cara mengaktifkan Perlindungan Perangkat yang Dicuri di iPhone, syarat aktivasi, dan cara kerja jeda keamanan satu jam demi melindungi akun Apple.
 - [Cara Hapus Riwayat Suara Google Assistant dan Gemini](https://north7.biz.id/cara-hapus-riwayat-suara-google-assistant-dan-gemini/): Panduan lengkap cara memeriksa dan menghapus rekaman suara Google Assistant serta percakapan Gemini Live di akun Google demi menjaga privasi digital.
-- [Cara Aktifkan Passkey Google Biar Login Tanpa Password](https://north7.biz.id/cara-aktifkan-passkey-google-biar-login-tanpa-password/): Panduan praktis cara membuat dan menggunakan passkey akun Google di Android, iPhone, dan PC. Login mudah dengan sidik jari, aman dari ancaman phishing.
 
 ## Berita Linux, Kernel & Open Source
 - [Ghostty 1.4 Hadirkan Kompresi RAM dan Render EGL di Linux](https://north7.biz.id/ghostty-1-4-bawa-kompresi-ram-dan-render-egl-linux/): Ghostty 1.4 meluncur dengan kompresi memori scrollback hingga 90 persen, dukungan penuh grafis Kitty, serta arsitektur rendering EGL DMA-BUF di Linux.

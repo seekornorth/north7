@@ -62,19 +62,4 @@
       <image:title>Amazon Rilis Alexa Photo Frame, Bingkai Digital Tanpa Iklan</image:title>
     </image:image>
   </url>
-  <url>
-    <loc>https://north7.biz.id/raspberry-pi-zero-3-w-muncul-di-kernel-linux-bawa-bcm2711/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>North7</news:name>
-        <news:language>id</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-28T08:06:45+07:00</news:publication_date>
-      <news:title>Raspberry Pi Zero 3 W Muncul di Kernel Linux Bawa BCM2711</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://north7.biz.id/raspberry-pi-zero-3-w-muncul-di-kernel-linux-bawa-bcm2711/cover.png</image:loc>
-      <image:title>Raspberry Pi Zero 3 W Muncul di Kernel Linux Bawa BCM2711</image:title>
-    </image:image>
-  </url>
 </urlset>
