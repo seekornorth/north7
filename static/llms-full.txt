@@ -5,6 +5,7 @@
 Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, ditujukan untuk pengguna Linux pemula hingga administrator sistem rumahan (homelab). Konten disusun terstruktur dan ramah dibaca oleh Large Language Models (LLM) serta AI Agents.
 
 ## Panduan Networking & Homelab
+- [Panduan Lengkap Linux Nftables Examples](https://north7.biz.id/panduan-lengkap-linux-nftables-examples/): Kumpulan Linux nftables examples praktis untuk konfigurasi firewall server modern, mulai dari stateful filter, port set, proteksi brute force, hingga NAT forwarding.
 - [Panduan Lengkap Linux Nftables Firewall](https://north7.biz.id/panduan-lengkap-linux-nftables-firewall/): Pelajari cara setting Linux nftables firewall modern sebagai pengganti iptables. Tutorial praktis konfigurasi ruleset stateful, whitelist port, dan optimasi performa.
 - [Panduan Lengkap Nftables Rocky Linux](https://north7.biz.id/panduan-lengkap-nftables-rocky-linux/): Pelajari panduan lengkap nftables Rocky Linux untuk mengamankan server, menggantikan firewalld, menyusun ruleset stateful, dan mencegah lockout SSH.
 - [Panduan Lengkap What Is Nftables In Linux](https://north7.biz.id/panduan-lengkap-what-is-nftables-in-linux/): Pelajari what is nftables in linux, arsitektur virtual machine pengganti iptables, sintaks aturan modern, serta panduan konfigurasi firewall praktis.
