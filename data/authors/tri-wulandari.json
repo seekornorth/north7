@@ -1,9 +1,19 @@
 {
   "name": "Tri Wulandari",
+  "alternateName": "Wulan",
   "jobTitle": "Consumer Tech Analyst & Gadget Reviewer",
   "image": "img/wulan.webp",
   "bio": "Penulis teknologi dan pengamat tren gadget. Fokus pada ulasan smartphone, optimalisasi sistem operasi mobile, keamanan data pribadi, dan tips konsumer.",
   "social": [
     { "instagram": "https://www.instagram.com/eulanvxy/" }
+  ],
+  "knowsAbout": [
+    "Consumer Technology",
+    "Smartphones & Mobile Hardware",
+    "Mobile Operating Systems (iOS & Android)",
+    "Digital Privacy & Account Security",
+    "Gadget Optimization & Battery Health",
+    "Wireless Audio & Smart Wearables",
+    "Data Backup & Cloud Storage"
   ]
 }

@@ -1,10 +1,21 @@
 {
   "name": "Mifthakhul Huda",
+  "alternateName": "Huda",
   "jobTitle": "Linux Sysadmin & Networking Specialist",
   "image": "img/huda.webp",
   "bio": "Praktisi Linux, pengelola homelab, dan pemerhati open source. Berpengalaman dalam konfigurasi server, VPN, firewall, dan arsitektur jaringan mandiri.",
   "social": [
     { "instagram": "https://www.instagram.com/mifhdd1tb/" },
     { "github": "https://github.com/seekornorth" }
+  ],
+  "knowsAbout": [
+    "Linux Kernel & Distribution",
+    "Computer Networking & Routing",
+    "Network Security & Firewall",
+    "Ubuntu Server & Rocky Linux",
+    "WireGuard & Tailscale VPN",
+    "DNS & AdGuard Home / Pi-hole",
+    "Reverse Proxy & Caddy / Nginx",
+    "Open Source Software & Homelab"
   ]
 }

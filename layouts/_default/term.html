@@ -22,13 +22,19 @@
     {{ end }}
       <div class="nrt-author-text">
         <strong>{{ .name }}</strong>
+        {{ with .jobTitle }}<span class="nrt-author-title" style="display:block;font-size:0.875rem;opacity:0.85;margin-bottom:0.4rem;font-weight:500;">{{ . }}</span>{{ end }}
         {{ with .bio }}<p>{{ . }}</p>{{ end }}
+        {{ with .knowsAbout }}
+        <div class="nrt-author-expertise" style="display:flex;flex-wrap:wrap;gap:0.35rem;margin:0.5rem 0;">
+          {{ range . }}<span style="font-size:0.75rem;padding:0.15rem 0.5rem;border-radius:4px;background:rgba(128,128,128,0.15);line-height:1.4;">{{ . }}</span>{{ end }}
+        </div>
+        {{ end }}
         {{ with .social }}
         <div class="nrt-author-social">
           {{ range . }}{{ range $platform, $url := . }}<a href="{{ $url | safeURL }}" target="_blank" rel="noopener">{{ $platform | title }}</a>{{ end }}{{ end }}
         </div>
-    {{ end }}
-  </div>
+        {{ end }}
+      </div>
   {{ end }}
 
   {{ with .Content }}

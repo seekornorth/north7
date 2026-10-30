@@ -217,6 +217,100 @@
     ]
   }
   </script>
+{{ else if and (eq .Data.Plural "authors") (ne .Data.Term "") }}
+  {{- $iso8601 := "2006-01-02T15:04:05-07:00" -}}
+  {{- $authorSlug := .Data.Term | lower -}}
+  {{- $authorData := index hugo.Data.authors $authorSlug -}}
+  {{- $authorName := .Title -}}
+  {{- with $authorData.name }}{{ $authorName = . }}{{ end -}}
+  {{- $authorDesc := .Params.description | default $authorData.bio -}}
+  {{- $authorImage := "" -}}
+  {{- with $authorData.image -}}
+    {{- with resources.Get . -}}{{- $authorImage = .Permalink -}}{{- end -}}
+  {{- end -}}
+  {{- $sameAs := slice -}}
+  {{- with $authorData.social -}}
+    {{- range . -}}
+      {{- range $platform, $url := . -}}
+        {{- if not (strings.HasPrefix $url "mailto:") -}}
+          {{- $sameAs = $sameAs | append $url -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $knowsAbout := $authorData.knowsAbout | default slice -}}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "ProfilePage",
+        "@id": {{ printf "%s#profilepage" .Permalink }},
+        "url": {{ .Permalink }},
+        "name": "{{ $authorName | safeJS }}",
+        {{ with $authorDesc }}"description": "{{ . | safeJS }}",{{ end }}
+        {{ with .Site.Language.Locale }}"inLanguage": "{{ . }}",{{ end }}
+        "isPartOf": {
+          "@type": "WebSite",
+          "@id": {{ printf "%s#website" site.Home.Permalink }},
+          "name": "North7",
+          "url": {{ site.Home.Permalink }}
+        },
+        "breadcrumb": {
+          "@id": {{ printf "%s#breadcrumb" .Permalink }}
+        },
+        "mainEntity": {
+          "@type": "Person",
+          "@id": {{ printf "%sperson" .Permalink }},
+          "name": "{{ $authorName | safeJS }}",
+          {{ with $authorData.alternateName }}"alternateName": "{{ . | safeJS }}",{{ end }}
+          "identifier": "{{ $authorSlug }}",
+          {{ with $authorData.jobTitle }}"jobTitle": "{{ . | safeJS }}",{{ end }}
+          {{ with $authorDesc }}"description": "{{ . | safeJS }}",{{ end }}
+          "url": {{ .Permalink }},
+          {{ with $authorImage }}"image": {
+            "@type": "ImageObject",
+            "@id": {{ printf "%s#image" $.Permalink }},
+            "url": {{ . }},
+            "caption": "{{ $authorName | safeJS }}"
+          },{{ end }}
+          {{ with $sameAs }}"sameAs": [{{ range $i, $u := . }}{{ if $i }}, {{ end }}{{ $u }}{{ end }}],{{ end }}
+          "worksFor": {
+            "@type": "Organization",
+            "@id": {{ printf "%s#organization" site.Home.Permalink }},
+            "name": "North7",
+            "url": {{ site.Home.Permalink }}
+          }{{ if $knowsAbout }},
+          "knowsAbout": [{{ range $i, $k := $knowsAbout }}{{ if $i }}, {{ end }}"{{ $k | safeJS }}"{{ end }}]{{ end }}
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": {{ printf "%s#breadcrumb" .Permalink }},
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Beranda",
+            "item": {{ site.Home.Permalink }}
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Penulis",
+            "item": {{ printf "%sauthors/" site.Home.Permalink }}
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "{{ $authorName | safeJS }}",
+            "item": {{ .Permalink }}
+          }
+        ]
+      }
+    ]
+  }
+  </script>
 {{ else }}
   {{- $iso8601 := "2006-01-02T15:04:05-07:00" -}}
   {{- $author := .Site.Params.Author -}}
@@ -272,14 +366,23 @@
     "url" : {{ .Permalink }},
     "author" : {
       "@type": "Person",
-      "name": "{{ $author.name | safeJS }}",
       {{- $authorURL := "" -}}
       {{- with .Params.authors -}}
         {{- with site.GetPage (printf "authors/%s" (index . 0 | lower)) -}}
           {{- $authorURL = .Permalink -}}
         {{- end -}}
       {{- end -}}
-      {{ with $authorURL }}"url": {{ . }}{{ if or $author.image $sameAs }},{{ end }}{{ end }}
+      {{ with $authorURL }}"@id": {{ printf "%sperson" . }},
+      "url": {{ . }},{{ end }}
+      "name": "{{ $author.name | safeJS }}",
+      {{ with $author.jobTitle }}"jobTitle": "{{ . | safeJS }}",{{ end }}
+      {{ with $author.bio }}"description": "{{ . | safeJS }}",{{ end }}
+      "worksFor": {
+        "@type": "Organization",
+        "@id": {{ printf "%s#organization" site.Home.Permalink }},
+        "name": "North7",
+        "url": {{ site.Home.Permalink }}
+      },
       {{- with $author.image }}
       {{- $authorImageURL := "" }}
       {{- if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
