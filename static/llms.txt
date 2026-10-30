@@ -41,6 +41,7 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Riset Linux Foundation, 25 Persen Pull Request Jadi AI Slop](https://north7.biz.id/linux-foundation-25-persen-pull-request-ai-slop/): Survei terbaru Linux Foundation mengungkap produktivitas koding naik hingga 50 persen, namun 25 persen pull request baru di open source kini berupa AI slop.
 
 ## Berita Teknologi & Inovasi Perangkat
+- [Apple Rilis MacBook Pro Layar Sentuh, Bawa Panel PROLED XDR](https://north7.biz.id/macbook-pro-layar-sentuh-proled-xdr/): Apple resmi meluncurkan MacBook Pro layar sentuh pertama berpanel PROLED XDR tandem OLED, chip M5 Pro dan M5 Max, serta Dynamic Island.
 - [XREAL AURA Meluncur Resmi, Kacamata Android XR Pertama](https://north7.biz.id/xreal-aura-kacamata-android-xr-pertama/): Google dan XREAL resmi merilis XREAL AURA, kacamata komputasi spasial Android XR pertama berbobot 95 gram dengan chip Snapdragon Reality Elite dan Gemini.
 - [Amazon Rilis Alexa Photo Frame, Bingkai Digital Tanpa Iklan](https://north7.biz.id/amazon-alexa-photo-frame-tanpa-iklan/): Amazon resmi merilis Alexa Photo Frame, bingkai foto digital 10 inci berlayar anti-glare dengan kurasi kecerdasan buatan Alexa Plus, fitur rekaman suara, dan tanpa iklan.
 - [Apple Rilis MacBook Pro 14 Inci M6, Baterai Tahan 24 Jam](https://north7.biz.id/macbook-pro-14-inci-m6-baterai-24-jam/): Apple resmi memperbarui MacBook Pro 14 inci dengan chip M6 fabrikasi 2nm, chip nirkabel N1 Wi-Fi 7, serta daya tahan baterai terpanjang hingga 24 jam.
@@ -50,7 +51,6 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Sigma FP2 Meluncur, Full Frame Mungil Kini Punya Layar Lipat](https://north7.biz.id/sigma-fp2-full-frame-mungil-layar-lipat/): Sigma FP2 resmi meluncur dengan sensor 24,5 MP partially stacked, layar lipat fleksibel, memori internal 70 GB, dan bodi ringkas seringan 376 gram.
 - [Insta360 Mic Bawa Layar E-Ink Warna dan Slot MicroSD](https://north7.biz.id/insta360-mic-layar-e-ink-microsd/): Insta360 meluncurkan Insta360 Mic dengan layar E-Ink warna dan slot kartu microSD. Hadir lebih terjangkau dibanding seri Pro dengan baterai hingga 34 jam.
 - [Gemini Resmi Hadir di Mobil Lewat Android Auto dan CarPlay](https://north7.biz.id/gemini-hadir-di-mobil-android-auto-carplay/): Google membawa fitur Personal Intelligence Gemini ke Android Auto dan percakapan interaktif ke Apple CarPlay untuk memudahkan navigasi saat berkendara.
-- [Razer Basilisk V4 Pro Resmi Meluncur, Bawa Sensor 50K DPI](https://north7.biz.id/razer-basilisk-v4-pro-sensor-50k-dpi/): Razer meluncurkan Basilisk V4 Pro dengan sensor Focus Pro 50K DPI, polling rate 8.000 Hz, baterai hingga 275 jam, dan bobot 12 gram lebih ringan.
 
 ## Optional
 - [Sitemap XML](https://north7.biz.id/sitemap.xml): Peta situs lengkap seluruh indeks artikel North7.

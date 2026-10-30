@@ -3,6 +3,21 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://north7.biz.id/macbook-pro-layar-sentuh-proled-xdr/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>North7</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-30T22:08:32+07:00</news:publication_date>
+      <news:title>Apple Rilis MacBook Pro Layar Sentuh, Bawa Panel PROLED XDR</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://north7.biz.id/macbook-pro-layar-sentuh-proled-xdr/cover.png</image:loc>
+      <image:title>Apple Rilis MacBook Pro Layar Sentuh, Bawa Panel PROLED XDR</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://north7.biz.id/ghostty-1-4-bawa-kompresi-ram-dan-render-egl-linux/</loc>
     <news:news>
       <news:publication>
@@ -45,21 +60,6 @@
     <image:image>
       <image:loc>https://north7.biz.id/canonical-bangkitkan-ubuntu-core-desktop-27-04/cover.png</image:loc>
       <image:title>Canonical Bangkitkan Ubuntu Core Desktop Menuju Rilis 27.04</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://north7.biz.id/amazon-alexa-photo-frame-tanpa-iklan/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>North7</news:name>
-        <news:language>id</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-28T22:05:07+07:00</news:publication_date>
-      <news:title>Amazon Rilis Alexa Photo Frame, Bingkai Digital Tanpa Iklan</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://north7.biz.id/amazon-alexa-photo-frame-tanpa-iklan/cover.png</image:loc>
-      <image:title>Amazon Rilis Alexa Photo Frame, Bingkai Digital Tanpa Iklan</image:title>
     </image:image>
   </url>
 </urlset>
