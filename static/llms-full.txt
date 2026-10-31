@@ -60,6 +60,7 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [antiX 26.1 Rilis, Bawa Kernel Baru dan Tetap Tanpa systemd](https://north7.biz.id/antix-26-1-rilis-kernel-baru-tanpa-systemd/): antiX 26.1 resmi rilis dengan pembaruan kernel, perbaikan bug, dan tetap mempertahankan sistem tanpa systemd untuk PC lawas.
 
 ## Berita Teknologi & Inovasi Perangkat
+- [Layar iPhone Duo Retak, Apple Kirim Panduan Resmi ke Toko](https://north7.biz.id/apple-kirim-panduan-layar-iphone-duo-retak/): Apple menerbitkan memo internal ke Apple Store dan teknisi resmi untuk menangani keluhan layar lipat iPhone Duo retak di area engsel.
 - [Apple Rilis MacBook Pro Layar Sentuh, Bawa Panel PROLED XDR](https://north7.biz.id/macbook-pro-layar-sentuh-proled-xdr/): Apple resmi meluncurkan MacBook Pro layar sentuh pertama berpanel PROLED XDR tandem OLED, chip M5 Pro dan M5 Max, serta Dynamic Island.
 - [XREAL AURA Meluncur Resmi, Kacamata Android XR Pertama](https://north7.biz.id/xreal-aura-kacamata-android-xr-pertama/): Google dan XREAL resmi merilis XREAL AURA, kacamata komputasi spasial Android XR pertama berbobot 95 gram dengan chip Snapdragon Reality Elite dan Gemini.
 - [Amazon Rilis Alexa Photo Frame, Bingkai Digital Tanpa Iklan](https://north7.biz.id/amazon-alexa-photo-frame-tanpa-iklan/): Amazon resmi merilis Alexa Photo Frame, bingkai foto digital 10 inci berlayar anti-glare dengan kurasi kecerdasan buatan Alexa Plus, fitur rekaman suara, dan tanpa iklan.

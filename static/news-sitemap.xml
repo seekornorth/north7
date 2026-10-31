@@ -3,6 +3,21 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://north7.biz.id/apple-kirim-panduan-layar-iphone-duo-retak/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>North7</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-31T22:04:48+07:00</news:publication_date>
+      <news:title>Layar iPhone Duo Retak, Apple Kirim Panduan Resmi ke Toko</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://north7.biz.id/apple-kirim-panduan-layar-iphone-duo-retak/cover.png</image:loc>
+      <image:title>Layar iPhone Duo Retak, Apple Kirim Panduan Resmi ke Toko</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://north7.biz.id/wine-11-21-rilis-performa-opengl-wow64-linux/</loc>
     <news:news>
       <news:publication>
@@ -45,21 +60,6 @@
     <image:image>
       <image:loc>https://north7.biz.id/ghostty-1-4-bawa-kompresi-ram-dan-render-egl-linux/cover.png</image:loc>
       <image:title>Ghostty 1.4 Hadirkan Kompresi RAM dan Render EGL di Linux</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://north7.biz.id/xreal-aura-kacamata-android-xr-pertama/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>North7</news:name>
-        <news:language>id</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-29T22:05:28+07:00</news:publication_date>
-      <news:title>XREAL AURA Meluncur Resmi, Kacamata Android XR Pertama</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://north7.biz.id/xreal-aura-kacamata-android-xr-pertama/cover.png</image:loc>
-      <image:title>XREAL AURA Meluncur Resmi, Kacamata Android XR Pertama</image:title>
     </image:image>
   </url>
 </urlset>
