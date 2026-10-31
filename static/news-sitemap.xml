@@ -62,19 +62,4 @@
       <image:title>XREAL AURA Meluncur Resmi, Kacamata Android XR Pertama</image:title>
     </image:image>
   </url>
-  <url>
-    <loc>https://north7.biz.id/canonical-bangkitkan-ubuntu-core-desktop-27-04/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>North7</news:name>
-        <news:language>id</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-29T08:08:13+07:00</news:publication_date>
-      <news:title>Canonical Bangkitkan Ubuntu Core Desktop Menuju Rilis 27.04</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://north7.biz.id/canonical-bangkitkan-ubuntu-core-desktop-27-04/cover.png</image:loc>
-      <image:title>Canonical Bangkitkan Ubuntu Core Desktop Menuju Rilis 27.04</image:title>
-    </image:image>
-  </url>
 </urlset>
