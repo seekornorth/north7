@@ -3,6 +3,21 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://north7.biz.id/wine-11-21-rilis-performa-opengl-wow64-linux/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>North7</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-31T08:06:18+07:00</news:publication_date>
+      <news:title>Wine 11.21 Rilis, Genjot Performa OpenGL WoW64 di Linux</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://north7.biz.id/wine-11-21-rilis-performa-opengl-wow64-linux/cover.png</image:loc>
+      <image:title>Wine 11.21 Rilis, Genjot Performa OpenGL WoW64 di Linux</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://north7.biz.id/macbook-pro-layar-sentuh-proled-xdr/</loc>
     <news:news>
       <news:publication>

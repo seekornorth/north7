@@ -29,6 +29,7 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Cara Hapus Riwayat Suara Google Assistant dan Gemini](https://north7.biz.id/cara-hapus-riwayat-suara-google-assistant-dan-gemini/): Panduan lengkap cara memeriksa dan menghapus rekaman suara Google Assistant serta percakapan Gemini Live di akun Google demi menjaga privasi digital.
 
 ## Berita Linux, Kernel & Open Source
+- [Wine 11.21 Rilis, Genjot Performa OpenGL WoW64 di Linux](https://north7.biz.id/wine-11-21-rilis-performa-opengl-wow64-linux/): Wine 11.21 resmi meluncur membawa ekstensi MESA map buffer client pointer untuk akselerasi OpenGL WoW64 32-bit, pustaka DSP audio, dan puluhan perbaikan bug.
 - [Ghostty 1.4 Hadirkan Kompresi RAM dan Render EGL di Linux](https://north7.biz.id/ghostty-1-4-bawa-kompresi-ram-dan-render-egl-linux/): Ghostty 1.4 meluncur dengan kompresi memori scrollback hingga 90 persen, dukungan penuh grafis Kitty, serta arsitektur rendering EGL DMA-BUF di Linux.
 - [Canonical Bangkitkan Ubuntu Core Desktop Menuju Rilis 27.04](https://north7.biz.id/canonical-bangkitkan-ubuntu-core-desktop-27-04/): Canonical membentuk tim khusus untuk mempercepat Ubuntu Core Desktop, sistem operasi immutable berbasis snap penuh menjelang rilis Ubuntu 27.04.
 - [Raspberry Pi Zero 3 W Muncul di Kernel Linux Bawa BCM2711](https://north7.biz.id/raspberry-pi-zero-3-w-muncul-di-kernel-linux-bawa-bcm2711/): Patch pohon Device Tree di repositori kernel Linux resmi mengonfirmasi kehadiran Raspberry Pi Zero 3 W bertenaga SoC Broadcom BCM2711 dan Pi 4 Model A.
@@ -38,7 +39,6 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [OBS Studio 33.0 Rilis, Bawa Lompatan CEF dan Rombak Plugin](https://north7.biz.id/obs-studio-33-0-lompatan-cef-dan-rombak-plugin/): OBS Studio 33.0 resmi meluncur membawa lompatan Chromium CEF 150, perombakan arsitektur plugin, dukungan NVENC Arm64, dan stabilitas desktop Linux.
 - [ZDI Tak Sengaja Bocorkan Celah Kernel Linux ke Milis Publik](https://north7.biz.id/zdi-bocorkan-celah-kernel-linux-ke-milis-publik/): Trend Micro ZDI keliru mengirim sejumlah laporan celah kritis kernel Linux berstatus zero-day langsung ke milis publik LKML tanpa patch resmi.
 - [Kbuild Linux 7.4 Pangkas Waktu Kompilasi Kernel 36 Persen](https://north7.biz.id/kbuild-linux-7-4-percepat-kompilasi-kernel/): Linux 7.4 resmi menerima rombakan Kbuild dari Lorenzo Stoakes, mempercepat kompilasi kernel hingga 36 persen dan build inkremental 70 persen.
-- [Riset Linux Foundation, 25 Persen Pull Request Jadi AI Slop](https://north7.biz.id/linux-foundation-25-persen-pull-request-ai-slop/): Survei terbaru Linux Foundation mengungkap produktivitas koding naik hingga 50 persen, namun 25 persen pull request baru di open source kini berupa AI slop.
 
 ## Berita Teknologi & Inovasi Perangkat
 - [Apple Rilis MacBook Pro Layar Sentuh, Bawa Panel PROLED XDR](https://north7.biz.id/macbook-pro-layar-sentuh-proled-xdr/): Apple resmi meluncurkan MacBook Pro layar sentuh pertama berpanel PROLED XDR tandem OLED, chip M5 Pro dan M5 Max, serta Dynamic Island.
