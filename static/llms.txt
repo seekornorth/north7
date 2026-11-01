@@ -29,6 +29,7 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Cara Aktifkan Perlindungan Perangkat yang Dicuri di iPhone](https://north7.biz.id/cara-aktifkan-perlindungan-perangkat-yang-dicuri-di-iphone/): Panduan lengkap cara mengaktifkan Perlindungan Perangkat yang Dicuri di iPhone, syarat aktivasi, dan cara kerja jeda keamanan satu jam demi melindungi akun Apple.
 
 ## Berita Linux, Kernel & Open Source
+- [Linux 7.4 Batalkan Taint Bind Usai Diprotes Pengguna VFIO](https://north7.biz.id/kernel-linux-7-4-batalkan-taint-bind-vfio/): Greg Kroah-Hartman resmi membatalkan fitur TAINT_FORCED_BIND di kernel Linux 7.4 setelah menuai protes karena merusak alur passthrough VFIO pada mesin virtual.
 - [Wine 11.21 Rilis, Genjot Performa OpenGL WoW64 di Linux](https://north7.biz.id/wine-11-21-rilis-performa-opengl-wow64-linux/): Wine 11.21 resmi meluncur membawa ekstensi MESA map buffer client pointer untuk akselerasi OpenGL WoW64 32-bit, pustaka DSP audio, dan puluhan perbaikan bug.
 - [Ghostty 1.4 Hadirkan Kompresi RAM dan Render EGL di Linux](https://north7.biz.id/ghostty-1-4-bawa-kompresi-ram-dan-render-egl-linux/): Ghostty 1.4 meluncur dengan kompresi memori scrollback hingga 90 persen, dukungan penuh grafis Kitty, serta arsitektur rendering EGL DMA-BUF di Linux.
 - [Canonical Bangkitkan Ubuntu Core Desktop Menuju Rilis 27.04](https://north7.biz.id/canonical-bangkitkan-ubuntu-core-desktop-27-04/): Canonical membentuk tim khusus untuk mempercepat Ubuntu Core Desktop, sistem operasi immutable berbasis snap penuh menjelang rilis Ubuntu 27.04.
@@ -38,7 +39,6 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [systemd Resmi Dukung Rust, Siapkan Utilitas Baru Tanpa Cargo](https://north7.biz.id/systemd-resmi-dukung-rust-komponen-baru-tanpa-cargo/): Proyek systemd resmi menggabungkan dukungan bahasa pemrograman Rust untuk komponen utilitas baru pada rilis systemd 263 tanpa mengandalkan Cargo.
 - [OBS Studio 33.0 Rilis, Bawa Lompatan CEF dan Rombak Plugin](https://north7.biz.id/obs-studio-33-0-lompatan-cef-dan-rombak-plugin/): OBS Studio 33.0 resmi meluncur membawa lompatan Chromium CEF 150, perombakan arsitektur plugin, dukungan NVENC Arm64, dan stabilitas desktop Linux.
 - [ZDI Tak Sengaja Bocorkan Celah Kernel Linux ke Milis Publik](https://north7.biz.id/zdi-bocorkan-celah-kernel-linux-ke-milis-publik/): Trend Micro ZDI keliru mengirim sejumlah laporan celah kritis kernel Linux berstatus zero-day langsung ke milis publik LKML tanpa patch resmi.
-- [Kbuild Linux 7.4 Pangkas Waktu Kompilasi Kernel 36 Persen](https://north7.biz.id/kbuild-linux-7-4-percepat-kompilasi-kernel/): Linux 7.4 resmi menerima rombakan Kbuild dari Lorenzo Stoakes, mempercepat kompilasi kernel hingga 36 persen dan build inkremental 70 persen.
 
 ## Berita Teknologi & Inovasi Perangkat
 - [Layar iPhone Duo Retak, Apple Kirim Panduan Resmi ke Toko](https://north7.biz.id/apple-kirim-panduan-layar-iphone-duo-retak/): Apple menerbitkan memo internal ke Apple Store dan teknisi resmi untuk menangani keluhan layar lipat iPhone Duo retak di area engsel.

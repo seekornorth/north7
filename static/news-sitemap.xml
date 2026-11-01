@@ -3,6 +3,21 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://north7.biz.id/kernel-linux-7-4-batalkan-taint-bind-vfio/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>North7</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-01T08:05:40+07:00</news:publication_date>
+      <news:title>Linux 7.4 Batalkan Taint Bind Usai Diprotes Pengguna VFIO</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://north7.biz.id/kernel-linux-7-4-batalkan-taint-bind-vfio/cover.png</image:loc>
+      <image:title>Linux 7.4 Batalkan Taint Bind Usai Diprotes Pengguna VFIO</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://north7.biz.id/apple-kirim-panduan-layar-iphone-duo-retak/</loc>
     <news:news>
       <news:publication>
@@ -45,21 +60,6 @@
     <image:image>
       <image:loc>https://north7.biz.id/macbook-pro-layar-sentuh-proled-xdr/cover.png</image:loc>
       <image:title>Apple Rilis MacBook Pro Layar Sentuh, Bawa Panel PROLED XDR</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://north7.biz.id/ghostty-1-4-bawa-kompresi-ram-dan-render-egl-linux/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>North7</news:name>
-        <news:language>id</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-30T08:05:03+07:00</news:publication_date>
-      <news:title>Ghostty 1.4 Hadirkan Kompresi RAM dan Render EGL di Linux</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://north7.biz.id/ghostty-1-4-bawa-kompresi-ram-dan-render-egl-linux/cover.png</image:loc>
-      <image:title>Ghostty 1.4 Hadirkan Kompresi RAM dan Render EGL di Linux</image:title>
     </image:image>
   </url>
 </urlset>
