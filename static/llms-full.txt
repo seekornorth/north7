@@ -5,6 +5,7 @@
 Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, ditujukan untuk pengguna Linux pemula hingga administrator sistem rumahan (homelab). Konten disusun terstruktur dan ramah dibaca oleh Large Language Models (LLM) serta AI Agents.
 
 ## Panduan Networking & Homelab
+- [Panduan Lengkap Caddyfile SSL Certificate](https://north7.biz.id/panduan-lengkap-caddyfile-ssl-certificate/): Panduan lengkap konfigurasi caddyfile ssl certificate di Linux untuk otomatisasi TLS Lets Encrypt, custom certificate, internal CA, dan validasi ACME.
 - [Panduan Lengkap Iperf3 Test Command](https://north7.biz.id/panduan-lengkap-iperf3-test-command/): Pelajari cara menggunakan iperf3 test command di Linux. Panduan lengkap benchmark throughput TCP, pengujian latensi UDP, mode bidirectional, hingga tuning buffer.
 - [Cara Konfigurasi Nftables Linux Mint](https://north7.biz.id/cara-konfigurasi-nftables-linux-mint/): Tutorial langkah demi langkah cara konfigurasi nftables Linux Mint. Pelajari migrasi dari UFW, penulisan ruleset inet, serta verifikasi keamanan jaringan desktop.
 - [Panduan Lengkap Linux Nftables Examples](https://north7.biz.id/panduan-lengkap-linux-nftables-examples/): Kumpulan Linux nftables examples praktis untuk konfigurasi firewall server modern, mulai dari stateful filter, port set, proteksi brute force, hingga NAT forwarding.
