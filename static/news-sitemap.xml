@@ -3,6 +3,21 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://north7.biz.id/harga-raspberry-pi-5-16gb-tembus-385/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>North7</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-02T22:06:46+07:00</news:publication_date>
+      <news:title>Harga Raspberry Pi 5 16GB Tembus $385 Imbas Krisis RAM</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://north7.biz.id/harga-raspberry-pi-5-16gb-tembus-385/cover.png</image:loc>
+      <image:title>Harga Raspberry Pi 5 16GB Tembus $385 Imbas Krisis RAM</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://north7.biz.id/kde-kwi-terminal-modern-berbasis-ghostty/</loc>
     <news:news>
       <news:publication>
@@ -45,21 +60,6 @@
     <image:image>
       <image:loc>https://north7.biz.id/kernel-linux-7-4-batalkan-taint-bind-vfio/cover.png</image:loc>
       <image:title>Linux 7.4 Batalkan Taint Bind Usai Diprotes Pengguna VFIO</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://north7.biz.id/apple-kirim-panduan-layar-iphone-duo-retak/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>North7</news:name>
-        <news:language>id</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-31T22:04:48+07:00</news:publication_date>
-      <news:title>Layar iPhone Duo Retak, Apple Kirim Panduan Resmi ke Toko</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://north7.biz.id/apple-kirim-panduan-layar-iphone-duo-retak/cover.png</image:loc>
-      <image:title>Layar iPhone Duo Retak, Apple Kirim Panduan Resmi ke Toko</image:title>
     </image:image>
   </url>
 </urlset>

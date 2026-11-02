@@ -41,6 +41,7 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [OBS Studio 33.0 Rilis, Bawa Lompatan CEF dan Rombak Plugin](https://north7.biz.id/obs-studio-33-0-lompatan-cef-dan-rombak-plugin/): OBS Studio 33.0 resmi meluncur membawa lompatan Chromium CEF 150, perombakan arsitektur plugin, dukungan NVENC Arm64, dan stabilitas desktop Linux.
 
 ## Berita Teknologi & Inovasi Perangkat
+- [Harga Raspberry Pi 5 16GB Tembus $385 Imbas Krisis RAM](https://north7.biz.id/harga-raspberry-pi-5-16gb-tembus-385/): Raspberry Pi kembali menaikkan harga varian 16GB menjadi $385 akibat krisis pasokan DRAM global dan minimnya alternatif pemasok chip memori.
 - [Windows 11 Rombak Search, Bisa Telepon dan Atur Sistem](https://north7.biz.id/windows-11-rombak-search-bisa-telepon-dan-atur-sistem/): Microsoft merombak fitur Windows Search di Windows 11 Insider, kini bisa atur volume, kecerahan layar, hingga kirim SMS dan telepon lewat HP yang terhubung.
 - [Layar iPhone Duo Retak, Apple Kirim Panduan Resmi ke Toko](https://north7.biz.id/apple-kirim-panduan-layar-iphone-duo-retak/): Apple menerbitkan memo internal ke Apple Store dan teknisi resmi untuk menangani keluhan layar lipat iPhone Duo retak di area engsel.
 - [Apple Rilis MacBook Pro Layar Sentuh, Bawa Panel PROLED XDR](https://north7.biz.id/macbook-pro-layar-sentuh-proled-xdr/): Apple resmi meluncurkan MacBook Pro layar sentuh pertama berpanel PROLED XDR tandem OLED, chip M5 Pro dan M5 Max, serta Dynamic Island.
@@ -50,7 +51,6 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Logitech Pebble Up, Mouse Tipis yang Bisa Berubah Ergonomis](https://north7.biz.id/logitech-pebble-up-mouse-tipis-ergonomis/): Logitech merilis Pebble Up, mouse nirkabel tipis yang bisa bertransformasi menjadi mouse ergonomis dengan sudut miring berkat mekanisme pop-up terintegrasi.
 - [ArmSoM Sige7s Bawa Chip RK3588S Seukuran Raspberry Pi](https://north7.biz.id/armsom-sige7s-bawa-chip-rk3588s-seukuran-raspberry-pi/): ArmSoM merilis Sige7s, papan SBC bertenaga Rockchip RK3588S seukuran Raspberry Pi dengan NPU 6 TOPS, eMMC lepas-pasang, dan rentang daya hingga 23V.
 - [Boox Palma 2 Pro, E-Reader Seukuran HP Berlayar Warna](https://north7.biz.id/boox-palma-2-pro-ereader-seukuran-hp/): Boox Palma 2 Pro resmi meluncur membawa layar warna Kaleido 3, koneksi seluler 5G, Android 15, dan bodi seringan 175 gram seukuran ponsel pintar.
-- [Sigma FP2 Meluncur, Full Frame Mungil Kini Punya Layar Lipat](https://north7.biz.id/sigma-fp2-full-frame-mungil-layar-lipat/): Sigma FP2 resmi meluncur dengan sensor 24,5 MP partially stacked, layar lipat fleksibel, memori internal 70 GB, dan bodi ringkas seringan 376 gram.
 
 ## Optional
 - [Sitemap XML](https://north7.biz.id/sitemap.xml): Peta situs lengkap seluruh indeks artikel North7.
