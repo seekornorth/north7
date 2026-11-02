@@ -3,6 +3,21 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://north7.biz.id/kde-kwi-terminal-modern-berbasis-ghostty/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>North7</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-02T08:05:46+07:00</news:publication_date>
+      <news:title>KDE Kenalkan Kwi, Terminal Modern Berbasis Ghostty</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://north7.biz.id/kde-kwi-terminal-modern-berbasis-ghostty/cover.png</image:loc>
+      <image:title>KDE Kenalkan Kwi, Terminal Modern Berbasis Ghostty</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://north7.biz.id/windows-11-rombak-search-bisa-telepon-dan-atur-sistem/</loc>
     <news:news>
       <news:publication>
@@ -60,21 +75,6 @@
     <image:image>
       <image:loc>https://north7.biz.id/wine-11-21-rilis-performa-opengl-wow64-linux/cover.png</image:loc>
       <image:title>Wine 11.21 Rilis, Genjot Performa OpenGL WoW64 di Linux</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://north7.biz.id/macbook-pro-layar-sentuh-proled-xdr/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>North7</news:name>
-        <news:language>id</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-30T22:08:32+07:00</news:publication_date>
-      <news:title>Apple Rilis MacBook Pro Layar Sentuh, Bawa Panel PROLED XDR</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://north7.biz.id/macbook-pro-layar-sentuh-proled-xdr/cover.png</image:loc>
-      <image:title>Apple Rilis MacBook Pro Layar Sentuh, Bawa Panel PROLED XDR</image:title>
     </image:image>
   </url>
 </urlset>
