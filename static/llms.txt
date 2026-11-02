@@ -17,6 +17,7 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Cara Setting Pihole DNS di Android untuk Blokir Iklan](https://north7.biz.id/panduan-lengkap-pihole-dns-android/): Panduan lengkap setting Pihole DNS di Android lewat Wi-Fi lokal dan WireGuard split tunnel agar bebas iklan serta hemat kuota.
 
 ## Panduan Gadget & Tips Praktis
+- [Cara Blokir Panggilan Spam di iPhone Tanpa Ribet](https://north7.biz.id/cara-blokir-panggilan-spam-di-iphone/): Panduan lengkap cara blokir panggilan spam di iPhone mulai dari fitur Heningkan Penelepon Tidak Dikenal, Call Screening, filter spam, hingga aplikasi CallKit.
 - [Panduan Lengkap Amankan Akun Instagram](https://north7.biz.id/panduan-lengkap-amankan-akun-instagram/): Panduan lengkap amankan akun Instagram dari ancaman peretasan dan phising, mulai dari aktivasi 2FA, pemeriksaan keamanan, hingga audit sesi login.
 - [Panduan Lengkap Hapus Riwayat Google di HP](https://north7.biz.id/panduan-lengkap-hapus-riwayat-google-di-hp/): Panduan lengkap hapus riwayat Google di HP Android dan iPhone secara bersih tuntas, mulai dari cache browser Chrome hingga Aktivitas Saya di Akun Google.
 - [Panduan Lengkap Cek Kebocoran Data Nomor HP](https://north7.biz.id/panduan-lengkap-cek-kebocoran-data-nomor-hp/): Panduan lengkap cek kebocoran data nomor HP melalui basis data keamanan resmi, audit akun Google, serta tips menghentikan teror spam dan scam.
@@ -26,7 +27,6 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Cara Backup Chat WhatsApp ke PC Praktis dan Aman](https://north7.biz.id/cara-backup-chat-whatsapp-ke-pc/): Panduan lengkap cara backup chat WhatsApp ke PC via fitur ekspor obrolan resmi, transfer web, hingga pencadangan database lokal di Windows dan Mac.
 - [Panduan Lengkap Cache Android Phone](https://north7.biz.id/panduan-lengkap-cache-android-phone/): Panduan lengkap memahami mekanisme cache android phone, perbedaan hapus cache vs hapus data, kapan waktu tepat membersihkannya, dan tips optimasi memori.
 - [Cara Bersihkan Cache TV Android Agar Bebas Lemot](https://north7.biz.id/cara-bersihkan-cache-tv-android/): Panduan praktis cara bersihkan cache TV Android untuk mengatasi aplikasi streaming macet, memori penuh, dan performa lambat tanpa menghapus data login.
-- [Cara Kalibrasi Baterai iPhone Baru yang Benar dan Aman](https://north7.biz.id/cara-kalibrasi-baterai-iphone-baru/): Panduan lengkap cara kalibrasi baterai iPhone baru atau setelah ganti baterai. Luruskan mitos cas delapan jam dan jaga kesehatan baterai iOS tetap prima.
 
 ## Berita Linux, Kernel & Open Source
 - [KDE Kenalkan Kwi, Terminal Modern Berbasis Ghostty](https://north7.biz.id/kde-kwi-terminal-modern-berbasis-ghostty/): Pengembang KDE resmi memperkenalkan Kwi, emulator terminal baru bertenaga pustaka libghostty-vt dengan akselerasi GPU Vulkan dan integrasi Qt Quick.
