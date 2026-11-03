@@ -24,6 +24,7 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Cara Setting IP Static Ubuntu Server dengan Netplan](https://north7.biz.id/cara-setting-ip-static-ubuntu-server/): Tutorial setting IP static Ubuntu Server pakai Netplan, lengkap dengan contoh konfigurasi YAML, cara verifikasi hasilnya, dan solusi buat masalah yang sering muncul.
 
 ## Panduan Gadget & Tips Praktis
+- [Cara Buka Kunci Aplikasi iPhone Praktis dan Mudah](https://north7.biz.id/cara-buka-kunci-aplikasi-iphone/): Panduan lengkap cara buka kunci aplikasi iPhone mulai dari autentikasi Face ID, membuka folder aplikasi tersembunyi, hingga melepas proteksi permanen.
 - [Cara Blokir Panggilan Spam di iPhone Tanpa Ribet](https://north7.biz.id/cara-blokir-panggilan-spam-di-iphone/): Panduan lengkap cara blokir panggilan spam di iPhone mulai dari fitur Heningkan Penelepon Tidak Dikenal, Call Screening, filter spam, hingga aplikasi CallKit.
 - [Panduan Lengkap Amankan Akun Instagram](https://north7.biz.id/panduan-lengkap-amankan-akun-instagram/): Panduan lengkap amankan akun Instagram dari ancaman peretasan dan phising, mulai dari aktivasi 2FA, pemeriksaan keamanan, hingga audit sesi login.
 - [Panduan Lengkap Hapus Riwayat Google di HP](https://north7.biz.id/panduan-lengkap-hapus-riwayat-google-di-hp/): Panduan lengkap hapus riwayat Google di HP Android dan iPhone secara bersih tuntas, mulai dari cache browser Chrome hingga Aktivitas Saya di Akun Google.
