@@ -29,6 +29,7 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Cara Bersihkan Cache TV Android Agar Bebas Lemot](https://north7.biz.id/cara-bersihkan-cache-tv-android/): Panduan praktis cara bersihkan cache TV Android untuk mengatasi aplikasi streaming macet, memori penuh, dan performa lambat tanpa menghapus data login.
 
 ## Berita Linux, Kernel & Open Source
+- [Linux Mint Kembalikan Fitur Hibernasi untuk Laptop](https://north7.biz.id/linux-mint-kembalikan-fitur-hibernasi-laptop/): Pengembang Linux Mint resmi menghadirkan kembali opsi hibernasi, hybrid sleep, dan suspend-then-hibernate lewat menu pengaturan Sleep Modes baru.
 - [KDE Kenalkan Kwi, Terminal Modern Berbasis Ghostty](https://north7.biz.id/kde-kwi-terminal-modern-berbasis-ghostty/): Pengembang KDE resmi memperkenalkan Kwi, emulator terminal baru bertenaga pustaka libghostty-vt dengan akselerasi GPU Vulkan dan integrasi Qt Quick.
 - [Linux 7.4 Batalkan Taint Bind Usai Diprotes Pengguna VFIO](https://north7.biz.id/kernel-linux-7-4-batalkan-taint-bind-vfio/): Greg Kroah-Hartman resmi membatalkan fitur TAINT_FORCED_BIND di kernel Linux 7.4 setelah menuai protes karena merusak alur passthrough VFIO pada mesin virtual.
 - [Wine 11.21 Rilis, Genjot Performa OpenGL WoW64 di Linux](https://north7.biz.id/wine-11-21-rilis-performa-opengl-wow64-linux/): Wine 11.21 resmi meluncur membawa ekstensi MESA map buffer client pointer untuk akselerasi OpenGL WoW64 32-bit, pustaka DSP audio, dan puluhan perbaikan bug.
@@ -38,7 +39,6 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Kernel Linux Bereskan Regresi Penjadwal AMD Strix Point](https://north7.biz.id/kernel-linux-bereskan-regresi-penjadwal-amd-strix-point/): Kernel Linux 7.4 resmi membereskan regresi penjadwal Cache Aware Scheduling yang sempat bikin performa CPU hybrid AMD Strix Point anjlok drastis.
 - [Kernel Linux 7.4 Hapus Driver C Binder demi Rust](https://north7.biz.id/linux-7-4-hapus-driver-c-binder-resmikan-rust/): Kernel Linux 7.4 resmi menghapus driver Binder C warisan Google dan beralih penuh ke Rust Binder untuk miliaran perangkat Android.
 - [systemd Resmi Dukung Rust, Siapkan Utilitas Baru Tanpa Cargo](https://north7.biz.id/systemd-resmi-dukung-rust-komponen-baru-tanpa-cargo/): Proyek systemd resmi menggabungkan dukungan bahasa pemrograman Rust untuk komponen utilitas baru pada rilis systemd 263 tanpa mengandalkan Cargo.
-- [OBS Studio 33.0 Rilis, Bawa Lompatan CEF dan Rombak Plugin](https://north7.biz.id/obs-studio-33-0-lompatan-cef-dan-rombak-plugin/): OBS Studio 33.0 resmi meluncur membawa lompatan Chromium CEF 150, perombakan arsitektur plugin, dukungan NVENC Arm64, dan stabilitas desktop Linux.
 
 ## Berita Teknologi & Inovasi Perangkat
 - [Harga Raspberry Pi 5 16GB Tembus $385 Imbas Krisis RAM](https://north7.biz.id/harga-raspberry-pi-5-16gb-tembus-385/): Raspberry Pi kembali menaikkan harga varian 16GB menjadi $385 akibat krisis pasokan DRAM global dan minimnya alternatif pemasok chip memori.

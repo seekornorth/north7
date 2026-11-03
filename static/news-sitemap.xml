@@ -3,6 +3,21 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://north7.biz.id/linux-mint-kembalikan-fitur-hibernasi-laptop/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>North7</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-03T08:03:21+07:00</news:publication_date>
+      <news:title>Linux Mint Kembalikan Fitur Hibernasi untuk Laptop</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://north7.biz.id/linux-mint-kembalikan-fitur-hibernasi-laptop/cover.png</image:loc>
+      <image:title>Linux Mint Kembalikan Fitur Hibernasi untuk Laptop</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://north7.biz.id/harga-raspberry-pi-5-16gb-tembus-385/</loc>
     <news:news>
       <news:publication>
