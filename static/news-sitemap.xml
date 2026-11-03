@@ -3,6 +3,21 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://north7.biz.id/apple-watch-mulai-uji-fitur-ai-rangkum-percakapan/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>North7</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-03T22:06:57+07:00</news:publication_date>
+      <news:title>Apple Watch Mulai Uji Fitur AI Rangkum Percakapan</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://north7.biz.id/apple-watch-mulai-uji-fitur-ai-rangkum-percakapan/cover.png</image:loc>
+      <image:title>Apple Watch Mulai Uji Fitur AI Rangkum Percakapan</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://north7.biz.id/linux-mint-kembalikan-fitur-hibernasi-laptop/</loc>
     <news:news>
       <news:publication>
@@ -45,21 +60,6 @@
     <image:image>
       <image:loc>https://north7.biz.id/kde-kwi-terminal-modern-berbasis-ghostty/cover.png</image:loc>
       <image:title>KDE Kenalkan Kwi, Terminal Modern Berbasis Ghostty</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://north7.biz.id/windows-11-rombak-search-bisa-telepon-dan-atur-sistem/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>North7</news:name>
-        <news:language>id</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-01T22:06:20+07:00</news:publication_date>
-      <news:title>Windows 11 Rombak Search, Bisa Telepon dan Atur Sistem</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://north7.biz.id/windows-11-rombak-search-bisa-telepon-dan-atur-sistem/cover.png</image:loc>
-      <image:title>Windows 11 Rombak Search, Bisa Telepon dan Atur Sistem</image:title>
     </image:image>
   </url>
 </urlset>
