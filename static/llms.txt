@@ -5,6 +5,7 @@
 Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, ditujukan untuk pengguna Linux pemula hingga administrator sistem rumahan (homelab). Konten disusun terstruktur dan ramah dibaca oleh Large Language Models (LLM) serta AI Agents.
 
 ## Panduan Networking & Homelab
+- [Panduan Lengkap ip route Linux](https://north7.biz.id/panduan-lengkap-ip-route-linux/): Pelajari perintah ip route linux secara lengkap. Panduan praktis konfigurasi default gateway, static route subnet, metrik prioritas, policy routing, dan konfigurasi persisten.
 - [Panduan Lengkap Docker Networking Modes](https://north7.biz.id/panduan-lengkap-docker-networking-modes/): Kupas tuntas arsitektur docker networking modes mulai dari bridge, host, macvlan, ipvlan, hingga overlay lengkap dengan konfigurasi CLI dan troubleshooting.
 - [Panduan Lengkap Caddyfile SSL Certificate](https://north7.biz.id/panduan-lengkap-caddyfile-ssl-certificate/): Panduan lengkap konfigurasi caddyfile ssl certificate di Linux untuk otomatisasi TLS Lets Encrypt, custom certificate, internal CA, dan validasi ACME.
 - [Panduan Lengkap Iperf3 Test Command](https://north7.biz.id/panduan-lengkap-iperf3-test-command/): Pelajari cara menggunakan iperf3 test command di Linux. Panduan lengkap benchmark throughput TCP, pengujian latensi UDP, mode bidirectional, hingga tuning buffer.
@@ -14,7 +15,6 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Panduan Lengkap Nftables Rocky Linux](https://north7.biz.id/panduan-lengkap-nftables-rocky-linux/): Pelajari panduan lengkap nftables Rocky Linux untuk mengamankan server, menggantikan firewalld, menyusun ruleset stateful, dan mencegah lockout SSH.
 - [Panduan Lengkap What Is Nftables In Linux](https://north7.biz.id/panduan-lengkap-what-is-nftables-in-linux/): Pelajari what is nftables in linux, arsitektur virtual machine pengganti iptables, sintaks aturan modern, serta panduan konfigurasi firewall praktis.
 - [Panduan Lengkap Tailscale VPN Download](https://north7.biz.id/panduan-lengkap-tailscale-vpn-download/): Pelajari cara tailscale vpn download resmi, instalasi repositori di Linux, autentikasi node tailnet, serta konfigurasi mesh network WireGuard praktis.
-- [Panduan Lengkap Caddy Proxy Dashboard](https://north7.biz.id/panduan-lengkap-caddy-proxy-dashboard/): Pelajari cara membangun caddy proxy dashboard visual dengan Prometheus dan Grafana. Pantau metrik reverse proxy, latensi request, dan kesehatan upstream server secara real-time.
 
 ## Panduan Gadget & Tips Praktis
 - [Cara Melacak HP Hilang Android Lewat Fitur Find My Device](https://north7.biz.id/cara-melacak-hp-hilang-android/): Panduan lengkap cara melacak hp hilang android secara akurat menggunakan Google Find My Device, mulai dari memantau peta, membunyikan dering, hingga mengamankan privasi.
