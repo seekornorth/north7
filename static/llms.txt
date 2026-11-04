@@ -29,6 +29,7 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Panduan Lengkap Cache Android Phone](https://north7.biz.id/panduan-lengkap-cache-android-phone/): Panduan lengkap memahami mekanisme cache android phone, perbedaan hapus cache vs hapus data, kapan waktu tepat membersihkannya, dan tips optimasi memori.
 
 ## Berita Linux, Kernel & Open Source
+- [Fedora 45 Resmi Rilis Bawa KMSCON dan Storage Stratis](https://north7.biz.id/fedora-45-resmi-rilis-bawa-kmscon-dan-stratis/): Fedora 45 resmi meluncur membawa konsol modern KMSCON, integrasi Stratis Storage di installer Anaconda, pembatasan ptrace, dan GNOME 51.
 - [Linux Mint Kembalikan Fitur Hibernasi untuk Laptop](https://north7.biz.id/linux-mint-kembalikan-fitur-hibernasi-laptop/): Pengembang Linux Mint resmi menghadirkan kembali opsi hibernasi, hybrid sleep, dan suspend-then-hibernate lewat menu pengaturan Sleep Modes baru.
 - [KDE Kenalkan Kwi, Terminal Modern Berbasis Ghostty](https://north7.biz.id/kde-kwi-terminal-modern-berbasis-ghostty/): Pengembang KDE resmi memperkenalkan Kwi, emulator terminal baru bertenaga pustaka libghostty-vt dengan akselerasi GPU Vulkan dan integrasi Qt Quick.
 - [Linux 7.4 Batalkan Taint Bind Usai Diprotes Pengguna VFIO](https://north7.biz.id/kernel-linux-7-4-batalkan-taint-bind-vfio/): Greg Kroah-Hartman resmi membatalkan fitur TAINT_FORCED_BIND di kernel Linux 7.4 setelah menuai protes karena merusak alur passthrough VFIO pada mesin virtual.
@@ -38,7 +39,6 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Raspberry Pi Zero 3 W Muncul di Kernel Linux Bawa BCM2711](https://north7.biz.id/raspberry-pi-zero-3-w-muncul-di-kernel-linux-bawa-bcm2711/): Patch pohon Device Tree di repositori kernel Linux resmi mengonfirmasi kehadiran Raspberry Pi Zero 3 W bertenaga SoC Broadcom BCM2711 dan Pi 4 Model A.
 - [Kernel Linux Bereskan Regresi Penjadwal AMD Strix Point](https://north7.biz.id/kernel-linux-bereskan-regresi-penjadwal-amd-strix-point/): Kernel Linux 7.4 resmi membereskan regresi penjadwal Cache Aware Scheduling yang sempat bikin performa CPU hybrid AMD Strix Point anjlok drastis.
 - [Kernel Linux 7.4 Hapus Driver C Binder demi Rust](https://north7.biz.id/linux-7-4-hapus-driver-c-binder-resmikan-rust/): Kernel Linux 7.4 resmi menghapus driver Binder C warisan Google dan beralih penuh ke Rust Binder untuk miliaran perangkat Android.
-- [systemd Resmi Dukung Rust, Siapkan Utilitas Baru Tanpa Cargo](https://north7.biz.id/systemd-resmi-dukung-rust-komponen-baru-tanpa-cargo/): Proyek systemd resmi menggabungkan dukungan bahasa pemrograman Rust untuk komponen utilitas baru pada rilis systemd 263 tanpa mengandalkan Cargo.
 
 ## Berita Teknologi & Inovasi Perangkat
 - [Apple Watch Mulai Uji Fitur AI Rangkum Percakapan](https://north7.biz.id/apple-watch-mulai-uji-fitur-ai-rangkum-percakapan/): Apple mulai menguji fitur Audio Intelligence di Apple Watch untuk merangkum obrolan dan memutar ulang 15 detik percakapan secara privat.

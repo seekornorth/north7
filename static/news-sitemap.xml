@@ -3,6 +3,21 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://north7.biz.id/fedora-45-resmi-rilis-bawa-kmscon-dan-stratis/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>North7</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-04T08:06:40+07:00</news:publication_date>
+      <news:title>Fedora 45 Resmi Rilis Bawa KMSCON dan Storage Stratis</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://north7.biz.id/fedora-45-resmi-rilis-bawa-kmscon-dan-stratis/cover.png</image:loc>
+      <image:title>Fedora 45 Resmi Rilis Bawa KMSCON dan Storage Stratis</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://north7.biz.id/apple-watch-mulai-uji-fitur-ai-rangkum-percakapan/</loc>
     <news:news>
       <news:publication>
@@ -45,21 +60,6 @@
     <image:image>
       <image:loc>https://north7.biz.id/harga-raspberry-pi-5-16gb-tembus-385/cover.png</image:loc>
       <image:title>Harga Raspberry Pi 5 16GB Tembus $385 Imbas Krisis RAM</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://north7.biz.id/kde-kwi-terminal-modern-berbasis-ghostty/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>North7</news:name>
-        <news:language>id</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-02T08:05:46+07:00</news:publication_date>
-      <news:title>KDE Kenalkan Kwi, Terminal Modern Berbasis Ghostty</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://north7.biz.id/kde-kwi-terminal-modern-berbasis-ghostty/cover.png</image:loc>
-      <image:title>KDE Kenalkan Kwi, Terminal Modern Berbasis Ghostty</image:title>
     </image:image>
   </url>
 </urlset>
