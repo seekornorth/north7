@@ -3,6 +3,21 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://north7.biz.id/motorola-signature-27-flagship-baru/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>North7</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-05T22:06:03+07:00</news:publication_date>
+      <news:title>Motorola Rilis Signature 27, Flagship Baru Seharga $1.600</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://north7.biz.id/motorola-signature-27-flagship-baru/cover.png</image:loc>
+      <image:title>Motorola Rilis Signature 27, Flagship Baru Seharga $1.600</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://north7.biz.id/celah-apt-debian-buka-akses-root-mitm/</loc>
     <news:news>
       <news:publication>
@@ -45,21 +60,6 @@
     <image:image>
       <image:loc>https://north7.biz.id/fedora-45-resmi-rilis-bawa-kmscon-dan-stratis/cover.png</image:loc>
       <image:title>Fedora 45 Resmi Rilis Bawa KMSCON dan Storage Stratis</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://north7.biz.id/apple-watch-mulai-uji-fitur-ai-rangkum-percakapan/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>North7</news:name>
-        <news:language>id</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-03T22:06:57+07:00</news:publication_date>
-      <news:title>Apple Watch Mulai Uji Fitur AI Rangkum Percakapan</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://north7.biz.id/apple-watch-mulai-uji-fitur-ai-rangkum-percakapan/cover.png</image:loc>
-      <image:title>Apple Watch Mulai Uji Fitur AI Rangkum Percakapan</image:title>
     </image:image>
   </url>
 </urlset>
