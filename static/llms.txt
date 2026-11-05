@@ -17,6 +17,7 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Panduan Lengkap Tailscale VPN Download](https://north7.biz.id/panduan-lengkap-tailscale-vpn-download/): Pelajari cara tailscale vpn download resmi, instalasi repositori di Linux, autentikasi node tailnet, serta konfigurasi mesh network WireGuard praktis.
 
 ## Panduan Gadget & Tips Praktis
+- [Cara Sembunyikan Foto Video di iPhone dengan Face ID](https://north7.biz.id/cara-sembunyikan-foto-video-di-iphone/): Panduan praktis cara sembunyikan foto video di iPhone ke album Tersembunyi dengan kunci Face ID dan menyembunyikan album dari menu setelan foto.
 - [Cara Melacak HP Hilang Android Lewat Fitur Find My Device](https://north7.biz.id/cara-melacak-hp-hilang-android/): Panduan lengkap cara melacak hp hilang android secara akurat menggunakan Google Find My Device, mulai dari memantau peta, membunyikan dering, hingga mengamankan privasi.
 - [Cara Buka Kunci Aplikasi iPhone Praktis dan Mudah](https://north7.biz.id/cara-buka-kunci-aplikasi-iphone/): Panduan lengkap cara buka kunci aplikasi iPhone mulai dari autentikasi Face ID, membuka folder aplikasi tersembunyi, hingga melepas proteksi permanen.
 - [Cara Blokir Panggilan Spam di iPhone Tanpa Ribet](https://north7.biz.id/cara-blokir-panggilan-spam-di-iphone/): Panduan lengkap cara blokir panggilan spam di iPhone mulai dari fitur Heningkan Penelepon Tidak Dikenal, Call Screening, filter spam, hingga aplikasi CallKit.
@@ -26,7 +27,6 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Panduan Lengkap Transfer File Android to PC Online](https://north7.biz.id/panduan-lengkap-transfer-file-android-to-pc-online/): Panduan lengkap transfer file Android to PC online via Google Drive, web relay terenkripsi, hingga cloud sync tanpa kabel data dengan kualitas berkas penuh.
 - [Cara Kalibrasi Baterai HP POCO X7 Pro Agar Akurat](https://north7.biz.id/cara-kalibrasi-baterai-hp-poco-x7-pro/): Panduan lengkap cara kalibrasi baterai HP POCO X7 Pro untuk menormalkan pembacaan persentase HyperOS dan mengatasi baterai drop secara aman.
 - [Panduan Lengkap Backup WhatsApp ke pCloud](https://north7.biz.id/panduan-lengkap-backup-whatsapp-pcloud/): Panduan praktis cara backup WhatsApp ke pCloud mulai dari unggahan otomatis folder media, ekspor arsip obrolan penting, hingga pencadangan database lokal.
-- [Cara Backup Chat WhatsApp ke PC Praktis dan Aman](https://north7.biz.id/cara-backup-chat-whatsapp-ke-pc/): Panduan lengkap cara backup chat WhatsApp ke PC via fitur ekspor obrolan resmi, transfer web, hingga pencadangan database lokal di Windows dan Mac.
 
 ## Berita Linux, Kernel & Open Source
 - [Celah APT Debian Buka Akses Eksekusi Kode Root via MITM](https://north7.biz.id/celah-apt-debian-buka-akses-root-mitm/): Celah keamanan CVE-2026-109518 pada APT Debian izinkan penyerang man-in-the-middle mengeksekusi kode arbitrary sebagai root lewat manipulasi redirect HTTP.
