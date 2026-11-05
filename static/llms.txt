@@ -5,6 +5,7 @@
 Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, ditujukan untuk pengguna Linux pemula hingga administrator sistem rumahan (homelab). Konten disusun terstruktur dan ramah dibaca oleh Large Language Models (LLM) serta AI Agents.
 
 ## Panduan Networking & Homelab
+- [Panduan Lengkap ss tulpn Command in Linux](https://north7.biz.id/panduan-lengkap-ss-tulpn-command-in-linux/): Kupas tuntas penggunaan ss tulpn command in linux. Pelajari pembedahan flag socket, pemantauan port aktif, analisis Recv-Q dan Send-Q, serta audit proses.
 - [Panduan Lengkap ip route Linux](https://north7.biz.id/panduan-lengkap-ip-route-linux/): Pelajari perintah ip route linux secara lengkap. Panduan praktis konfigurasi default gateway, static route subnet, metrik prioritas, policy routing, dan konfigurasi persisten.
 - [Panduan Lengkap Docker Networking Modes](https://north7.biz.id/panduan-lengkap-docker-networking-modes/): Kupas tuntas arsitektur docker networking modes mulai dari bridge, host, macvlan, ipvlan, hingga overlay lengkap dengan konfigurasi CLI dan troubleshooting.
 - [Panduan Lengkap Caddyfile SSL Certificate](https://north7.biz.id/panduan-lengkap-caddyfile-ssl-certificate/): Panduan lengkap konfigurasi caddyfile ssl certificate di Linux untuk otomatisasi TLS Lets Encrypt, custom certificate, internal CA, dan validasi ACME.
@@ -14,7 +15,6 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Panduan Lengkap Linux Nftables Firewall](https://north7.biz.id/panduan-lengkap-linux-nftables-firewall/): Pelajari cara setting Linux nftables firewall modern sebagai pengganti iptables. Tutorial praktis konfigurasi ruleset stateful, whitelist port, dan optimasi performa.
 - [Panduan Lengkap Nftables Rocky Linux](https://north7.biz.id/panduan-lengkap-nftables-rocky-linux/): Pelajari panduan lengkap nftables Rocky Linux untuk mengamankan server, menggantikan firewalld, menyusun ruleset stateful, dan mencegah lockout SSH.
 - [Panduan Lengkap What Is Nftables In Linux](https://north7.biz.id/panduan-lengkap-what-is-nftables-in-linux/): Pelajari what is nftables in linux, arsitektur virtual machine pengganti iptables, sintaks aturan modern, serta panduan konfigurasi firewall praktis.
-- [Panduan Lengkap Tailscale VPN Download](https://north7.biz.id/panduan-lengkap-tailscale-vpn-download/): Pelajari cara tailscale vpn download resmi, instalasi repositori di Linux, autentikasi node tailnet, serta konfigurasi mesh network WireGuard praktis.
 
 ## Panduan Gadget & Tips Praktis
 - [Cara Sembunyikan Foto Video di iPhone dengan Face ID](https://north7.biz.id/cara-sembunyikan-foto-video-di-iphone/): Panduan praktis cara sembunyikan foto video di iPhone ke album Tersembunyi dengan kunci Face ID dan menyembunyikan album dari menu setelan foto.
