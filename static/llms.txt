@@ -29,6 +29,7 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Panduan Lengkap Backup WhatsApp ke pCloud](https://north7.biz.id/panduan-lengkap-backup-whatsapp-pcloud/): Panduan praktis cara backup WhatsApp ke pCloud mulai dari unggahan otomatis folder media, ekspor arsip obrolan penting, hingga pencadangan database lokal.
 
 ## Berita Linux, Kernel & Open Source
+- [OpenAI Temukan 948 Celah LPE di Kernel Linux](https://north7.biz.id/openai-temukan-948-celah-lpe-kernel-linux/): OpenAI menguji pipeline AI otonom pada kernel Linux dan menemukan 948 celah eskalasi hak akses lokal (LPE) ke root dengan biaya komputasi $1,2 juta.
 - [Celah APT Debian Buka Akses Eksekusi Kode Root via MITM](https://north7.biz.id/celah-apt-debian-buka-akses-root-mitm/): Celah keamanan CVE-2026-109518 pada APT Debian izinkan penyerang man-in-the-middle mengeksekusi kode arbitrary sebagai root lewat manipulasi redirect HTTP.
 - [Fedora 45 Resmi Rilis Bawa KMSCON dan Storage Stratis](https://north7.biz.id/fedora-45-resmi-rilis-bawa-kmscon-dan-stratis/): Fedora 45 resmi meluncur membawa konsol modern KMSCON, integrasi Stratis Storage di installer Anaconda, pembatasan ptrace, dan GNOME 51.
 - [Linux Mint Kembalikan Fitur Hibernasi untuk Laptop](https://north7.biz.id/linux-mint-kembalikan-fitur-hibernasi-laptop/): Pengembang Linux Mint resmi menghadirkan kembali opsi hibernasi, hybrid sleep, dan suspend-then-hibernate lewat menu pengaturan Sleep Modes baru.
@@ -38,7 +39,6 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Ghostty 1.4 Hadirkan Kompresi RAM dan Render EGL di Linux](https://north7.biz.id/ghostty-1-4-bawa-kompresi-ram-dan-render-egl-linux/): Ghostty 1.4 meluncur dengan kompresi memori scrollback hingga 90 persen, dukungan penuh grafis Kitty, serta arsitektur rendering EGL DMA-BUF di Linux.
 - [Canonical Bangkitkan Ubuntu Core Desktop Menuju Rilis 27.04](https://north7.biz.id/canonical-bangkitkan-ubuntu-core-desktop-27-04/): Canonical membentuk tim khusus untuk mempercepat Ubuntu Core Desktop, sistem operasi immutable berbasis snap penuh menjelang rilis Ubuntu 27.04.
 - [Raspberry Pi Zero 3 W Muncul di Kernel Linux Bawa BCM2711](https://north7.biz.id/raspberry-pi-zero-3-w-muncul-di-kernel-linux-bawa-bcm2711/): Patch pohon Device Tree di repositori kernel Linux resmi mengonfirmasi kehadiran Raspberry Pi Zero 3 W bertenaga SoC Broadcom BCM2711 dan Pi 4 Model A.
-- [Kernel Linux Bereskan Regresi Penjadwal AMD Strix Point](https://north7.biz.id/kernel-linux-bereskan-regresi-penjadwal-amd-strix-point/): Kernel Linux 7.4 resmi membereskan regresi penjadwal Cache Aware Scheduling yang sempat bikin performa CPU hybrid AMD Strix Point anjlok drastis.
 
 ## Berita Teknologi & Inovasi Perangkat
 - [Motorola Rilis Signature 27, Flagship Baru Seharga $1.600](https://north7.biz.id/motorola-signature-27-flagship-baru/): Motorola resmi memperkenalkan Signature 27, ponsel flagship non-lipat seharga $1.600 dengan Snapdragon 8 Elite Extreme, baterai 7.000 mAh, dan dukungan GrapheneOS.

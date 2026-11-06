@@ -3,6 +3,21 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://north7.biz.id/openai-temukan-948-celah-lpe-kernel-linux/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>North7</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-06T08:05:13+07:00</news:publication_date>
+      <news:title>OpenAI Temukan 948 Celah LPE di Kernel Linux</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://north7.biz.id/openai-temukan-948-celah-lpe-kernel-linux/cover.png</image:loc>
+      <image:title>OpenAI Temukan 948 Celah LPE di Kernel Linux</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://north7.biz.id/motorola-signature-27-flagship-baru/</loc>
     <news:news>
       <news:publication>
