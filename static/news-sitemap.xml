@@ -62,19 +62,4 @@
       <image:title>Samsung Galaxy Ring Kini Bisa Deteksi Sleep Apnea</image:title>
     </image:image>
   </url>
-  <url>
-    <loc>https://north7.biz.id/fedora-45-resmi-rilis-bawa-kmscon-dan-stratis/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>North7</news:name>
-        <news:language>id</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-04T08:06:40+07:00</news:publication_date>
-      <news:title>Fedora 45 Resmi Rilis Bawa KMSCON dan Storage Stratis</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://north7.biz.id/fedora-45-resmi-rilis-bawa-kmscon-dan-stratis/cover.png</image:loc>
-      <image:title>Fedora 45 Resmi Rilis Bawa KMSCON dan Storage Stratis</image:title>
-    </image:image>
-  </url>
 </urlset>

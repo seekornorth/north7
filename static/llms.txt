@@ -17,6 +17,7 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Panduan Lengkap What Is Nftables In Linux](https://north7.biz.id/panduan-lengkap-what-is-nftables-in-linux/): Pelajari what is nftables in linux, arsitektur virtual machine pengganti iptables, sintaks aturan modern, serta panduan konfigurasi firewall praktis.
 
 ## Panduan Gadget & Tips Praktis
+- [Panduan Lengkap Cek Kesehatan Baterai Android Poco](https://north7.biz.id/panduan-lengkap-cek-kesehatan-baterai-android-poco/): Panduan lengkap cek kesehatan baterai Android Poco dengan mudah. Pelajari cara membaca kode dial rahasia, melihat siklus pengisian, dan tips merawat baterai.
 - [Cara Sembunyikan Foto Video di iPhone dengan Face ID](https://north7.biz.id/cara-sembunyikan-foto-video-di-iphone/): Panduan praktis cara sembunyikan foto video di iPhone ke album Tersembunyi dengan kunci Face ID dan menyembunyikan album dari menu setelan foto.
 - [Cara Melacak HP Hilang Android Lewat Fitur Find My Device](https://north7.biz.id/cara-melacak-hp-hilang-android/): Panduan lengkap cara melacak hp hilang android secara akurat menggunakan Google Find My Device, mulai dari memantau peta, membunyikan dering, hingga mengamankan privasi.
 - [Cara Buka Kunci Aplikasi iPhone Praktis dan Mudah](https://north7.biz.id/cara-buka-kunci-aplikasi-iphone/): Panduan lengkap cara buka kunci aplikasi iPhone mulai dari autentikasi Face ID, membuka folder aplikasi tersembunyi, hingga melepas proteksi permanen.
@@ -26,7 +27,6 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Panduan Lengkap Cek Kebocoran Data Nomor HP](https://north7.biz.id/panduan-lengkap-cek-kebocoran-data-nomor-hp/): Panduan lengkap cek kebocoran data nomor HP melalui basis data keamanan resmi, audit akun Google, serta tips menghentikan teror spam dan scam.
 - [Panduan Lengkap Transfer File Android to PC Online](https://north7.biz.id/panduan-lengkap-transfer-file-android-to-pc-online/): Panduan lengkap transfer file Android to PC online via Google Drive, web relay terenkripsi, hingga cloud sync tanpa kabel data dengan kualitas berkas penuh.
 - [Cara Kalibrasi Baterai HP POCO X7 Pro Agar Akurat](https://north7.biz.id/cara-kalibrasi-baterai-hp-poco-x7-pro/): Panduan lengkap cara kalibrasi baterai HP POCO X7 Pro untuk menormalkan pembacaan persentase HyperOS dan mengatasi baterai drop secara aman.
-- [Panduan Lengkap Backup WhatsApp ke pCloud](https://north7.biz.id/panduan-lengkap-backup-whatsapp-pcloud/): Panduan praktis cara backup WhatsApp ke pCloud mulai dari unggahan otomatis folder media, ekspor arsip obrolan penting, hingga pencadangan database lokal.
 
 ## Berita Linux, Kernel & Open Source
 - [OpenAI Temukan 948 Celah LPE di Kernel Linux](https://north7.biz.id/openai-temukan-948-celah-lpe-kernel-linux/): OpenAI menguji pipeline AI otonom pada kernel Linux dan menemukan 948 celah eskalasi hak akses lokal (LPE) ke root dengan biaya komputasi $1,2 juta.
