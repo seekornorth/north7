@@ -5,6 +5,7 @@
 Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, ditujukan untuk pengguna Linux pemula hingga administrator sistem rumahan (homelab). Konten disusun terstruktur dan ramah dibaca oleh Large Language Models (LLM) serta AI Agents.
 
 ## Panduan Networking & Homelab
+- [Cara Mengatasi ss Command Not Found di Linux](https://north7.biz.id/cara-mengatasi-ss-command-not-found-di-linux/): Solusi tuntas ss command not found linux. Panduan instalasi iproute2 pada berbagai distro, konfigurasi container minimalis, dan perbaikan variabel PATH.
 - [Panduan Lengkap ss tulpn Command in Linux](https://north7.biz.id/panduan-lengkap-ss-tulpn-command-in-linux/): Kupas tuntas penggunaan ss tulpn command in linux. Pelajari pembedahan flag socket, pemantauan port aktif, analisis Recv-Q dan Send-Q, serta audit proses.
 - [Panduan Lengkap ip route Linux](https://north7.biz.id/panduan-lengkap-ip-route-linux/): Pelajari perintah ip route linux secara lengkap. Panduan praktis konfigurasi default gateway, static route subnet, metrik prioritas, policy routing, dan konfigurasi persisten.
 - [Panduan Lengkap Docker Networking Modes](https://north7.biz.id/panduan-lengkap-docker-networking-modes/): Kupas tuntas arsitektur docker networking modes mulai dari bridge, host, macvlan, ipvlan, hingga overlay lengkap dengan konfigurasi CLI dan troubleshooting.
@@ -14,7 +15,6 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Panduan Lengkap Linux Nftables Examples](https://north7.biz.id/panduan-lengkap-linux-nftables-examples/): Kumpulan Linux nftables examples praktis untuk konfigurasi firewall server modern, mulai dari stateful filter, port set, proteksi brute force, hingga NAT forwarding.
 - [Panduan Lengkap Linux Nftables Firewall](https://north7.biz.id/panduan-lengkap-linux-nftables-firewall/): Pelajari cara setting Linux nftables firewall modern sebagai pengganti iptables. Tutorial praktis konfigurasi ruleset stateful, whitelist port, dan optimasi performa.
 - [Panduan Lengkap Nftables Rocky Linux](https://north7.biz.id/panduan-lengkap-nftables-rocky-linux/): Pelajari panduan lengkap nftables Rocky Linux untuk mengamankan server, menggantikan firewalld, menyusun ruleset stateful, dan mencegah lockout SSH.
-- [Panduan Lengkap What Is Nftables In Linux](https://north7.biz.id/panduan-lengkap-what-is-nftables-in-linux/): Pelajari what is nftables in linux, arsitektur virtual machine pengganti iptables, sintaks aturan modern, serta panduan konfigurasi firewall praktis.
 
 ## Panduan Gadget & Tips Praktis
 - [Panduan Lengkap Cek Kesehatan Baterai Android Poco](https://north7.biz.id/panduan-lengkap-cek-kesehatan-baterai-android-poco/): Panduan lengkap cek kesehatan baterai Android Poco dengan mudah. Pelajari cara membaca kode dial rahasia, melihat siklus pengisian, dan tips merawat baterai.

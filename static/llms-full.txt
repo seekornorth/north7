@@ -5,6 +5,7 @@
 Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, ditujukan untuk pengguna Linux pemula hingga administrator sistem rumahan (homelab). Konten disusun terstruktur dan ramah dibaca oleh Large Language Models (LLM) serta AI Agents.
 
 ## Panduan Networking & Homelab
+- [Cara Mengatasi ss Command Not Found di Linux](https://north7.biz.id/cara-mengatasi-ss-command-not-found-di-linux/): Solusi tuntas ss command not found linux. Panduan instalasi iproute2 pada berbagai distro, konfigurasi container minimalis, dan perbaikan variabel PATH.
 - [Panduan Lengkap ss tulpn Command in Linux](https://north7.biz.id/panduan-lengkap-ss-tulpn-command-in-linux/): Kupas tuntas penggunaan ss tulpn command in linux. Pelajari pembedahan flag socket, pemantauan port aktif, analisis Recv-Q dan Send-Q, serta audit proses.
 - [Panduan Lengkap ip route Linux](https://north7.biz.id/panduan-lengkap-ip-route-linux/): Pelajari perintah ip route linux secara lengkap. Panduan praktis konfigurasi default gateway, static route subnet, metrik prioritas, policy routing, dan konfigurasi persisten.
 - [Panduan Lengkap Docker Networking Modes](https://north7.biz.id/panduan-lengkap-docker-networking-modes/): Kupas tuntas arsitektur docker networking modes mulai dari bridge, host, macvlan, ipvlan, hingga overlay lengkap dengan konfigurasi CLI dan troubleshooting.
