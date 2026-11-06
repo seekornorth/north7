@@ -78,6 +78,7 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [antiX 26.1 Rilis, Bawa Kernel Baru dan Tetap Tanpa systemd](https://north7.biz.id/antix-26-1-rilis-kernel-baru-tanpa-systemd/): antiX 26.1 resmi rilis dengan pembaruan kernel, perbaikan bug, dan tetap mempertahankan sistem tanpa systemd untuk PC lawas.
 
 ## Berita Teknologi & Inovasi Perangkat
+- [Enough Phone Hadirkan Ponsel Mungil Baterai Lepas Pasang](https://north7.biz.id/enough-phone-hadirkan-ponsel-mungil-baterai-lepas-pasang/): Enough Phone resmi membuka pemesanan ponsel kompak 5,3 inci dengan baterai lepas pasang, kamera 50 MP Sony, serta opsi sistem operasi Android 17 atau OdysseyOS.
 - [Motorola Rilis Signature 27, Flagship Baru Seharga $1.600](https://north7.biz.id/motorola-signature-27-flagship-baru/): Motorola resmi memperkenalkan Signature 27, ponsel flagship non-lipat seharga $1.600 dengan Snapdragon 8 Elite Extreme, baterai 7.000 mAh, dan dukungan GrapheneOS.
 - [Samsung Galaxy Ring Kini Bisa Deteksi Sleep Apnea](https://north7.biz.id/samsung-galaxy-ring-kini-bisa-deteksi-sleep-apnea/): Samsung resmi menggulirkan fitur deteksi risiko sleep apnea ke cincin pintar Galaxy Ring setelah mengantongi izin FDA Amerika Serikat dan MFDS Korea Selatan.
 - [Apple Watch Mulai Uji Fitur AI Rangkum Percakapan](https://north7.biz.id/apple-watch-mulai-uji-fitur-ai-rangkum-percakapan/): Apple mulai menguji fitur Audio Intelligence di Apple Watch untuk merangkum obrolan dan memutar ulang 15 detik percakapan secara privat.
