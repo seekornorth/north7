@@ -41,6 +41,7 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Canonical Bangkitkan Ubuntu Core Desktop Menuju Rilis 27.04](https://north7.biz.id/canonical-bangkitkan-ubuntu-core-desktop-27-04/): Canonical membentuk tim khusus untuk mempercepat Ubuntu Core Desktop, sistem operasi immutable berbasis snap penuh menjelang rilis Ubuntu 27.04.
 
 ## Berita Teknologi & Inovasi Perangkat
+- [Google Find Hub Hadirkan Fitur Pengingat Barang Tertinggal](https://north7.biz.id/google-find-hub-pengingat-barang-tertinggal/): Google resmi menggulirkan fitur Left-Behind Reminders di aplikasi Find Hub Android agar pengguna langsung tahu saat dompet atau kunci tertinggal.
 - [Enough Phone Hadirkan Ponsel Mungil Baterai Lepas Pasang](https://north7.biz.id/enough-phone-hadirkan-ponsel-mungil-baterai-lepas-pasang/): Enough Phone resmi membuka pemesanan ponsel kompak 5,3 inci dengan baterai lepas pasang, kamera 50 MP Sony, serta opsi sistem operasi Android 17 atau OdysseyOS.
 - [Motorola Rilis Signature 27, Flagship Baru Seharga $1.600](https://north7.biz.id/motorola-signature-27-flagship-baru/): Motorola resmi memperkenalkan Signature 27, ponsel flagship non-lipat seharga $1.600 dengan Snapdragon 8 Elite Extreme, baterai 7.000 mAh, dan dukungan GrapheneOS.
 - [Samsung Galaxy Ring Kini Bisa Deteksi Sleep Apnea](https://north7.biz.id/samsung-galaxy-ring-kini-bisa-deteksi-sleep-apnea/): Samsung resmi menggulirkan fitur deteksi risiko sleep apnea ke cincin pintar Galaxy Ring setelah mengantongi izin FDA Amerika Serikat dan MFDS Korea Selatan.
@@ -50,7 +51,6 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Layar iPhone Duo Retak, Apple Kirim Panduan Resmi ke Toko](https://north7.biz.id/apple-kirim-panduan-layar-iphone-duo-retak/): Apple menerbitkan memo internal ke Apple Store dan teknisi resmi untuk menangani keluhan layar lipat iPhone Duo retak di area engsel.
 - [Apple Rilis MacBook Pro Layar Sentuh, Bawa Panel PROLED XDR](https://north7.biz.id/macbook-pro-layar-sentuh-proled-xdr/): Apple resmi meluncurkan MacBook Pro layar sentuh pertama berpanel PROLED XDR tandem OLED, chip M5 Pro dan M5 Max, serta Dynamic Island.
 - [XREAL AURA Meluncur Resmi, Kacamata Android XR Pertama](https://north7.biz.id/xreal-aura-kacamata-android-xr-pertama/): Google dan XREAL resmi merilis XREAL AURA, kacamata komputasi spasial Android XR pertama berbobot 95 gram dengan chip Snapdragon Reality Elite dan Gemini.
-- [Amazon Rilis Alexa Photo Frame, Bingkai Digital Tanpa Iklan](https://north7.biz.id/amazon-alexa-photo-frame-tanpa-iklan/): Amazon resmi merilis Alexa Photo Frame, bingkai foto digital 10 inci berlayar anti-glare dengan kurasi kecerdasan buatan Alexa Plus, fitur rekaman suara, dan tanpa iklan.
 
 ## Optional
 - [Sitemap XML](https://north7.biz.id/sitemap.xml): Peta situs lengkap seluruh indeks artikel North7.

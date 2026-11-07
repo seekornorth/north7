@@ -3,6 +3,21 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://north7.biz.id/google-find-hub-pengingat-barang-tertinggal/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>North7</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-07T22:03:50+07:00</news:publication_date>
+      <news:title>Google Find Hub Hadirkan Fitur Pengingat Barang Tertinggal</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://north7.biz.id/google-find-hub-pengingat-barang-tertinggal/cover.png</image:loc>
+      <image:title>Google Find Hub Hadirkan Fitur Pengingat Barang Tertinggal</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://north7.biz.id/celah-openssh-musl-bobol-linux-tanpa-password/</loc>
     <news:news>
       <news:publication>
