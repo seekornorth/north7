@@ -17,6 +17,7 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Panduan Lengkap Nftables Rocky Linux](https://north7.biz.id/panduan-lengkap-nftables-rocky-linux/): Pelajari panduan lengkap nftables Rocky Linux untuk mengamankan server, menggantikan firewalld, menyusun ruleset stateful, dan mencegah lockout SSH.
 
 ## Panduan Gadget & Tips Praktis
+- [Panduan Lengkap Mode Pengembang Android 15](https://north7.biz.id/panduan-lengkap-mode-pengembang-android-15/): Panduan lengkap mode pengembang Android 15 untuk mengaktifkan menu tersembunyi, mempercepat animasi sistem, mengatur USB debugging, dan opsi penting.
 - [Panduan Lengkap Cek Kesehatan Baterai Android Poco](https://north7.biz.id/panduan-lengkap-cek-kesehatan-baterai-android-poco/): Panduan lengkap cek kesehatan baterai Android Poco dengan mudah. Pelajari cara membaca kode dial rahasia, melihat siklus pengisian, dan tips merawat baterai.
 - [Cara Sembunyikan Foto Video di iPhone dengan Face ID](https://north7.biz.id/cara-sembunyikan-foto-video-di-iphone/): Panduan praktis cara sembunyikan foto video di iPhone ke album Tersembunyi dengan kunci Face ID dan menyembunyikan album dari menu setelan foto.
 - [Cara Melacak HP Hilang Android Lewat Fitur Find My Device](https://north7.biz.id/cara-melacak-hp-hilang-android/): Panduan lengkap cara melacak hp hilang android secara akurat menggunakan Google Find My Device, mulai dari memantau peta, membunyikan dering, hingga mengamankan privasi.
@@ -26,7 +27,6 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Panduan Lengkap Hapus Riwayat Google di HP](https://north7.biz.id/panduan-lengkap-hapus-riwayat-google-di-hp/): Panduan lengkap hapus riwayat Google di HP Android dan iPhone secara bersih tuntas, mulai dari cache browser Chrome hingga Aktivitas Saya di Akun Google.
 - [Panduan Lengkap Cek Kebocoran Data Nomor HP](https://north7.biz.id/panduan-lengkap-cek-kebocoran-data-nomor-hp/): Panduan lengkap cek kebocoran data nomor HP melalui basis data keamanan resmi, audit akun Google, serta tips menghentikan teror spam dan scam.
 - [Panduan Lengkap Transfer File Android to PC Online](https://north7.biz.id/panduan-lengkap-transfer-file-android-to-pc-online/): Panduan lengkap transfer file Android to PC online via Google Drive, web relay terenkripsi, hingga cloud sync tanpa kabel data dengan kualitas berkas penuh.
-- [Cara Kalibrasi Baterai HP POCO X7 Pro Agar Akurat](https://north7.biz.id/cara-kalibrasi-baterai-hp-poco-x7-pro/): Panduan lengkap cara kalibrasi baterai HP POCO X7 Pro untuk menormalkan pembacaan persentase HyperOS dan mengatasi baterai drop secara aman.
 
 ## Berita Linux, Kernel & Open Source
 - [Celah OpenSSH dan Musl Bobol Server Linux Tanpa Password](https://north7.biz.id/celah-openssh-musl-bobol-linux-tanpa-password/): Celah aneh interaksi OpenSSH dan musl libc memungkinkan penyerang masuk ke akun Linux tanpa password cukup bermodalkan string sandi lebih dari 256 karakter.
