@@ -17,6 +17,7 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Panduan Lengkap Linux Nftables Firewall](https://north7.biz.id/panduan-lengkap-linux-nftables-firewall/): Pelajari cara setting Linux nftables firewall modern sebagai pengganti iptables. Tutorial praktis konfigurasi ruleset stateful, whitelist port, dan optimasi performa.
 
 ## Panduan Gadget & Tips Praktis
+- [Cara Amankan Akun Telegram Dari Hacker](https://north7.biz.id/cara-amankan-akun-telegram-dari-hacker/): Panduan lengkap cara amankan akun telegram dari hacker dengan verifikasi dua langkah, audit sesi perangkat, proteksi kode sandi, dan setelan privasi panggilan.
 - [Panduan Lengkap Mode Pengembang Android 15](https://north7.biz.id/panduan-lengkap-mode-pengembang-android-15/): Panduan lengkap mode pengembang Android 15 untuk mengaktifkan menu tersembunyi, mempercepat animasi sistem, mengatur USB debugging, dan opsi penting.
 - [Panduan Lengkap Cek Kesehatan Baterai Android Poco](https://north7.biz.id/panduan-lengkap-cek-kesehatan-baterai-android-poco/): Panduan lengkap cek kesehatan baterai Android Poco dengan mudah. Pelajari cara membaca kode dial rahasia, melihat siklus pengisian, dan tips merawat baterai.
 - [Cara Sembunyikan Foto Video di iPhone dengan Face ID](https://north7.biz.id/cara-sembunyikan-foto-video-di-iphone/): Panduan praktis cara sembunyikan foto video di iPhone ke album Tersembunyi dengan kunci Face ID dan menyembunyikan album dari menu setelan foto.
@@ -26,7 +27,6 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Panduan Lengkap Amankan Akun Instagram](https://north7.biz.id/panduan-lengkap-amankan-akun-instagram/): Panduan lengkap amankan akun Instagram dari ancaman peretasan dan phising, mulai dari aktivasi 2FA, pemeriksaan keamanan, hingga audit sesi login.
 - [Panduan Lengkap Hapus Riwayat Google di HP](https://north7.biz.id/panduan-lengkap-hapus-riwayat-google-di-hp/): Panduan lengkap hapus riwayat Google di HP Android dan iPhone secara bersih tuntas, mulai dari cache browser Chrome hingga Aktivitas Saya di Akun Google.
 - [Panduan Lengkap Cek Kebocoran Data Nomor HP](https://north7.biz.id/panduan-lengkap-cek-kebocoran-data-nomor-hp/): Panduan lengkap cek kebocoran data nomor HP melalui basis data keamanan resmi, audit akun Google, serta tips menghentikan teror spam dan scam.
-- [Panduan Lengkap Transfer File Android to PC Online](https://north7.biz.id/panduan-lengkap-transfer-file-android-to-pc-online/): Panduan lengkap transfer file Android to PC online via Google Drive, web relay terenkripsi, hingga cloud sync tanpa kabel data dengan kualitas berkas penuh.
 
 ## Berita Linux, Kernel & Open Source
 - [Kmorph Pulihkan Kernel Linux dari Crash Tanpa Perlu Reboot](https://north7.biz.id/kmorph-pulihkan-kernel-linux-tanpa-reboot/): Proyek open source Kmorph hadirkan pemulihan kernel Linux saat panic tanpa reboot dengan memangkas waktu downtime dari hitungan menit menjadi cuma 2 detik.
