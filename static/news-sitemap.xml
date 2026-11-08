@@ -3,6 +3,21 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://north7.biz.id/eufy-window-cam-e10-pantau-luar-rumah-lewat-kaca/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>North7</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-08T22:05:14+07:00</news:publication_date>
+      <news:title>Eufy Window Cam E10, Pantau Luar Rumah Lewat Kaca Jendela</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://north7.biz.id/eufy-window-cam-e10-pantau-luar-rumah-lewat-kaca/cover.png</image:loc>
+      <image:title>Eufy Window Cam E10, Pantau Luar Rumah Lewat Kaca Jendela</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://north7.biz.id/kmorph-pulihkan-kernel-linux-tanpa-reboot/</loc>
     <news:news>
       <news:publication>
@@ -45,21 +60,6 @@
     <image:image>
       <image:loc>https://north7.biz.id/celah-openssh-musl-bobol-linux-tanpa-password/cover.png</image:loc>
       <image:title>Celah OpenSSH dan Musl Bobol Server Linux Tanpa Password</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://north7.biz.id/enough-phone-hadirkan-ponsel-mungil-baterai-lepas-pasang/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>North7</news:name>
-        <news:language>id</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-06T22:04:48+07:00</news:publication_date>
-      <news:title>Enough Phone Hadirkan Ponsel Mungil Baterai Lepas Pasang</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://north7.biz.id/enough-phone-hadirkan-ponsel-mungil-baterai-lepas-pasang/cover.png</image:loc>
-      <image:title>Enough Phone Hadirkan Ponsel Mungil Baterai Lepas Pasang</image:title>
     </image:image>
   </url>
 </urlset>

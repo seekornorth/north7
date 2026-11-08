@@ -84,6 +84,7 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [antiX 26.1 Rilis, Bawa Kernel Baru dan Tetap Tanpa systemd](https://north7.biz.id/antix-26-1-rilis-kernel-baru-tanpa-systemd/): antiX 26.1 resmi rilis dengan pembaruan kernel, perbaikan bug, dan tetap mempertahankan sistem tanpa systemd untuk PC lawas.
 
 ## Berita Teknologi & Inovasi Perangkat
+- [Eufy Window Cam E10, Pantau Luar Rumah Lewat Kaca Jendela](https://north7.biz.id/eufy-window-cam-e10-pantau-luar-rumah-lewat-kaca/): Anker merilis Eufy Window Camera E10 yang ditempel di kaca dalam rumah untuk memantau halaman tanpa repot bor tembok atau takut kamera dicuri.
 - [Google Find Hub Hadirkan Fitur Pengingat Barang Tertinggal](https://north7.biz.id/google-find-hub-pengingat-barang-tertinggal/): Google resmi menggulirkan fitur Left-Behind Reminders di aplikasi Find Hub Android agar pengguna langsung tahu saat dompet atau kunci tertinggal.
 - [Enough Phone Hadirkan Ponsel Mungil Baterai Lepas Pasang](https://north7.biz.id/enough-phone-hadirkan-ponsel-mungil-baterai-lepas-pasang/): Enough Phone resmi membuka pemesanan ponsel kompak 5,3 inci dengan baterai lepas pasang, kamera 50 MP Sony, serta opsi sistem operasi Android 17 atau OdysseyOS.
 - [Motorola Rilis Signature 27, Flagship Baru Seharga $1.600](https://north7.biz.id/motorola-signature-27-flagship-baru/): Motorola resmi memperkenalkan Signature 27, ponsel flagship non-lipat seharga $1.600 dengan Snapdragon 8 Elite Extreme, baterai 7.000 mAh, dan dukungan GrapheneOS.

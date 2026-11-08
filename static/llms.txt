@@ -41,6 +41,7 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Ghostty 1.4 Hadirkan Kompresi RAM dan Render EGL di Linux](https://north7.biz.id/ghostty-1-4-bawa-kompresi-ram-dan-render-egl-linux/): Ghostty 1.4 meluncur dengan kompresi memori scrollback hingga 90 persen, dukungan penuh grafis Kitty, serta arsitektur rendering EGL DMA-BUF di Linux.
 
 ## Berita Teknologi & Inovasi Perangkat
+- [Eufy Window Cam E10, Pantau Luar Rumah Lewat Kaca Jendela](https://north7.biz.id/eufy-window-cam-e10-pantau-luar-rumah-lewat-kaca/): Anker merilis Eufy Window Camera E10 yang ditempel di kaca dalam rumah untuk memantau halaman tanpa repot bor tembok atau takut kamera dicuri.
 - [Google Find Hub Hadirkan Fitur Pengingat Barang Tertinggal](https://north7.biz.id/google-find-hub-pengingat-barang-tertinggal/): Google resmi menggulirkan fitur Left-Behind Reminders di aplikasi Find Hub Android agar pengguna langsung tahu saat dompet atau kunci tertinggal.
 - [Enough Phone Hadirkan Ponsel Mungil Baterai Lepas Pasang](https://north7.biz.id/enough-phone-hadirkan-ponsel-mungil-baterai-lepas-pasang/): Enough Phone resmi membuka pemesanan ponsel kompak 5,3 inci dengan baterai lepas pasang, kamera 50 MP Sony, serta opsi sistem operasi Android 17 atau OdysseyOS.
 - [Motorola Rilis Signature 27, Flagship Baru Seharga $1.600](https://north7.biz.id/motorola-signature-27-flagship-baru/): Motorola resmi memperkenalkan Signature 27, ponsel flagship non-lipat seharga $1.600 dengan Snapdragon 8 Elite Extreme, baterai 7.000 mAh, dan dukungan GrapheneOS.
@@ -50,7 +51,6 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Windows 11 Rombak Search, Bisa Telepon dan Atur Sistem](https://north7.biz.id/windows-11-rombak-search-bisa-telepon-dan-atur-sistem/): Microsoft merombak fitur Windows Search di Windows 11 Insider, kini bisa atur volume, kecerahan layar, hingga kirim SMS dan telepon lewat HP yang terhubung.
 - [Layar iPhone Duo Retak, Apple Kirim Panduan Resmi ke Toko](https://north7.biz.id/apple-kirim-panduan-layar-iphone-duo-retak/): Apple menerbitkan memo internal ke Apple Store dan teknisi resmi untuk menangani keluhan layar lipat iPhone Duo retak di area engsel.
 - [Apple Rilis MacBook Pro Layar Sentuh, Bawa Panel PROLED XDR](https://north7.biz.id/macbook-pro-layar-sentuh-proled-xdr/): Apple resmi meluncurkan MacBook Pro layar sentuh pertama berpanel PROLED XDR tandem OLED, chip M5 Pro dan M5 Max, serta Dynamic Island.
-- [XREAL AURA Meluncur Resmi, Kacamata Android XR Pertama](https://north7.biz.id/xreal-aura-kacamata-android-xr-pertama/): Google dan XREAL resmi merilis XREAL AURA, kacamata komputasi spasial Android XR pertama berbobot 95 gram dengan chip Snapdragon Reality Elite dan Gemini.
 
 ## Optional
 - [Sitemap XML](https://north7.biz.id/sitemap.xml): Peta situs lengkap seluruh indeks artikel North7.
