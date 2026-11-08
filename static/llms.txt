@@ -5,6 +5,7 @@
 Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, ditujukan untuk pengguna Linux pemula hingga administrator sistem rumahan (homelab). Konten disusun terstruktur dan ramah dibaca oleh Large Language Models (LLM) serta AI Agents.
 
 ## Panduan Networking & Homelab
+- [Panduan Setup Tailscale Exit Node Docker di Linux](https://north7.biz.id/panduan-setup-tailscale-exit-node-docker-di-linux/): Pelajari cara setup tailscale exit node docker di Linux. Amankan koneksi internet publik dengan enkripsi WireGuard deklaratif, efisien, dan terisolasi.
 - [Panduan Lengkap AdGuard Home Docker Compose](https://north7.biz.id/panduan-lengkap-adguard-home-docker-compose/): Pelajari panduan lengkap adguard home docker compose di Linux. Atasi bentrok port 53, pertahankan IP klien asli, dan amankan jaringan rumah dengan DNS sinkhole.
 - [Cara Mengatasi ss Command Not Found di Linux](https://north7.biz.id/cara-mengatasi-ss-command-not-found-di-linux/): Solusi tuntas ss command not found linux. Panduan instalasi iproute2 pada berbagai distro, konfigurasi container minimalis, dan perbaikan variabel PATH.
 - [Panduan Lengkap ss tulpn Command in Linux](https://north7.biz.id/panduan-lengkap-ss-tulpn-command-in-linux/): Kupas tuntas penggunaan ss tulpn command in linux. Pelajari pembedahan flag socket, pemantauan port aktif, analisis Recv-Q dan Send-Q, serta audit proses.
@@ -14,7 +15,6 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Panduan Lengkap Iperf3 Test Command](https://north7.biz.id/panduan-lengkap-iperf3-test-command/): Pelajari cara menggunakan iperf3 test command di Linux. Panduan lengkap benchmark throughput TCP, pengujian latensi UDP, mode bidirectional, hingga tuning buffer.
 - [Cara Konfigurasi Nftables Linux Mint](https://north7.biz.id/cara-konfigurasi-nftables-linux-mint/): Tutorial langkah demi langkah cara konfigurasi nftables Linux Mint. Pelajari migrasi dari UFW, penulisan ruleset inet, serta verifikasi keamanan jaringan desktop.
 - [Panduan Lengkap Linux Nftables Examples](https://north7.biz.id/panduan-lengkap-linux-nftables-examples/): Kumpulan Linux nftables examples praktis untuk konfigurasi firewall server modern, mulai dari stateful filter, port set, proteksi brute force, hingga NAT forwarding.
-- [Panduan Lengkap Linux Nftables Firewall](https://north7.biz.id/panduan-lengkap-linux-nftables-firewall/): Pelajari cara setting Linux nftables firewall modern sebagai pengganti iptables. Tutorial praktis konfigurasi ruleset stateful, whitelist port, dan optimasi performa.
 
 ## Panduan Gadget & Tips Praktis
 - [Cara Amankan Akun Telegram Dari Hacker](https://north7.biz.id/cara-amankan-akun-telegram-dari-hacker/): Panduan lengkap cara amankan akun telegram dari hacker dengan verifikasi dua langkah, audit sesi perangkat, proteksi kode sandi, dan setelan privasi panggilan.
