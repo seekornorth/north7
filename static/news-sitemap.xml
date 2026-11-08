@@ -3,6 +3,21 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://north7.biz.id/kmorph-pulihkan-kernel-linux-tanpa-reboot/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>North7</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-08T08:06:41+07:00</news:publication_date>
+      <news:title>Kmorph Pulihkan Kernel Linux dari Crash Tanpa Perlu Reboot</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://north7.biz.id/kmorph-pulihkan-kernel-linux-tanpa-reboot/cover.png</image:loc>
+      <image:title>Kmorph Pulihkan Kernel Linux dari Crash Tanpa Perlu Reboot</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://north7.biz.id/google-find-hub-pengingat-barang-tertinggal/</loc>
     <news:news>
       <news:publication>
@@ -45,36 +60,6 @@
     <image:image>
       <image:loc>https://north7.biz.id/enough-phone-hadirkan-ponsel-mungil-baterai-lepas-pasang/cover.png</image:loc>
       <image:title>Enough Phone Hadirkan Ponsel Mungil Baterai Lepas Pasang</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://north7.biz.id/openai-temukan-948-celah-lpe-kernel-linux/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>North7</news:name>
-        <news:language>id</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-06T08:05:13+07:00</news:publication_date>
-      <news:title>OpenAI Temukan 948 Celah LPE di Kernel Linux</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://north7.biz.id/openai-temukan-948-celah-lpe-kernel-linux/cover.png</image:loc>
-      <image:title>OpenAI Temukan 948 Celah LPE di Kernel Linux</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://north7.biz.id/motorola-signature-27-flagship-baru/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>North7</news:name>
-        <news:language>id</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-05T22:06:03+07:00</news:publication_date>
-      <news:title>Motorola Rilis Signature 27, Flagship Baru Seharga $1.600</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://north7.biz.id/motorola-signature-27-flagship-baru/cover.png</image:loc>
-      <image:title>Motorola Rilis Signature 27, Flagship Baru Seharga $1.600</image:title>
     </image:image>
   </url>
 </urlset>
