@@ -41,6 +41,7 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Wine 11.21 Rilis, Genjot Performa OpenGL WoW64 di Linux](https://north7.biz.id/wine-11-21-rilis-performa-opengl-wow64-linux/): Wine 11.21 resmi meluncur membawa ekstensi MESA map buffer client pointer untuk akselerasi OpenGL WoW64 32-bit, pustaka DSP audio, dan puluhan perbaikan bug.
 
 ## Berita Teknologi & Inovasi Perangkat
+- [Razer Hammerhead V3 Chroma Bawa ANC ke Earbud Kabel USB-C](https://north7.biz.id/razer-hammerhead-v3-chroma-earbud-kabel-usb-c/): Razer meluncurkan earbud kabel Hammerhead V3 Chroma dengan port USB-C siku 90 derajat, peredam bising aktif ANC, driver ganda, dan lampu Chroma RGB.
 - [Eufy Window Cam E10, Pantau Luar Rumah Lewat Kaca Jendela](https://north7.biz.id/eufy-window-cam-e10-pantau-luar-rumah-lewat-kaca/): Anker merilis Eufy Window Camera E10 yang ditempel di kaca dalam rumah untuk memantau halaman tanpa repot bor tembok atau takut kamera dicuri.
 - [Google Find Hub Hadirkan Fitur Pengingat Barang Tertinggal](https://north7.biz.id/google-find-hub-pengingat-barang-tertinggal/): Google resmi menggulirkan fitur Left-Behind Reminders di aplikasi Find Hub Android agar pengguna langsung tahu saat dompet atau kunci tertinggal.
 - [Enough Phone Hadirkan Ponsel Mungil Baterai Lepas Pasang](https://north7.biz.id/enough-phone-hadirkan-ponsel-mungil-baterai-lepas-pasang/): Enough Phone resmi membuka pemesanan ponsel kompak 5,3 inci dengan baterai lepas pasang, kamera 50 MP Sony, serta opsi sistem operasi Android 17 atau OdysseyOS.
@@ -50,7 +51,6 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Harga Raspberry Pi 5 16GB Tembus $385 Imbas Krisis RAM](https://north7.biz.id/harga-raspberry-pi-5-16gb-tembus-385/): Raspberry Pi kembali menaikkan harga varian 16GB menjadi $385 akibat krisis pasokan DRAM global dan minimnya alternatif pemasok chip memori.
 - [Windows 11 Rombak Search, Bisa Telepon dan Atur Sistem](https://north7.biz.id/windows-11-rombak-search-bisa-telepon-dan-atur-sistem/): Microsoft merombak fitur Windows Search di Windows 11 Insider, kini bisa atur volume, kecerahan layar, hingga kirim SMS dan telepon lewat HP yang terhubung.
 - [Layar iPhone Duo Retak, Apple Kirim Panduan Resmi ke Toko](https://north7.biz.id/apple-kirim-panduan-layar-iphone-duo-retak/): Apple menerbitkan memo internal ke Apple Store dan teknisi resmi untuk menangani keluhan layar lipat iPhone Duo retak di area engsel.
-- [Apple Rilis MacBook Pro Layar Sentuh, Bawa Panel PROLED XDR](https://north7.biz.id/macbook-pro-layar-sentuh-proled-xdr/): Apple resmi meluncurkan MacBook Pro layar sentuh pertama berpanel PROLED XDR tandem OLED, chip M5 Pro dan M5 Max, serta Dynamic Island.
 
 ## Optional
 - [Sitemap XML](https://north7.biz.id/sitemap.xml): Peta situs lengkap seluruh indeks artikel North7.
