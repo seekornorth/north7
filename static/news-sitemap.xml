@@ -3,6 +3,21 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://north7.biz.id/asahi-linux-beralih-ke-gpl-penuh-cegah-pencucian-kode-ai/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>North7</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-09T08:04:40+07:00</news:publication_date>
+      <news:title>Asahi Linux Beralih ke GPL Penuh Cegah Pencucian Kode AI</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://north7.biz.id/asahi-linux-beralih-ke-gpl-penuh-cegah-pencucian-kode-ai/cover.png</image:loc>
+      <image:title>Asahi Linux Beralih ke GPL Penuh Cegah Pencucian Kode AI</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://north7.biz.id/eufy-window-cam-e10-pantau-luar-rumah-lewat-kaca/</loc>
     <news:news>
       <news:publication>

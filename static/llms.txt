@@ -29,6 +29,7 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Panduan Lengkap Cek Kebocoran Data Nomor HP](https://north7.biz.id/panduan-lengkap-cek-kebocoran-data-nomor-hp/): Panduan lengkap cek kebocoran data nomor HP melalui basis data keamanan resmi, audit akun Google, serta tips menghentikan teror spam dan scam.
 
 ## Berita Linux, Kernel & Open Source
+- [Asahi Linux Beralih ke GPL Penuh Cegah Pencucian Kode AI](https://north7.biz.id/asahi-linux-beralih-ke-gpl-penuh-cegah-pencucian-kode-ai/): Asahi Linux resmi mengalihkan seluruh repositori dari lisensi MIT ke GPL v2 atau versi lebih baru demi mencegah praktik pencucian kode berbasis model AI.
 - [Kmorph Pulihkan Kernel Linux dari Crash Tanpa Perlu Reboot](https://north7.biz.id/kmorph-pulihkan-kernel-linux-tanpa-reboot/): Proyek open source Kmorph hadirkan pemulihan kernel Linux saat panic tanpa reboot dengan memangkas waktu downtime dari hitungan menit menjadi cuma 2 detik.
 - [Celah OpenSSH dan Musl Bobol Server Linux Tanpa Password](https://north7.biz.id/celah-openssh-musl-bobol-linux-tanpa-password/): Celah aneh interaksi OpenSSH dan musl libc memungkinkan penyerang masuk ke akun Linux tanpa password cukup bermodalkan string sandi lebih dari 256 karakter.
 - [OpenAI Temukan 948 Celah LPE di Kernel Linux](https://north7.biz.id/openai-temukan-948-celah-lpe-kernel-linux/): OpenAI menguji pipeline AI otonom pada kernel Linux dan menemukan 948 celah eskalasi hak akses lokal (LPE) ke root dengan biaya komputasi $1,2 juta.
@@ -38,7 +39,6 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [KDE Kenalkan Kwi, Terminal Modern Berbasis Ghostty](https://north7.biz.id/kde-kwi-terminal-modern-berbasis-ghostty/): Pengembang KDE resmi memperkenalkan Kwi, emulator terminal baru bertenaga pustaka libghostty-vt dengan akselerasi GPU Vulkan dan integrasi Qt Quick.
 - [Linux 7.4 Batalkan Taint Bind Usai Diprotes Pengguna VFIO](https://north7.biz.id/kernel-linux-7-4-batalkan-taint-bind-vfio/): Greg Kroah-Hartman resmi membatalkan fitur TAINT_FORCED_BIND di kernel Linux 7.4 setelah menuai protes karena merusak alur passthrough VFIO pada mesin virtual.
 - [Wine 11.21 Rilis, Genjot Performa OpenGL WoW64 di Linux](https://north7.biz.id/wine-11-21-rilis-performa-opengl-wow64-linux/): Wine 11.21 resmi meluncur membawa ekstensi MESA map buffer client pointer untuk akselerasi OpenGL WoW64 32-bit, pustaka DSP audio, dan puluhan perbaikan bug.
-- [Ghostty 1.4 Hadirkan Kompresi RAM dan Render EGL di Linux](https://north7.biz.id/ghostty-1-4-bawa-kompresi-ram-dan-render-egl-linux/): Ghostty 1.4 meluncur dengan kompresi memori scrollback hingga 90 persen, dukungan penuh grafis Kitty, serta arsitektur rendering EGL DMA-BUF di Linux.
 
 ## Berita Teknologi & Inovasi Perangkat
 - [Eufy Window Cam E10, Pantau Luar Rumah Lewat Kaca Jendela](https://north7.biz.id/eufy-window-cam-e10-pantau-luar-rumah-lewat-kaca/): Anker merilis Eufy Window Camera E10 yang ditempel di kaca dalam rumah untuk memantau halaman tanpa repot bor tembok atau takut kamera dicuri.

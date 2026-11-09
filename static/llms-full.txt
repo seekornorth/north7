@@ -53,6 +53,7 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Cara Kirim File Android ke PC Tanpa Kabel Pakai Quick Share](https://north7.biz.id/cara-kirim-file-android-ke-pc-tanpa-kabel-pakai-quick-share/): Panduan lengkap cara transfer file dari Android ke PC Windows tanpa kabel memakai Quick Share dari Google, cepat tanpa kompresi dan mudah diatur.
 
 ## Berita Linux, Kernel & Open Source
+- [Asahi Linux Beralih ke GPL Penuh Cegah Pencucian Kode AI](https://north7.biz.id/asahi-linux-beralih-ke-gpl-penuh-cegah-pencucian-kode-ai/): Asahi Linux resmi mengalihkan seluruh repositori dari lisensi MIT ke GPL v2 atau versi lebih baru demi mencegah praktik pencucian kode berbasis model AI.
 - [Kmorph Pulihkan Kernel Linux dari Crash Tanpa Perlu Reboot](https://north7.biz.id/kmorph-pulihkan-kernel-linux-tanpa-reboot/): Proyek open source Kmorph hadirkan pemulihan kernel Linux saat panic tanpa reboot dengan memangkas waktu downtime dari hitungan menit menjadi cuma 2 detik.
 - [Celah OpenSSH dan Musl Bobol Server Linux Tanpa Password](https://north7.biz.id/celah-openssh-musl-bobol-linux-tanpa-password/): Celah aneh interaksi OpenSSH dan musl libc memungkinkan penyerang masuk ke akun Linux tanpa password cukup bermodalkan string sandi lebih dari 256 karakter.
 - [OpenAI Temukan 948 Celah LPE di Kernel Linux](https://north7.biz.id/openai-temukan-948-celah-lpe-kernel-linux/): OpenAI menguji pipeline AI otonom pada kernel Linux dan menemukan 948 celah eskalasi hak akses lokal (LPE) ke root dengan biaya komputasi $1,2 juta.
