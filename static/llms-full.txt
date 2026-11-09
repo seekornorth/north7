@@ -5,6 +5,7 @@
 Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, ditujukan untuk pengguna Linux pemula hingga administrator sistem rumahan (homelab). Konten disusun terstruktur dan ramah dibaca oleh Large Language Models (LLM) serta AI Agents.
 
 ## Panduan Networking & Homelab
+- [Panduan Lengkap WireGuard Linux Client Setup](https://north7.biz.id/panduan-lengkap-wireguard-linux-client-setup/): Pelajari cara wireguard linux client setup secara mendalam. Panduan langkah konfigurasi wg0.conf, pembuatan kunci, integrasi systemd, dan routing jaringan.
 - [Panduan Setup Tailscale Exit Node Docker di Linux](https://north7.biz.id/panduan-setup-tailscale-exit-node-docker-di-linux/): Pelajari cara setup tailscale exit node docker di Linux. Amankan koneksi internet publik dengan enkripsi WireGuard deklaratif, efisien, dan terisolasi.
 - [Panduan Lengkap AdGuard Home Docker Compose](https://north7.biz.id/panduan-lengkap-adguard-home-docker-compose/): Pelajari panduan lengkap adguard home docker compose di Linux. Atasi bentrok port 53, pertahankan IP klien asli, dan amankan jaringan rumah dengan DNS sinkhole.
 - [Cara Mengatasi ss Command Not Found di Linux](https://north7.biz.id/cara-mengatasi-ss-command-not-found-di-linux/): Solusi tuntas ss command not found linux. Panduan instalasi iproute2 pada berbagai distro, konfigurasi container minimalis, dan perbaikan variabel PATH.
