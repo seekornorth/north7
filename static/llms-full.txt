@@ -90,6 +90,7 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [antiX 26.1 Rilis, Bawa Kernel Baru dan Tetap Tanpa systemd](https://north7.biz.id/antix-26-1-rilis-kernel-baru-tanpa-systemd/): antiX 26.1 resmi rilis dengan pembaruan kernel, perbaikan bug, dan tetap mempertahankan sistem tanpa systemd untuk PC lawas.
 
 ## Berita Teknologi & Inovasi Perangkat
+- [Aina Ring Bawa Layar OLED dan Joystick ke Cincin Pintar](https://north7.biz.id/aina-ring-layar-oled-joystick-cincin-pintar/): Startup Aina merilis cincin pintar Aina Ring dengan layar OLED, joystick mikro Shifter, mikrofon, dan speaker untuk mengontrol aplikasi serta AI agent.
 - [Razer Hammerhead V3 Chroma Bawa ANC ke Earbud Kabel USB-C](https://north7.biz.id/razer-hammerhead-v3-chroma-earbud-kabel-usb-c/): Razer meluncurkan earbud kabel Hammerhead V3 Chroma dengan port USB-C siku 90 derajat, peredam bising aktif ANC, driver ganda, dan lampu Chroma RGB.
 - [Eufy Window Cam E10, Pantau Luar Rumah Lewat Kaca Jendela](https://north7.biz.id/eufy-window-cam-e10-pantau-luar-rumah-lewat-kaca/): Anker merilis Eufy Window Camera E10 yang ditempel di kaca dalam rumah untuk memantau halaman tanpa repot bor tembok atau takut kamera dicuri.
 - [Google Find Hub Hadirkan Fitur Pengingat Barang Tertinggal](https://north7.biz.id/google-find-hub-pengingat-barang-tertinggal/): Google resmi menggulirkan fitur Left-Behind Reminders di aplikasi Find Hub Android agar pengguna langsung tahu saat dompet atau kunci tertinggal.
