@@ -111,4 +111,8 @@ Dan buat pengguna lama, perubahan di Parrot Updater mungkin malah terasa lebih b
 
 Menurut ane, Parrot OS 7.4 memang bukan rilis yang mengubah semuanya. Tapi ada cukup banyak perubahan kecil yang membuat update kali ini tetap menarik untuk diperhatikan.
 
+> **Baca Juga:**
+> - [Kmorph Pulihkan Kernel Linux dari Crash Tanpa Perlu Reboot](/kmorph-pulihkan-kernel-linux-tanpa-reboot/)
+> - [Celah APT Debian Buka Akses Eksekusi Kode Root via MITM](/celah-apt-debian-buka-akses-root-mitm/)
+
 Sumber: [ParrotSec Release Announcement](https://parrotsec.org/blog/2026-10-03-parrot-7.4-release-notes/)

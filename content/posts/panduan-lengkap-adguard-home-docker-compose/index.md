@@ -314,4 +314,8 @@ Jika Anda mengedit file konfigurasi `~/adguard-home/conf/AdGuardHome.yaml` mengg
 - Lakukan penyuntingan file konfigurasi secara manual.
 - Nyalakan kembali kontainer setelah file tersimpan.
 
+> **Baca Juga:**
+> - [Panduan Setup Tailscale Exit Node Docker di Linux](/panduan-setup-tailscale-exit-node-docker-di-linux/)
+> - [Cara Install AdGuard Home di Ubuntu Server Lengkap](/cara-install-adguard-home-di-ubuntu-server/)
+
 Sumber: [AdGuard DNS Knowledge Base](https://adguard-dns.io/kb/adguard-home/docker/)

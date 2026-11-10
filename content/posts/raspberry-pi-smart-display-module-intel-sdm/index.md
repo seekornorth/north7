@@ -38,4 +38,8 @@ Lucunya, Raspberry Pi sebenarnya sudah memamerkan modul ini sejak awal tahun, te
 
 Untuk pemakaian komputer di rumah, perangkat ini rasanya memang terlalu spesifik dan belum tentu terpakai. Tapi buat teknisi yang sering mengurus instalasi *digital signage*, baru kelihatan kenapa desain tersembunyi tanpa kabel seperti ini dibuat.
 
+> **Baca Juga:**
+> - [Harga Raspberry Pi 5 16GB Tembus $385 Imbas Krisis RAM](/harga-raspberry-pi-5-16gb-tembus-385/)
+> - [Layar iPhone Duo Retak, Apple Kirim Panduan Resmi ke Toko](/apple-kirim-panduan-layar-iphone-duo-retak/)
+
 *Sumber: Raspberry Pi News / Pengumuman Resmi Raspberry Pi SDM*

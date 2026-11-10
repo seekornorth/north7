@@ -289,4 +289,8 @@ Saat mengelola nftables di lingkungan produksi, ada beberapa kendala teknis yang
 
 Beralih dari iptables ke nftables bukan sekadar mengikuti tren pembaruan software, melainkan langkah penting untuk membangun infrastruktur server Linux yang lebih tangkas, terpadu, dan hemat konsumsi memori kernel.
 
+> **Baca Juga:**
+> - [Panduan Lengkap Nftables Rocky Linux](/panduan-lengkap-nftables-rocky-linux/)
+> - [Panduan Lengkap Linux Nftables Examples](/panduan-lengkap-linux-nftables-examples/)
+
 Sumber: [Netfilter nftables Documentation](https://wiki.nftables.org/wiki-nftables/index.php/Main_Page)

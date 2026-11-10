@@ -59,4 +59,8 @@ Selain terminal, Linux Mint juga memperkenalkan Superlight, aplikasi monitor sis
 
 Langkah Linux Mint mengembalikan fitur fungsional yang sempat ditinggalkan membuktikan bahwa fokus mereka tetap pada kenyamanan pengguna desktop nyata, bukan sekadar mengejar tren perangkat lunak yang rumit.
 
+> **Baca Juga:**
+> - [systemd Resmi Dukung Rust, Siapkan Utilitas Baru Tanpa Cargo](/systemd-resmi-dukung-rust-komponen-baru-tanpa-cargo/)
+> - [Kmorph Pulihkan Kernel Linux dari Crash Tanpa Perlu Reboot](/kmorph-pulihkan-kernel-linux-tanpa-reboot/)
+
 Sumber: [Linux Mint Official Blog](https://blog.linuxmint.com/?p=5093)

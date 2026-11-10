@@ -64,4 +64,8 @@ Masa pemesanan lewat situs resmi dan distributor ini sudah berjalan mulai hari i
 
 Melihat selisih harga memori yang lumayan melompat tadi, sepertinya kita memang harus pintar-pintar memperkirakan kebutuhan memori jangka panjang sebelum memutuskan mau checkout varian yang mana.
 
+> **Baca Juga:**
+> - [Layar iPhone Duo Retak, Apple Kirim Panduan Resmi ke Toko](/apple-kirim-panduan-layar-iphone-duo-retak/)
+> - [Apple Rilis MacBook Pro Layar Sentuh, Bawa Panel PROLED XDR](/macbook-pro-layar-sentuh-proled-xdr/)
+
 Sumber: [Ibox](https://ibox.co.id/product/iphone-18-pro-s9600006453)

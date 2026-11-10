@@ -63,4 +63,8 @@ Di sektor fondasi pengembangan, tumpukan *compiler* dan *runtime* diperbarui sec
 
 Secara bawaan Fedora 45 dikapalkan bersama kernel Linux 7.2, tetapi pengembang memastikan pembaruan kernel stabil Linux 7.3 bakal digulirkan ke repositori resmi dalam waktu dekat. Bagi yang sudah memasang Fedora 44, pembaruan sistem operasi dapat langsung dijalankan lewat modul DNF system-upgrade tanpa perlu menginstal ulang dari awal.
 
+> **Baca Juga:**
+> - [Kmorph Pulihkan Kernel Linux dari Crash Tanpa Perlu Reboot](/kmorph-pulihkan-kernel-linux-tanpa-reboot/)
+> - [Linux Mint Kembalikan Fitur Hibernasi untuk Laptop](/linux-mint-kembalikan-fitur-hibernasi-laptop/)
+
 Sumber: [Fedora Magazine](https://fedoramagazine.org/announcing-fedora-linux-45/)

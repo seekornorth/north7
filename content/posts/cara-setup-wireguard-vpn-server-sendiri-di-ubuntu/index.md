@@ -260,4 +260,8 @@ Dalam praktiknya, kadang kita menemui kendala teknis saat pertama kali menghubun
 
 Membangun server VPN sendiri memberikan kendali privasi penuh tanpa perlu khawatir log aktivitas kita diintip atau dijual oleh pihak lain.
 
+> **Baca Juga:**
+> - [Panduan Lengkap WireGuard Linux Client Setup](/panduan-lengkap-wireguard-linux-client-setup/)
+> - [Panduan Lengkap Tailscale VPN Download](/panduan-lengkap-tailscale-vpn-download/)
+
 Sumber: [WireGuard Quick Start](https://wireguard.com/quickstart)

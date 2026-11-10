@@ -364,4 +364,8 @@ Mengamankan server sebenarnya tidak perlu rumit sampai harus menghafal puluhan p
 
 Begitu konfigurasi firewall terpasang rapi dan diverifikasi lewat log, server ente sudah punya lapisan proteksi pertama yang kokoh untuk menghadapi kerasnya lalu lintas internet.
 
+> **Baca Juga:**
+> - [Panduan Lengkap Linux Nftables Examples](/panduan-lengkap-linux-nftables-examples/)
+> - [Panduan Lengkap UFW Firewall Debian](/panduan-lengkap-ufw-firewall-debian/)
+
 Sumber: [Dokumentasi Ubuntu Server Firewall](https://ubuntu.com/server/docs/how-to/security/firewalls/)

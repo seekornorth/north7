@@ -54,4 +54,8 @@ Meskipun Google menyatakan bahwa data isi email dan pesan pribadi tidak dipakai 
 
 Pembaruan integrasi Gemini di Android Auto sudah mulai digulirkan bertahap mulai hari ini untuk pengguna global, sementara ketersediaan percakapan Google Maps di CarPlay dimulai untuk wilayah Amerika Serikat sebelum menyusul ke berbagai negara lain.
 
+> **Baca Juga:**
+> - [Apple Watch Mulai Uji Fitur AI Rangkum Percakapan](/apple-watch-mulai-uji-fitur-ai-rangkum-percakapan/)
+> - [Cara Hapus Riwayat Suara Google Assistant dan Gemini](/cara-hapus-riwayat-suara-google-assistant-dan-gemini/)
+
 Sumber: [Google](https://blog.google/products-and-platforms/platforms/android/android-auto-cars-with-google-built-in-gemini-personal-intelligence/)

@@ -260,4 +260,8 @@ Pastikan direktori lokal `./data` memiliki izin akses yang tepat dan dapat dibac
 
 Pastikan pula baris `TS_STATE_DIR=/var/lib/tailscale` tercantum di dalam berkas `docker-compose.yml` dan direktori `./data` terpasang secara tepat ke `/var/lib/tailscale`.
 
+> **Baca Juga:**
+> - [Panduan Lengkap Tailscale VPN Download](/panduan-lengkap-tailscale-vpn-download/)
+> - [Panduan Lengkap WireGuard Linux Client Setup](/panduan-lengkap-wireguard-linux-client-setup/)
+
 Sumber: [Tailscale Official Documentation](https://tailscale.com/kb/1103/exit-nodes)

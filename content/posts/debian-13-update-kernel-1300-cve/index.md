@@ -90,4 +90,8 @@ Jadi daripada pusing melihat angka ribuannya, mending update dulu.
 
 Setelah itu baru kalau penasaran, kita bisa ngulik CVE mana saja yang sebenarnya relevan dengan sistem yang sedang dipakai.
 
+> **Baca Juga:**
+> - [Celah APT Debian Buka Akses Eksekusi Kode Root via MITM](/celah-apt-debian-buka-akses-root-mitm/)
+> - [Kmorph Pulihkan Kernel Linux dari Crash Tanpa Perlu Reboot](/kmorph-pulihkan-kernel-linux-tanpa-reboot/)
+
 *Sumber: [lwn.net](https://lwn.net/Articles/1097401/), [Debian security-announce](https://lists.debian.org/debian-security-announce/2026/msg00441.html)*

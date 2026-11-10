@@ -65,4 +65,8 @@ Eben Upton juga memperingatkan munculnya pihak-pihak tidak bertanggung jawab yan
 
 Pihak Raspberry Pi menegaskan bahwa badai kenaikan harga memori ini bersifat sementara. Mereka berjanji akan segera mengembalikan harga jual ke angka semula begitu biaya produksi komponen DRAM di pasar global kembali normal. Namun hingga momen itu tiba, siapa pun yang mengincar papan komputasi mungil bertenaga besar ini tampaknya harus merogoh kocek jauh lebih dalam.
 
+> **Baca Juga:**
+> - [Layar iPhone Duo Retak, Apple Kirim Panduan Resmi ke Toko](/apple-kirim-panduan-layar-iphone-duo-retak/)
+> - [Apple Rilis MacBook Pro 14 Inci M6, Baterai Tahan 24 Jam](/macbook-pro-14-inci-m6-baterai-24-jam/)
+
 Sumber: [Raspberry Pi](https://www.raspberrypi.com/news/price-rises-for-some-16gb-raspberry-pi-products/)

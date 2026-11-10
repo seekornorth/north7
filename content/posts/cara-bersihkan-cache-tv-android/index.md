@@ -94,4 +94,8 @@ Membersihkan cache secara berkala setiap beberapa minggu sekali memang sangat me
 
 Langkah sederhana membersihkan cache ini terbukti ampuh mengembalikan kelancaran navigasi smart TV tanpa biaya dan tanpa risiko kehilangan data tontonan kesayangan keluarga.
 
+> **Baca Juga:**
+> - [Cara Hemat Kuota di HP Android agar Paket Data Awet](/cara-hemat-kuota-di-hp/)
+> - [Cara Amankan Akun Telegram Dari Hacker](/cara-amankan-akun-telegram-dari-hacker/)
+
 Sumber: [Google Android TV Help](https://support.google.com/androidtv/answer/7308736?hl=id)

@@ -62,4 +62,8 @@ Penggunaan argumen `--only-upgrade` di atas sangat berguna di lingkungan server 
 
 Sebagai langkah pertahanan berlapis (*defense-in-depth*), pengelola jaringan juga disarankan untuk mengevaluasi daftar repositori paket sistem. Mengalihkan cermin repositori dari protokol HTTP biasa ke HTTPS (`https://`) atau memanfaatkan jaringan terisolasi seperti Tor Onion service sangat efektif menggagalkan skenario manipulasi lalu lintas data di level jaringan transit. Walau demikian, pembaruan biner paket APT tetap menjadi kewajiban mutlak karena HTTPS saja tidak menggantikan penambalan kode rentan di sisi klien.
 
+> **Baca Juga:**
+> - [Debian 13 “Trixie” Dapat Update Kernel, Tutup 1.313 CVE](/debian-13-update-kernel-1300-cve/)
+> - [Kmorph Pulihkan Kernel Linux dari Crash Tanpa Perlu Reboot](/kmorph-pulihkan-kernel-linux-tanpa-reboot/)
+
 Sumber: [Debian Security Advisory](https://lists.debian.org/debian-security-announce/2026/msg00526.html)

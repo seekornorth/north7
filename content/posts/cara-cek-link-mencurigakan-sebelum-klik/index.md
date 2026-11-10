@@ -115,4 +115,8 @@ Kadang kita memang cuma butuh beberapa detik untuk berhenti dan memeriksa alamat
 
 Daripada penasaran setelah terlanjur klik, rasanya lebih enak mengecek dulu sebelum membuka.
 
+> **Baca Juga:**
+> - [Razer Hammerhead V3 Chroma Bawa ANC ke Earbud Kabel USB-C](/razer-hammerhead-v3-chroma-earbud-kabel-usb-c/)
+> - [Cara Hemat Kuota di HP Android agar Paket Data Awet](/cara-hemat-kuota-di-hp/)
+
 Sumber: VirusTotal Documentation, Quad9 Documentation, CheckShortURL

@@ -338,4 +338,8 @@ sudo ufw logging off
 
 Dengan konfigurasi di atas, server Debian ente kini memiliki sistem pertahanan garis depan yang solid, efisien, dan mudah dikelola tanpa harus berkutat dengan sintaks tabel paket yang rumit.
 
+> **Baca Juga:**
+> - [Cara Konfigurasi Nftables Linux Mint](/cara-konfigurasi-nftables-linux-mint/)
+> - [Panduan Lengkap Linux Nftables Examples](/panduan-lengkap-linux-nftables-examples/)
+
 Sumber: [Debian Wiki](https://wiki.debian.org/Uncomplicated%20Firewall%20%28ufw%29)

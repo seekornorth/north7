@@ -53,4 +53,8 @@ Bagi pengguna distro *rolling release* seperti Arch Linux, openSUSE Tumbleweed, 
 
 Mengatur lalu lintas instruksi di atas arsitektur prosesor modern memang bukan perkara gampang, om. Namun komitmen para insinyur lintas vendor untuk terus menyempurnakan perilaku penjadwal Linux memastikan perangkat keras mutakhir bisa mengeluarkan taring aslinya tanpa tertahan belenggu kode lawas.
 
+> **Baca Juga:**
+> - [Linux 7.3 Rilis Resmi, Performa IO Kencang dan Siap Zen 6](/linux-7-3-rilis-performa-io-zen-6/)
+> - [Kmorph Pulihkan Kernel Linux dari Crash Tanpa Perlu Reboot](/kmorph-pulihkan-kernel-linux-tanpa-reboot/)
+
 Sumber: [Linux Kernel Mailing List](https://lore.kernel.org/all/b29badede27bb6bfb4a759e06754cb19657f0778.1791308631.git.tim.c.chen@linux.intel.com/)

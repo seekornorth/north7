@@ -114,4 +114,8 @@ Langkah pencegahan tambahan:
 
 Mengamankan akun digital bukanlah tugas yang rumit, melainkan soal kedisiplinan menerapkan langkah pencegahan sejak awal. Dengan meluangkan waktu sejenak untuk menyalakan verifikasi dua langkah, memutus sesi yang tidak terpakai, dan memperketat setelan privasi di atas, akun Telegram Anda akan memiliki benteng pertahanan yang sangat kokoh dan sulit ditembus oleh peretas.
 
+> **Baca Juga:**
+> - [Panduan Lengkap Amankan Akun Instagram](/panduan-lengkap-amankan-akun-instagram/)
+> - [Panduan Lengkap Cek Kebocoran Data Nomor HP](/panduan-lengkap-cek-kebocoran-data-nomor-hp/)
+
 Sumber: [Telegram FAQ](https://telegram.org/faq)

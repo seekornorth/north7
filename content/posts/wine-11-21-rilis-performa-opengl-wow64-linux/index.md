@@ -55,4 +55,8 @@ Kalau ane perhatikan ritme pengembangannya, kehadiran Wine 11.21 menandakan bahw
 
 Peningkatan efisiensi OpenGL WoW64 ini membuktikan bahwa ekosistem gaming Linux tidak hanya memprioritaskan teknologi Vulkan atau lapisan terjemahan Direct3D seperti DXVK dan VKD3D-Proton. Kompatibilitas terhadap pustaka grafis tradisional tetap dirawat dengan standar rekayasa modern, sehingga katalog ribuan game dan aplikasi bersejarah di PC tetap dapat dinikmati di meja kerja Linux tanpa hambatan kinerja.
 
+> **Baca Juga:**
+> - [Kmorph Pulihkan Kernel Linux dari Crash Tanpa Perlu Reboot](/kmorph-pulihkan-kernel-linux-tanpa-reboot/)
+> - [KDE Kenalkan Kwi, Terminal Modern Berbasis Ghostty](/kde-kwi-terminal-modern-berbasis-ghostty/)
+
 Sumber: [WineHQ](https://gitlab.winehq.org/wine/wine/-/releases/wine-11.21)

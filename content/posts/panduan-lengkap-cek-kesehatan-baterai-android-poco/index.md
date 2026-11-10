@@ -113,4 +113,8 @@ Agar performa baterai POCO Anda tetap awet dan tidak cepat drop, terapkan bebera
 
 Dengan memahami cara cek kesehatan baterai Android Poco dan menerapkan kebiasaan pengisian yang ramah perangkat keras, smartphone POCO Anda akan tetap nyaman digunakan dengan performa optimal untuk jangka panjang.
 
+> **Baca Juga:**
+> - [Cara Kalibrasi Baterai HP POCO X7 Pro Agar Akurat](/cara-kalibrasi-baterai-hp-poco-x7-pro/)
+> - [Cara Hemat Kuota di HP Android agar Paket Data Awet](/cara-hemat-kuota-di-hp/)
+
 Sumber: [Xiaomi Support](https://mi.com/global/support/faq/details/KA-491630/)

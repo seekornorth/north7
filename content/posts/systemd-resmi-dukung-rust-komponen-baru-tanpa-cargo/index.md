@@ -58,4 +58,8 @@ Meski demikian, para maintainer tetap menyematkan opsi fleksibilitas tinggi. Pil
 
 Langkah pengembang systemd dalam merangkul Rust secara selektif membuktikan kedewasaan proyek open source besar, om. Alih-alih terjebak euforia menulis ulang semua hal ke bahasa baru, mereka memilih jalan kompromi teknik yang sangat disiplin dengan menolak Cargo, menolak alokasi liar, dan membatasi Rust murni pada utilitas ujung yang benar-benar membutuhkan jaminan keamanan memori.
 
+> **Baca Juga:**
+> - [Kernel Linux 7.4 Hapus Driver C Binder demi Rust](/linux-7-4-hapus-driver-c-binder-resmikan-rust/)
+> - [Kmorph Pulihkan Kernel Linux dari Crash Tanpa Perlu Reboot](/kmorph-pulihkan-kernel-linux-tanpa-reboot/)
+
 Sumber: [GitHub systemd](https://github.com/systemd/systemd/pull/44324)

@@ -193,4 +193,8 @@ Kalau dipandang sekilas, cara setting IP static Ubuntu Server cuma soal lima per
 
 Jadi kalau nanti servernya restart dan alamatnya tetap di tempat, berarti pekerjaan ente selesai. Sisanya bisa lanjut ke urusan yang nggak kalah penting: hardening SSH dan firewall, biar server yang sekarang alamatnya konsisten ini juga siap ngadep internet dengan aman.
 
+> **Baca Juga:**
+> - [Cara Setting Firewall UFW di Ubuntu Server Lengkap](/cara-setting-firewall-ufw-ubuntu-server/)
+> - [Panduan Lengkap Linux Nftables Examples](/panduan-lengkap-linux-nftables-examples/)
+
 Sumber: [Dokumentasi Ubuntu Server](https://ubuntu.com/server/docs), [contoh konfigurasi Netplan](https://github.com/canonical/netplan/tree/main/examples)

@@ -326,4 +326,8 @@ Dalam beberapa kasus khusus di lingkungan produksi, ente mungkin menjumpai anoma
 
 Dengan memahami peta distribusi paket Linux dan struktur penataan variabel lingkungan shell, kendala `ss command not found linux` kini dapat ente selesaikan dalam hitungan detik di lingkungan server maupun kontainer produksi.
 
+> **Baca Juga:**
+> - [Panduan Lengkap ss tulpn Command in Linux](/panduan-lengkap-ss-tulpn-command-in-linux/)
+> - [Panduan Lengkap ip route Linux](/panduan-lengkap-ip-route-linux/)
+
 Sumber: [Linux iproute2 ss Manual](https://man7.org/linux/man-pages/man8/ss.8.html)

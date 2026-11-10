@@ -60,4 +60,8 @@ Bagi rekan-rekan sysadmin dan pengguna rumahan yang mengelola server atau router
 
 Untuk memeriksa apakah server pernah menjadi korban eksploitasi sebelum perbaikan diterapkan, periksa log sistem di direktori pencatatan pesan sistem. Cari baris pencatatan sshd yang memuat frasa Accepted password for pada nama akun yang seharusnya tidak pernah memiliki kata sandi, seperti akun alpine, root, atau akun khusus kunci SSH. Bila jejak tersebut ditemukan, perlakukan sistem sebagai mesin yang telah disusupi secara penuh.
 
+> **Baca Juga:**
+> - [Kmorph Pulihkan Kernel Linux dari Crash Tanpa Perlu Reboot](/kmorph-pulihkan-kernel-linux-tanpa-reboot/)
+> - [OpenAI Temukan 948 Celah LPE di Kernel Linux](/openai-temukan-948-celah-lpe-kernel-linux/)
+
 Sumber: [Alpine Linux](https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/)

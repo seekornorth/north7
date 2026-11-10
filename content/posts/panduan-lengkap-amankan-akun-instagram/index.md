@@ -118,4 +118,8 @@ Salah satu taktik peretas yang paling banyak memakan korban adalah pemalsuan ide
 
 Dengan menerapkan seluruh tahapan pencegahan di atas secara disiplin, akun Instagram Anda akan terlindungi secara optimal dari ancaman siber dan Anda dapat terus berkarya dengan tenang tanpa rasa cemas.
 
+> **Baca Juga:**
+> - [Panduan Lengkap Cek Kebocoran Data Nomor HP](/panduan-lengkap-cek-kebocoran-data-nomor-hp/)
+> - [Cara Amankan Akun Telegram Dari Hacker](/cara-amankan-akun-telegram-dari-hacker/)
+
 Sumber: [Pusat Bantuan Instagram](https://help.instagram.com/369001149843369)

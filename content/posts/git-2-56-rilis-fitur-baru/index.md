@@ -77,4 +77,8 @@ Ane sendiri lebih tertarik dengan `--resolved` dan `--delete-merged`. Keduanya b
 
 Dan biasanya, fitur kecil seperti inilah yang baru terasa berguna setelah benar-benar dipakai.
 
+> **Baca Juga:**
+> - [Razer Hammerhead V3 Chroma Bawa ANC ke Earbud Kabel USB-C](/razer-hammerhead-v3-chroma-earbud-kabel-usb-c/)
+> - [Cara Hemat Kuota di HP Android agar Paket Data Awet](/cara-hemat-kuota-di-hp/)
+
 Kalau nanti ente nemu fitur lain dari Git 2.56 yang ternyata menarik setelah dicoba, tinggal kita ulik lagi.

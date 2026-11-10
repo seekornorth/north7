@@ -61,4 +61,8 @@ Langkah tim pengembang Raspberry Pi yang telah memasukkan kode sumber ini ke ran
 
 Jika Raspberry Pi Zero 3 W berhasil mempertahankan rentang harga ramah kantong dengan ketersediaan stok yang stabil, papan sekecil korek api ini bakal kembali merajai ekosistem komputasi mikro. Mulai dari klaster mini Kubernetes hemat listrik, gateway VPN WireGuard portabel, hingga perangkat otomasi rumah berbasis Home Assistant, lonjakan performa BCM2711 di faktor bentuk Zero adalah kombinasi yang sangat menjanjikan untuk diobrak-abrik di meja kerja.
 
+> **Baca Juga:**
+> - [Kmorph Pulihkan Kernel Linux dari Crash Tanpa Perlu Reboot](/kmorph-pulihkan-kernel-linux-tanpa-reboot/)
+> - [Linux 7.4 Batalkan Taint Bind Usai Diprotes Pengguna VFIO](/kernel-linux-7-4-batalkan-taint-bind-vfio/)
+
 Sumber: [Raspberry Pi Linux Kernel Pull Request #7711](https://github.com/raspberrypi/linux/pull/7711)

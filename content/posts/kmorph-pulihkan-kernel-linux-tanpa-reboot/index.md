@@ -81,4 +81,8 @@ Saat ini Kmorph sudah mendukung penuh mesin berbasis x86_64 dan ARM64, sementara
 
 Masa depan adopsi Kmorph di distro skala enterprise seperti RHEL, SUSE, atau Ubuntu Server akan sangat bergantung pada seberapa cepat komunitas pengembang kernel Linux menyepakati integrasi modul multikernel ke dalam pohon mainline Linus Torvalds. Apabila konsep pemisahan kernel ini kelak berhasil masuk ke upstream, cara industri memandang downtime akibat kernel panic dan jendela pemeliharaan server dipastikan bakal berubah selamanya.
 
+> **Baca Juga:**
+> - [Celah APT Debian Buka Akses Eksekusi Kode Root via MITM](/celah-apt-debian-buka-akses-root-mitm/)
+> - [Linux 7.4 Batalkan Taint Bind Usai Diprotes Pengguna VFIO](/kernel-linux-7-4-batalkan-taint-bind-vfio/)
+
 Sumber: [Multikernel Kmorph](https://github.com/multikernel/kmorph)

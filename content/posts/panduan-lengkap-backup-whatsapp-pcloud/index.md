@@ -132,4 +132,8 @@ Agar akun pCloud Anda tetap nyaman digunakan dan berkas cadangan mudah ditemukan
 
 Dengan mengombinasikan fitur Automatic Upload pCloud untuk media visual dan pencadangan berkas obrolan penting secara terarah, Anda kini tidak perlu lagi cemas menghadapi kuota Google Drive yang merah maupun risiko kehilangan kenangan berharga di aplikasi percakapan.
 
+> **Baca Juga:**
+> - [Cara Backup Chat WhatsApp ke PC Praktis dan Aman](/cara-backup-chat-whatsapp-ke-pc/)
+> - [Cara Hemat Kuota di HP Android agar Paket Data Awet](/cara-hemat-kuota-di-hp/)
+
 Sumber: [pCloud Support](https://pcloud.com/help/android-help-center/what-is-automatic-upload)

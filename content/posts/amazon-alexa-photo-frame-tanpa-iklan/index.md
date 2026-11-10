@@ -58,4 +58,8 @@ Bagi yang penasaran dengan detail perangkat keras dan ketersediaannya, berikut r
 
 Langkah Amazon menghadirkan perangkat berorientasi privasi dan estetika ruang tamu seperti ini terasa sebagai angin segar. Selama bertahun-tahun, banyak pengguna smart display mengeluhkan betapa agresifnya iklan produk dan rekomendasi konten yang berseliweran di layar rumah mereka. Dengan membatasi fungsi layar murni untuk album kenangan keluarga dan memanfaatkan kecerdasan buatan untuk merapikan ribuan foto yang tersimpan di ponsel, Alexa Photo Frame menawarkan sentuhan teknologi rumah pintar yang terasa jauh lebih hangat dan manusiawi.
 
+> **Baca Juga:**
+> - [Eufy Window Cam E10, Pantau Luar Rumah Lewat Kaca Jendela](/eufy-window-cam-e10-pantau-luar-rumah-lewat-kaca/)
+> - [XREAL AURA Meluncur Resmi, Kacamata Android XR Pertama](/xreal-aura-kacamata-android-xr-pertama/)
+
 Sumber: [Amazon News](https://www.aboutamazon.com/news/devices/amazon-alexa-photo-frame)

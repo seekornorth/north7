@@ -98,4 +98,8 @@ Baik sistem operasi Android maupun iOS telah menyediakan perlindungan bawaan ter
 
 Menjaga keamanan data di era serba terhubung memang memerlukan kebiasaan proaktif. Dengan rutin melakukan pengecekan kebocoran data dan menerapkan langkah mitigasi yang tepat, Anda dapat menggunakan smartphone kesayangan dengan tenang tanpa dihantui rasa cemas akan ancaman penipuan daring.
 
+> **Baca Juga:**
+> - [Panduan Lengkap Hapus Riwayat Google di HP](/panduan-lengkap-hapus-riwayat-google-di-hp/)
+> - [Panduan Lengkap Amankan Akun Instagram](/panduan-lengkap-amankan-akun-instagram/)
+
 Sumber: [Dokumentasi Mozilla Monitor](https://support.mozilla.org/en-US/kb/get-started-firefox-monitor)

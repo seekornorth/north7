@@ -345,4 +345,8 @@ Ketika menguji UDP berkecepatan tinggi, iPerf3 mungkin menampilkan peringatan ba
   ```
 - Simpan konfigurasi ke dalam berkas `/etc/sysctl.d/99-network-tuning.conf` agar tetap persisten setelah reboot.
 
+> **Baca Juga:**
+> - [Panduan Lengkap WireGuard Linux Client Setup](/panduan-lengkap-wireguard-linux-client-setup/)
+> - [Cara Mengatasi ss Command Not Found di Linux](/cara-mengatasi-ss-command-not-found-di-linux/)
+
 Sumber: [ESnet iPerf3 Documentation](https://software.es.net/iperf/)

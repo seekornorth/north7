@@ -51,4 +51,8 @@ Manfaat serupa juga dirasakan pada terowongan IPsec berbasis strongSwan, enkrips
 
 Langkah pengembang kernel menyegarkan kembali jalur kode AVX-512 ini membuktikan bahwa optimasi tingkat rendah di lapisan sistem operasi masih menyimpan ruang peningkatan performa yang sangat masif. Begitu Linux 7.5 meluncur stabil kelak, para pengguna mesin komputasi modern berbasis AMD Zen 5 dipastikan langsung memetik buah efisiensi enkripsi yang jauh lebih bertenaga.
 
+> **Baca Juga:**
+> - [antiX 26.1 Rilis, Bawa Kernel Baru dan Tetap Tanpa systemd](/antix-26-1-rilis-kernel-baru-tanpa-systemd/)
+> - [Asahi Linux Beralih ke GPL Penuh Cegah Pencucian Kode AI](/asahi-linux-beralih-ke-gpl-penuh-cegah-pencucian-kode-ai/)
+
 Sumber: [Linux Kernel Git](https://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux.git/commit/?id=afd8c98fbd6caa42e0d5ca2c6284ca0ea11c2c50)

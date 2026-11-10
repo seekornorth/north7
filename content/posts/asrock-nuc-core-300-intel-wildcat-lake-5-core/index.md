@@ -59,4 +59,8 @@ Memang kebutuhan perangkatnya berbeda.
 
 Buat komputer rumahan, kita mungkin lebih mudah tergoda melihat jumlah core dan angka performanya. Tapi untuk perangkat industri, konsumsi daya, ukuran, konektivitas, dan kemampuan bekerja sesuai kebutuhan juga punya peran yang tidak kalah penting.
 
+> **Baca Juga:**
+> - [Harga Raspberry Pi 5 16GB Tembus $385 Imbas Krisis RAM](/harga-raspberry-pi-5-16gb-tembus-385/)
+> - [Layar iPhone Duo Retak, Apple Kirim Panduan Resmi ke Toko](/apple-kirim-panduan-layar-iphone-duo-retak/)
+
 Dan justru konfigurasi lima core pada Core 3 304 inilah yang membuat NUC Core 300 Series jadi sedikit lebih menarik untuk diperhatikan.

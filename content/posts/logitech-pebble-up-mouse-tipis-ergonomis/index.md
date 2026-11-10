@@ -63,4 +63,8 @@ Hal yang membuat penasaran tentu saja adalah ketahanan jangka panjang dari engse
 
 Logitech saat ini mulai memasarkan Pebble Up di kawasan Asia, terpantau di katalog resmi wilayah Tiongkok dan Hong Kong dengan harga jual sekitar 269 RMB atau berkisar 38 dolar AS (sekitar 600 ribuan rupiah). Meski Logitech belum mengumumkan jadwal ketersediaan untuk pasar global maupun Indonesia, kehadiran Pebble Up menjadi angin segar bagi siapa saja yang mendambakan kenyamanan mouse ergonomis tanpa harus mengorbankan ruang di dalam tas ransel.
 
+> **Baca Juga:**
+> - [XREAL AURA Meluncur Resmi, Kacamata Android XR Pertama](/xreal-aura-kacamata-android-xr-pertama/)
+> - [Amazon Rilis Alexa Photo Frame, Bingkai Digital Tanpa Iklan](/amazon-alexa-photo-frame-tanpa-iklan/)
+
 Sumber: [Logitech](https://www.logitech.com/zh-cn/shop/p/pebble-up-wireless-mouse)

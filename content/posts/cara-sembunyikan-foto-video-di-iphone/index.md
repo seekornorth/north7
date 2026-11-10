@@ -94,4 +94,8 @@ Menyembunyikan media ke album privat merupakan langkah perlindungan yang sangat 
 
 Dengan memahami cara sembunyikan foto video di iphone beserta trik menyamarkan foldernya, Anda tidak perlu lagi panik setiap kali ada rekan kerja atau anggota keluarga yang ingin meminjam ponsel. Privasi pribadi tetap terjaga aman di balik enkripsi dan perlindungan biometrik bawaan Apple.
 
+> **Baca Juga:**
+> - [Cara Buka Kunci Aplikasi iPhone Praktis dan Mudah](/cara-buka-kunci-aplikasi-iphone/)
+> - [Cara Blokir Panggilan Spam di iPhone Tanpa Ribet](/cara-blokir-panggilan-spam-di-iphone/)
+
 Sumber: [Apple Support](https://support.apple.com/id-id/104987)

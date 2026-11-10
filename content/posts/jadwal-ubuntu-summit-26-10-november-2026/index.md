@@ -122,4 +122,8 @@ Kalau ente pengguna Ubuntu atau sekadar suka ngikutin perkembangan Linux, tangga
 
 Siapa tahu ada sesi yang ternyata menarik buat ditonton sampai lupa waktu.
 
+> **Baca Juga:**
+> - [Canonical Bangkitkan Ubuntu Core Desktop Menuju Rilis 27.04](/canonical-bangkitkan-ubuntu-core-desktop-27-04/)
+> - [BleachBit 6.0.6 Rilis, Bersihkan Cache AI dan Docker](/bleachbit-6-0-6-bersihkan-cache-ai-docker/)
+
 Sumber: [Canonical — Ubuntu Summit dan Ubuntu 26.10 Release Schedule](https://ubuntu.com/summit)

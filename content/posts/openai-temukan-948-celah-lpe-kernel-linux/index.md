@@ -68,4 +68,8 @@ Bagi kita yang sehari-hari bertugas mengelola server, infrastruktur awan, maupun
 
 Langkah OpenAI membuka laporan metodologi ini mempertegas bahwa era perburuan kerentanan manual telah bergeser ke arah perang otomatisasi perangkat lunak berkemampuan tinggi.
 
+> **Baca Juga:**
+> - [Celah OpenSSH dan Musl Bobol Server Linux Tanpa Password](/celah-openssh-musl-bobol-linux-tanpa-password/)
+> - [ZDI Tak Sengaja Bocorkan Celah Kernel Linux ke Milis Publik](/zdi-bocorkan-celah-kernel-linux-ke-milis-publik/)
+
 Sumber: [OpenAI](https://openai.com/index/a-thousand-fewer-paths-to-root/)

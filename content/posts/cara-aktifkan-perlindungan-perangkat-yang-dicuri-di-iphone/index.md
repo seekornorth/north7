@@ -109,4 +109,8 @@ Segera ambil tindakan tanggap darurat berikut:
 
 Menjaga keamanan data di era mobilitas tinggi bukan lagi sekadar pilihan cadangan, melainkan kebutuhan mendesak bagi setiap pemilik ponsel pintar. Mengalokasikan waktu dua menit untuk mengaktifkan Perlindungan Perangkat yang Dicuri di iPhone adalah langkah sederhana yang memberikan ketenangan pikiran jangka panjang ke mana pun Anda melangkah.
 
+> **Baca Juga:**
+> - [Cara Sembunyikan Foto Video di iPhone dengan Face ID](/cara-sembunyikan-foto-video-di-iphone/)
+> - [Cara Buka Kunci Aplikasi iPhone Praktis dan Mudah](/cara-buka-kunci-aplikasi-iphone/)
+
 Sumber: [Apple Support](https://support.apple.com/id-id/120340)

@@ -69,4 +69,8 @@ Apple membuka masa pra-pesan untuk MacBook Pro 14 inci M6 mulai tanggal 28 Oktob
 
 Untuk harga resmi di pasar Amerika Serikat, varian dasar dengan RAM 16 GB dan penyimpanan SSD 1 TB dibanderol mulai $1.999 (sekitar Rp31,5 jutaan jika dikonversi secara langsung). Pengguna yang membutuhkan memori lebih besar dapat memilih opsi RAM 24 GB seharga $2.199 atau RAM 32 GB seharga $2.399. Sedangkan peningkatan kapasitas media penyimpanan ke 2 TB dikenakan biaya tambahan $500, dan opsi 4 TB memerlukan biaya ekstra $1.500.
 
+> **Baca Juga:**
+> - [Apple Rilis MacBook Pro Layar Sentuh, Bawa Panel PROLED XDR](/macbook-pro-layar-sentuh-proled-xdr/)
+> - [Layar iPhone Duo Retak, Apple Kirim Panduan Resmi ke Toko](/apple-kirim-panduan-layar-iphone-duo-retak/)
+
 Sumber: [Apple Newsroom](https://www.apple.com/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/)

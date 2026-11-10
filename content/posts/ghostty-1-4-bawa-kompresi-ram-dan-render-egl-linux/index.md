@@ -53,4 +53,8 @@ Bagi pengguna yang menjalankan Ubuntu 24.04 LTS namun tetap ingin mencicipi perf
 
 Kalau ane amati secara keseluruhan, keputusan tim pengembang Ghostty memprioritaskan efisiensi memori fisik dan arsitektur rendering berbasis thread EGL mandiri adalah langkah rekayasa perangkat lunak yang sangat matang. Menangani ribuan baris keluaran kompilasi kode atau log server seharian kini tidak lagi membuat komputer megap-megap kehabisan RAM.
 
+> **Baca Juga:**
+> - [KDE Kenalkan Kwi, Terminal Modern Berbasis Ghostty](/kde-kwi-terminal-modern-berbasis-ghostty/)
+> - [systemd Resmi Dukung Rust, Siapkan Utilitas Baru Tanpa Cargo](/systemd-resmi-dukung-rust-komponen-baru-tanpa-cargo/)
+
 Sumber: [Ghostty](https://ghostty.org/docs/install/release-notes/1-4-0)

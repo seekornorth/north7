@@ -65,4 +65,8 @@ Satu pertanyaan penting yang kerap muncul di benak pengguna setia, apakah Ubuntu
 
 Bagi ane pribadi, langkah Canonical ini menunjukkan keseriusan mereka menjawab era baru keamanan sistem operasi desktop. Membangun desktop immutable berbasis kurungan ketat memang menuntut kerja keras ekstra di sisi pengemasan paket, namun jika Canonical berhasil mengeksekusi integrasi container dan modularitas driver grafis dengan mulus, pengguna Linux bakal mendapatkan sistem harian yang luar biasa tangguh dan sulit dijebol.
 
+> **Baca Juga:**
+> - [Canonical Umumkan Jadwal Ubuntu Summit 26.10, Digelar November 2026](/jadwal-ubuntu-summit-26-10-november-2026/)
+> - [BleachBit 6.0.6 Rilis, Bersihkan Cache AI dan Docker](/bleachbit-6-0-6-bersihkan-cache-ai-docker/)
+
 Sumber: [Ubuntu Discourse](https://discourse.ubuntu.com/t/accelerating-ubuntu-core-desktop/90547)

@@ -54,4 +54,8 @@ Langkah Google merilis pembaruan ini terasa seperti kepingan puzzle yang akhirny
 
 Dengan adanya notifikasi langsung saat terpisah dari jangkauan, risiko dompet atau kunci tertinggal di meja kasir maupun ruang rapat bisa ditekan sejak detik-detik pertama. Anda cukup memastikan aplikasi Find Hub dan layanan Google Play di ponsel selalu berada pada versi paling mutakhir agar menu pengaturan ini segera muncul di gawai Anda.
 
+> **Baca Juga:**
+> - [XREAL AURA Meluncur Resmi, Kacamata Android XR Pertama](/xreal-aura-kacamata-android-xr-pertama/)
+> - [Boox Palma 2 Pro, E-Reader Seukuran HP Berlayar Warna](/boox-palma-2-pro-ereader-seukuran-hp/)
+
 Sumber: [Google Help](https://support.google.com/accounts/answer/3265955)

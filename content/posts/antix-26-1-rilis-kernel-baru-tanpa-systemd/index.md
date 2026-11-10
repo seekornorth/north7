@@ -81,4 +81,8 @@ Nah, dukungan 32-bit ini menurut ane masih menjadi salah satu alasan menarik unt
 
 Memang, PC jadul dengan RAM kecil tidak akan tiba-tiba berubah menjadi komputer kencang hanya karena dipasang antiX. Tapi kalau perangkatnya masih sehat dan kebutuhan ente cuma sebatas browsing ringan, mengetik, atau sekadar ngulik Linux, distro seperti ini masih punya tempat.
 
+> **Baca Juga:**
+> - [Linux Mint Kembalikan Fitur Hibernasi untuk Laptop](/linux-mint-kembalikan-fitur-hibernasi-laptop/)
+> - [systemd Resmi Dukung Rust, Siapkan Utilitas Baru Tanpa Cargo](/systemd-resmi-dukung-rust-komponen-baru-tanpa-cargo/)
+
 Dan justru di situlah antiX 26.1 terasa menarik. Tidak banyak perubahan besar, tidak membawa tampilan yang heboh, tetapi tetap mempertahankan pendekatan yang dari dulu menjadi cirinya: ringan, fleksibel, dan tidak bergantung pada systemd.

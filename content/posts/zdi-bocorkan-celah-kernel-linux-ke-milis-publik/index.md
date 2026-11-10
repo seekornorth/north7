@@ -70,4 +70,8 @@ Bagi kita para pengguna harian Linux maupun sysadmin yang bertanggung jawab atas
 
 Kelalaian ini menjadi pengingat berharga bagi komunitas teknologi bahwa rantai keamanan siber tidak hanya ditentukan oleh kehebatan kode program, melainkan juga kedisiplinan manusia dalam menjalankan prosedur komunikasi.
 
+> **Baca Juga:**
+> - [Kmorph Pulihkan Kernel Linux dari Crash Tanpa Perlu Reboot](/kmorph-pulihkan-kernel-linux-tanpa-reboot/)
+> - [Linux 7.4 Batalkan Taint Bind Usai Diprotes Pengguna VFIO](/kernel-linux-7-4-batalkan-taint-bind-vfio/)
+
 Sumber: [Linux Kernel Mailing List](https://lore.kernel.org/all/2026102226-duly-imprison-a2c1@gregkh/)

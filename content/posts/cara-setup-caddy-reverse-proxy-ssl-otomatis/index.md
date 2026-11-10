@@ -289,4 +289,8 @@ Meskipun Caddy sangat ramah pengguna, dalam situasi tertentu ente mungkin menemu
 
 Mengalihkan peran reverse proxy ke Caddy mempangkas tumpukan kerumitan teknis manajemen sertifikat SSL, sehingga kita bisa lebih fokus mengembangkan aplikasi tanpa rasa waswas soal tanggal kedaluwarsa enkripsi.
 
+> **Baca Juga:**
+> - [Panduan Lengkap Caddyfile SSL Certificate](/panduan-lengkap-caddyfile-ssl-certificate/)
+> - [Cara Mengatasi ss Command Not Found di Linux](/cara-mengatasi-ss-command-not-found-di-linux/)
+
 Sumber: [Caddy Documentation](https://caddyserver.com/docs/quick-starts/reverse-proxy)

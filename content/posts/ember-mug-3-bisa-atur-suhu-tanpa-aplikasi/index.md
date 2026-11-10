@@ -53,4 +53,8 @@ Bersamaan dengan peluncuran cangkir meja ini, Ember turut memperkenalkan Ember T
 
 Harga ratusan dolar tentu tergolong mahal untuk sekadar tempat minum sehari-hari. Namun, bagi orang yang kerap kehilangan momen menikmati kopi hangat karena keburu sibuk di depan layar komputer, kemudahan memanaskan minuman langsung dari bodi cangkir tanpa ketergantungan pada layar ponsel jelas menjadi penyempurnaan yang sangat dinanti.
 
+> **Baca Juga:**
+> - [Cara Melacak HP Hilang Android Lewat Fitur Find My Device](/cara-melacak-hp-hilang-android/)
+> - [Apple Watch Mulai Uji Fitur AI Rangkum Percakapan](/apple-watch-mulai-uji-fitur-ai-rangkum-percakapan/)
+
 Sumber: [Ember](https://ember.com/products/ember-mug-3)

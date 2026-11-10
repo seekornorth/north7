@@ -57,4 +57,8 @@ Bagi mereka yang menginginkan bentuk ergonomis serupa namun dengan bujet lebih r
 
 Razer Basilisk V4 Pro resmi dijual dengan harga peluncuran mulai dari US$169,99 (atau sekitar Rp2,7 jutaan jika dikonversi langsung). Lewat kombinasi sensor berkecepatan tinggi, bobot yang kian enteng, dan efisiensi baterai yang melonjak signifikan, generasi terbaru ini menunjukkan bahwa mouse ergonomis kelas berat masih bisa berevolusi menjadi lebih lincah dan tahan lama.
 
+> **Baca Juga:**
+> - [Harga Raspberry Pi 5 16GB Tembus $385 Imbas Krisis RAM](/harga-raspberry-pi-5-16gb-tembus-385/)
+> - [Layar iPhone Duo Retak, Apple Kirim Panduan Resmi ke Toko](/apple-kirim-panduan-layar-iphone-duo-retak/)
+
 Sumber: [Razer Newsroom](https://razer.com/newsroom/product-news/basilisk-v4-line)

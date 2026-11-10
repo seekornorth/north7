@@ -332,4 +332,8 @@ Mengatur caddyfile ssl certificate membuktikan bahwa urusan enkripsi web modern 
 
 Baik untuk website produksi publik dengan Let's Encrypt, pemasangan sertifikat kustom berbayar, sertifikat wildcard via DNS challenge, hingga enkripsi homelab privat via Internal CA, Caddy menyediakan opsi yang fleksibel, aman, dan minim beban pemeliharaan bagi sysadmin maupun pegiat homelab.
 
+> **Baca Juga:**
+> - [Cara Setup Caddy Reverse Proxy dengan SSL Otomatis](/cara-setup-caddy-reverse-proxy-ssl-otomatis/)
+> - [Panduan Lengkap WireGuard Linux Client Setup](/panduan-lengkap-wireguard-linux-client-setup/)
+
 Sumber: [Caddy Server Documentation](https://caddyserver.com/docs/caddyfile/directives/tls)

@@ -64,4 +64,8 @@ Selain tata kelola dokumen, peran bimbingan langsung dari manusia atau human men
 
 Kalau menurut ane pribadi, AI memang perkakas yang sangat bertenaga untuk mempercepat eksekusi ide teknis. Tapi koding di ranah open source bukan cuma soal siapa yang paling cepat menghasilkan baris kode, melainkan soal tanggung jawab memelihara software yang dipakai jutaan orang di seluruh dunia. Kalau ente berencana mengirim pull request ke repositori orang lain, luangkan waktu untuk benar-benar memahami kode yang dihasilkan, jalankan unit test lokal sampai tuntas, dan berikan transparansi penuh kepada maintainer yang meluangkan waktu berharganya untuk me-review kode ente.
 
+> **Baca Juga:**
+> - [Linus Torvalds Pakai Claude Code Buat Garap Kernel Linux](/linus-torvalds-claude-code-kernel-linux/)
+> - [Kmorph Pulihkan Kernel Linux dari Crash Tanpa Perlu Reboot](/kmorph-pulihkan-kernel-linux-tanpa-reboot/)
+
 Sumber: [The Linux Foundation](https://www.linuxfoundation.org/press/new-lf-research-survey-shows-generative-ai-cuts-open-source-coding-time-in-half-but-25-of-incoming-pull-requests-are-considered-ai-slop)

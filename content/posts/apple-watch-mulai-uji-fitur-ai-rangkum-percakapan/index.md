@@ -69,4 +69,8 @@ Uji coba perdana ini baru mendukung interaksi dalam Bahasa Inggris, dengan dukun
 
 Melihat langkah ini, jam tangan pintar tampak mulai bergeser peran dari sekadar pelacak kebugaran menjadi asisten pencatat aktivitas harian. Pendekatan Apple yang mengunci pemrosesan pada chip lokal dan Private Cloud Compute memperlihatkan bahwa fitur pendengaran aktif tetap bisa dihadirkan tanpa harus mengorbankan privasi percakapan di ruang terbuka.
 
+> **Baca Juga:**
+> - [Cara Melacak HP Hilang Android Lewat Fitur Find My Device](/cara-melacak-hp-hilang-android/)
+> - [Ray-Ban Meta Sempat Merekam Suara Pengguna Tanpa Izin](/ray-ban-meta-rekam-suara-tanpa-izin/)
+
 Sumber: [Apple Support](https://support.apple.com/en-us/148354)

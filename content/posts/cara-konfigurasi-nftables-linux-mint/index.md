@@ -290,4 +290,8 @@ Jika service nftables gagal aktif saat sistem booting, periksa catatan jurnal si
 
 Dengan mengadopsi nftables di Linux Mint, sistem workstation ente kini memiliki fondasi keamanan jaringan yang kokoh, berkinerja tinggi, efisien dalam konsumsi sumber daya CPU, dan siap mendukung skenario jaringan modern.
 
+> **Baca Juga:**
+> - [Panduan Lengkap Linux Nftables Firewall](/panduan-lengkap-linux-nftables-firewall/)
+> - [Panduan Lengkap Linux Nftables Examples](/panduan-lengkap-linux-nftables-examples/)
+
 Sumber: [Netfilter nftables Documentation](https://wiki.nftables.org/wiki-nftables/index.php/Main_Page)

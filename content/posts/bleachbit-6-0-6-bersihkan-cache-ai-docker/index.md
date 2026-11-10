@@ -56,4 +56,8 @@ Selain perbaikan izin di atas, peluncur mode administrator di distro berbasis Re
 
 Pengembang juga menyematkan imbauan keamanan penting dalam rilis kali ini. Belakangan tercatat sekitar seratus upaya penipuan di GitHub, grup Telegram, dan domain tiruan yang mencoba menyamar sebagai BleachBit untuk menyebarkan malware. Pastikan ente selalu mengunduh berkas biner langsung dari situs resmi proyek atau repositori resmi distribusi yang ente pakai, serta luangkan waktu untuk mencocokkan nilai checksum SHA256 sebelum memasangnya ke sistem.
 
+> **Baca Juga:**
+> - [Canonical Umumkan Jadwal Ubuntu Summit 26.10, Digelar November 2026](/jadwal-ubuntu-summit-26-10-november-2026/)
+> - [Kmorph Pulihkan Kernel Linux dari Crash Tanpa Perlu Reboot](/kmorph-pulihkan-kernel-linux-tanpa-reboot/)
+
 Sumber: [BleachBit](https://www.bleachbit.org/news/bleachbit-606)

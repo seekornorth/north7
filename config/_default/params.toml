@@ -75,7 +75,7 @@ showReadingProgress = true
 showRelatedContent = true
 showCategories = true
 showTags = true
-relatedContentLimit = 3
+relatedContentLimit = 6
 showComments = true
 
 [list]

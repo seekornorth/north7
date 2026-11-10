@@ -61,4 +61,8 @@ Menurut ane, kalau proposal ini nantinya disepakati dan masuk ke dalam spesifika
 
 Bagi pengembang yang kerap menjalankan pengujian kode di dalam MicroVM atau sysadmin yang mengelola container berbasis mesin virtual seperti Kata Containers, kehadiran optimasi antrean sinkron ini tentu menjadi perkembangan yang sangat dinantikan untuk mendongkrak performa shared storage agar makin mendekati performa native.
 
+> **Baca Juga:**
+> - [Linux 7.4 Batalkan Taint Bind Usai Diprotes Pengguna VFIO](/kernel-linux-7-4-batalkan-taint-bind-vfio/)
+> - [Kmorph Pulihkan Kernel Linux dari Crash Tanpa Perlu Reboot](/kmorph-pulihkan-kernel-linux-tanpa-reboot/)
+
 Sumber: [Blog Sergio López](https://sinrega.org/2026-10-16-synchronous-queues-virtio-fs/)

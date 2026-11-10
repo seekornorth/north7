@@ -22,6 +22,27 @@
     </div>
   </div>
 
+  <!-- Panduan Populer -->
+  {{ $guides := where (where site.RegularPages "Section" "posts") "Params.schema" "in" (slice "howto" "tech") }}
+  {{ $topGuides := first 5 $guides }}
+  {{ if gt (len $topGuides) 0 }}
+  <div class="nrt-widget">
+    <h3 class="nrt-widget-title">Panduan Populer</h3>
+    <div class="nrt-side-posts">
+      {{ range $topGuides }}
+      <a class="nrt-side-post" href="{{ .RelPermalink }}">
+        {{ with .Resources.GetMatch "cover*" }}
+          <img src="{{ .RelPermalink }}" alt="{{ $.Title }}" loading="lazy" decoding="async" />
+        {{ else }}
+          {{ with resources.Get "img/logo.png" }}<img src="{{ .RelPermalink }}" alt="North7" loading="lazy" />{{ end }}
+        {{ end }}
+        <span class="nrt-side-post-title">{{ .Title }}</span>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
+
   <!-- Bagikan website -->
   <div class="nrt-widget">
     <h3 class="nrt-widget-title">Bagikan Website</h3>

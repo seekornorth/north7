@@ -86,4 +86,8 @@ Buka aplikasi **Google Foto**, ketuk foto profil Anda di kanan atas, lalu masuk 
 
 Menerapkan kombinasi pengaturan di atas memastikan ponsel pintar Anda tetap responsif, baterai lebih awet karena minimnya aktivitas latar belakang liar, serta paket internet seluler dapat digunakan secara efisien hingga masa aktif berakhir.
 
+> **Baca Juga:**
+> - [Panduan Lengkap Hapus Riwayat Google di HP](/panduan-lengkap-hapus-riwayat-google-di-hp/)
+> - [Panduan Lengkap Cek Kebocoran Data Nomor HP](/panduan-lengkap-cek-kebocoran-data-nomor-hp/)
+
 Sumber: [Bantuan Ponsel Google](https://support.google.com/pixelphone/answer/7055392?hl=id)

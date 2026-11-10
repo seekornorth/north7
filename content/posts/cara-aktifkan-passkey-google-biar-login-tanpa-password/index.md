@@ -82,4 +82,8 @@ Sangat tidak disarankan. Hindari membuat passkey di komputer publik, warnet, ata
 
 Mengalihkan sistem masuk akun Google ke passkey merupakan langkah kecil yang membawa dampak besar bagi kenyamanan dan perlindungan digital harian Anda. Proses masuk kini terasa secepat membuka kunci layar ponsel, sembari menutup rapat pintu bagi kejahatan pencurian akun.
 
+> **Baca Juga:**
+> - [Cara Melacak HP Hilang Android Lewat Fitur Find My Device](/cara-melacak-hp-hilang-android/)
+> - [Panduan Lengkap Hapus Riwayat Google di HP](/panduan-lengkap-hapus-riwayat-google-di-hp/)
+
 Sumber: [Bantuan Akun Google](https://support.google.com/accounts/answer/13548313?hl=id)

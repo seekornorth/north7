@@ -47,4 +47,8 @@ Penghapusan driver C ini menjadi pukulan telak bagi pihak yang selama ini meragu
 
 Melalui arsitektur Generic Kernel Image yang diterapkan Google pada Android modern, kernel Linux 7.4 ini akan menjadi basis pembaruan sistem operasi generasi berikutnya. Bagi pengguna biasa, perubahan ini mungkin tidak kasat mata secara visual di layar sentuh. Namun bagi ketahanan sistem operasi, penghapusan ribuan baris kode lawas ini menutup tumpukan celah keamanan bersejarah dan menempatkan Android di atas fondasi yang jauh lebih kokoh.
 
+> **Baca Juga:**
+> - [systemd Resmi Dukung Rust, Siapkan Utilitas Baru Tanpa Cargo](/systemd-resmi-dukung-rust-komponen-baru-tanpa-cargo/)
+> - [Kmorph Pulihkan Kernel Linux dari Crash Tanpa Perlu Reboot](/kmorph-pulihkan-kernel-linux-tanpa-reboot/)
+
 Sumber: [Git Kernel Org](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=fd2bc059ed466bdd95347a4f7891d150d94e7de2)

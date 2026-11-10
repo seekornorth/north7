@@ -52,4 +52,8 @@ Bagi pelanggan yang mengalami kendala serupa, Apple menyarankan untuk langsung m
 
 Melihat langkah cepat Apple menerbitkan panduan internal ke meja teknisi, jelas terlihat kehati-hatian perusahaan dalam menjaga reputasi lini ponsel lipat perdananya. Kita nantikan apakah pembaruan pada lini produksi pabrik berikutnya mampu menuntaskan masalah tekanan engsel ini, sehingga pembeli gawai premium berikutnya bisa membuka layar tanpa rasa waswas.
 
+> **Baca Juga:**
+> - [Apple Rilis MacBook Pro 14 Inci M6, Baterai Tahan 24 Jam](/macbook-pro-14-inci-m6-baterai-24-jam/)
+> - [Melihat Harga iPhone 18 Pro di Indonesia, Selisih Tiap Kapasitasnya Ternyata Lumayan Jauh](/melihat-harga-iphone-18-pro-indonesia-selisih-kapasitas/)
+
 Sumber: [MacRumors](https://www.macrumors.com/2026/10/30/apple-alerts-stores-to-iphone-duo-display-cracking/)

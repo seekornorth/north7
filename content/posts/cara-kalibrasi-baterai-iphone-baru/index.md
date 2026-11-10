@@ -90,4 +90,8 @@ Selain itu, jika Anda menggunakan model iPhone 15 atau varian yang lebih baru, A
 
 Dengan memahami cara kerja baterai secara tepat, Anda tidak perlu lagi cemas atau terbebani mitos lawas saat menggenggam iPhone baru. Cukup gunakan secara bijak, hindari paparan panas berlebih, dan biarkan sistem cerdas iOS menjaga performa baterai Anda tetap optimal.
 
+> **Baca Juga:**
+> - [Cara Sembunyikan Foto Video di iPhone dengan Face ID](/cara-sembunyikan-foto-video-di-iphone/)
+> - [Cara Buka Kunci Aplikasi iPhone Praktis dan Mudah](/cara-buka-kunci-aplikasi-iphone/)
+
 Sumber: [Apple Support](https://support.apple.com/id-id/101575)

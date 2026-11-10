@@ -71,4 +71,8 @@ Ketiga menyangkut rekaman audio. Mikrofon bawaan kamera berada di dalam ruangan,
 
 Secara keseluruhan, kehadiran Eufy Window Camera E10 menjadi angin segar bagi pengguna yang membutuhkan pengawasan area luar rumah tanpa kerumitan instalasi kabel luar gedung atau ancaman perusakan perangkat oleh pihak yang tidak bertanggung jawab.
 
+> **Baca Juga:**
+> - [Amazon Rilis Alexa Photo Frame, Bingkai Digital Tanpa Iklan](/amazon-alexa-photo-frame-tanpa-iklan/)
+> - [Razer Hammerhead V3 Chroma Bawa ANC ke Earbud Kabel USB-C](/razer-hammerhead-v3-chroma-earbud-kabel-usb-c/)
+
 Sumber: [eufy US](https://www.eufy.com/products/t8404121)

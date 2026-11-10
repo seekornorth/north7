@@ -67,4 +67,8 @@ Selain varian bodi standar seharga 2.199 dolar AS, Sigma juga menawarkan paket p
 
 Melihat seluruh peningkatan yang dibawanya, Sigma FP2 tampak berhasil menjawab kompromi terbesar pada generasi sebelumnya tanpa menanggalkan identitasnya sebagai kamera full frame paling praktis. Hadirnya layar lipat bersirkulasi udara, sensor kencang minim rolling shutter, dan memori internal 70 GB menjadikannya perangkat yang sangat fungsional bagi fotografer maupun videografer jalanan yang mengutamakan portabilitas tinggi.
 
+> **Baca Juga:**
+> - [Razer Hammerhead V3 Chroma Bawa ANC ke Earbud Kabel USB-C](/razer-hammerhead-v3-chroma-earbud-kabel-usb-c/)
+> - [Eufy Window Cam E10, Pantau Luar Rumah Lewat Kaca Jendela](/eufy-window-cam-e10-pantau-luar-rumah-lewat-kaca/)
+
 Sumber: [Sigma Corporation](https://www.sigma-global.com/en/news/2026/10/23/012378/)

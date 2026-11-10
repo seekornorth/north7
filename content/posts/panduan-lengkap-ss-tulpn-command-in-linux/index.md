@@ -268,4 +268,8 @@ Dalam penggunaan perintah `ss -tulpn`, berikut beberapa kendala teknis yang kera
 
 Menguasai perintah **ss tulpn command in linux** adalah keterampilan fundamental yang wajib dimiliki oleh setiap sysadmin, DevOps engineer, dan praktisi jaringan Linux. Dengan beralih dari perkakas usang `netstat` menuju `ss`, ente tidak hanya memperoleh kecepatan pembacaan soket berbasis Netlink berkinerja tinggi, tetapi juga mendapatkan data akurat mengenai metrik antrean backlog, proses penguasa port, serta visibilitas penuh dalam mengaudit keamanan tumpukan jaringan server produksi.
 
+> **Baca Juga:**
+> - [Cara Mengatasi ss Command Not Found di Linux](/cara-mengatasi-ss-command-not-found-di-linux/)
+> - [Panduan Lengkap ip route Linux](/panduan-lengkap-ip-route-linux/)
+
 Sumber: [Linux Manual Page ss(8)](https://man7.org/linux/man-pages/man8/ss.8.html)

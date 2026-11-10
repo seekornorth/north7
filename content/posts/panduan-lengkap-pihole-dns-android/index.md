@@ -198,4 +198,8 @@ sudo sysctl -p
 
 Pengaturan ini memastikan kernel Linux di server mampu meneruskan paket data dari interface virtual WireGuard ke interface jaringan utama tanpa hambatan.
 
+> **Baca Juga:**
+> - [Panduan Lengkap Tailscale VPN Download](/panduan-lengkap-tailscale-vpn-download/)
+> - [Panduan Lengkap WireGuard Linux Client Setup](/panduan-lengkap-wireguard-linux-client-setup/)
+
 Sumber: [Dokumentasi Resmi Pi-hole](https://docs.pi-hole.net/guides/vpn/wireguard/client/)

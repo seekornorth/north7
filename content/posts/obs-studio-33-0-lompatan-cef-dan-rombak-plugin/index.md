@@ -58,4 +58,8 @@ Bagi para kreator yang membutuhkan isolasi audio tingkat lanjut, OBS Studio 33.0
 
 Perombakan arsitektur pemuatan modul dan lompatan versi CEF ini menjadi fondasi penting bagi stabilitas OBS Studio ke depan. Kalau ane perhatikan, pemisahan pustaka inti dari modul tambahan membuat alur kerja siaran di Linux terasa jauh lebih tangguh menghadapi potensi crash di tengah produksi langsung, om.
 
+> **Baca Juga:**
+> - [Kmorph Pulihkan Kernel Linux dari Crash Tanpa Perlu Reboot](/kmorph-pulihkan-kernel-linux-tanpa-reboot/)
+> - [KDE Kenalkan Kwi, Terminal Modern Berbasis Ghostty](/kde-kwi-terminal-modern-berbasis-ghostty/)
+
 Sumber: [OBS Project](https://github.com/obsproject/obs-studio/releases/tag/33.0.0)

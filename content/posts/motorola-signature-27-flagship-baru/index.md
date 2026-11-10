@@ -70,4 +70,8 @@ Motorola mematok harga ritel Signature 27 sebesar $1.599,99 untuk satu-satunya k
 
 Dengan label harga yang menembus kisaran Rp25 jutaan, Signature 27 jelas bukan perangkat yang ditujukan untuk semua orang. Harganya bahkan hanya berselisih tipis dari ponsel lipat format buku. Namun perpaduan antara baterai 7.000 mAh, layar tandem ultra terang, sensor kamera berbasis pergerakan cahaya, serta kebebasan memilih sistem operasi GrapheneOS menjadikan Signature 27 sebagai salah satu inovasi perangkat keras paling berani dari Motorola di penghujung tahun ini.
 
+> **Baca Juga:**
+> - [Razer Hammerhead V3 Chroma Bawa ANC ke Earbud Kabel USB-C](/razer-hammerhead-v3-chroma-earbud-kabel-usb-c/)
+> - [Eufy Window Cam E10, Pantau Luar Rumah Lewat Kaca Jendela](/eufy-window-cam-e10-pantau-luar-rumah-lewat-kaca/)
+
 Sumber: [Motorola](https://www.motorola.com/us/en/motorola-signature/motorola-signature-2027)

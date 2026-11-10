@@ -81,4 +81,8 @@ Sesi pemesanan awal sudah dibuka sejak 28 Oktober 2026, dengan jadwal distribusi
 
 Langkah Apple ini mempertegas bahwa batasan antara laptop kerja konvensional dan interaksi sentuhan layar kini makin memudar. Menarik ditunggu apakah sentuhan di layar Mac ini benar-benar praktis dipakai sehari-hari atau sekadar pemanis navigasi saat unitnya mulai dipakai pengguna di meja kerja pekan depan.
 
+> **Baca Juga:**
+> - [Apple Rilis MacBook Pro 14 Inci M6, Baterai Tahan 24 Jam](/macbook-pro-14-inci-m6-baterai-24-jam/)
+> - [Layar iPhone Duo Retak, Apple Kirim Panduan Resmi ke Toko](/apple-kirim-panduan-layar-iphone-duo-retak/)
+
 Sumber: [Apple Newsroom](https://www.apple.com/newsroom/2026/10/apple-unveils-groundbreaking-macbook-pro-with-proled-xdr-display/)

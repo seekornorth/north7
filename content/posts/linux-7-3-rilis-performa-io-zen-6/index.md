@@ -50,4 +50,8 @@ Rilis Linux 7.3 kali ini juga diselimuti catatan historis bagi komunitas pengemb
 
 Dengan resminya Linux 7.3 mendarat, jendela penggabungan kode (merge window) untuk siklus Linux 7.4 kini langsung terbuka selama dua pekan ke depan. Jika pengujian berjalan lancar hingga pengujung Desember, ada peluang besar Linux 7.4 bakal ditetapkan sebagai rilis Long Term Support tahunan. Buat ente yang ingin segera mencicipi racikan terbaru ini, berkas tarball sudah tersedia untuk dikompilasi langsung.
 
+> **Baca Juga:**
+> - [Raspberry Pi Zero 3 W Muncul di Kernel Linux Bawa BCM2711](/raspberry-pi-zero-3-w-muncul-di-kernel-linux-bawa-bcm2711/)
+> - [Kernel Linux Bereskan Regresi Penjadwal AMD Strix Point](/kernel-linux-bereskan-regresi-penjadwal-amd-strix-point/)
+
 Sumber: [Git Kernel Linux](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tag/?h=v7.3)

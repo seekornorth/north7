@@ -85,4 +85,8 @@ Sistem Google secara berkala akan menghapus seluruh data penelusuran dan audio y
 
 Menjaga privasi digital di tengah gempuran fitur kecerdasan buatan yang serba terhubung memang memerlukan sedikit perhatian ekstra. Meluangkan waktu beberapa menit untuk meninjau rekaman suara di akun Google adalah langkah bijak agar kendali atas data pribadi tetap sepenuhnya berada di tangan Anda.
 
+> **Baca Juga:**
+> - [Cara Melacak HP Hilang Android Lewat Fitur Find My Device](/cara-melacak-hp-hilang-android/)
+> - [Panduan Lengkap Hapus Riwayat Google di HP](/panduan-lengkap-hapus-riwayat-google-di-hp/)
+
 Sumber: [Bantuan Google Penelusuran](https://support.google.com/websearch/answer/6030020)

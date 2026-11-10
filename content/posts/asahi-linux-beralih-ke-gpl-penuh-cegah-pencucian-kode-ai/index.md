@@ -45,4 +45,8 @@ Meskipun demikian, keputusan besar ini tidak sepenuhnya disambut gembira oleh se
 
 Bagi tim Asahi Linux, pertaruhan ini adalah bentuk pertahanan diri yang mutlak di tengah perubahan lanskap perangkat lunak modern. Membuka kode selebar-lebarnya demi kebebasan kolaborasi tetap menjadi komitmen mereka, namun kebebasan tersebut tidak boleh lagi ditunggangi oleh aksi pencurian kode yang bersembunyi di balik polesan kecerdasan buatan.
 
+> **Baca Juga:**
+> - [Kmorph Pulihkan Kernel Linux dari Crash Tanpa Perlu Reboot](/kmorph-pulihkan-kernel-linux-tanpa-reboot/)
+> - [Fedora 45 Resmi Rilis Bawa KMSCON dan Storage Stratis](/fedora-45-resmi-rilis-bawa-kmscon-dan-stratis/)
+
 Sumber: [Asahi Linux](https://asahilinux.org/2026/11/progress-report-7-3/)

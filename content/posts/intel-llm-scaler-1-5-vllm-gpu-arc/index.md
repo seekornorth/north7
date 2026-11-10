@@ -72,4 +72,8 @@ Setelah image terunduh, server vLLM dapat dijalankan dengan memetakan folder che
 
 Kehadiran rilis 1.5 ini membuktikan bahwa Intel masih terus mematangkan tumpukan perangkat lunak AI mereka di Linux. Walaupun versi upstream vLLM saat ini sudah menyentuh versi 0.31, paket kontainer yang matang dan siap pakai seperti ini jelas sangat membantu komunitas opreker Linux yang ingin memaksimalkan potensi komputasi GPU Arc tanpa harus terjebak masalah kompilasi dependensi.
 
+> **Baca Juga:**
+> - [Apple Watch Mulai Uji Fitur AI Rangkum Percakapan](/apple-watch-mulai-uji-fitur-ai-rangkum-percakapan/)
+> - [Harga Raspberry Pi 5 16GB Tembus $385 Imbas Krisis RAM](/harga-raspberry-pi-5-16gb-tembus-385/)
+
 Sumber: [GitHub intel/llm-scaler](https://github.com/intel/llm-scaler/releases/tag/vllm-1.5)

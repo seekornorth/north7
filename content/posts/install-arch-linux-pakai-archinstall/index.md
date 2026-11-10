@@ -352,4 +352,8 @@ Kalau ente salah memilih disk atau layout yang menggunakan metode penghapusan da
 
 Kalau sudah yakin, tinggal lanjutkan instalasi dan biarkan archinstall mengerjakan sisanya.
 
+> **Baca Juga:**
+> - [Parrot OS 7.4 Rilis, Bawa AnonSurf 6, ISO x86-64-v3, dan Log Update yang Nggak Langsung Hilang](/parrot-os-7-4-rilis-fitur-baru/)
+> - [Kmorph Pulihkan Kernel Linux dari Crash Tanpa Perlu Reboot](/kmorph-pulihkan-kernel-linux-tanpa-reboot/)
+
 Dan kalau setelah berhasil install ente malah penasaran, "sebenarnya Arch tadi ngapain aja sih?", nah... itu justru saat yang pas buat mulai belajar instalasi Arch Linux secara manual.

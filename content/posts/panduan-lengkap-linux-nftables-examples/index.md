@@ -279,4 +279,8 @@ Kendala ketiga adalah peletakan aturan `ct state established,related accept` yan
 
 Beralih ke sintaks modern nftables memberikan kendali penuh terhadap efisiensi pemrosesan paket di server Linux. Dengan memanfaatkan struktur tabel keluarga inet, himpunan set dinamis, serta mekanisme validasi atomik, pemeliharaan keamanan infrastruktur jaringan menjadi jauh lebih rapi dan terukur untuk jangka panjang.
 
+> **Baca Juga:**
+> - [Panduan Lengkap Linux Nftables Firewall](/panduan-lengkap-linux-nftables-firewall/)
+> - [Cara Konfigurasi Nftables Linux Mint](/cara-konfigurasi-nftables-linux-mint/)
+
 Sumber: [Netfilter nftables Documentation](https://wiki.nftables.org/wiki-nftables/index.php/Main_Page)

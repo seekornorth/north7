@@ -171,4 +171,8 @@ Selama mengulik konfigurasi subnet router di Linux, ada beberapa tips praktis ya
 
 Melalui pendekatan subnet router ini, ente bisa mengontrol seluruh infrastruktur jaringan lokal secara fleksibel dari mana saja tanpa bergantung pada IP publik ISP dan tanpa membuka celah keamanan port forwarding ke internet bebas.
 
+> **Baca Juga:**
+> - [Panduan Lengkap Tailscale VPN Download](/panduan-lengkap-tailscale-vpn-download/)
+> - [Cara Setup WireGuard VPN Server Sendiri di Ubuntu](/cara-setup-wireguard-vpn-server-sendiri-di-ubuntu/)
+
 Sumber: [Tailscale Documentation](https://tailscale.com/docs/features/subnet-routers)

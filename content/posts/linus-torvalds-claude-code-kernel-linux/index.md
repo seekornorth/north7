@@ -74,4 +74,8 @@ Ketiga, validasi tetap mandiri. Eksekusi pengujian, pembacaan logika akhir, dan 
 
 Melihat Linus Torvalds, sosok yang terkenal tanpa kompromi soal kualitas kode C tingkat rendah, memanfaatkan perkakas semacam Claude Code membuktikan satu hal. Alat bantu berbasis AI sudah memasuki fase matang untuk diajak ngulik beban kerja sistem yang serius.
 
+> **Baca Juga:**
+> - [Kmorph Pulihkan Kernel Linux dari Crash Tanpa Perlu Reboot](/kmorph-pulihkan-kernel-linux-tanpa-reboot/)
+> - [Linux 7.4 Batalkan Taint Bind Usai Diprotes Pengguna VFIO](/kernel-linux-7-4-batalkan-taint-bind-vfio/)
+
 Sumber: [Git Kernel](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git)

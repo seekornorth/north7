@@ -211,4 +211,8 @@ Ketika mengoperasikan server DNS lokal mandiri, ada beberapa situasi umum yang p
 
 Membangun DNS sinkhole sendiri di jaringan lokal membuktikan bahwa privasi digital dan kenyamanan berselancar tidak selalu membutuhkan langganan aplikasi berbayar yang rumit. Dengan satu unit Ubuntu Server yang tenang bekerja di sudut ruangan, seluruh ekosistem gadget di rumah kita bisa bebas dari polusi iklan dan pelacakan data yang tidak diinginkan.
 
+> **Baca Juga:**
+> - [Panduan Lengkap AdGuard Home Docker Compose](/panduan-lengkap-adguard-home-docker-compose/)
+> - [Cara Setup Tailscale Subnet Router di Ubuntu Linux](/cara-setup-tailscale-subnet-router-di-ubuntu-linux/)
+
 Sumber: [AdGuard DNS Knowledge Base](https://adguard-dns.io/kb/adguard-home/getting-started/)

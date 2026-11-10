@@ -392,4 +392,8 @@ Terapkan aturan baru tersebut ke kernel dengan menjalankan `sudo sysctl -p /etc/
 
 Menguasai perintah **ip route linux** memberikan fondasi kokoh dalam mengendalikan aliran data di sistem operasi Linux. Mulai dari sekadar membaca tabel routing, mengelola prioritas gateway dengan metrik, memecah lalu lintas subnet kantor, hingga membangun policy routing multi-table yang canggih, seluruh kapabilitas ini memastikan server dan layanan yang ente kelola memiliki konektivitas jaringan yang andal, aman, dan siap menghadapi kebutuhan skala produksi.
 
+> **Baca Juga:**
+> - [Cara Mengatasi ss Command Not Found di Linux](/cara-mengatasi-ss-command-not-found-di-linux/)
+> - [Panduan Lengkap ss tulpn Command in Linux](/panduan-lengkap-ss-tulpn-command-in-linux/)
+
 Sumber: [Linux iproute2 Documentation](https://wiki.linuxfoundation.org/networking/iproute2)

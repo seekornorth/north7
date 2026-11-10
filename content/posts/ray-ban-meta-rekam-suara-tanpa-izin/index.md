@@ -70,4 +70,8 @@ Nyatanya, celah paling sunyi justru berada pada mikrofon yang menempel di pelipi
 
 Bagi siapa pun yang mengenakan Ray-Ban Meta untuk aktivitas harian, memeriksa menu riwayat suara di aplikasi Meta AI secara berkala kini bukan lagi sekadar anjuran tambahan, melainkan langkah pencegahan yang wajib dilakukan.
 
+> **Baca Juga:**
+> - [Cara Melacak HP Hilang Android Lewat Fitur Find My Device](/cara-melacak-hp-hilang-android/)
+> - [Apple Watch Mulai Uji Fitur AI Rangkum Percakapan](/apple-watch-mulai-uji-fitur-ai-rangkum-percakapan/)
+
 Sumber: [Meta](https://www.meta.com/legal/ai-glasses/voice-controls-privacy-notice/)

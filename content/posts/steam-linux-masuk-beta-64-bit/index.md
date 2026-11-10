@@ -62,4 +62,8 @@ Setelah restart, Steam bakal mengunduh komponen container steamrt3c dan beralih 
 
 Langkah Valve membawa Steam client ke arsitektur 64-bit berbasis container ini jelas angin segar buat masa depan gaming di Linux, apalagi ekosistem desktop Linux sekarang makin banyak diadopsi untuk perangkat handheld dan PC mini.
 
+> **Baca Juga:**
+> - [Wine 11.21 Rilis, Genjot Performa OpenGL WoW64 di Linux](/wine-11-21-rilis-performa-opengl-wow64-linux/)
+> - [Linux 7.3 Rilis Resmi, Performa IO Kencang dan Siap Zen 6](/linux-7-3-rilis-performa-io-zen-6/)
+
 Sumber: [Steam Community](https://steamcommunity.com/groups/SteamClientBeta/announcements/detail/703282384630448403)

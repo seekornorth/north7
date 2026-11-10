@@ -46,4 +46,8 @@ Dari aspek lingkungan, bodi luar Fairbuds 2 mengantongi sertifikasi bebas senyaw
 
 Kehadiran Fairbuds 2 memperlihatkan bahwa earphone nirkabel sebenarnya tidak ditakdirkan menjadi sampah sekali pakai. Ketika perusahaan teknologi lain terus beralasan bahwa lem permanen adalah satu-satunya jalan untuk membuat TWS tahan percikan air dan ringkas, Fairphone membuktikan bahwa desain modular tetap bisa tampil elegan di telinga kita.
 
+> **Baca Juga:**
+> - [Insta360 Mic Bawa Layar E-Ink Warna dan Slot MicroSD](/insta360-mic-layar-e-ink-microsd/)
+> - [Cara Melacak HP Hilang Android Lewat Fitur Find My Device](/cara-melacak-hp-hilang-android/)
+
 Sumber: [Fairphone](https://www.fairphone.com/stories/the-new-fairbuds-2-your-sound-made-better)

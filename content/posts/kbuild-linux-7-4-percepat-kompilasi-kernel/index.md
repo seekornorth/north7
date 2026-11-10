@@ -65,4 +65,8 @@ Ketiga, modul pihak ketiga yang mengandalkan DKMS (Dynamic Kernel Module Support
 
 Langkah pengembang kernel membenahi sumbatan teknis di tingkat pipa pembangun ini menjadi bukti bahwa optimalisasi performa tidak melulu soal menambahkan fitur baru yang terdengar mentereng. Menyingkirkan skrip lama yang boros resource dan memaksimalkan setiap siklus prosesor modern sering kali memberikan manfaat yang jauh lebih nyata bagi rutinitas harian kita di depan layar terminal.
 
+> **Baca Juga:**
+> - [Kmorph Pulihkan Kernel Linux dari Crash Tanpa Perlu Reboot](/kmorph-pulihkan-kernel-linux-tanpa-reboot/)
+> - [Linux 7.4 Batalkan Taint Bind Usai Diprotes Pengguna VFIO](/kernel-linux-7-4-batalkan-taint-bind-vfio/)
+
 Sumber: [Kernel.org LKML](https://lore.kernel.org/lkml/20261018035817.GA2365306@ax162/)

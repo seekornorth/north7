@@ -58,4 +58,8 @@ Namun, visi ke depan Kwi sangat menarik untuk dicermati. Di masa mendatang, Kwi 
 
 Bagi ente yang penasaran ingin membedah kode sumber atau menjajal kompilasi secara mandiri, repositori proyek Kwi kini sudah dibuka untuk publik di peladen resmi GitLab KDE.
 
+> **Baca Juga:**
+> - [Ghostty 1.4 Hadirkan Kompresi RAM dan Render EGL di Linux](/ghostty-1-4-bawa-kompresi-ram-dan-render-egl-linux/)
+> - [Kmorph Pulihkan Kernel Linux dari Crash Tanpa Perlu Reboot](/kmorph-pulihkan-kernel-linux-tanpa-reboot/)
+
 Sumber: [KDE Blogs](https://blogs.kde.org/2026/11/01/introducing-kwi/)

@@ -272,4 +272,8 @@ sudo modprobe nf_tables
 
 Dengan beralih dari abstraksi firewalld ke konfigurasi terstruktur **nftables rocky linux**, infrastruktur server ente kini terlindungi oleh mekanisme penyaringan paket Netfilter modern yang efisien, berkinerja tinggi, dan mudah diaudit.
 
+> **Baca Juga:**
+> - [Panduan Lengkap What Is Nftables In Linux](/panduan-lengkap-what-is-nftables-in-linux/)
+> - [Panduan Lengkap Linux Nftables Examples](/panduan-lengkap-linux-nftables-examples/)
+
 Sumber: [Rocky Linux Documentation](https://docs.rockylinux.org)

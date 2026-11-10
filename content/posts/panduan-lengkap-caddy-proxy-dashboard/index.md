@@ -351,4 +351,8 @@ Alternatif lainnya adalah menggunakan opsi `--network host` saat menjalankan con
 
 Dengan arsitektur observabilitas yang tertata rapi, pemantauan reverse proxy kini tidak lagi mengandalkan tebakan log manual, melainkan terpantau jelas melalui dasbor analitik real-time yang presisi dan andal.
 
+> **Baca Juga:**
+> - [Cara Setup Caddy Reverse Proxy dengan SSL Otomatis](/cara-setup-caddy-reverse-proxy-ssl-otomatis/)
+> - [Panduan Lengkap Caddyfile SSL Certificate](/panduan-lengkap-caddyfile-ssl-certificate/)
+
 Sumber: [Caddy Documentation](https://caddyserver.com/docs/metrics)

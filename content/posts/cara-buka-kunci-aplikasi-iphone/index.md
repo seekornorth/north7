@@ -108,4 +108,8 @@ Agar pengalaman menggunakan fitur penguncian aplikasi di iPhone tetap nyaman tan
 
 Dengan menerapkan cara buka kunci aplikasi iphone di atas, Anda memegang kendali penuh atas privasi data tanpa perlu khawatir kehilangan akses terhadap aplikasi penting sehari-hari.
 
+> **Baca Juga:**
+> - [Cara Sembunyikan Foto Video di iPhone dengan Face ID](/cara-sembunyikan-foto-video-di-iphone/)
+> - [Cara Blokir Panggilan Spam di iPhone Tanpa Ribet](/cara-blokir-panggilan-spam-di-iphone/)
+
 Sumber: [Apple Support](https://support.apple.com/id-id/guide/iphone/iph00f208d05/ios)

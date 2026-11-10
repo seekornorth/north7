@@ -350,4 +350,8 @@ Selalu gunakan `table inet filter` kecuali jika server ente benar-benar menonakt
 
 Mengadopsi nftables pada infrastruktur server modern bukan sekadar mengikuti tren, melainkan langkah strategis untuk memperoleh efisiensi pemrosesan paket, konsistensi sintaks dual-stack, serta keandalan pembaruan aturan tanpa jeda waktu henti. Dengan arsitektur stateful firewall yang tertata rapi, sistem Linux ente memiliki benteng pertahanan lapis pertama yang tangguh terhadap ancaman pemindaian port maupun serangan bot di internet.
 
+> **Baca Juga:**
+> - [Cara Konfigurasi Nftables Linux Mint](/cara-konfigurasi-nftables-linux-mint/)
+> - [Panduan Lengkap Linux Nftables Examples](/panduan-lengkap-linux-nftables-examples/)
+
 Sumber: [Netfilter Nftables Documentation](https://wiki.nftables.org/)

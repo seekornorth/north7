@@ -177,6 +177,14 @@ header div.max-w-7xl {
 .nrt-widget { background: var(--nrt-card); border: 1px solid var(--nrt-border); border-radius: 14px; padding: 18px; }
 .nrt-widget-title { margin: 0 0 14px; font-size: 15px; font-weight: 900; text-transform: uppercase; letter-spacing: .06em; padding-bottom: 10px; border-bottom: 2px solid var(--nrt-red); display: inline-block; }
 
+/* Sidebar Posts */
+.nrt-side-posts { display: flex; flex-direction: column; gap: 12px; }
+.nrt-side-post { display: flex; gap: 12px; align-items: center; text-decoration: none; color: var(--nrt-text); padding-bottom: 10px; border-bottom: 1px solid var(--nrt-border); }
+.nrt-side-post:last-child { border-bottom: none; padding-bottom: 0; }
+.nrt-side-post:hover .nrt-side-post-title { color: var(--nrt-red); }
+.nrt-side-post img { width: 68px; height: 48px; object-fit: cover; border-radius: 8px; flex-shrink: 0; }
+.nrt-side-post-title { font-size: 13px; font-weight: 700; line-height: 1.35; transition: color .15s ease; }
+
 /* Ad */
 .nrt-ad { text-align: center; }
 .nrt-ad small { color: var(--nrt-muted); font-size: 11px; text-transform: uppercase; letter-spacing: .08em; }

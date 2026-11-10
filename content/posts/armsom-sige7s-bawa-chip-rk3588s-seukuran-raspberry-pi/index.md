@@ -51,4 +51,8 @@ Modul CM7s dirancang khusus untuk disematkan langsung ke dalam papan sirkuit kus
 
 Langkah ArmSoM menghadirkan RK3588S dalam ukuran papan yang begitu familiar membuktikan bahwa papan mini berkinerja tinggi tidak lagi harus berbentuk besar dan boros daya. Bagi penghobi oprek maupun profesional yang membutuhkan tenaga komputasi kencang dengan dukungan NPU terpadu, Sige7s menjadi alternatif segar yang sangat memikat di pasar perangkat keras saat ini.
 
+> **Baca Juga:**
+> - [XREAL AURA Meluncur Resmi, Kacamata Android XR Pertama](/xreal-aura-kacamata-android-xr-pertama/)
+> - [Amazon Rilis Alexa Photo Frame, Bingkai Digital Tanpa Iklan](/amazon-alexa-photo-frame-tanpa-iklan/)
+
 Sumber: [ArmSoM](https://www.armsom.org/sige7s)

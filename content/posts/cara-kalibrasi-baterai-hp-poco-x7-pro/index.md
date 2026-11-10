@@ -94,4 +94,8 @@ Setelah indikator baterai kembali akurat, Anda tidak perlu mengulang proses peng
 
 Dengan menerapkan langkah kalibrasi yang tepat dan menjaga kebiasaan pengisian yang ramah baterai, performa daya POCO X7 Pro Anda akan selalu terpantau akurat dan siap menemani aktivitas harian dengan optimal.
 
+> **Baca Juga:**
+> - [Panduan Lengkap Cek Kesehatan Baterai Android Poco](/panduan-lengkap-cek-kesehatan-baterai-android-poco/)
+> - [Cara Kalibrasi Baterai iPhone Baru yang Benar dan Aman](/cara-kalibrasi-baterai-iphone-baru/)
+
 Sumber: [Xiaomi Support](https://www.mi.com/global/support/faq/details/KA-257450/)

@@ -71,4 +71,8 @@ Tantangan terbesar tentu berada pada garis waktu pengiriman. Perangkat ini dijad
 
 Kehadiran Enough Phone menjadi pembuktian nyata bagi pasar teknologi seluler. Jika kampanye ini berhasil mengumpulkan banyak peminat, produsen ponsel raksasa lain mungkin akan kembali menaruh perhatian pada segmen ponsel berdimensi saku yang selama ini dianaktirikan.
 
+> **Baca Juga:**
+> - [Razer Hammerhead V3 Chroma Bawa ANC ke Earbud Kabel USB-C](/razer-hammerhead-v3-chroma-earbud-kabel-usb-c/)
+> - [Eufy Window Cam E10, Pantau Luar Rumah Lewat Kaca Jendela](/eufy-window-cam-e10-pantau-luar-rumah-lewat-kaca/)
+
 Sumber: [Kickstarter](https://www.kickstarter.com/projects/theenoughphone/enough-phone-bringing-back-the-small-smartphone)

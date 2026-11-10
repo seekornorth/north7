@@ -65,4 +65,8 @@ Bagi yang ingin mengetahui rincian teknis lengkap serta paket penjualannya, beri
 
 Penetapan harga peluncuran sebesar 1.099 dollar AS menjadi kejutan tersendiri di pasar gawai, mengingat XREAL sempat mematok harga prapemesanan di kisaran 1.279 dollar AS beberapa pekan sebelumnya. Pengurangan harga resmi ini membuat ekosistem Android XR tampak jauh lebih agresif dalam membuka akses komputasi spasial bagi pengguna harian. Dengan desain kacamata yang tidak melelahkan kepala serta dukungan ekosistem aplikasi Google yang matang, XREAL AURA menghadirkan gambaran nyata tentang bagaimana perangkat kerja dan hiburan portabel akan digunakan pada masa mendatang.
 
+> **Baca Juga:**
+> - [Google Find Hub Hadirkan Fitur Pengingat Barang Tertinggal](/google-find-hub-pengingat-barang-tertinggal/)
+> - [Amazon Rilis Alexa Photo Frame, Bingkai Digital Tanpa Iklan](/amazon-alexa-photo-frame-tanpa-iklan/)
+
 Sumber: [Google Blog](https://blog.google/products-and-platforms/platforms/android/xreal-aura/)
