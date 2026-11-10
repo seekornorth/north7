@@ -29,6 +29,7 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Panduan Lengkap Hapus Riwayat Google di HP](https://north7.biz.id/panduan-lengkap-hapus-riwayat-google-di-hp/): Panduan lengkap hapus riwayat Google di HP Android dan iPhone secara bersih tuntas, mulai dari cache browser Chrome hingga Aktivitas Saya di Akun Google.
 
 ## Berita Linux, Kernel & Open Source
+- [ChaCha AVX-512 Linux 7.5 Melesat 99 Persen di AMD Zen 5](https://north7.biz.id/chacha-avx-512-linux-7-5-melesat-99-persen-amd-zen-5/): Kernel Linux 7.5 hadirkan optimasi fungsi 16-blok AVX-512 untuk algoritma ChaCha di libcrypto, melipatgandakan performa hingga 99 persen pada prosesor AMD Zen 5.
 - [Asahi Linux Beralih ke GPL Penuh Cegah Pencucian Kode AI](https://north7.biz.id/asahi-linux-beralih-ke-gpl-penuh-cegah-pencucian-kode-ai/): Asahi Linux resmi mengalihkan seluruh repositori dari lisensi MIT ke GPL v2 atau versi lebih baru demi mencegah praktik pencucian kode berbasis model AI.
 - [Kmorph Pulihkan Kernel Linux dari Crash Tanpa Perlu Reboot](https://north7.biz.id/kmorph-pulihkan-kernel-linux-tanpa-reboot/): Proyek open source Kmorph hadirkan pemulihan kernel Linux saat panic tanpa reboot dengan memangkas waktu downtime dari hitungan menit menjadi cuma 2 detik.
 - [Celah OpenSSH dan Musl Bobol Server Linux Tanpa Password](https://north7.biz.id/celah-openssh-musl-bobol-linux-tanpa-password/): Celah aneh interaksi OpenSSH dan musl libc memungkinkan penyerang masuk ke akun Linux tanpa password cukup bermodalkan string sandi lebih dari 256 karakter.
@@ -38,7 +39,6 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Linux Mint Kembalikan Fitur Hibernasi untuk Laptop](https://north7.biz.id/linux-mint-kembalikan-fitur-hibernasi-laptop/): Pengembang Linux Mint resmi menghadirkan kembali opsi hibernasi, hybrid sleep, dan suspend-then-hibernate lewat menu pengaturan Sleep Modes baru.
 - [KDE Kenalkan Kwi, Terminal Modern Berbasis Ghostty](https://north7.biz.id/kde-kwi-terminal-modern-berbasis-ghostty/): Pengembang KDE resmi memperkenalkan Kwi, emulator terminal baru bertenaga pustaka libghostty-vt dengan akselerasi GPU Vulkan dan integrasi Qt Quick.
 - [Linux 7.4 Batalkan Taint Bind Usai Diprotes Pengguna VFIO](https://north7.biz.id/kernel-linux-7-4-batalkan-taint-bind-vfio/): Greg Kroah-Hartman resmi membatalkan fitur TAINT_FORCED_BIND di kernel Linux 7.4 setelah menuai protes karena merusak alur passthrough VFIO pada mesin virtual.
-- [Wine 11.21 Rilis, Genjot Performa OpenGL WoW64 di Linux](https://north7.biz.id/wine-11-21-rilis-performa-opengl-wow64-linux/): Wine 11.21 resmi meluncur membawa ekstensi MESA map buffer client pointer untuk akselerasi OpenGL WoW64 32-bit, pustaka DSP audio, dan puluhan perbaikan bug.
 
 ## Berita Teknologi & Inovasi Perangkat
 - [Razer Hammerhead V3 Chroma Bawa ANC ke Earbud Kabel USB-C](https://north7.biz.id/razer-hammerhead-v3-chroma-earbud-kabel-usb-c/): Razer meluncurkan earbud kabel Hammerhead V3 Chroma dengan port USB-C siku 90 derajat, peredam bising aktif ANC, driver ganda, dan lampu Chroma RGB.

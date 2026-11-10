@@ -3,6 +3,21 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://north7.biz.id/chacha-avx-512-linux-7-5-melesat-99-persen-amd-zen-5/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>North7</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-10T08:06:38+07:00</news:publication_date>
+      <news:title>ChaCha AVX-512 Linux 7.5 Melesat 99 Persen di AMD Zen 5</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://north7.biz.id/chacha-avx-512-linux-7-5-melesat-99-persen-amd-zen-5/cover.png</image:loc>
+      <image:title>ChaCha AVX-512 Linux 7.5 Melesat 99 Persen di AMD Zen 5</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://north7.biz.id/razer-hammerhead-v3-chroma-earbud-kabel-usb-c/</loc>
     <news:news>
       <news:publication>
@@ -45,21 +60,6 @@
     <image:image>
       <image:loc>https://north7.biz.id/eufy-window-cam-e10-pantau-luar-rumah-lewat-kaca/cover.png</image:loc>
       <image:title>Eufy Window Cam E10, Pantau Luar Rumah Lewat Kaca Jendela</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://north7.biz.id/kmorph-pulihkan-kernel-linux-tanpa-reboot/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>North7</news:name>
-        <news:language>id</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-08T08:06:41+07:00</news:publication_date>
-      <news:title>Kmorph Pulihkan Kernel Linux dari Crash Tanpa Perlu Reboot</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://north7.biz.id/kmorph-pulihkan-kernel-linux-tanpa-reboot/cover.png</image:loc>
-      <image:title>Kmorph Pulihkan Kernel Linux dari Crash Tanpa Perlu Reboot</image:title>
     </image:image>
   </url>
 </urlset>
