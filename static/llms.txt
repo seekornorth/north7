@@ -17,6 +17,7 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Panduan Lengkap Iperf3 Test Command](https://north7.biz.id/panduan-lengkap-iperf3-test-command/): Pelajari cara menggunakan iperf3 test command di Linux. Panduan lengkap benchmark throughput TCP, pengujian latensi UDP, mode bidirectional, hingga tuning buffer.
 
 ## Panduan Gadget & Tips Praktis
+- [Cara Hapus Malware di HP Samsung Tanpa Reset Pabrik](https://north7.biz.id/cara-hapus-malware-di-hp-samsung/): Panduan lengkap cara hapus malware di hp samsung tanpa reset pabrik via Mode Aman, fitur Perlindungan Perangkat One UI, dan pencabutan izin mencurigakan.
 - [Cara Mengatasi Lupa Kunci Chat WA dan Kode Rahasia](https://north7.biz.id/cara-mengatasi-lupa-kunci-chat-wa/): Panduan lengkap cara mengatasi lupa kunci chat wa dan kode rahasia yang tersembunyi via fitur reset privasi resmi WhatsApp serta cara memulihkan riwayat pesan.
 - [Cara Hemat Kuota di HP Android agar Paket Data Awet](https://north7.biz.id/cara-hemat-kuota-di-hp/): Panduan praktis cara hemat kuota di hp Android dengan mengaktifkan penghemat data, membatasi sinkronisasi latar belakang, dan mengatur batas pemakaian.
 - [Cara Amankan Akun Telegram Dari Hacker](https://north7.biz.id/cara-amankan-akun-telegram-dari-hacker/): Panduan lengkap cara amankan akun telegram dari hacker dengan verifikasi dua langkah, audit sesi perangkat, proteksi kode sandi, dan setelan privasi panggilan.
@@ -26,7 +27,6 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Cara Melacak HP Hilang Android Lewat Fitur Find My Device](https://north7.biz.id/cara-melacak-hp-hilang-android/): Panduan lengkap cara melacak hp hilang android secara akurat menggunakan Google Find My Device, mulai dari memantau peta, membunyikan dering, hingga mengamankan privasi.
 - [Cara Buka Kunci Aplikasi iPhone Praktis dan Mudah](https://north7.biz.id/cara-buka-kunci-aplikasi-iphone/): Panduan lengkap cara buka kunci aplikasi iPhone mulai dari autentikasi Face ID, membuka folder aplikasi tersembunyi, hingga melepas proteksi permanen.
 - [Cara Blokir Panggilan Spam di iPhone Tanpa Ribet](https://north7.biz.id/cara-blokir-panggilan-spam-di-iphone/): Panduan lengkap cara blokir panggilan spam di iPhone mulai dari fitur Heningkan Penelepon Tidak Dikenal, Call Screening, filter spam, hingga aplikasi CallKit.
-- [Panduan Lengkap Amankan Akun Instagram](https://north7.biz.id/panduan-lengkap-amankan-akun-instagram/): Panduan lengkap amankan akun Instagram dari ancaman peretasan dan phising, mulai dari aktivasi 2FA, pemeriksaan keamanan, hingga audit sesi login.
 
 ## Berita Linux, Kernel & Open Source
 - [Banjir Patch AI, Lorenzo Stoakes Mundur Jadi Reviewer Linux](https://north7.biz.id/banjir-patch-ai-lorenzo-stoakes-mundur-reviewer-linux/): Lorenzo Stoakes memutuskan mundur dari kursi reviewer memori dan Rust di kernel Linux akibat derasnya kiriman patch hasil buatan model kecerdasan buatan.

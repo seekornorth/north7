@@ -32,6 +32,7 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Cara Setting IP Static Ubuntu Server dengan Netplan](https://north7.biz.id/cara-setting-ip-static-ubuntu-server/): Tutorial setting IP static Ubuntu Server pakai Netplan, lengkap dengan contoh konfigurasi YAML, cara verifikasi hasilnya, dan solusi buat masalah yang sering muncul.
 
 ## Panduan Gadget & Tips Praktis
+- [Cara Hapus Malware di HP Samsung Tanpa Reset Pabrik](https://north7.biz.id/cara-hapus-malware-di-hp-samsung/): Panduan lengkap cara hapus malware di hp samsung tanpa reset pabrik via Mode Aman, fitur Perlindungan Perangkat One UI, dan pencabutan izin mencurigakan.
 - [Cara Mengatasi Lupa Kunci Chat WA dan Kode Rahasia](https://north7.biz.id/cara-mengatasi-lupa-kunci-chat-wa/): Panduan lengkap cara mengatasi lupa kunci chat wa dan kode rahasia yang tersembunyi via fitur reset privasi resmi WhatsApp serta cara memulihkan riwayat pesan.
 - [Cara Hemat Kuota di HP Android agar Paket Data Awet](https://north7.biz.id/cara-hemat-kuota-di-hp/): Panduan praktis cara hemat kuota di hp Android dengan mengaktifkan penghemat data, membatasi sinkronisasi latar belakang, dan mengatur batas pemakaian.
 - [Cara Amankan Akun Telegram Dari Hacker](https://north7.biz.id/cara-amankan-akun-telegram-dari-hacker/): Panduan lengkap cara amankan akun telegram dari hacker dengan verifikasi dua langkah, audit sesi perangkat, proteksi kode sandi, dan setelan privasi panggilan.
