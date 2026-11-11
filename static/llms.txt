@@ -41,6 +41,7 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [KDE Kenalkan Kwi, Terminal Modern Berbasis Ghostty](https://north7.biz.id/kde-kwi-terminal-modern-berbasis-ghostty/): Pengembang KDE resmi memperkenalkan Kwi, emulator terminal baru bertenaga pustaka libghostty-vt dengan akselerasi GPU Vulkan dan integrasi Qt Quick.
 
 ## Berita Teknologi & Inovasi Perangkat
+- [Google Pixel Tag Resmi Dijual, Pesaing Ramping AirTag](https://north7.biz.id/google-pixel-tag-resmi-dijual-pesaing-airtag/): Google resmi menjual Pixel Tag seharga $29 dengan bodi baja tahan karat ramping, baterai CR2032 tahan setahun, dan presisi UWB Find Hub.
 - [Aina Ring Bawa Layar OLED dan Joystick ke Cincin Pintar](https://north7.biz.id/aina-ring-layar-oled-joystick-cincin-pintar/): Startup Aina merilis cincin pintar Aina Ring dengan layar OLED, joystick mikro Shifter, mikrofon, dan speaker untuk mengontrol aplikasi serta AI agent.
 - [Razer Hammerhead V3 Chroma Bawa ANC ke Earbud Kabel USB-C](https://north7.biz.id/razer-hammerhead-v3-chroma-earbud-kabel-usb-c/): Razer meluncurkan earbud kabel Hammerhead V3 Chroma dengan port USB-C siku 90 derajat, peredam bising aktif ANC, driver ganda, dan lampu Chroma RGB.
 - [Eufy Window Cam E10, Pantau Luar Rumah Lewat Kaca Jendela](https://north7.biz.id/eufy-window-cam-e10-pantau-luar-rumah-lewat-kaca/): Anker merilis Eufy Window Camera E10 yang ditempel di kaca dalam rumah untuk memantau halaman tanpa repot bor tembok atau takut kamera dicuri.
@@ -50,7 +51,6 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Samsung Galaxy Ring Kini Bisa Deteksi Sleep Apnea](https://north7.biz.id/samsung-galaxy-ring-kini-bisa-deteksi-sleep-apnea/): Samsung resmi menggulirkan fitur deteksi risiko sleep apnea ke cincin pintar Galaxy Ring setelah mengantongi izin FDA Amerika Serikat dan MFDS Korea Selatan.
 - [Apple Watch Mulai Uji Fitur AI Rangkum Percakapan](https://north7.biz.id/apple-watch-mulai-uji-fitur-ai-rangkum-percakapan/): Apple mulai menguji fitur Audio Intelligence di Apple Watch untuk merangkum obrolan dan memutar ulang 15 detik percakapan secara privat.
 - [Harga Raspberry Pi 5 16GB Tembus $385 Imbas Krisis RAM](https://north7.biz.id/harga-raspberry-pi-5-16gb-tembus-385/): Raspberry Pi kembali menaikkan harga varian 16GB menjadi $385 akibat krisis pasokan DRAM global dan minimnya alternatif pemasok chip memori.
-- [Windows 11 Rombak Search, Bisa Telepon dan Atur Sistem](https://north7.biz.id/windows-11-rombak-search-bisa-telepon-dan-atur-sistem/): Microsoft merombak fitur Windows Search di Windows 11 Insider, kini bisa atur volume, kecerahan layar, hingga kirim SMS dan telepon lewat HP yang terhubung.
 
 ## Optional
 - [Sitemap XML](https://north7.biz.id/sitemap.xml): Peta situs lengkap seluruh indeks artikel North7.

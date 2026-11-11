@@ -3,6 +3,21 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://north7.biz.id/google-pixel-tag-resmi-dijual-pesaing-airtag/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>North7</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-11T22:08:06+07:00</news:publication_date>
+      <news:title>Google Pixel Tag Resmi Dijual, Pesaing Ramping AirTag</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://north7.biz.id/google-pixel-tag-resmi-dijual-pesaing-airtag/cover.png</image:loc>
+      <image:title>Google Pixel Tag Resmi Dijual, Pesaing Ramping AirTag</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://north7.biz.id/banjir-patch-ai-lorenzo-stoakes-mundur-reviewer-linux/</loc>
     <news:news>
       <news:publication>
@@ -45,21 +60,6 @@
     <image:image>
       <image:loc>https://north7.biz.id/chacha-avx-512-linux-7-5-melesat-99-persen-amd-zen-5/cover.png</image:loc>
       <image:title>ChaCha AVX-512 Linux 7.5 Melesat 99 Persen di AMD Zen 5</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://north7.biz.id/razer-hammerhead-v3-chroma-earbud-kabel-usb-c/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>North7</news:name>
-        <news:language>id</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T22:05:31+07:00</news:publication_date>
-      <news:title>Razer Hammerhead V3 Chroma Bawa ANC ke Earbud Kabel USB-C</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://north7.biz.id/razer-hammerhead-v3-chroma-earbud-kabel-usb-c/cover.png</image:loc>
-      <image:title>Razer Hammerhead V3 Chroma Bawa ANC ke Earbud Kabel USB-C</image:title>
     </image:image>
   </url>
 </urlset>
