@@ -5,6 +5,7 @@
 Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, ditujukan untuk pengguna Linux pemula hingga administrator sistem rumahan (homelab). Konten disusun terstruktur dan ramah dibaca oleh Large Language Models (LLM) serta AI Agents.
 
 ## Panduan Networking & Homelab
+- [Cara Setting Fail2ban di Linux untuk Amankan Server SSH](https://north7.biz.id/cara-setting-fail2ban/): Pelajari cara setting fail2ban di Linux Ubuntu dan Debian, mulai dari instalasi paket, konfigurasi jail.local, integrasi nftables, hingga unban IP.
 - [Panduan Lengkap Cloudflared Tunnel Linux](https://north7.biz.id/panduan-lengkap-cloudflared-tunnel-linux/): Pelajari cara setup cloudflared tunnel linux dari instalasi repositori resmi, otentikasi Zero Trust, konfigurasi ingress rules YAML, routing DNS, hingga integrasi systemd daemon.
 - [Panduan Lengkap WireGuard Linux Client Setup](https://north7.biz.id/panduan-lengkap-wireguard-linux-client-setup/): Pelajari cara wireguard linux client setup secara mendalam. Panduan langkah konfigurasi wg0.conf, pembuatan kunci, integrasi systemd, dan routing jaringan.
 - [Panduan Setup Tailscale Exit Node Docker di Linux](https://north7.biz.id/panduan-setup-tailscale-exit-node-docker-di-linux/): Pelajari cara setup tailscale exit node docker di Linux. Amankan koneksi internet publik dengan enkripsi WireGuard deklaratif, efisien, dan terisolasi.
@@ -14,7 +15,6 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Panduan Lengkap ip route Linux](https://north7.biz.id/panduan-lengkap-ip-route-linux/): Pelajari perintah ip route linux secara lengkap. Panduan praktis konfigurasi default gateway, static route subnet, metrik prioritas, policy routing, dan konfigurasi persisten.
 - [Panduan Lengkap Docker Networking Modes](https://north7.biz.id/panduan-lengkap-docker-networking-modes/): Kupas tuntas arsitektur docker networking modes mulai dari bridge, host, macvlan, ipvlan, hingga overlay lengkap dengan konfigurasi CLI dan troubleshooting.
 - [Panduan Lengkap Caddyfile SSL Certificate](https://north7.biz.id/panduan-lengkap-caddyfile-ssl-certificate/): Panduan lengkap konfigurasi caddyfile ssl certificate di Linux untuk otomatisasi TLS Lets Encrypt, custom certificate, internal CA, dan validasi ACME.
-- [Panduan Lengkap Iperf3 Test Command](https://north7.biz.id/panduan-lengkap-iperf3-test-command/): Pelajari cara menggunakan iperf3 test command di Linux. Panduan lengkap benchmark throughput TCP, pengujian latensi UDP, mode bidirectional, hingga tuning buffer.
 
 ## Panduan Gadget & Tips Praktis
 - [Cara Hapus Malware di HP Samsung Tanpa Reset Pabrik](https://north7.biz.id/cara-hapus-malware-di-hp-samsung/): Panduan lengkap cara hapus malware di hp samsung tanpa reset pabrik via Mode Aman, fitur Perlindungan Perangkat One UI, dan pencabutan izin mencurigakan.
