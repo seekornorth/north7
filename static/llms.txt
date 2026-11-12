@@ -41,6 +41,7 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Linux Mint Kembalikan Fitur Hibernasi untuk Laptop](https://north7.biz.id/linux-mint-kembalikan-fitur-hibernasi-laptop/): Pengembang Linux Mint resmi menghadirkan kembali opsi hibernasi, hybrid sleep, dan suspend-then-hibernate lewat menu pengaturan Sleep Modes baru.
 
 ## Berita Teknologi & Inovasi Perangkat
+- [Google Rilis Kacamata Cerdas Gemini, Dijual Mulai $395](https://north7.biz.id/google-rilis-kacamata-cerdas-gemini/): Google resmi merilis Intelligent Eyewear bertenaga Gemini dan Android XR hasil kolaborasi dengan Samsung, Warby Parker, dan Gentle Monster.
 - [Google Pixel Tag Resmi Dijual, Pesaing Ramping AirTag](https://north7.biz.id/google-pixel-tag-resmi-dijual-pesaing-airtag/): Google resmi menjual Pixel Tag seharga $29 dengan bodi baja tahan karat ramping, baterai CR2032 tahan setahun, dan presisi UWB Find Hub.
 - [Aina Ring Bawa Layar OLED dan Joystick ke Cincin Pintar](https://north7.biz.id/aina-ring-layar-oled-joystick-cincin-pintar/): Startup Aina merilis cincin pintar Aina Ring dengan layar OLED, joystick mikro Shifter, mikrofon, dan speaker untuk mengontrol aplikasi serta AI agent.
 - [Razer Hammerhead V3 Chroma Bawa ANC ke Earbud Kabel USB-C](https://north7.biz.id/razer-hammerhead-v3-chroma-earbud-kabel-usb-c/): Razer meluncurkan earbud kabel Hammerhead V3 Chroma dengan port USB-C siku 90 derajat, peredam bising aktif ANC, driver ganda, dan lampu Chroma RGB.
@@ -50,7 +51,6 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Motorola Rilis Signature 27, Flagship Baru Seharga $1.600](https://north7.biz.id/motorola-signature-27-flagship-baru/): Motorola resmi memperkenalkan Signature 27, ponsel flagship non-lipat seharga $1.600 dengan Snapdragon 8 Elite Extreme, baterai 7.000 mAh, dan dukungan GrapheneOS.
 - [Samsung Galaxy Ring Kini Bisa Deteksi Sleep Apnea](https://north7.biz.id/samsung-galaxy-ring-kini-bisa-deteksi-sleep-apnea/): Samsung resmi menggulirkan fitur deteksi risiko sleep apnea ke cincin pintar Galaxy Ring setelah mengantongi izin FDA Amerika Serikat dan MFDS Korea Selatan.
 - [Apple Watch Mulai Uji Fitur AI Rangkum Percakapan](https://north7.biz.id/apple-watch-mulai-uji-fitur-ai-rangkum-percakapan/): Apple mulai menguji fitur Audio Intelligence di Apple Watch untuk merangkum obrolan dan memutar ulang 15 detik percakapan secara privat.
-- [Harga Raspberry Pi 5 16GB Tembus $385 Imbas Krisis RAM](https://north7.biz.id/harga-raspberry-pi-5-16gb-tembus-385/): Raspberry Pi kembali menaikkan harga varian 16GB menjadi $385 akibat krisis pasokan DRAM global dan minimnya alternatif pemasok chip memori.
 
 ## Optional
 - [Sitemap XML](https://north7.biz.id/sitemap.xml): Peta situs lengkap seluruh indeks artikel North7.
