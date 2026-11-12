@@ -17,6 +17,7 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Panduan Lengkap Caddyfile SSL Certificate](https://north7.biz.id/panduan-lengkap-caddyfile-ssl-certificate/): Panduan lengkap konfigurasi caddyfile ssl certificate di Linux untuk otomatisasi TLS Lets Encrypt, custom certificate, internal CA, dan validasi ACME.
 
 ## Panduan Gadget & Tips Praktis
+- [Cara Blokir Nomor Spam di HP Xiaomi](https://north7.biz.id/cara-blokir-nomor-spam-di-hp-xiaomi/): Panduan lengkap cara blokir nomor spam di hp xiaomi secara otomatis via Google Phone, filter spam HyperOS MIUI, dan pemblokiran pesan SMS mencurigakan.
 - [Cara Hapus Malware di HP Samsung Tanpa Reset Pabrik](https://north7.biz.id/cara-hapus-malware-di-hp-samsung/): Panduan lengkap cara hapus malware di hp samsung tanpa reset pabrik via Mode Aman, fitur Perlindungan Perangkat One UI, dan pencabutan izin mencurigakan.
 - [Cara Mengatasi Lupa Kunci Chat WA dan Kode Rahasia](https://north7.biz.id/cara-mengatasi-lupa-kunci-chat-wa/): Panduan lengkap cara mengatasi lupa kunci chat wa dan kode rahasia yang tersembunyi via fitur reset privasi resmi WhatsApp serta cara memulihkan riwayat pesan.
 - [Cara Hemat Kuota di HP Android agar Paket Data Awet](https://north7.biz.id/cara-hemat-kuota-di-hp/): Panduan praktis cara hemat kuota di hp Android dengan mengaktifkan penghemat data, membatasi sinkronisasi latar belakang, dan mengatur batas pemakaian.
@@ -26,7 +27,6 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Cara Sembunyikan Foto Video di iPhone dengan Face ID](https://north7.biz.id/cara-sembunyikan-foto-video-di-iphone/): Panduan praktis cara sembunyikan foto video di iPhone ke album Tersembunyi dengan kunci Face ID dan menyembunyikan album dari menu setelan foto.
 - [Cara Melacak HP Hilang Android Lewat Fitur Find My Device](https://north7.biz.id/cara-melacak-hp-hilang-android/): Panduan lengkap cara melacak hp hilang android secara akurat menggunakan Google Find My Device, mulai dari memantau peta, membunyikan dering, hingga mengamankan privasi.
 - [Cara Buka Kunci Aplikasi iPhone Praktis dan Mudah](https://north7.biz.id/cara-buka-kunci-aplikasi-iphone/): Panduan lengkap cara buka kunci aplikasi iPhone mulai dari autentikasi Face ID, membuka folder aplikasi tersembunyi, hingga melepas proteksi permanen.
-- [Cara Blokir Panggilan Spam di iPhone Tanpa Ribet](https://north7.biz.id/cara-blokir-panggilan-spam-di-iphone/): Panduan lengkap cara blokir panggilan spam di iPhone mulai dari fitur Heningkan Penelepon Tidak Dikenal, Call Screening, filter spam, hingga aplikasi CallKit.
 
 ## Berita Linux, Kernel & Open Source
 - [Synaptics Somasi Driver DisplayLink Linux Buatan AI](https://north7.biz.id/synaptics-somasi-driver-displaylink-linux/): Synaptics melayangkan somasi dan ancaman denda puluhan ribu dolar terhadap pengembang independen driver open source DisplayLink bernama Vino di Linux.
