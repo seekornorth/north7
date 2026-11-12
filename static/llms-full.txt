@@ -5,6 +5,7 @@
 Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, ditujukan untuk pengguna Linux pemula hingga administrator sistem rumahan (homelab). Konten disusun terstruktur dan ramah dibaca oleh Large Language Models (LLM) serta AI Agents.
 
 ## Panduan Networking & Homelab
+- [Panduan Lengkap SSH Hardening Ubuntu 24.04](https://north7.biz.id/panduan-lengkap-ssh-hardening-ubuntu-2404/): Pelajari cara melakukan SSH hardening di Ubuntu 24.04 LTS secara menyeluruh. Panduan lengkap kunci Ed25519, isolasi drop-in sshd, integrasi ssh.socket, dan firewall UFW.
 - [Cara Setting Fail2ban di Linux untuk Amankan Server SSH](https://north7.biz.id/cara-setting-fail2ban/): Pelajari cara setting fail2ban di Linux Ubuntu dan Debian, mulai dari instalasi paket, konfigurasi jail.local, integrasi nftables, hingga unban IP.
 - [Panduan Lengkap Cloudflared Tunnel Linux](https://north7.biz.id/panduan-lengkap-cloudflared-tunnel-linux/): Pelajari cara setup cloudflared tunnel linux dari instalasi repositori resmi, otentikasi Zero Trust, konfigurasi ingress rules YAML, routing DNS, hingga integrasi systemd daemon.
 - [Panduan Lengkap WireGuard Linux Client Setup](https://north7.biz.id/panduan-lengkap-wireguard-linux-client-setup/): Pelajari cara wireguard linux client setup secara mendalam. Panduan langkah konfigurasi wg0.conf, pembuatan kunci, integrasi systemd, dan routing jaringan.

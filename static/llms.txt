@@ -5,6 +5,7 @@
 Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, ditujukan untuk pengguna Linux pemula hingga administrator sistem rumahan (homelab). Konten disusun terstruktur dan ramah dibaca oleh Large Language Models (LLM) serta AI Agents.
 
 ## Panduan Networking & Homelab
+- [Panduan Lengkap SSH Hardening Ubuntu 24.04](https://north7.biz.id/panduan-lengkap-ssh-hardening-ubuntu-2404/): Pelajari cara melakukan SSH hardening di Ubuntu 24.04 LTS secara menyeluruh. Panduan lengkap kunci Ed25519, isolasi drop-in sshd, integrasi ssh.socket, dan firewall UFW.
 - [Cara Setting Fail2ban di Linux untuk Amankan Server SSH](https://north7.biz.id/cara-setting-fail2ban/): Pelajari cara setting fail2ban di Linux Ubuntu dan Debian, mulai dari instalasi paket, konfigurasi jail.local, integrasi nftables, hingga unban IP.
 - [Panduan Lengkap Cloudflared Tunnel Linux](https://north7.biz.id/panduan-lengkap-cloudflared-tunnel-linux/): Pelajari cara setup cloudflared tunnel linux dari instalasi repositori resmi, otentikasi Zero Trust, konfigurasi ingress rules YAML, routing DNS, hingga integrasi systemd daemon.
 - [Panduan Lengkap WireGuard Linux Client Setup](https://north7.biz.id/panduan-lengkap-wireguard-linux-client-setup/): Pelajari cara wireguard linux client setup secara mendalam. Panduan langkah konfigurasi wg0.conf, pembuatan kunci, integrasi systemd, dan routing jaringan.
@@ -14,7 +15,6 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Panduan Lengkap ss tulpn Command in Linux](https://north7.biz.id/panduan-lengkap-ss-tulpn-command-in-linux/): Kupas tuntas penggunaan ss tulpn command in linux. Pelajari pembedahan flag socket, pemantauan port aktif, analisis Recv-Q dan Send-Q, serta audit proses.
 - [Panduan Lengkap ip route Linux](https://north7.biz.id/panduan-lengkap-ip-route-linux/): Pelajari perintah ip route linux secara lengkap. Panduan praktis konfigurasi default gateway, static route subnet, metrik prioritas, policy routing, dan konfigurasi persisten.
 - [Panduan Lengkap Docker Networking Modes](https://north7.biz.id/panduan-lengkap-docker-networking-modes/): Kupas tuntas arsitektur docker networking modes mulai dari bridge, host, macvlan, ipvlan, hingga overlay lengkap dengan konfigurasi CLI dan troubleshooting.
-- [Panduan Lengkap Caddyfile SSL Certificate](https://north7.biz.id/panduan-lengkap-caddyfile-ssl-certificate/): Panduan lengkap konfigurasi caddyfile ssl certificate di Linux untuk otomatisasi TLS Lets Encrypt, custom certificate, internal CA, dan validasi ACME.
 
 ## Panduan Gadget & Tips Praktis
 - [Cara Blokir Nomor Spam di HP Xiaomi](https://north7.biz.id/cara-blokir-nomor-spam-di-hp-xiaomi/): Panduan lengkap cara blokir nomor spam di hp xiaomi secara otomatis via Google Phone, filter spam HyperOS MIUI, dan pemblokiran pesan SMS mencurigakan.
