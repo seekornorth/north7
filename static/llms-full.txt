@@ -61,6 +61,7 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Cara Kirim File Android ke PC Tanpa Kabel Pakai Quick Share](https://north7.biz.id/cara-kirim-file-android-ke-pc-tanpa-kabel-pakai-quick-share/): Panduan lengkap cara transfer file dari Android ke PC Windows tanpa kabel memakai Quick Share dari Google, cepat tanpa kompresi dan mudah diatur.
 
 ## Berita Linux, Kernel & Open Source
+- [Celah NvRoot dan ForgePtr di Driver NVIDIA Jebol Host Linux](https://north7.biz.id/celah-nvroot-forgeptr-driver-nvidia-linux/): Dua celah keamanan kritis NvRoot dan ForgePtr pada driver GPU Linux NVIDIA memungkinkan penyerang membobol kontainer cloud dan meraih akses root host.
 - [Synaptics Somasi Driver DisplayLink Linux Buatan AI](https://north7.biz.id/synaptics-somasi-driver-displaylink-linux/): Synaptics melayangkan somasi dan ancaman denda puluhan ribu dolar terhadap pengembang independen driver open source DisplayLink bernama Vino di Linux.
 - [Banjir Patch AI, Lorenzo Stoakes Mundur Jadi Reviewer Linux](https://north7.biz.id/banjir-patch-ai-lorenzo-stoakes-mundur-reviewer-linux/): Lorenzo Stoakes memutuskan mundur dari kursi reviewer memori dan Rust di kernel Linux akibat derasnya kiriman patch hasil buatan model kecerdasan buatan.
 - [ChaCha AVX-512 Linux 7.5 Melesat 99 Persen di AMD Zen 5](https://north7.biz.id/chacha-avx-512-linux-7-5-melesat-99-persen-amd-zen-5/): Kernel Linux 7.5 hadirkan optimasi fungsi 16-blok AVX-512 untuk algoritma ChaCha di libcrypto, melipatgandakan performa hingga 99 persen pada prosesor AMD Zen 5.

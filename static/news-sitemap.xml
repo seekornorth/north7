@@ -3,6 +3,21 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://north7.biz.id/celah-nvroot-forgeptr-driver-nvidia-linux/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>North7</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-13T08:06:11+07:00</news:publication_date>
+      <news:title>Celah NvRoot dan ForgePtr di Driver NVIDIA Jebol Host Linux</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://north7.biz.id/celah-nvroot-forgeptr-driver-nvidia-linux/cover.png</image:loc>
+      <image:title>Celah NvRoot dan ForgePtr di Driver NVIDIA Jebol Host Linux</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://north7.biz.id/google-rilis-kacamata-cerdas-gemini/</loc>
     <news:news>
       <news:publication>
@@ -60,21 +75,6 @@
     <image:image>
       <image:loc>https://north7.biz.id/banjir-patch-ai-lorenzo-stoakes-mundur-reviewer-linux/cover.png</image:loc>
       <image:title>Banjir Patch AI, Lorenzo Stoakes Mundur Jadi Reviewer Linux</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://north7.biz.id/aina-ring-layar-oled-joystick-cincin-pintar/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>North7</news:name>
-        <news:language>id</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-10T22:05:45+07:00</news:publication_date>
-      <news:title>Aina Ring Bawa Layar OLED dan Joystick ke Cincin Pintar</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://north7.biz.id/aina-ring-layar-oled-joystick-cincin-pintar/cover.png</image:loc>
-      <image:title>Aina Ring Bawa Layar OLED dan Joystick ke Cincin Pintar</image:title>
     </image:image>
   </url>
 </urlset>

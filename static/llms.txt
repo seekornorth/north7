@@ -29,6 +29,7 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Cara Buka Kunci Aplikasi iPhone Praktis dan Mudah](https://north7.biz.id/cara-buka-kunci-aplikasi-iphone/): Panduan lengkap cara buka kunci aplikasi iPhone mulai dari autentikasi Face ID, membuka folder aplikasi tersembunyi, hingga melepas proteksi permanen.
 
 ## Berita Linux, Kernel & Open Source
+- [Celah NvRoot dan ForgePtr di Driver NVIDIA Jebol Host Linux](https://north7.biz.id/celah-nvroot-forgeptr-driver-nvidia-linux/): Dua celah keamanan kritis NvRoot dan ForgePtr pada driver GPU Linux NVIDIA memungkinkan penyerang membobol kontainer cloud dan meraih akses root host.
 - [Synaptics Somasi Driver DisplayLink Linux Buatan AI](https://north7.biz.id/synaptics-somasi-driver-displaylink-linux/): Synaptics melayangkan somasi dan ancaman denda puluhan ribu dolar terhadap pengembang independen driver open source DisplayLink bernama Vino di Linux.
 - [Banjir Patch AI, Lorenzo Stoakes Mundur Jadi Reviewer Linux](https://north7.biz.id/banjir-patch-ai-lorenzo-stoakes-mundur-reviewer-linux/): Lorenzo Stoakes memutuskan mundur dari kursi reviewer memori dan Rust di kernel Linux akibat derasnya kiriman patch hasil buatan model kecerdasan buatan.
 - [ChaCha AVX-512 Linux 7.5 Melesat 99 Persen di AMD Zen 5](https://north7.biz.id/chacha-avx-512-linux-7-5-melesat-99-persen-amd-zen-5/): Kernel Linux 7.5 hadirkan optimasi fungsi 16-blok AVX-512 untuk algoritma ChaCha di libcrypto, melipatgandakan performa hingga 99 persen pada prosesor AMD Zen 5.
@@ -38,7 +39,6 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [OpenAI Temukan 948 Celah LPE di Kernel Linux](https://north7.biz.id/openai-temukan-948-celah-lpe-kernel-linux/): OpenAI menguji pipeline AI otonom pada kernel Linux dan menemukan 948 celah eskalasi hak akses lokal (LPE) ke root dengan biaya komputasi $1,2 juta.
 - [Celah APT Debian Buka Akses Eksekusi Kode Root via MITM](https://north7.biz.id/celah-apt-debian-buka-akses-root-mitm/): Celah keamanan CVE-2026-109518 pada APT Debian izinkan penyerang man-in-the-middle mengeksekusi kode arbitrary sebagai root lewat manipulasi redirect HTTP.
 - [Fedora 45 Resmi Rilis Bawa KMSCON dan Storage Stratis](https://north7.biz.id/fedora-45-resmi-rilis-bawa-kmscon-dan-stratis/): Fedora 45 resmi meluncur membawa konsol modern KMSCON, integrasi Stratis Storage di installer Anaconda, pembatasan ptrace, dan GNOME 51.
-- [Linux Mint Kembalikan Fitur Hibernasi untuk Laptop](https://north7.biz.id/linux-mint-kembalikan-fitur-hibernasi-laptop/): Pengembang Linux Mint resmi menghadirkan kembali opsi hibernasi, hybrid sleep, dan suspend-then-hibernate lewat menu pengaturan Sleep Modes baru.
 
 ## Berita Teknologi & Inovasi Perangkat
 - [Google Rilis Kacamata Cerdas Gemini, Dijual Mulai $395](https://north7.biz.id/google-rilis-kacamata-cerdas-gemini/): Google resmi merilis Intelligent Eyewear bertenaga Gemini dan Android XR hasil kolaborasi dengan Samsung, Warby Parker, dan Gentle Monster.
