@@ -17,6 +17,7 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Panduan Lengkap Docker Networking Modes](https://north7.biz.id/panduan-lengkap-docker-networking-modes/): Kupas tuntas arsitektur docker networking modes mulai dari bridge, host, macvlan, ipvlan, hingga overlay lengkap dengan konfigurasi CLI dan troubleshooting.
 
 ## Panduan Gadget & Tips Praktis
+- [Cara Mengunci Aplikasi di HP Infinix agar Privasi Aman](https://north7.biz.id/cara-mengunci-aplikasi-di-hp-infinix/): Panduan praktis cara mengunci aplikasi di HP Infinix memakai fitur bawaan App Lock dan Phone Master tanpa aplikasi pihak ketiga agar privasi tetap terjaga.
 - [Cara Blokir Nomor Spam di HP Xiaomi](https://north7.biz.id/cara-blokir-nomor-spam-di-hp-xiaomi/): Panduan lengkap cara blokir nomor spam di hp xiaomi secara otomatis via Google Phone, filter spam HyperOS MIUI, dan pemblokiran pesan SMS mencurigakan.
 - [Cara Hapus Malware di HP Samsung Tanpa Reset Pabrik](https://north7.biz.id/cara-hapus-malware-di-hp-samsung/): Panduan lengkap cara hapus malware di hp samsung tanpa reset pabrik via Mode Aman, fitur Perlindungan Perangkat One UI, dan pencabutan izin mencurigakan.
 - [Cara Mengatasi Lupa Kunci Chat WA dan Kode Rahasia](https://north7.biz.id/cara-mengatasi-lupa-kunci-chat-wa/): Panduan lengkap cara mengatasi lupa kunci chat wa dan kode rahasia yang tersembunyi via fitur reset privasi resmi WhatsApp serta cara memulihkan riwayat pesan.
@@ -26,7 +27,6 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Panduan Lengkap Cek Kesehatan Baterai Android Poco](https://north7.biz.id/panduan-lengkap-cek-kesehatan-baterai-android-poco/): Panduan lengkap cek kesehatan baterai Android Poco dengan mudah. Pelajari cara membaca kode dial rahasia, melihat siklus pengisian, dan tips merawat baterai.
 - [Cara Sembunyikan Foto Video di iPhone dengan Face ID](https://north7.biz.id/cara-sembunyikan-foto-video-di-iphone/): Panduan praktis cara sembunyikan foto video di iPhone ke album Tersembunyi dengan kunci Face ID dan menyembunyikan album dari menu setelan foto.
 - [Cara Melacak HP Hilang Android Lewat Fitur Find My Device](https://north7.biz.id/cara-melacak-hp-hilang-android/): Panduan lengkap cara melacak hp hilang android secara akurat menggunakan Google Find My Device, mulai dari memantau peta, membunyikan dering, hingga mengamankan privasi.
-- [Cara Buka Kunci Aplikasi iPhone Praktis dan Mudah](https://north7.biz.id/cara-buka-kunci-aplikasi-iphone/): Panduan lengkap cara buka kunci aplikasi iPhone mulai dari autentikasi Face ID, membuka folder aplikasi tersembunyi, hingga melepas proteksi permanen.
 
 ## Berita Linux, Kernel & Open Source
 - [Celah NvRoot dan ForgePtr di Driver NVIDIA Jebol Host Linux](https://north7.biz.id/celah-nvroot-forgeptr-driver-nvidia-linux/): Dua celah keamanan kritis NvRoot dan ForgePtr pada driver GPU Linux NVIDIA memungkinkan penyerang membobol kontainer cloud dan meraih akses root host.
