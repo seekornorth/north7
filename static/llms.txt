@@ -41,6 +41,7 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Fedora 45 Resmi Rilis Bawa KMSCON dan Storage Stratis](https://north7.biz.id/fedora-45-resmi-rilis-bawa-kmscon-dan-stratis/): Fedora 45 resmi meluncur membawa konsol modern KMSCON, integrasi Stratis Storage di installer Anaconda, pembatasan ptrace, dan GNOME 51.
 
 ## Berita Teknologi & Inovasi Perangkat
+- [Sprout Sulap iPod Lawas Jadi Modern Pakai Raspberry Pi](https://north7.biz.id/sprout-ipod-lawas-raspberry-pi/): Motherboard open source Sprout menghidupkan kembali iPod lawas dengan Raspberry Pi, Bluetooth, Wi-Fi, port USB-C, dan streaming Spotify tanpa solder.
 - [Google Rilis Kacamata Cerdas Gemini, Dijual Mulai $395](https://north7.biz.id/google-rilis-kacamata-cerdas-gemini/): Google resmi merilis Intelligent Eyewear bertenaga Gemini dan Android XR hasil kolaborasi dengan Samsung, Warby Parker, dan Gentle Monster.
 - [Google Pixel Tag Resmi Dijual, Pesaing Ramping AirTag](https://north7.biz.id/google-pixel-tag-resmi-dijual-pesaing-airtag/): Google resmi menjual Pixel Tag seharga $29 dengan bodi baja tahan karat ramping, baterai CR2032 tahan setahun, dan presisi UWB Find Hub.
 - [Aina Ring Bawa Layar OLED dan Joystick ke Cincin Pintar](https://north7.biz.id/aina-ring-layar-oled-joystick-cincin-pintar/): Startup Aina merilis cincin pintar Aina Ring dengan layar OLED, joystick mikro Shifter, mikrofon, dan speaker untuk mengontrol aplikasi serta AI agent.
@@ -50,7 +51,6 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Enough Phone Hadirkan Ponsel Mungil Baterai Lepas Pasang](https://north7.biz.id/enough-phone-hadirkan-ponsel-mungil-baterai-lepas-pasang/): Enough Phone resmi membuka pemesanan ponsel kompak 5,3 inci dengan baterai lepas pasang, kamera 50 MP Sony, serta opsi sistem operasi Android 17 atau OdysseyOS.
 - [Motorola Rilis Signature 27, Flagship Baru Seharga $1.600](https://north7.biz.id/motorola-signature-27-flagship-baru/): Motorola resmi memperkenalkan Signature 27, ponsel flagship non-lipat seharga $1.600 dengan Snapdragon 8 Elite Extreme, baterai 7.000 mAh, dan dukungan GrapheneOS.
 - [Samsung Galaxy Ring Kini Bisa Deteksi Sleep Apnea](https://north7.biz.id/samsung-galaxy-ring-kini-bisa-deteksi-sleep-apnea/): Samsung resmi menggulirkan fitur deteksi risiko sleep apnea ke cincin pintar Galaxy Ring setelah mengantongi izin FDA Amerika Serikat dan MFDS Korea Selatan.
-- [Apple Watch Mulai Uji Fitur AI Rangkum Percakapan](https://north7.biz.id/apple-watch-mulai-uji-fitur-ai-rangkum-percakapan/): Apple mulai menguji fitur Audio Intelligence di Apple Watch untuk merangkum obrolan dan memutar ulang 15 detik percakapan secara privat.
 
 ## Optional
 - [Sitemap XML](https://north7.biz.id/sitemap.xml): Peta situs lengkap seluruh indeks artikel North7.

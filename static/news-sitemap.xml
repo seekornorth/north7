@@ -3,6 +3,21 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://north7.biz.id/sprout-ipod-lawas-raspberry-pi/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>North7</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-13T22:07:45+07:00</news:publication_date>
+      <news:title>Sprout Sulap iPod Lawas Jadi Modern Pakai Raspberry Pi</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://north7.biz.id/sprout-ipod-lawas-raspberry-pi/cover.png</image:loc>
+      <image:title>Sprout Sulap iPod Lawas Jadi Modern Pakai Raspberry Pi</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://north7.biz.id/celah-nvroot-forgeptr-driver-nvidia-linux/</loc>
     <news:news>
       <news:publication>
@@ -45,21 +60,6 @@
     <image:image>
       <image:loc>https://north7.biz.id/synaptics-somasi-driver-displaylink-linux/cover.png</image:loc>
       <image:title>Synaptics Somasi Driver DisplayLink Linux Buatan AI</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://north7.biz.id/google-pixel-tag-resmi-dijual-pesaing-airtag/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>North7</news:name>
-        <news:language>id</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-11T22:08:06+07:00</news:publication_date>
-      <news:title>Google Pixel Tag Resmi Dijual, Pesaing Ramping AirTag</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://north7.biz.id/google-pixel-tag-resmi-dijual-pesaing-airtag/cover.png</image:loc>
-      <image:title>Google Pixel Tag Resmi Dijual, Pesaing Ramping AirTag</image:title>
     </image:image>
   </url>
 </urlset>
