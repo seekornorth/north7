@@ -5,6 +5,7 @@
 Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, ditujukan untuk pengguna Linux pemula hingga administrator sistem rumahan (homelab). Konten disusun terstruktur dan ramah dibaca oleh Large Language Models (LLM) serta AI Agents.
 
 ## Panduan Networking & Homelab
+- [Panduan Lengkap Tcpdump Linux Ubuntu](https://north7.biz.id/panduan-lengkap-tcpdump-linux-ubuntu/): Pelajari cara menggunakan tcpdump linux ubuntu secara menyeluruh. Panduan lengkap instalasi, filter sintaks BPF, isolasi port dan host, inspeksi paket, hingga analisis Wireshark.
 - [Panduan Lengkap SSH Hardening Ubuntu 24.04](https://north7.biz.id/panduan-lengkap-ssh-hardening-ubuntu-2404/): Pelajari cara melakukan SSH hardening di Ubuntu 24.04 LTS secara menyeluruh. Panduan lengkap kunci Ed25519, isolasi drop-in sshd, integrasi ssh.socket, dan firewall UFW.
 - [Cara Setting Fail2ban di Linux untuk Amankan Server SSH](https://north7.biz.id/cara-setting-fail2ban/): Pelajari cara setting fail2ban di Linux Ubuntu dan Debian, mulai dari instalasi paket, konfigurasi jail.local, integrasi nftables, hingga unban IP.
 - [Panduan Lengkap Cloudflared Tunnel Linux](https://north7.biz.id/panduan-lengkap-cloudflared-tunnel-linux/): Pelajari cara setup cloudflared tunnel linux dari instalasi repositori resmi, otentikasi Zero Trust, konfigurasi ingress rules YAML, routing DNS, hingga integrasi systemd daemon.
@@ -14,7 +15,6 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Cara Mengatasi ss Command Not Found di Linux](https://north7.biz.id/cara-mengatasi-ss-command-not-found-di-linux/): Solusi tuntas ss command not found linux. Panduan instalasi iproute2 pada berbagai distro, konfigurasi container minimalis, dan perbaikan variabel PATH.
 - [Panduan Lengkap ss tulpn Command in Linux](https://north7.biz.id/panduan-lengkap-ss-tulpn-command-in-linux/): Kupas tuntas penggunaan ss tulpn command in linux. Pelajari pembedahan flag socket, pemantauan port aktif, analisis Recv-Q dan Send-Q, serta audit proses.
 - [Panduan Lengkap ip route Linux](https://north7.biz.id/panduan-lengkap-ip-route-linux/): Pelajari perintah ip route linux secara lengkap. Panduan praktis konfigurasi default gateway, static route subnet, metrik prioritas, policy routing, dan konfigurasi persisten.
-- [Panduan Lengkap Docker Networking Modes](https://north7.biz.id/panduan-lengkap-docker-networking-modes/): Kupas tuntas arsitektur docker networking modes mulai dari bridge, host, macvlan, ipvlan, hingga overlay lengkap dengan konfigurasi CLI dan troubleshooting.
 
 ## Panduan Gadget & Tips Praktis
 - [Cara Mengunci Aplikasi di HP Infinix agar Privasi Aman](https://north7.biz.id/cara-mengunci-aplikasi-di-hp-infinix/): Panduan praktis cara mengunci aplikasi di HP Infinix memakai fitur bawaan App Lock dan Phone Master tanpa aplikasi pihak ketiga agar privasi tetap terjaga.
