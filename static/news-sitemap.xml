@@ -3,6 +3,21 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://north7.biz.id/starlink-mini-2-baterai-lepas-pasang/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>North7</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-14T22:04:09+07:00</news:publication_date>
+      <news:title>Starlink Mini 2 Hadirkan Baterai Lepas Pasang dan USB C</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://north7.biz.id/starlink-mini-2-baterai-lepas-pasang/cover.png</image:loc>
+      <image:title>Starlink Mini 2 Hadirkan Baterai Lepas Pasang dan USB C</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://north7.biz.id/linux-7-5-hwpoison-panic-uji-crash-kernel/</loc>
     <news:news>
       <news:publication>
@@ -45,21 +60,6 @@
     <image:image>
       <image:loc>https://north7.biz.id/celah-nvroot-forgeptr-driver-nvidia-linux/cover.png</image:loc>
       <image:title>Celah NvRoot dan ForgePtr di Driver NVIDIA Jebol Host Linux</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://north7.biz.id/google-rilis-kacamata-cerdas-gemini/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>North7</news:name>
-        <news:language>id</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-12T22:04:20+07:00</news:publication_date>
-      <news:title>Google Rilis Kacamata Cerdas Gemini, Dijual Mulai $395</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://north7.biz.id/google-rilis-kacamata-cerdas-gemini/cover.png</image:loc>
-      <image:title>Google Rilis Kacamata Cerdas Gemini, Dijual Mulai $395</image:title>
     </image:image>
   </url>
 </urlset>

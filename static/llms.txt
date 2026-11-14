@@ -41,6 +41,7 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Celah APT Debian Buka Akses Eksekusi Kode Root via MITM](https://north7.biz.id/celah-apt-debian-buka-akses-root-mitm/): Celah keamanan CVE-2026-109518 pada APT Debian izinkan penyerang man-in-the-middle mengeksekusi kode arbitrary sebagai root lewat manipulasi redirect HTTP.
 
 ## Berita Teknologi & Inovasi Perangkat
+- [Starlink Mini 2 Hadirkan Baterai Lepas Pasang dan USB C](https://north7.biz.id/starlink-mini-2-baterai-lepas-pasang/): SpaceX meluncurkan Starlink Mini 2 dengan baterai lepas pasang 71 Wh, dukungan USB-C 60W, Wi-Fi 6, dan bodi lebih ramping untuk internet satelit portabel.
 - [Sprout Sulap iPod Lawas Jadi Modern Pakai Raspberry Pi](https://north7.biz.id/sprout-ipod-lawas-raspberry-pi/): Motherboard open source Sprout menghidupkan kembali iPod lawas dengan Raspberry Pi, Bluetooth, Wi-Fi, port USB-C, dan streaming Spotify tanpa solder.
 - [Google Rilis Kacamata Cerdas Gemini, Dijual Mulai $395](https://north7.biz.id/google-rilis-kacamata-cerdas-gemini/): Google resmi merilis Intelligent Eyewear bertenaga Gemini dan Android XR hasil kolaborasi dengan Samsung, Warby Parker, dan Gentle Monster.
 - [Google Pixel Tag Resmi Dijual, Pesaing Ramping AirTag](https://north7.biz.id/google-pixel-tag-resmi-dijual-pesaing-airtag/): Google resmi menjual Pixel Tag seharga $29 dengan bodi baja tahan karat ramping, baterai CR2032 tahan setahun, dan presisi UWB Find Hub.
@@ -50,7 +51,6 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Google Find Hub Hadirkan Fitur Pengingat Barang Tertinggal](https://north7.biz.id/google-find-hub-pengingat-barang-tertinggal/): Google resmi menggulirkan fitur Left-Behind Reminders di aplikasi Find Hub Android agar pengguna langsung tahu saat dompet atau kunci tertinggal.
 - [Enough Phone Hadirkan Ponsel Mungil Baterai Lepas Pasang](https://north7.biz.id/enough-phone-hadirkan-ponsel-mungil-baterai-lepas-pasang/): Enough Phone resmi membuka pemesanan ponsel kompak 5,3 inci dengan baterai lepas pasang, kamera 50 MP Sony, serta opsi sistem operasi Android 17 atau OdysseyOS.
 - [Motorola Rilis Signature 27, Flagship Baru Seharga $1.600](https://north7.biz.id/motorola-signature-27-flagship-baru/): Motorola resmi memperkenalkan Signature 27, ponsel flagship non-lipat seharga $1.600 dengan Snapdragon 8 Elite Extreme, baterai 7.000 mAh, dan dukungan GrapheneOS.
-- [Samsung Galaxy Ring Kini Bisa Deteksi Sleep Apnea](https://north7.biz.id/samsung-galaxy-ring-kini-bisa-deteksi-sleep-apnea/): Samsung resmi menggulirkan fitur deteksi risiko sleep apnea ke cincin pintar Galaxy Ring setelah mengantongi izin FDA Amerika Serikat dan MFDS Korea Selatan.
 
 ## Optional
 - [Sitemap XML](https://north7.biz.id/sitemap.xml): Peta situs lengkap seluruh indeks artikel North7.

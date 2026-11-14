@@ -102,6 +102,7 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [antiX 26.1 Rilis, Bawa Kernel Baru dan Tetap Tanpa systemd](https://north7.biz.id/antix-26-1-rilis-kernel-baru-tanpa-systemd/): antiX 26.1 resmi rilis dengan pembaruan kernel, perbaikan bug, dan tetap mempertahankan sistem tanpa systemd untuk PC lawas.
 
 ## Berita Teknologi & Inovasi Perangkat
+- [Starlink Mini 2 Hadirkan Baterai Lepas Pasang dan USB C](https://north7.biz.id/starlink-mini-2-baterai-lepas-pasang/): SpaceX meluncurkan Starlink Mini 2 dengan baterai lepas pasang 71 Wh, dukungan USB-C 60W, Wi-Fi 6, dan bodi lebih ramping untuk internet satelit portabel.
 - [Sprout Sulap iPod Lawas Jadi Modern Pakai Raspberry Pi](https://north7.biz.id/sprout-ipod-lawas-raspberry-pi/): Motherboard open source Sprout menghidupkan kembali iPod lawas dengan Raspberry Pi, Bluetooth, Wi-Fi, port USB-C, dan streaming Spotify tanpa solder.
 - [Google Rilis Kacamata Cerdas Gemini, Dijual Mulai $395](https://north7.biz.id/google-rilis-kacamata-cerdas-gemini/): Google resmi merilis Intelligent Eyewear bertenaga Gemini dan Android XR hasil kolaborasi dengan Samsung, Warby Parker, dan Gentle Monster.
 - [Google Pixel Tag Resmi Dijual, Pesaing Ramping AirTag](https://north7.biz.id/google-pixel-tag-resmi-dijual-pesaing-airtag/): Google resmi menjual Pixel Tag seharga $29 dengan bodi baja tahan karat ramping, baterai CR2032 tahan setahun, dan presisi UWB Find Hub.
