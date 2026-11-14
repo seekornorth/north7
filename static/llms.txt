@@ -17,6 +17,7 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Panduan Lengkap ip route Linux](https://north7.biz.id/panduan-lengkap-ip-route-linux/): Pelajari perintah ip route linux secara lengkap. Panduan praktis konfigurasi default gateway, static route subnet, metrik prioritas, policy routing, dan konfigurasi persisten.
 
 ## Panduan Gadget & Tips Praktis
+- [Cara Kunci Chat WhatsApp dengan Kode Rahasia](https://north7.biz.id/cara-kunci-chat-whatsapp-dengan-kode-rahasia/): Panduan lengkap cara mengunci chat WhatsApp dengan kode rahasia dan menyembunyikan folder obrolan terkunci dari daftar pesan demi menjaga privasi obrolan sensitif.
 - [Cara Mengunci Aplikasi di HP Infinix agar Privasi Aman](https://north7.biz.id/cara-mengunci-aplikasi-di-hp-infinix/): Panduan praktis cara mengunci aplikasi di HP Infinix memakai fitur bawaan App Lock dan Phone Master tanpa aplikasi pihak ketiga agar privasi tetap terjaga.
 - [Cara Blokir Nomor Spam di HP Xiaomi](https://north7.biz.id/cara-blokir-nomor-spam-di-hp-xiaomi/): Panduan lengkap cara blokir nomor spam di hp xiaomi secara otomatis via Google Phone, filter spam HyperOS MIUI, dan pemblokiran pesan SMS mencurigakan.
 - [Cara Hapus Malware di HP Samsung Tanpa Reset Pabrik](https://north7.biz.id/cara-hapus-malware-di-hp-samsung/): Panduan lengkap cara hapus malware di hp samsung tanpa reset pabrik via Mode Aman, fitur Perlindungan Perangkat One UI, dan pencabutan izin mencurigakan.
@@ -26,7 +27,6 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Panduan Lengkap Mode Pengembang Android 15](https://north7.biz.id/panduan-lengkap-mode-pengembang-android-15/): Panduan lengkap mode pengembang Android 15 untuk mengaktifkan menu tersembunyi, mempercepat animasi sistem, mengatur USB debugging, dan opsi penting.
 - [Panduan Lengkap Cek Kesehatan Baterai Android Poco](https://north7.biz.id/panduan-lengkap-cek-kesehatan-baterai-android-poco/): Panduan lengkap cek kesehatan baterai Android Poco dengan mudah. Pelajari cara membaca kode dial rahasia, melihat siklus pengisian, dan tips merawat baterai.
 - [Cara Sembunyikan Foto Video di iPhone dengan Face ID](https://north7.biz.id/cara-sembunyikan-foto-video-di-iphone/): Panduan praktis cara sembunyikan foto video di iPhone ke album Tersembunyi dengan kunci Face ID dan menyembunyikan album dari menu setelan foto.
-- [Cara Melacak HP Hilang Android Lewat Fitur Find My Device](https://north7.biz.id/cara-melacak-hp-hilang-android/): Panduan lengkap cara melacak hp hilang android secara akurat menggunakan Google Find My Device, mulai dari memantau peta, membunyikan dering, hingga mengamankan privasi.
 
 ## Berita Linux, Kernel & Open Source
 - [Linux 7.5 Hadirkan hwpoison-panic Buat Uji Crash Kernel](https://north7.biz.id/linux-7-5-hwpoison-panic-uji-crash-kernel/): Kernel Linux 7.5 menyertakan tool hwpoison-panic di tools/mm untuk menguji respons kernel panic akibat kegagalan memori fisik unrecoverable secara terkendali.
