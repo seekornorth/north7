@@ -3,6 +3,21 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://north7.biz.id/linux-7-5-hwpoison-panic-uji-crash-kernel/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>North7</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-14T08:04:55+07:00</news:publication_date>
+      <news:title>Linux 7.5 Hadirkan hwpoison-panic Buat Uji Crash Kernel</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://north7.biz.id/linux-7-5-hwpoison-panic-uji-crash-kernel/cover.png</image:loc>
+      <image:title>Linux 7.5 Hadirkan hwpoison-panic Buat Uji Crash Kernel</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://north7.biz.id/sprout-ipod-lawas-raspberry-pi/</loc>
     <news:news>
       <news:publication>

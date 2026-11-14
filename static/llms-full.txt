@@ -63,6 +63,7 @@ Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, d
 - [Cara Kirim File Android ke PC Tanpa Kabel Pakai Quick Share](https://north7.biz.id/cara-kirim-file-android-ke-pc-tanpa-kabel-pakai-quick-share/): Panduan lengkap cara transfer file dari Android ke PC Windows tanpa kabel memakai Quick Share dari Google, cepat tanpa kompresi dan mudah diatur.
 
 ## Berita Linux, Kernel & Open Source
+- [Linux 7.5 Hadirkan hwpoison-panic Buat Uji Crash Kernel](https://north7.biz.id/linux-7-5-hwpoison-panic-uji-crash-kernel/): Kernel Linux 7.5 menyertakan tool hwpoison-panic di tools/mm untuk menguji respons kernel panic akibat kegagalan memori fisik unrecoverable secara terkendali.
 - [Celah NvRoot dan ForgePtr di Driver NVIDIA Jebol Host Linux](https://north7.biz.id/celah-nvroot-forgeptr-driver-nvidia-linux/): Dua celah keamanan kritis NvRoot dan ForgePtr pada driver GPU Linux NVIDIA memungkinkan penyerang membobol kontainer cloud dan meraih akses root host.
 - [Synaptics Somasi Driver DisplayLink Linux Buatan AI](https://north7.biz.id/synaptics-somasi-driver-displaylink-linux/): Synaptics melayangkan somasi dan ancaman denda puluhan ribu dolar terhadap pengembang independen driver open source DisplayLink bernama Vino di Linux.
 - [Banjir Patch AI, Lorenzo Stoakes Mundur Jadi Reviewer Linux](https://north7.biz.id/banjir-patch-ai-lorenzo-stoakes-mundur-reviewer-linux/): Lorenzo Stoakes memutuskan mundur dari kursi reviewer memori dan Rust di kernel Linux akibat derasnya kiriman patch hasil buatan model kecerdasan buatan.
