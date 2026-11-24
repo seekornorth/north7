@@ -199,7 +199,7 @@
   {{ $ogType := cond (and .IsPage (eq .Section "posts")) "article" "website" }}
   {{/* og:title pakai judul asli artikel (tanpa clamp) karena tidak dipotong di timeline */}}
   {{ $ogTitle := $pageTitle }}
-  {{ if eq .Section "posts" }}{{ $ogTitle = .Title | plainify | emojify }}{{ end }}
+  {{ if and .IsPage (eq .Section "posts") }}{{ $ogTitle = .Title | plainify | emojify }}{{ end }}
   <meta property="og:url" content="{{ $canonical }}">
   <meta property="og:site_name" content="{{ $siteTitle }}">
   <meta property="og:title" content="{{ $ogTitle }}">
