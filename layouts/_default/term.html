@@ -57,8 +57,8 @@
     {{ if gt (len $paginator.Pages) 0 }}
     <div class="nrt-section-head"><h2>Artikel oleh {{ .Title }}</h2><span class="nrt-head-line"></span></div>
     <div class="nrt-grid">
-      {{ range $paginator.Pages }}
-        {{ partial "nrt-card.html" . }}
+      {{ range $i, $p := $paginator.Pages }}
+        {{ partial "nrt-card.html" (dict "page" $p "eager" (eq $i 0)) }}
       {{ end }}
     </div>
     {{ partial "pagination.html" . }}
@@ -71,8 +71,8 @@
     <div class="nrt-main">
       {{ if gt (len $paginator.Pages) 0 }}
       <div class="nrt-grid">
-        {{ range $paginator.Pages }}
-          {{ partial "nrt-card.html" . }}
+        {{ range $i, $p := $paginator.Pages }}
+          {{ partial "nrt-card.html" (dict "page" $p "eager" (eq $i 0)) }}
         {{ end }}
       </div>
       {{ partial "pagination.html" . }}

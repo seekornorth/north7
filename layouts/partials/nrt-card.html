@@ -1,8 +1,13 @@
-{{/* North7 card – expects a Page as context (.) */}}
+{{/* North7 card – terima Page langsung atau dict (page, eager) */}}
 {{ $page := . }}
+{{ $eager := false }}
+{{ if reflect.IsMap . }}
+  {{ $page = .page }}
+  {{ $eager = .eager | default false }}
+{{ end }}
 <article class="nrt-card">
   <a class="nrt-card-media" href="{{ $page.RelPermalink }}" aria-label="{{ $page.Title }}">
-    {{ partial "nrt-img.html" (dict "page" $page "width" 800) }}
+    {{ partial "nrt-img.html" (dict "page" $page "width" 800 "eager" $eager) }}
   </a>
   <div class="nrt-card-body">
     {{ with $page.Params.categories }}

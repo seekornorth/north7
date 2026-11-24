@@ -15,9 +15,9 @@
   {{ else if .Params.metaTitle }}
     {{ $pageTitle = .Params.metaTitle }}
   {{ else if and (eq .Kind "term") (eq .Data.Plural "tags") }}
-    {{ $pageTitle = printf "Topik %s · North7" (.Title | plainify | emojify) }}
+    {{ $pageTitle = printf "Topik %s — Panduan, Tips & Berita · North7" (.Title | plainify | emojify) }}
   {{ else if and (eq .Kind "term") (eq .Data.Plural "categories") }}
-    {{ $pageTitle = printf "Kategori %s · North7" (.Title | plainify | emojify) }}
+    {{ $pageTitle = printf "Kategori %s — Artikel & Panduan · North7" (.Title | plainify | emojify) }}
   {{ else }}
     {{ $pageTitle = printf "%s · North7" (.Title | plainify | emojify) }}
   {{ end }}
