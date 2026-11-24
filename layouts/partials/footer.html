@@ -3,19 +3,15 @@
     <div class="nrt-foot-col nrt-foot-brand">
       <div class="nrt-foot-logo">{{ with resources.Get "img/logo.png" }}<img class="nozoom" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="North7" />{{ end }}<span>North7</span></div>
       <p>{{ .Site.Params.description }}</p>
-      <div class="nrt-foot-social">
-        <a href="#" target="_blank" rel="noopener">Facebook</a>
-        <a href="#" target="_blank" rel="noopener">YouTube</a>
-      </div>
     </div>
     <div class="nrt-foot-col">
-      <h4>Tentang</h4>
+      <h2>Tentang</h2>
       <a href="{{ "/tentang-kami/" | relLangURL }}">Tentang Kami</a>
       <a href="{{ "/kontak/" | relLangURL }}">Kontak</a>
       <a href="{{ "/pedoman-media-siber/" | relLangURL }}">Pedoman Media Siber</a>
     </div>
     <div class="nrt-foot-col">
-      <h4>Legal</h4>
+      <h2>Legal</h2>
       <a href="{{ "/kebijakan-privasi/" | relLangURL }}">Kebijakan Privasi</a>
       <a href="{{ "/disclaimer/" | relLangURL }}">Disclaimer</a>
     </div>

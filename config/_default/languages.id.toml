@@ -16,9 +16,3 @@ copyright = "Copyright 2026 - North7. All rights reserved."
   image = "img/logo.png"
   headline = "Media Linux, Networking, dan update teknologi"
   bio = "Artikel, ulasan, dan tutorial Linux serta teknologi terkini"
-
-    [[params.author.links]]
-    facebook = "#"
-
-    [[params.author.links]]
-    youtube = "#"

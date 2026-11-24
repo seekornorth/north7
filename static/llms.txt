@@ -4,6 +4,8 @@
 
 Dokumentasi dan artikel North7 ditulis oleh Mifthakhul Huda dan Tri Wulandari, ditujukan untuk pengguna Linux pemula hingga administrator sistem rumahan (homelab). Konten disusun terstruktur dan ramah dibaca oleh Large Language Models (LLM) serta AI Agents.
 
+Terakhir diperbarui: 24 November 2026.
+
 ## Panduan Networking & Homelab
 - [Panduan Lengkap DNS over HTTPS Client Linux](https://north7.biz.id/panduan-lengkap-dns-over-https-client-linux/): Pelajari cara setup dns over https client linux dari mitigasi konflik port 53 systemd-resolved, instalasi dnscrypt-proxy, konfigurasi resolver Cloudflare dan Quad9, hingga verifikasi tcpdump.
 - [Panduan Lengkap Tcpdump Linux Ubuntu](https://north7.biz.id/panduan-lengkap-tcpdump-linux-ubuntu/): Pelajari cara menggunakan tcpdump linux ubuntu secara menyeluruh. Panduan lengkap instalasi, filter sintaks BPF, isolasi port dan host, inspeksi paket, hingga analisis Wireshark.

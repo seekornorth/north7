@@ -26,7 +26,7 @@
     {{ with index hugo.Data.authors .Data.Term }}
     <div class="nrt-author">
     {{ with .image }}
-      {{ partial "nrt-avatar.html" (dict "image" . "alt" $.Title "size" 110) }}
+      {{ partial "nrt-avatar.html" (dict "image" . "alt" $.Title "size" 110 "eager" true) }}
     {{ end }}
       <div class="nrt-author-text">
         <strong>{{ .name }}</strong>
@@ -70,6 +70,7 @@
   <div class="nrt-layout">
     <div class="nrt-main">
       {{ if gt (len $paginator.Pages) 0 }}
+      <h2 class="nrt-sr">Daftar artikel {{ .Title }}</h2>
       <div class="nrt-grid">
         {{ range $i, $p := $paginator.Pages }}
           {{ partial "nrt-card.html" (dict "page" $p "eager" (eq $i 0)) }}

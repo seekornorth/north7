@@ -25,7 +25,18 @@ Untuk koreksi atau masukan mengenai artikel, silakan sertakan judul atau tautan 
 
 Kami akan berusaha membaca dan merespons setiap pesan yang masuk sebaik mungkin.
 
-### Mau Ngobrol?
+## Waktu Respons
+
+North7 dikelola tim kecil, jadi balasan biasanya datang dalam 1–3 hari kerja. Semua pesan kami baca, meski tidak selalu bisa dibalas sedetail yang diharapkan.
+
+## Yang Bisa Kami Bantu
+
+- **Koreksi artikel** — salah ketik, angka keliru, atau langkah tutorial yang tidak berjalan di perangkatmu. Sertakan tautan dan bagian mana yang perlu diperbaiki.
+- **Usulan topik** — masalah Linux atau jaringan yang bikin kamu macet dan belum ada panduannya di North7.
+- **Kerja sama** — ajakan menulis, wawancara, atau kolaborasi konten teknologi.
+- **Hak cipta** — laporan pemakaian gambar atau kutipan yang menurutmu melanggar aturan.
+
+## Mau Ngobrol?
 
 Kalau ada sesuatu yang menurutmu menarik, jangan disimpan sendiri.
 

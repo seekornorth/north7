@@ -1,12 +1,13 @@
 {{/* Sidebar kanan: Profil, Bagikan Website, Iklan, Topik Populer. */}}
 {{ $homeURL := site.Home.Permalink }}
 {{ $shareTitle := site.Title }}
+{{ $logoLoading := cond (eq .Kind "taxonomy") "eager" "lazy" }}
 <aside class="nrt-sidebar" aria-label="Sidebar">
 
   <!-- Profil mini -->
   <div class="nrt-widget">
     <div class="nrt-profile">
-      {{ with resources.Get "img/logo.png" }}<img class="nozoom" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="North7" loading="lazy" decoding="async" />{{ end }}
+      {{ with resources.Get "img/logo.png" }}<img class="nozoom" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="North7" loading="{{ $logoLoading }}" decoding="async" />{{ end }}
       <div>
         <strong>North7</strong>
         <p>{{ site.Params.description }}</p>
@@ -27,7 +28,7 @@
   {{ $topGuides := first 5 $guides }}
   {{ if gt (len $topGuides) 0 }}
   <div class="nrt-widget">
-    <h3 class="nrt-widget-title">Panduan Populer</h3>
+    <h2 class="nrt-widget-title">Panduan Populer</h2>
     <div class="nrt-side-posts">
       {{ range $topGuides }}
       <a class="nrt-side-post" href="{{ .RelPermalink }}">
@@ -45,7 +46,7 @@
 
   <!-- Bagikan website -->
   <div class="nrt-widget">
-    <h3 class="nrt-widget-title">Bagikan Website</h3>
+    <h2 class="nrt-widget-title">Bagikan Website</h2>
     <div class="nrt-share">
       <a href="https://www.facebook.com/sharer/sharer.php?{{ querify "u" $homeURL }}" target="_blank" rel="noopener" aria-label="Facebook" title="Facebook">{{ partial "icon.html" "facebook" }}</a>
       <a href="https://twitter.com/intent/tweet?{{ querify "url" $homeURL "text" $shareTitle }}" target="_blank" rel="noopener" aria-label="X" title="X">{{ partial "icon.html" "x-twitter" }}</a>
@@ -82,7 +83,7 @@
   <div class="nrt-widget">
     <div class="nrt-news">
       <div class="nrt-news-icon">{{ partial "icon.html" "email" }}</div>
-      <h3 class="nrt-news-title">Ikuti North7 di Google</h3>
+      <h2 class="nrt-news-title">Ikuti North7 di Google</h2>
       <p class="nrt-news-desc">Jadikan North7 sumber pilihanmu di Google Search &amp; News.</p>
       <a class="nrt-news-btn" href="https://www.google.com/preferences/source?q=north7.biz.id" target="_blank" rel="noopener">Preferred Sources</a>
     </div>

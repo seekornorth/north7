@@ -17,6 +17,7 @@
   <div class="nrt-layout">
     <div class="nrt-main">
       {{ if gt (len $paginator.Pages) 0 }}
+      <h2 class="nrt-sr">Daftar artikel</h2>
       <div class="nrt-grid">
         {{ range $i, $p := $paginator.Pages }}
           {{ partial "nrt-card.html" (dict "page" $p "eager" (eq $i 0)) }}

@@ -89,10 +89,8 @@ header div.max-w-7xl {
 
 /* Tabs section (mis. tab distro di seksi Linux) */
 .nrt-tabs { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 18px; }
-.nrt-tab { border: 1px solid var(--nrt-border); background: #313244; color: var(--nrt-text); padding: 8px 16px; border-radius: 999px; font-size: 14px; font-weight: 700; cursor: pointer; }
+.nrt-tab { display: inline-block; border: 1px solid var(--nrt-border); background: #313244; color: var(--nrt-text); padding: 8px 16px; border-radius: 999px; font-size: 14px; font-weight: 700; cursor: pointer; text-decoration: none; line-height: 1.2; }
 .nrt-tab.is-active, .nrt-tab:hover { background: var(--nrt-red); border-color: var(--nrt-red); color: var(--nrt-ink); }
-.nrt-tabpanel { display: none; }
-.nrt-tabpanel.is-active { display: block; }
 
 /* Newsletter */
 .nrt-newsletter { margin-top: 48px; text-align: center; padding: 44px 24px; border-radius: 18px; background: radial-gradient(600px 200px at 50% 0%, rgba(203,166,247,.22), transparent), #181825; border: 1px solid var(--nrt-border); }
@@ -139,12 +137,9 @@ header div.max-w-7xl {
 .nrt-foot-logo img { width: 46px; height: 46px; border-radius: 10px; }
 .nrt-foot-logo span::after { content: "."; color: var(--nrt-red); margin-inline-start: -0.1em; }
 .nrt-foot p { color: var(--nrt-muted); font-size: 14px; line-height: 1.6; }
-.nrt-foot-col h4 { margin: 0 0 12px; font-size: 14px; text-transform: uppercase; letter-spacing: 0.06em; }
+.nrt-foot-col h2 { margin: 0 0 12px; font-size: 14px; text-transform: uppercase; letter-spacing: 0.06em; }
 .nrt-foot-col a { display: block; color: var(--nrt-muted); text-decoration: none; font-size: 14px; margin-bottom: 8px; }
 .nrt-foot-col a:hover { color: var(--nrt-red); }
-.nrt-foot-social { display: flex; gap: 10px; margin-top: 14px; }
-.nrt-foot-social a { border: 1px solid var(--nrt-border); padding: 6px 12px; border-radius: 8px; margin-bottom: 0; }
-.nrt-foot-social a:hover { border-color: var(--nrt-red); }
 .nrt-bottom {
   display: flex; justify-content: center; align-items: center; gap: 12px; flex-wrap: wrap;
   padding: 16px 4px 8px; border-top: 1px solid var(--nrt-border);
@@ -404,7 +399,7 @@ html:not(.dark) .nrt-card-title a { color: #18181b; }
 html:not(.dark) .nrt-slide-content { color: #fff; }
 
 /* ---- "Baca juga" inline ala editorial (blockquote sederhana di tengah artikel) ---- */
-.nrt-readalso { margin: 24px 0; padding-left: 16px; border-left: 3px solid var(--nrt-red); }
+.nrt-readalso { margin: 28px 0; padding: 14px 16px; border-left: 3px solid var(--nrt-red); background: rgba(203,166,247,.08); border-radius: 0 8px 8px 0; }
 .nrt-readalso p { margin: 0; font-size: 16px; }
 .nrt-readalso p + p { margin-top: 6px; }
 .nrt-readalso a { color: var(--nrt-red); text-decoration: none; font-weight: 600; }

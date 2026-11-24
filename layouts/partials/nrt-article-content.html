@@ -1,4 +1,4 @@
-{{/* Sisipkan "Baca juga" otomatis di tengah artikel (format blockquote ala editorial).
+{{/* Sisipkan "Baca juga" otomatis di tengah artikel.
   Dipakai layouts/_default/single.html (override) sebagai pengganti {{ .Content }}.
   Cara kerja:
   1. Hitung dulu daftar artikel yang akan tampil di related bawah artikel
@@ -6,13 +6,14 @@
   2. Kandidat inline = hasil Hugo Related MINUS daftar bawah tadi, ambil 1
      (inArticleRelatedLimit) — jadi link di tengah selalu beda dari related bawah.
   3. Kalau kandidat kosong, fallback: artikel terbaru yang juga tidak ada di bawah.
-  4. Pecah .Content pada penutup `</p>` lalu sisipkan blockquote setelah paragraf
-     tengah (aman utk code block karena < > di <code> sudah di-escape).
-  5. Skip untuk non-posts, artikel pendek, atau front matter `readAlso: false`.
+  4. Sisipkan <aside> SEBELUM heading <h2> tengah. Ini aman: heading selalu
+     block-level, jadi tidak akan nyangkut di dalam <li>/<figure>/<table>
+     seperti pendekatan lama yang memecah "</p>" (8 artikel berstruktur
+     <li><p> membuat kotak masuk ke dalam <li>).
+  5. Skip untuk non-posts, artikel tanpa >=2 heading, atau front matter `readAlso: false`.
   Konfigurasi (params.toml):
-    [article] inArticleRelatedLimit (default 1), inArticleRelatedMinParagraphs (default 3),
-    inArticleRelatedTitle (default "Baca juga")
-  Front matter: readAlso: false | readAlsoAfter: N
+    [article] inArticleRelatedLimit (default 1), inArticleRelatedTitle (default "Baca juga")
+  Front matter: readAlso: false | readAlsoAfter: N (indeks heading tujuan)
 */}}
 {{ $enabled := .Params.readAlso | default true }}
 {{ $isPost := eq .Section "posts" }}
@@ -38,36 +39,26 @@
 
   {{ $related := first $limit $cands }}
 
-  {{ if ge (len $related) 1 }}
-    {{ $parts := split .Content "</p>" }}
-    {{ $paraCount := sub (len $parts) 1 }}
-    {{ $min := 3 }}
-    {{ with site.Params.article.inArticleRelatedMinParagraphs }}{{ $min = . }}{{ end }}
-    {{ $need := add (mul $min 2) 1 }}
-    {{ if ge $paraCount $need }}
-      {{/* posisi sisip p (1-based, setelah paragraf ke-p) */}}
-      {{ $p := div (add $paraCount 1) 2 }}
-      {{ with .Params.readAlsoAfter }}{{ $p = . }}{{ end }}
-      {{ $maxP := sub $paraCount $min }}
-      {{ if lt $p $min }}{{ $p = $min }}{{ end }}
-      {{ if gt $p $maxP }}{{ $p = $maxP }}{{ end }}
+  {{ $chunks := split .Content "<h2" }}
+  {{ $h2count := sub (len $chunks) 1 }}
 
-      {{ $box := partial "nrt-read-also-box.html" (dict "page" . "related" $related) }}
-      {{ $buf := slice }}
-      {{ range $i, $frag := $parts }}
-        {{ if lt $i $paraCount }}
-          {{ $buf = $buf | append (printf "%s</p>" $frag) }}
-        {{ else }}
-          {{ $buf = $buf | append $frag }}
-        {{ end }}
-        {{ if and (lt $i $paraCount) (eq (add $i 1) $p) }}
-          {{ $buf = $buf | append $box }}
-        {{ end }}
+  {{ if and (ge (len $related) 1) (ge $h2count 2) }}
+    {{ $box := partial "nrt-read-also-box.html" (dict "page" . "related" $related) }}
+    {{/* heading tujuan: tengah, minimal heading ke-2, maksimal sebelum heading terakhir */}}
+    {{ $idx := div (add $h2count 1) 2 }}
+    {{ with .Params.readAlsoAfter }}{{ $idx = . }}{{ end }}
+    {{ if lt $idx 2 }}{{ $idx = 2 }}{{ end }}
+    {{ if ge $idx $h2count }}{{ $idx = sub $h2count 1 }}{{ end }}
+    {{ $buf := slice }}
+    {{ range $i, $c := $chunks }}
+      {{ if eq $i 0 }}
+        {{ $buf = $buf | append $c }}
+      {{ else }}
+        {{ if eq $i $idx }}{{ $buf = $buf | append $box }}{{ end }}
+        {{ $buf = $buf | append (printf "<h2%s" $c) }}
       {{ end }}
-      {{ delimit $buf "" | safeHTML }}
-    {{ else }}
-      {{ .Content }}
     {{ end }}
+    {{ delimit $buf "" | safeHTML }}
   {{ else }}
     {{ .Content }}
   {{ end }}

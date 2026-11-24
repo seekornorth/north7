@@ -13,11 +13,21 @@
       <a href="{{ "/" | relLangURL }}">Beranda</a><span>/</span><em>{{ $taxTitle }}</em>
     </div>
     <h1>{{ $taxTitle }}</h1>
-    <p>{{ len $terms }} topik</p>
+    <p>{{ len $terms }} {{ index (dict "categories" "kategori" "tags" "topik" "authors" "penulis") $plural | default "topik" }}</p>
   </div>
+
+  {{/* Paragraf pengantar: memberi konteks halaman indeks (bukan cuma daftar tautan) */}}
+  {{ with index (dict
+      "tags" "Semua topik yang dibahas North7, diurutkan dari yang paling sering ditulis. Pilih satu topik untuk melihat panduan, tutorial, dan berita yang berkaitan."
+      "categories" "Kategori utama North7: Linux, networking, teknologi, dan ulasan perangkat. Setiap kategori mengumpulkan panduan langkah demi langkah serta kabar terbaru yang saling berhubungan."
+      "authors" "Tim redaksi North7. Kenali penulis di balik setiap artikel, keahlian yang mereka tekuni, dan tulisan yang sudah diterbitkan."
+    ) $plural }}
+  <div class="nrt-page-desc"><p>{{ . }}</p></div>
+  {{ end }}
 
   <div class="nrt-layout">
     <div class="nrt-main">
+      <h2 class="nrt-sr">Daftar {{ lower $taxTitle }}</h2>
       <div class="nrt-grid">
         {{ range $terms }}
         <a class="nrt-term-card" href="{{ .RelPermalink }}">

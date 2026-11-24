@@ -113,17 +113,6 @@
     hero.addEventListener('click', function(e){ if(Math.abs(dx) > 10){ e.preventDefault(); e.stopPropagation(); } }, true);
   }
   // Tabs section (mis. tab distro di seksi Linux)
-  var tabs = document.querySelectorAll('.nrt-tab');
-  var panels = document.querySelectorAll('.nrt-tabpanel');
-  tabs.forEach(function(t){
-    t.addEventListener('click', function(){
-      tabs.forEach(function(x){ x.classList.remove('is-active'); });
-      panels.forEach(function(p){ p.classList.remove('is-active'); });
-      t.classList.add('is-active');
-      var el = document.getElementById(t.dataset.tab);
-      if(el) el.classList.add('is-active');
-    });
-  });
 })();
 </script>
 {{ end }}

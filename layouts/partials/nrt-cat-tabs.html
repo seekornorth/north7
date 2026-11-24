@@ -1,5 +1,8 @@
-{{/* Seksi kategori. Tab tag otomatis hanya jika args memuat "tabs" true.
-  Contoh: (dict "title" "Linux" "cat" "Linux" "url" "/kategori/linux/" "tabs" true) */}}
+{{/* Seksi kategori di beranda.
+  Dulu memakai tab JS dengan panel tersembunyi: setiap panel merender ulang
+  4 kartu yang sama (20 kartu/duplikat link) dan sebagian menaut ke /topik/
+  yang noindex. Sekarang: chip tautan (hanya topik >=3 artikel) + satu grid.
+  Args: title, cat, url, tabs (bool, tampilkan chip topik). */}}
 {{ $all := sort (where site.RegularPages "Section" "posts") "Date" "desc" }}
 {{ $catPages := slice }}
 {{ range $all }}
@@ -9,35 +12,31 @@
   {{ end }}
 {{ end }}
 {{ if gt (len $catPages) 0 }}
-{{ $pfx := $.title | urlize }}
+{{/* Topik yang punya >=3 artikel = halaman yang diindeks, aman ditautkan */}}
+{{ $validTags := slice }}
+{{ with site.GetPage "tags" }}
+  {{ range .Pages }}
+    {{ if ge (len .Pages) 3 }}{{ $validTags = $validTags | append (lower .Title) }}{{ end }}
+  {{ end }}
+{{ end }}
 <div class="nrt-subblock">
   <div class="nrt-section-head"><h2>{{ $.title }}</h2><span class="nrt-head-line"></span></div>
   {{ $tagCounts := dict }}
   {{ range $catPages }}{{ range .Params.tags }}{{ $tagCounts = merge $tagCounts (dict . (add (index $tagCounts . | default 0) 1)) }}{{ end }}{{ end }}
   {{ $tmpTabs := slice }}
-  {{ range $t, $c := $tagCounts }}{{ if ne (lower $t) (lower $.cat) }}{{ $tmpTabs = $tmpTabs | append (dict "tag" $t "count" $c) }}{{ end }}{{ end }}
+  {{ range $t, $c := $tagCounts }}
+    {{ if and (ne (lower $t) (lower $.cat)) (in $validTags (lower $t)) }}{{ $tmpTabs = $tmpTabs | append (dict "tag" $t "count" $c) }}{{ end }}
+  {{ end }}
   {{ $tabs := first 5 (sort $tmpTabs "count" "desc") }}
   {{ if and $.tabs $tabs }}
-  <div class="nrt-tabs" role="tablist">
-    <button class="nrt-tab is-active" data-tab="nrt-{{ $pfx }}-all" role="tab">Semua</button>
-    {{ range $i, $t := $tabs }}
-    <button class="nrt-tab" data-tab="nrt-{{ $pfx }}-{{ $i }}" role="tab">{{ $t.tag }}</button>
+  <div class="nrt-tabs">
+    <a class="nrt-tab is-active" href="{{ $.url | relLangURL }}">Semua</a>
+    {{ range $tabs }}
+    <a class="nrt-tab" href="{{ (printf "/topik/%s/" (.tag | urlize)) | relLangURL }}">{{ .tag }}</a>
     {{ end }}
   </div>
-  <div class="nrt-tabpanel is-active" id="nrt-{{ $pfx }}-all">
-    <div class="nrt-grid">{{ range first 4 $catPages }}{{ partial "nrt-card.html" . }}{{ end }}</div>
-    <div class="nrt-more"><a href="{{ $.url | relLangURL }}">Lihat Selengkapnya</a></div>
-  </div>
-  {{ range $i, $t := $tabs }}
-  {{ $tagged := where $catPages "Params.tags" "intersect" (slice $t.tag) }}
-  <div class="nrt-tabpanel" id="nrt-{{ $pfx }}-{{ $i }}">
-    <div class="nrt-grid">{{ range first 4 $tagged }}{{ partial "nrt-card.html" . }}{{ end }}</div>
-    <div class="nrt-more"><a href="{{ (printf "/topik/%s/" ($t.tag | urlize)) | relLangURL }}">Lihat Selengkapnya</a></div>
-  </div>
   {{ end }}
-  {{ else }}
   <div class="nrt-grid">{{ range first 4 $catPages }}{{ partial "nrt-card.html" . }}{{ end }}</div>
   <div class="nrt-more"><a href="{{ $.url | relLangURL }}">Lihat Selengkapnya</a></div>
-  {{ end }}
 </div>
 {{ end }}

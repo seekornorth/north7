@@ -1,13 +1,12 @@
 {{/* Kotak "Baca juga" untuk penyisipan di tengah artikel.
   Input: dict "page" (halaman saat ini) dan "related" (daftar halaman terkait).
-  Markup menghasilkan <aside> dengan daftar link + thumbnail.
+  Markup <aside> (bukan <blockquote>) karena ini bukan kutipan; aman juga
+  secara semantik saat berada di antara section.
   Kelas styling ada di assets/css/custom.css (.nrt-readalso*).
 */}}
-{{ $page := .page }}
-{{ $related := .related }}
 {{ $title := site.Params.article.inArticleRelatedTitle | default "Baca juga" }}
-<blockquote class="nrt-readalso">
-  {{ range $related }}
+<aside class="nrt-readalso">
+  {{ range .related }}
     <p>{{ $title }}: <a href="{{ .RelPermalink }}">{{ .Title | emojify }}</a></p>
   {{ end }}
-</blockquote>
+</aside>

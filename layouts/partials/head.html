@@ -5,7 +5,6 @@
   {{ end }}
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="theme-color">
 
   {{/* Title: suffix pendek + clamp 60 karakter agar tidak terpotong di SERP */}}
   {{ $siteTitle := .Site.Title | emojify }}
@@ -18,6 +17,15 @@
     {{ $pageTitle = printf "Topik %s — Panduan, Tips & Berita · North7" (.Title | plainify | emojify) }}
   {{ else if and (eq .Kind "term") (eq .Data.Plural "categories") }}
     {{ $pageTitle = printf "Kategori %s — Artikel & Panduan · North7" (.Title | plainify | emojify) }}
+  {{ else if and (eq .Kind "term") (eq .Data.Plural "authors") }}
+    {{ $pageTitle = printf "%s — Penulis North7" (.Title | plainify | emojify) }}
+  {{ else if eq .Kind "taxonomy" }}
+    {{ $taxTitle := index (dict "tags" "Topik" "categories" "Kategori" "authors" "Penulis") (lower .Data.Plural) | default (.Title | title) }}
+    {{ $pageTitle = printf "%s North7 — Daftar Lengkap Artikel" $taxTitle }}
+  {{ else if eq .Kind "section" }}
+    {{ $pageTitle = printf "%s — North7 Media Teknologi" (.Title | plainify | emojify) }}
+  {{ else if and .IsPage (ne .Section "posts") }}
+    {{ $pageTitle = printf "%s — North7 Media Teknologi" (.Title | plainify | emojify) }}
   {{ else }}
     {{ $pageTitle = printf "%s · North7" (.Title | plainify | emojify) }}
   {{ end }}
@@ -47,10 +55,21 @@
   {{ else if eq .Kind "taxonomy" }}
     {{ $taxLabel := index (dict "tags" "topik" "categories" "kategori" "authors" "penulis") (lower .Data.Plural) | default (lower .Title) }}
     {{ $metaDescription = printf "Daftar %s North7: jelajahi topik, kategori, dan penulis di balik artikel Linux, networking, gadget, dan teknologi." $taxLabel }}
+  {{ else if and (eq .Kind "term") (eq .Data.Plural "authors") }}
+    {{ $metaDescription = printf "Profil %s, penulis North7: bio, keahlian, dan daftar artikel Linux, networking, serta teknologi yang ditulisnya." .Title }}
   {{ else }}
     {{ range $metaDescriptionOrder }}
       {{ $metaDescription = $metaDescription | default (index $metaDescriptionSources (lower .)) }}
     {{ end }}
+  {{ end }}
+  {{/* Clamp ke 160 karakter agar tidak terpotong di SERP */}}
+  {{ if gt (len ($metaDescription | plainify)) 160 }}
+    {{ $cut := substr ($metaDescription | plainify) 0 157 }}
+    {{ $words := split $cut " " }}
+    {{ if gt (len $words) 1 }}
+      {{ $cut = delimit (first (sub (len $words) 1) $words) " " }}
+    {{ end }}
+    {{ $metaDescription = printf "%s…" (strings.TrimSpace $cut) }}
   {{ end }}
   {{ with $metaDescription }}
     <meta name="description" content="{{ . | plainify }}">
@@ -60,16 +79,21 @@
   {{ end }}
   {{/* Halaman tag tipis (<3 artikel) dan halaman paginasi di-noindex, tetap di-follow */}}
   {{ $robots := .Params.robots | default .Site.Params.robots }}
+  {{ $isPaged := and (in (slice "section" "term") .Kind) (gt .Paginator.PageNumber 1) }}
   {{ if and (eq .Kind "term") (eq .Data.Plural "tags") (lt (len .Pages) 3) }}
     {{ $robots = "noindex, follow" }}
   {{ end }}
-  {{ if and (eq .Kind "term") (gt .Paginator.PageNumber 1) }}
+  {{ if $isPaged }}
     {{ $robots = "noindex, follow" }}
   {{ end }}
   {{ with $robots }}
     <meta name="robots" content="{{ . }}">
   {{ end }}
-  <link rel="canonical" href="{{ .Permalink }}">
+  {{/* Halaman paginasi memakai canonical diri sendiri, bukan canonical ke halaman 1,
+       supaya tidak ada sinyal canonical yang bertabrakan dengan noindex. */}}
+  {{ $canonical := .Permalink }}
+  {{ if $isPaged }}{{ $canonical = .Paginator.URL | absURL }}{{ end }}
+  <link rel="canonical" href="{{ $canonical }}">
   {{ if .IsTranslated }}
     {{ range .AllTranslations }}
       {{ $hreflang := .Language.Locale | default .Language.Lang }}
@@ -90,12 +114,12 @@
   {{/* Agentic Browsing & AI Standards: WebMCP, llms.txt, AI Catalog */}}
   <link rel="alternate" type="text/markdown" href="{{ "llms.txt" | relURL }}" title="LLM Knowledge Index">
   <link rel="describedby" href="{{ "llms.txt" | relURL }}">
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ "sitemap.xml" | relURL }}">
   <link rel="sitemap" type="application/xml" title="Google News Sitemap" href="{{ "news-sitemap.xml" | relURL }}">
   <link rel="ai-catalog" href="{{ ".well-known/ai-catalog.json" | relURL }}" type="application/ai-catalog+json">
   <link rel="ard" href="{{ ".well-known/ard.json" | relURL }}" type="application/json">
   <link rel="webmcp" href="{{ "webmcp.json" | relURL }}" type="application/webmcp+json">
-  <meta property="og:image:width" content="1920">
-  <meta property="og:image:height" content="1080">
+  {{/* Dimensi OG image dihitung di blok social di bawah (dari gambar asli) */}}
   <script defer src="{{ "js/webmcp.js" | relURL }}"></script>
   <script type="application/webmcp+json">
   {
@@ -134,38 +158,70 @@
   {{ with .Site.Params.Author.links }}
     {{ range $links := . }}
       {{ range $name, $url := $links }}
-        {{ if not (strings.HasPrefix $url "mailto:") }}
+        {{ if and $url (ne $url "#") (not (strings.HasPrefix $url "mailto:")) }}
           <link href="{{ $url }}" rel="me">
         {{ end }}
       {{ end }}
     {{ end }}
   {{ end }}
 
-  {{/* Social */}}
-  {{ template "_internal/opengraph.html" . }}
-  {{ template "_internal/twitter_cards.html" . }}
-  {{/* Use defaultSocialImage if feature image does not exist */}}
-  {{ $featureImage := "" }}
+  {{/* Social: Open Graph + Twitter Card.
+    Ditulis manual (bukan template internal) supaya og:title & og:description
+    sama persis dengan <title> dan meta description yang sudah di-clamp,
+    dan supaya og:image memakai gambar 1200x630 yang ringan. */}}
+  {{ $socialRes := "" }}
   {{ $pageImages := .Resources.ByType "image" }}
   {{ range slice "*featured*" "*cover*" "*thumbnail*" }}
-    {{ if not $featureImage }}
-      {{ $featureImage = $pageImages.GetMatch . }}
-    {{ end }}
+    {{ if not $socialRes }}{{ $socialRes = $pageImages.GetMatch . }}{{ end }}
   {{ end }}
-  {{ if not $featureImage }}
+  {{ if not $socialRes }}
     {{ with .Site.Params.defaultSocialImage }}
-      {{ $socialImage := "" }}
       {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
-        {{ $socialImage = resources.GetRemote . }}
+        {{ with resources.GetRemote . }}{{ $socialRes = . }}{{ end }}
       {{ else }}
-        {{ $socialImage = resources.Get . }}
-      {{ end }}
-      {{ with $socialImage }}
-        <meta name="twitter:image" content="{{ .RelPermalink | absURL }}">
-        <meta property="og:image" content="{{ .RelPermalink | absURL }}">
+        {{ with resources.Get . }}{{ $socialRes = . }}{{ end }}
       {{ end }}
     {{ end }}
   {{ end }}
+  {{ if not $socialRes }}{{ with resources.Get "img/logo.png" }}{{ $socialRes = . }}{{ end }}{{ end }}
+  {{ $socialURL := "" }}{{ $socialW := 0 }}{{ $socialH := 0 }}
+  {{ with $socialRes }}
+    {{ $res := . }}
+    {{/* Crop ke 1200x630 (rasio standar OG) dan kompres ke JPG agar ringan.
+       SVG dan gambar kecil dibiarkan apa adanya. */}}
+    {{ if and (ne .MediaType.SubType "svg") (ge .Width 1200) }}
+      {{ with try (.Fill "1200x630 Center q85 jpg") }}{{ with .Value }}{{ $res = . }}{{ end }}{{ end }}
+    {{ end }}
+    {{ $socialURL = $res.Permalink }}
+    {{ $socialW = $res.Width }}
+    {{ $socialH = $res.Height }}
+  {{ end }}
+  {{ $ogType := cond (and .IsPage (eq .Section "posts")) "article" "website" }}
+  {{/* og:title pakai judul asli artikel (tanpa clamp) karena tidak dipotong di timeline */}}
+  {{ $ogTitle := $pageTitle }}
+  {{ if eq .Section "posts" }}{{ $ogTitle = .Title | plainify | emojify }}{{ end }}
+  <meta property="og:url" content="{{ $canonical }}">
+  <meta property="og:site_name" content="{{ $siteTitle }}">
+  <meta property="og:title" content="{{ $ogTitle }}">
+  {{ with $metaDescription }}<meta property="og:description" content="{{ . | plainify }}">{{ end }}
+  <meta property="og:locale" content="id_ID">
+  <meta property="og:type" content="{{ $ogType }}">
+  {{ if eq $ogType "article" }}
+    {{ with .PublishDate }}<meta property="article:published_time" content="{{ .Format "2006-01-02T15:04:05-07:00" }}">{{ end }}
+    {{ with .Lastmod }}<meta property="article:modified_time" content="{{ .Format "2006-01-02T15:04:05-07:00" }}">{{ end }}
+    {{ with .Params.categories }}{{ range first 1 . }}<meta property="article:section" content="{{ . }}">{{ end }}{{ end }}
+    {{ with .Params.tags }}{{ range . }}<meta property="article:tag" content="{{ . }}">{{ end }}{{ end }}
+  {{ end }}
+  {{ with $socialURL }}
+  <meta property="og:image" content="{{ . }}">
+  <meta property="og:image:width" content="{{ $socialW }}">
+  <meta property="og:image:height" content="{{ $socialH }}">
+  <meta property="og:image:alt" content="{{ $ogTitle }}">
+  {{ end }}
+  <meta name="twitter:card" content="{{ if and $socialW (gt $socialW $socialH) }}summary_large_image{{ else }}summary{{ end }}">
+  <meta name="twitter:title" content="{{ $ogTitle }}">
+  {{ with $metaDescription }}<meta name="twitter:description" content="{{ . | plainify }}">{{ end }}
+  {{ with $socialURL }}<meta name="twitter:image" content="{{ . }}">{{ end }}
 
   {{/* Site Verification */}}
   {{ with .Site.Params.verification.google }}
