@@ -2,18 +2,24 @@
 <div class="nrt-wrap">
 
   {{ $taxTitle := index (dict "categories" "Kategori" "tags" "Topik" "authors" "Penulis") (lower .Title) | default .Title }}
+  {{/* Hanya tampilkan tag yang punya >=3 artikel; tag tipis sudah di-noindex dan tidak perlu ditautkan */}}
+  {{ $plural := .Data.Plural }}
+  {{ $terms := slice }}
+  {{ range .Pages }}
+    {{ if or (ne $plural "tags") (ge (len .Pages) 3) }}{{ $terms = $terms | append . }}{{ end }}
+  {{ end }}
   <div class="nrt-page-head">
     <div class="nrt-crumb">
       <a href="{{ "/" | relLangURL }}">Beranda</a><span>/</span><em>{{ $taxTitle }}</em>
     </div>
     <h1>{{ $taxTitle }}</h1>
-    <p>{{ len .Pages }} topik</p>
+    <p>{{ len $terms }} topik</p>
   </div>
 
   <div class="nrt-layout">
     <div class="nrt-main">
       <div class="nrt-grid">
-        {{ range .Pages }}
+        {{ range $terms }}
         <a class="nrt-term-card" href="{{ .RelPermalink }}">
           <strong>{{ .Title }}</strong>
           <span>{{ len .Pages }} artikel</span>

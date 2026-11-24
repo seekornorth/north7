@@ -7,17 +7,30 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="theme-color">
 
-  {{/* Title (metaTitle frontmatter menimpa judul tab browser) */}}
+  {{/* Title: suffix pendek + clamp 60 karakter agar tidak terpotong di SERP */}}
+  {{ $siteTitle := .Site.Title | emojify }}
+  {{ $pageTitle := "" }}
   {{ if .IsHome }}
-    <title>{{ .Site.Title | emojify }}</title>
-    <meta name="title" content="{{ .Site.Title | emojify }}">
+    {{ $pageTitle = $siteTitle }}
   {{ else if .Params.metaTitle }}
-    <title>{{ .Params.metaTitle }}</title>
-    <meta name="title" content="{{ .Params.metaTitle }}">
+    {{ $pageTitle = .Params.metaTitle }}
+  {{ else if and (eq .Kind "term") (eq .Data.Plural "tags") }}
+    {{ $pageTitle = printf "Topik %s · North7" (.Title | plainify | emojify) }}
+  {{ else if and (eq .Kind "term") (eq .Data.Plural "categories") }}
+    {{ $pageTitle = printf "Kategori %s · North7" (.Title | plainify | emojify) }}
   {{ else }}
-    <title>{{ .Title | plainify | emojify }} &middot; {{ .Site.Title | emojify }}</title>
-    <meta name="title" content="{{ .Title | plainify | emojify }} &middot; {{ .Site.Title | emojify }}">
+    {{ $pageTitle = printf "%s · North7" (.Title | plainify | emojify) }}
   {{ end }}
+  {{ if gt (len $pageTitle) 60 }}
+    {{ $cut := substr $pageTitle 0 57 }}
+    {{ $words := split $cut " " }}
+    {{ if gt (len $words) 1 }}
+      {{ $cut = delimit (first (sub (len $words) 1) $words) " " }}
+    {{ end }}
+    {{ $pageTitle = printf "%s…" (strings.TrimSpace $cut) }}
+  {{ end }}
+  <title>{{ $pageTitle }}</title>
+  <meta name="title" content="{{ $pageTitle }}">
 
   {{/* Metadata */}}
   {{ $metaDescriptionOrder := .Site.Params.seo.metaDescriptionOrder | default (slice "summary" "description" "site") }}
@@ -27,8 +40,17 @@
     "site" .Site.Params.description
   }}
   {{ $metaDescription := "" }}
-  {{ range $metaDescriptionOrder }}
-    {{ $metaDescription = $metaDescription | default (index $metaDescriptionSources (lower .)) }}
+  {{ if and (eq .Kind "term") (eq .Data.Plural "tags") }}
+    {{ $metaDescription = printf "Kumpulan %d artikel North7 seputar %s: panduan, tips, tutorial, dan berita terbaru yang ditulis tim redaksi." (len .Pages) .Title }}
+  {{ else if and (eq .Kind "term") (eq .Data.Plural "categories") }}
+    {{ $metaDescription = printf "Semua artikel North7 di kategori %s: %d tulisan seputar Linux, networking, gadget, dan teknologi dari hal sederhana sampai yang bikin penasaran." .Title (len .Pages) }}
+  {{ else if eq .Kind "taxonomy" }}
+    {{ $taxLabel := index (dict "tags" "topik" "categories" "kategori" "authors" "penulis") (lower .Data.Plural) | default (lower .Title) }}
+    {{ $metaDescription = printf "Daftar %s North7: jelajahi topik, kategori, dan penulis di balik artikel Linux, networking, gadget, dan teknologi." $taxLabel }}
+  {{ else }}
+    {{ range $metaDescriptionOrder }}
+      {{ $metaDescription = $metaDescription | default (index $metaDescriptionSources (lower .)) }}
+    {{ end }}
   {{ end }}
   {{ with $metaDescription }}
     <meta name="description" content="{{ . | plainify }}">
@@ -36,7 +58,14 @@
   {{ with  .Params.Tags | default .Site.Params.keywords }}
     <meta name="keywords" content="{{ range . }}{{ . }},{{ end }}">
   {{ end }}
+  {{/* Halaman tag tipis (<3 artikel) dan halaman paginasi di-noindex, tetap di-follow */}}
   {{ $robots := .Params.robots | default .Site.Params.robots }}
+  {{ if and (eq .Kind "term") (eq .Data.Plural "tags") (lt (len .Pages) 3) }}
+    {{ $robots = "noindex, follow" }}
+  {{ end }}
+  {{ if and (eq .Kind "term") (gt .Paginator.PageNumber 1) }}
+    {{ $robots = "noindex, follow" }}
+  {{ end }}
   {{ with $robots }}
     <meta name="robots" content="{{ . }}">
   {{ end }}

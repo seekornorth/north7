@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml"
   xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-{{ range .Data.Pages }}{{ if and (not .Sitemap.Disable) (not (in .Site.Params.sitemap.excludedKinds .Kind)) }}{{ if and (.Param "xml" | default true) (or (not .Params.externalUrl) (and (.Params.externalUrl) (and (not (hasPrefix .Params.externalUrl "http://")) (not (hasPrefix .Params.externalUrl "https://"))))) (not .Params.excludeFromSearch) }}
+{{ range .Data.Pages }}{{ $thinTag := and (eq .Kind "term") (lt (len .Pages) 3) (in .Permalink "/topik/") }}{{ if and (not $thinTag) (not .Sitemap.Disable) (not (in .Site.Params.sitemap.excludedKinds .Kind)) }}{{ if and (.Param "xml" | default true) (or (not .Params.externalUrl) (and (.Params.externalUrl) (and (not (hasPrefix .Params.externalUrl "http://")) (not (hasPrefix .Params.externalUrl "https://"))))) (not .Params.excludeFromSearch) }}
 {{- if .Permalink -}}
   {{- $link := .Permalink -}}
   {{- if .Params.externalUrl -}}

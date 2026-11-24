@@ -28,11 +28,16 @@
   {{ if eq $res.MediaType.SubType "svg" }}
     {{ $url = $res.RelPermalink }}
   {{ else }}
+    {{/* Dimensi asli sebagai fallback agar atribut width/height selalu ada */}}
+    {{ $iw = $res.Width }}
+    {{ $ih = $res.Height }}
     {{ with try ($res.Resize (printf "%dx webp q75" $w)) }}
       {{ with .Value }}
         {{ $url = .RelPermalink }}
         {{ $iw = .Width }}
         {{ $ih = .Height }}
+      {{ else }}
+        {{ $url = $res.RelPermalink }}
       {{ end }}
     {{ else }}
       {{ $url = $res.RelPermalink }}

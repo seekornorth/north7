@@ -11,6 +11,14 @@
     </div>
     <h1>{{ with .Params.metaTitle }}{{ . }}{{ else }}{{ $.Title }}{{ end }}</h1>
     <p>{{ len .Pages }} artikel</p>
+    {{ if and (not $isAuthor) (gt (len .Pages) 0) }}
+      {{ $cats := slice }}
+      {{ range .Pages }}{{ range .Params.categories }}{{ $cats = $cats | append . }}{{ end }}{{ end }}
+      {{ $cats = $cats | uniq }}
+      {{ $catText := "" }}
+      {{ with $cats }}{{ $catText = delimit . ", " }}{{ end }}
+      <p class="nrt-term-intro">Kumpulan artikel North7 bertema <strong>{{ .Title }}</strong> — {{ len .Pages }} tulisan pilihan{{ with $catText }} dari kategori {{ . }}{{ end }}. Isinya mulai dari panduan langkah demi langkah, tips praktis, sampai berita terbaru, semuanya ditulis dan ditinjau tim redaksi North7.</p>
+    {{ end }}
   </div>
 
   {{/* Profil penulis di halaman author */}}

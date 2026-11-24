@@ -6,7 +6,7 @@
   <!-- Profil mini -->
   <div class="nrt-widget">
     <div class="nrt-profile">
-      {{ with resources.Get "img/logo.png" }}<img class="nozoom" src="{{ .RelPermalink }}" alt="North7" loading="lazy" decoding="async" />{{ end }}
+      {{ with resources.Get "img/logo.png" }}<img class="nozoom" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="North7" loading="lazy" decoding="async" />{{ end }}
       <div>
         <strong>North7</strong>
         <p>{{ site.Params.description }}</p>
@@ -32,9 +32,9 @@
       {{ range $topGuides }}
       <a class="nrt-side-post" href="{{ .RelPermalink }}">
         {{ with .Resources.GetMatch "cover*" }}
-          <img src="{{ .RelPermalink }}" alt="{{ $.Title }}" loading="lazy" decoding="async" />
+          <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ $.Title }}" loading="lazy" decoding="async" />
         {{ else }}
-          {{ with resources.Get "img/logo.png" }}<img src="{{ .RelPermalink }}" alt="North7" loading="lazy" />{{ end }}
+          {{ with resources.Get "img/logo.png" }}<img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="North7" loading="lazy" />{{ end }}
         {{ end }}
         <span class="nrt-side-post-title">{{ .Title }}</span>
       </a>

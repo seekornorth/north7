@@ -21,16 +21,10 @@
   url = "/kategori/teknologi/"
   weight = 40
 
-[[main]]
-  name = "Ulasan"
-  url = "/kategori/ulasan/"
-  weight = 50
-
-
 # -- Footer Menu --
 
 
   [[footer]]
-    name = "Tags"
+    name = "Topik"
     pageRef = "tags"
     weight = 10
