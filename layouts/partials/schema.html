@@ -1,27 +1,50 @@
-{{ if .IsHome -}}  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "@id": {{ site.Home.Permalink | safeURL }},
-    "name": "{{ .Site.Title | safeJS }}",
-    {{ with .Site.Params.description }}"description": "{{ . | safeJS }}",{{ end }}
-    {{ with .Site.Language.Locale }}"inLanguage": "{{ . }}",{{ end }}
-    "url": {{ site.Home.Permalink | safeURL }},
-    {{ with .Site.Params.keywords }}"keywords": {{ . }},{{ end }}
-    "publisher" : {
-      "@type": "Organization",
-      "name": "North7",
-      "url": {{ site.Home.Permalink }}
-      {{ with resources.Get "img/logo.png" }},
-      "logo": {
-        "@type": "ImageObject",
-        "url": {{ .Permalink }}
-      }{{ end }}
-    }
-  }
+{{- /* Schema JSON-LD North7 — satu @graph per jenis halaman.
+  Semua entitas memakai @id yang konsisten:
+    <home>#website, <home>#organization, <home>#logo,
+    <permalink>#webpage, <permalink>#article, <permalink>#breadcrumb, <permalink>#itemlist
+  Halaman tag/kategori/taxonomy TIDAK boleh memakai BlogPosting (dulu jadi
+  articleSection "Tags", wordCount 0, author "North7"). Sekarang CollectionPage + ItemList.
+*/ -}}
+{{- $home := site.Home.Permalink -}}
+{{- $orgID := printf "%s#organization" $home -}}
+{{- $webID := printf "%s#website" $home -}}
+{{- $lang := .Site.Language.Locale | default "id-ID" -}}
+{{- $iso := "2006-01-02T15:04:05-07:00" -}}
+{{- $logoURL := "" -}}
+{{- $logoW := 0 -}}
+{{- $logoH := 0 -}}
+{{- with resources.Get "img/logo.png" -}}
+  {{- $logoURL = .Permalink -}}
+  {{- $logoW = .Width -}}
+  {{- $logoH = .Height -}}
+{{- end -}}
+{{- $logoNode := dict "@type" "ImageObject" "@id" (printf "%s#logo" $home) "url" $logoURL "width" $logoW "height" $logoH -}}
+{{- $orgNode := dict "@type" "Organization" "@id" $orgID "name" "North7" "url" $home "logo" $logoNode -}}
+
+{{ if .IsHome -}}
+  {{- $website := dict
+    "@type" "WebSite"
+    "@id" $webID
+    "url" $home
+    "name" site.Title
+    "description" site.Params.description
+    "inLanguage" $lang
+    "publisher" (dict "@id" $orgID)
+  -}}
+  {{- $webpage := dict
+    "@type" "WebPage"
+    "@id" (printf "%s#webpage" $home)
+    "url" $home
+    "name" site.Title
+    "description" site.Params.description
+    "isPartOf" (dict "@id" $webID)
+    "about" (dict "@id" $orgID)
+    "inLanguage" $lang
+  -}}
+  <script type="application/ld+json">
+  {{ dict "@context" "https://schema.org" "@graph" (slice $website $orgNode $webpage) | jsonify | safeJS }}
   </script>
 {{ else if and .IsPage (or (eq (lower (.Params.schema | default "")) "tech") (eq (lower (.Params.schema | default "")) "howto") (eq (lower (.Params.schema | default "")) "how-to")) }}
-  {{- $iso8601 := "2006-01-02T15:04:05-07:00" -}}
   {{- $techAuthor := .Site.Params.Author -}}
   {{- $techAuthorID := "" -}}
   {{- with .Params.authors -}}
@@ -35,7 +58,7 @@
     {{- with site.GetPage (printf "authors/%s" .) -}}{{- $techAuthorPage = .Permalink -}}{{- end -}}
   {{- end -}}
   {{- $techCat := "" -}}
-  {{- with index .Params.categories 0 -}}{{ $techCat = . }}{{- end -}}
+  {{- with .Params.categories -}}{{ $techCat = index . 0 }}{{- end -}}
   {{- $techCatPage := "" -}}
   {{- with $techCat -}}
     {{- with site.GetPage (printf "categories/%s" (lower .)) -}}{{- $techCatPage = .Permalink -}}{{- end -}}
@@ -67,6 +90,7 @@
   {{- $techLogo := "" -}}
   {{- with resources.Get "img/logo.png" -}}{{- $techLogo = .Permalink -}}{{- end -}}
   {{- $techDesc := .Description | default (.Summary | plainify) -}}
+  {{- $techKw := union (.Params.tags | default slice) (.Params.keywords | default slice) -}}
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -104,7 +128,7 @@
           {{- $techSameAs := slice -}}
           {{- range (or $techAuthor.social $techAuthor.links) -}}
             {{- range $platform, $url := . -}}
-              {{- if not (strings.HasPrefix $url "mailto:") -}}
+              {{- if and $url (ne $url "#") (not (strings.HasPrefix $url "mailto:")) -}}
                 {{- $techSameAs = $techSameAs | append $url -}}
               {{- end -}}
             {{- end -}}
@@ -121,15 +145,13 @@
             "url": {{ $techLogo }}
           }
         },
-        {{ with .PublishDate }}"datePublished": "{{ .Format $iso8601 }}",{{ end }}
-        {{ with .Lastmod }}"dateModified": "{{ .Format $iso8601 }}",{{ end }}
+        {{ with .PublishDate }}"datePublished": "{{ .Format $iso }}",{{ end }}
+        {{ with .Lastmod }}"dateModified": "{{ .Format $iso }}",{{ end }}
         "articleSection": "{{ $techCat | safeJS }}",
         {{ with .Site.Language.Locale }}"inLanguage": "{{ . }}",{{ end }}
-        {{ if .Keywords }}
-        {{ with .Keywords }}"keywords": {{ . }},{{ end }}
-        {{ else }}
-        {{ with .Params.tags }}"keywords": {{ . }},{{ end }}
-        {{ end }}
+        {{- with $techKw }}
+        "keywords": {{ . | jsonify | safeJS }},
+        {{- end }}
         {{ with .Params.about }}"about": {{ . }},{{ end }}
         {{- if $isHowTo -}}
           {{- if .Params.steps -}}
@@ -217,8 +239,7 @@
     ]
   }
   </script>
-{{ else if and (eq .Data.Plural "authors") (ne .Data.Term "") }}
-  {{- $iso8601 := "2006-01-02T15:04:05-07:00" -}}
+{{ else if and (eq .Kind "term") (eq .Data.Plural "authors") }}
   {{- $authorSlug := .Data.Term | lower -}}
   {{- $authorData := index hugo.Data.authors $authorSlug -}}
   {{- $authorName := .Title -}}
@@ -232,7 +253,7 @@
   {{- with $authorData.social -}}
     {{- range . -}}
       {{- range $platform, $url := . -}}
-        {{- if not (strings.HasPrefix $url "mailto:") -}}
+        {{- if and $url (ne $url "#") (not (strings.HasPrefix $url "mailto:")) -}}
           {{- $sameAs = $sameAs | append $url -}}
         {{- end -}}
       {{- end -}}
@@ -311,144 +332,264 @@
     ]
   }
   </script>
-{{ else }}
-  {{- $iso8601 := "2006-01-02T15:04:05-07:00" -}}
-  {{- $author := .Site.Params.Author -}}
+{{ else if eq .Kind "term" }}
+  {{- $isTag := eq .Data.Plural "tags" -}}
+  {{- $termTitle := .Title | plainify -}}
+  {{- $taxLabel := cond $isTag "Topik" "Kategori" -}}
+  {{- $taxURL := cond $isTag (printf "%stopik/" $home) (printf "%skategori/" $home) -}}
+  {{- $desc := .Params.description -}}
+  {{- if not $desc -}}
+    {{- if $isTag -}}
+      {{- $desc = printf "Kumpulan %d artikel North7 seputar %s: panduan, tips, tutorial, dan berita terbaru dari tim redaksi." (len .Pages) $termTitle -}}
+    {{- else -}}
+      {{- $desc = printf "Semua artikel North7 di kategori %s: %d tulisan seputar Linux, networking, gadget, dan teknologi." $termTitle (len .Pages) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $items := slice -}}
+  {{- range $i, $p := first 20 .Pages -}}
+    {{- $items = $items | append (dict "@type" "ListItem" "position" (add $i 1) "url" $p.Permalink "name" $p.Title) -}}
+  {{- end -}}
+  {{- $listID := printf "%s#itemlist" .Permalink -}}
+  {{- $crumbID := printf "%s#breadcrumb" .Permalink -}}
+  {{- $list := dict "@type" "ItemList" "@id" $listID "name" $termTitle "numberOfItems" (len .Pages) "itemListOrder" "https://schema.org/ItemListOrderDescending" "itemListElement" $items -}}
+  {{- $pageNode := dict
+    "@type" "CollectionPage"
+    "@id" (printf "%s#webpage" .Permalink)
+    "url" .Permalink
+    "name" $termTitle
+    "description" $desc
+    "inLanguage" $lang
+    "isPartOf" (dict "@id" $webID)
+    "mainEntity" (dict "@id" $listID)
+    "breadcrumb" (dict "@id" $crumbID)
+  -}}
+  {{- $crumb := dict
+    "@type" "BreadcrumbList"
+    "@id" $crumbID
+    "itemListElement" (slice
+      (dict "@type" "ListItem" "position" 1 "name" "Beranda" "item" $home)
+      (dict "@type" "ListItem" "position" 2 "name" $taxLabel "item" $taxURL)
+      (dict "@type" "ListItem" "position" 3 "name" $termTitle "item" .Permalink)
+    )
+  -}}
+  <script type="application/ld+json">
+  {{ dict "@context" "https://schema.org" "@graph" (slice $pageNode $list $crumb) | jsonify | safeJS }}
+  </script>
+{{ else if eq .Kind "taxonomy" }}
+  {{- $plural := .Data.Plural -}}
+  {{- $label := index (dict "tags" "Topik" "categories" "Kategori" "authors" "Penulis") $plural | default (.Title | title) -}}
+  {{- $terms := slice -}}
+  {{- range .Pages -}}
+    {{- if or (ne $plural "tags") (ge (len .Pages) 3) -}}
+      {{- $terms = $terms | append . -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $items := slice -}}
+  {{- range $i, $t := $terms -}}
+    {{- $items = $items | append (dict "@type" "ListItem" "position" (add $i 1) "url" $t.Permalink "name" $t.Title) -}}
+  {{- end -}}
+  {{- $listID := printf "%s#itemlist" .Permalink -}}
+  {{- $crumbID := printf "%s#breadcrumb" .Permalink -}}
+  {{- $desc := printf "Daftar %s North7: jelajahi topik, kategori, dan penulis di balik artikel Linux, networking, gadget, dan teknologi." (lower $label) -}}
+  {{- $list := dict "@type" "ItemList" "@id" $listID "name" $label "numberOfItems" (len $terms) "itemListElement" $items -}}
+  {{- $pageNode := dict
+    "@type" "CollectionPage"
+    "@id" (printf "%s#webpage" .Permalink)
+    "url" .Permalink
+    "name" $label
+    "description" $desc
+    "inLanguage" $lang
+    "isPartOf" (dict "@id" $webID)
+    "mainEntity" (dict "@id" $listID)
+    "breadcrumb" (dict "@id" $crumbID)
+  -}}
+  {{- $crumb := dict
+    "@type" "BreadcrumbList"
+    "@id" $crumbID
+    "itemListElement" (slice
+      (dict "@type" "ListItem" "position" 1 "name" "Beranda" "item" $home)
+      (dict "@type" "ListItem" "position" 2 "name" $label "item" .Permalink)
+    )
+  -}}
+  <script type="application/ld+json">
+  {{ dict "@context" "https://schema.org" "@graph" (slice $pageNode $list $crumb) | jsonify | safeJS }}
+  </script>
+{{ else if eq .Kind "section" }}
+  {{- $items := slice -}}
+  {{- range $i, $p := first 30 .Pages -}}
+    {{- $items = $items | append (dict "@type" "ListItem" "position" (add $i 1) "url" $p.Permalink "name" $p.Title) -}}
+  {{- end -}}
+  {{- $listID := printf "%s#itemlist" .Permalink -}}
+  {{- $crumbID := printf "%s#breadcrumb" .Permalink -}}
+  {{- $desc := printf "Arsip %d artikel North7: panduan Linux, networking, gadget, dan berita teknologi terbaru." (len .Pages) -}}
+  {{- $list := dict "@type" "ItemList" "@id" $listID "name" .Title "numberOfItems" (len .Pages) "itemListElement" $items -}}
+  {{- $pageNode := dict
+    "@type" "CollectionPage"
+    "@id" (printf "%s#webpage" .Permalink)
+    "url" .Permalink
+    "name" .Title
+    "description" $desc
+    "inLanguage" $lang
+    "isPartOf" (dict "@id" $webID)
+    "mainEntity" (dict "@id" $listID)
+    "breadcrumb" (dict "@id" $crumbID)
+  -}}
+  {{- $crumb := dict
+    "@type" "BreadcrumbList"
+    "@id" $crumbID
+    "itemListElement" (slice
+      (dict "@type" "ListItem" "position" 1 "name" "Beranda" "item" $home)
+      (dict "@type" "ListItem" "position" 2 "name" .Title "item" .Permalink)
+    )
+  -}}
+  <script type="application/ld+json">
+  {{ dict "@context" "https://schema.org" "@graph" (slice $pageNode $list $crumb) | jsonify | safeJS }}
+  </script>
+{{ else if and .IsPage (eq .Section "posts") }}
+  {{- $author := site.Params.Author -}}
+  {{- $authorID := "" -}}
   {{- with .Params.authors -}}
-    {{- with index hugo.Data.authors (index . 0 | lower) -}}
-      {{- $author = . -}}
+    {{- $slug := index . 0 | lower -}}
+    {{- with index hugo.Data.authors $slug -}}{{- $author = . -}}{{- end -}}
+    {{- with site.GetPage (printf "authors/%s" $slug) -}}{{- $authorID = .Permalink -}}{{- end -}}
+  {{- end -}}
+  {{- $authorImg := "" -}}
+  {{- with $author.image -}}
+    {{- if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") -}}
+      {{- $authorImg = . -}}
+    {{- else -}}
+      {{- with resources.Get . -}}{{- $authorImg = .Permalink -}}{{- end -}}
+      {{- if not $authorImg -}}{{- $authorImg = . | absURL -}}{{- end -}}
     {{- end -}}
   {{- end -}}
   {{- $sameAs := slice -}}
   {{- range (or $author.social $author.links) -}}
     {{- range $platform, $url := . -}}
-      {{- if not (strings.HasPrefix $url "mailto:") -}}
+      {{- if and $url (ne $url "#") (not (strings.HasPrefix $url "mailto:")) -}}
         {{- $sameAs = $sameAs | append $url -}}
       {{- end -}}
     {{- end -}}
   {{- end -}}
-  {{- /* Gambar utama: feature image, lalu cover/thumbnail, lalu gambar sosial default. */ -}}
-  {{- $schemaImage := "" -}}
+  {{- $authorNode := dict "@type" "Person" "name" ($author.name | default "North7") -}}
+  {{- with $authorID -}}{{- $authorNode = merge $authorNode (dict "@id" (printf "%sperson" .) "url" .) -}}{{- end -}}
+  {{- with $author.jobTitle -}}{{- $authorNode = merge $authorNode (dict "jobTitle" .) -}}{{- end -}}
+  {{- with $author.bio -}}{{- $authorNode = merge $authorNode (dict "description" .) -}}{{- end -}}
+  {{- with $authorImg -}}{{- $authorNode = merge $authorNode (dict "image" .) -}}{{- end -}}
+  {{- with $sameAs -}}{{- $authorNode = merge $authorNode (dict "sameAs" .) -}}{{- end -}}
+  {{- $imgURL := "" -}}
+  {{- $imgW := 0 -}}
+  {{- $imgH := 0 -}}
   {{- with partial "functions/feature-image.html" . -}}
     {{- if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") -}}
-      {{- $schemaImage = . -}}
+      {{- $imgURL = . -}}
     {{- else -}}
-      {{- with $.Resources.Get . -}}{{- $schemaImage = .Permalink -}}{{- end -}}
-      {{- if not $schemaImage -}}
-        {{- with resources.Get . -}}{{- $schemaImage = .Permalink -}}{{- end -}}
+      {{- with $.Resources.Get . -}}{{- $imgURL = .Permalink -}}{{- $imgW = .Width -}}{{- $imgH = .Height -}}{{- end -}}
+      {{- if not $imgURL -}}
+        {{- with resources.Get . -}}{{- $imgURL = .Permalink -}}{{- $imgW = .Width -}}{{- $imgH = .Height -}}{{- end -}}
       {{- end -}}
     {{- end -}}
   {{- end -}}
-  {{- if not $schemaImage -}}
+  {{- if not $imgURL -}}
     {{- $pageImages := .Resources.ByType "image" -}}
     {{- range slice "*feature*" "*cover*" "*thumbnail*" -}}
-      {{- if not $schemaImage -}}
-        {{- with $pageImages.GetMatch . -}}{{- $schemaImage = .Permalink -}}{{- end -}}
+      {{- if not $imgURL -}}
+        {{- with $pageImages.GetMatch . -}}{{- $imgURL = .Permalink -}}{{- $imgW = .Width -}}{{- $imgH = .Height -}}{{- end -}}
       {{- end -}}
     {{- end -}}
   {{- end -}}
-  {{- if not $schemaImage -}}
-    {{- with site.Params.defaultSocialImage -}}
-      {{- with resources.Get . -}}{{- $schemaImage = .Permalink -}}{{- end -}}
-    {{- end -}}
+  {{- if not $imgURL -}}{{- $imgURL = $logoURL -}}{{- $imgW = $logoW -}}{{- $imgH = $logoH -}}{{- end -}}
+  {{- $imageNode := dict "@type" "ImageObject" "@id" (printf "%s#image" .Permalink) "url" $imgURL -}}
+  {{- if gt $imgW 0 -}}{{- $imageNode = merge $imageNode (dict "width" $imgW "height" $imgH) -}}{{- end -}}
+  {{- $type := cond (eq (lower (.Params.schema | default "")) "news") "NewsArticle" "BlogPosting" -}}
+  {{- $desc := .Description | default (.Summary | plainify) | default site.Params.description -}}
+  {{- $section := "Artikel" -}}
+  {{- with .Params.categories -}}{{- $section = index . 0 -}}{{- end -}}
+  {{- $kw := union (.Params.tags | default slice) (.Params.keywords | default slice) -}}
+  {{- $articleID := printf "%s#article" .Permalink -}}
+  {{- $webpageID := printf "%s#webpage" .Permalink -}}
+  {{- $crumbID := printf "%s#breadcrumb" .Permalink -}}
+  {{- $crumbs := slice (dict "@type" "ListItem" "position" 1 "name" "Beranda" "item" $home) -}}
+  {{- $pos := 1 -}}
+  {{- with .Params.categories -}}
+    {{- $cat := index . 0 -}}
+    {{- $pos = add $pos 1 -}}
+    {{- $crumbs = $crumbs | append (dict "@type" "ListItem" "position" $pos "name" $cat "item" (printf "%skategori/%s/" $home ((replace $cat "/" "-") | urlize))) -}}
   {{- end -}}
+  {{- with .Params.tags -}}
+    {{- $tag := index . 0 -}}
+    {{- $pos = add $pos 1 -}}
+    {{- $crumbs = $crumbs | append (dict "@type" "ListItem" "position" $pos "name" $tag "item" (printf "%stopik/%s/" $home ($tag | urlize))) -}}
+  {{- end -}}
+  {{- $pos = add $pos 1 -}}
+  {{- $crumbs = $crumbs | append (dict "@type" "ListItem" "position" $pos "name" .Title "item" .Permalink) -}}
+  {{- $article := dict
+    "@type" $type
+    "@id" $articleID
+    "isPartOf" (dict "@id" $webID)
+    "mainEntityOfPage" (dict "@id" $webpageID)
+    "url" .Permalink
+    "headline" .Title
+    "name" .Title
+    "description" $desc
+    "articleSection" $section
+    "inLanguage" $lang
+    "image" $imageNode
+    "author" $authorNode
+    "publisher" $orgNode
+    "datePublished" (.PublishDate.Format $iso)
+    "dateModified" (.Lastmod.Format $iso)
+    "keywords" $kw
+    "wordCount" .WordCount
+    "breadcrumb" (dict "@id" $crumbID)
+  -}}
+  {{- $webpage := dict
+    "@type" "WebPage"
+    "@id" $webpageID
+    "url" .Permalink
+    "name" .Title
+    "isPartOf" (dict "@id" $webID)
+    "inLanguage" $lang
+    "primaryImageOfPage" (dict "@id" (printf "%s#image" .Permalink))
+  -}}
+  {{- $crumb := dict "@type" "BreadcrumbList" "@id" $crumbID "itemListElement" $crumbs -}}
   <script type="application/ld+json">
-  [{
-    "@context": "https://schema.org",
-    {{ if eq (lower (.Params.schema | default "")) "news" }}"@type": "NewsArticle",{{ else }}"@type": "BlogPosting",{{ end }}
-    "articleSection": "{{ with index .Params.categories 0 }}{{ . | safeJS }}{{ else }}{{ (site.GetPage .Section).Title | safeJS }}{{ end }}",
-    "name": "{{ .Title | safeJS }}",
-    "headline": "{{ .Title | safeJS }}",
-    {{ with .Description }}"description": "{{ . | safeJS }}",
-    {{ else }}{{ with .Summary }}"description": "{{ . | plainify | safeJS }}",{{ end }}{{ end }}
-    {{ with $schemaImage }}"image": [{{ . }}],{{ end }}
-    {{ with .Site.Language.Locale }}"inLanguage": "{{ . }}",{{ end }}
-    "url" : {{ .Permalink }},
-    "author" : {
-      "@type": "Person",
-      {{- $authorURL := "" -}}
-      {{- with .Params.authors -}}
-        {{- with site.GetPage (printf "authors/%s" (index . 0 | lower)) -}}
-          {{- $authorURL = .Permalink -}}
-        {{- end -}}
-      {{- end -}}
-      {{ with $authorURL }}"@id": {{ printf "%sperson" . }},
-      "url": {{ . }},{{ end }}
-      "name": "{{ $author.name | safeJS }}",
-      {{ with $author.jobTitle }}"jobTitle": "{{ . | safeJS }}",{{ end }}
-      {{ with $author.bio }}"description": "{{ . | safeJS }}",{{ end }}
-      "worksFor": {
-        "@type": "Organization",
-        "@id": {{ printf "%s#organization" site.Home.Permalink }},
-        "name": "North7",
-        "url": {{ site.Home.Permalink }}
-      },
-      {{- with $author.image }}
-      {{- $authorImageURL := "" }}
-      {{- if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
-        {{- $authorImageURL = . }}
-      {{- else }}
-        {{- with resources.Get . }}
-          {{- $authorImageURL = .Permalink }}
-        {{- else }}
-          {{- $authorImageURL = . | absURL }}
-        {{- end }}
-      {{- end }}
-      "image": {{ $authorImageURL }}{{ end }}{{ if $sameAs }},
-      "sameAs": [{{ range $i, $u := $sameAs }}{{ if $i }}, {{ end }}{{ $u }}{{ end }}]{{ end }}
-    },
-    "publisher" : {
-      "@type": "Organization",
-      "name": "North7",
-      "url": {{ site.Home.Permalink }}
-      {{ with resources.Get "img/logo.png" }},
-      "logo": {
-        "@type": "ImageObject",
-        "url": {{ .Permalink }}
-      }{{ end }}
-    },
-    {{ with .PublishDate }}"copyrightYear": "{{ .Format "2006" }}",{{ end }}
-    {{ with .Date }}"dateCreated": "{{ .Format $iso8601 }}",{{ end }}
-    {{ with .PublishDate }}"datePublished": "{{ .Format $iso8601 }}",{{ end }}
-    {{ with .ExpiryDate }}"expires": "{{ .Format $iso8601 }}",{{ end }}
-    {{ with .Lastmod }}"dateModified": "{{ .Format $iso8601 }}",{{ end }}
-    {{ if .Keywords }}
-    {{ with .Keywords }}"keywords": {{ . }},{{ end }}
-    {{ else }}
-    {{ with .Params.tags }}"keywords": {{ . }},{{ end }}
-    {{ end }}
-    "mainEntityOfPage": {{ .Permalink }},
-    "wordCount": {{ .WordCount | int }}
-  }{{ if site.Params.enableStructuredBreadcrumbs | default false }}{{ $bpos := 0 }},
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Beranda",
-        "item": {{ site.Home.Permalink }}
-      }{{ with index .Params.categories 0 }}{{ $bpos = 2 }},
-      {
-        "@type": "ListItem",
-        "position": {{ $bpos }},
-        "name": "{{ . | safeJS }}",
-        "item": {{ printf "%skategori/%s/" site.Home.Permalink ((replace . "/" "-") | urlize) }}
-      }{{ end }}{{ with index .Params.tags 0 }}{{ $bpos = add $bpos 1 }},
-      {
-        "@type": "ListItem",
-        "position": {{ $bpos }},
-        "name": "{{ . | safeJS }}",
-        "item": {{ printf "%stopik/%s/" site.Home.Permalink (. | urlize) }}
-      }{{ end }}{{ $bpos = add $bpos 1 }},
-      {
-        "@type": "ListItem",
-        "position": {{ $bpos }},
-        "name": "{{ .Title | safeJS }}",
-        "item": {{ .Permalink }}
-      }
-    ]
-  }{{ end }}]
+  {{ dict "@context" "https://schema.org" "@graph" (slice $article $webpage $crumb) | jsonify | safeJS }}
+  </script>
+{{ else if .IsPage }}
+  {{- $desc := .Description | default (.Summary | plainify) | default site.Params.description -}}
+  {{- $webpageID := printf "%s#webpage" .Permalink -}}
+  {{- $crumbID := printf "%s#breadcrumb" .Permalink -}}
+  {{- $webpage := dict
+    "@type" "WebPage"
+    "@id" $webpageID
+    "url" .Permalink
+    "name" .Title
+    "description" $desc
+    "isPartOf" (dict "@id" $webID)
+    "inLanguage" $lang
+    "breadcrumb" (dict "@id" $crumbID)
+  -}}
+  {{- $crumb := dict
+    "@type" "BreadcrumbList"
+    "@id" $crumbID
+    "itemListElement" (slice
+      (dict "@type" "ListItem" "position" 1 "name" "Beranda" "item" $home)
+      (dict "@type" "ListItem" "position" 2 "name" .Title "item" .Permalink)
+    )
+  -}}
+  <script type="application/ld+json">
+  {{ dict "@context" "https://schema.org" "@graph" (slice $webpage $crumb) | jsonify | safeJS }}
+  </script>
+{{ else }}
+  {{- $webpage := dict
+    "@type" "WebPage"
+    "@id" (printf "%s#webpage" .Permalink)
+    "url" .Permalink
+    "name" (.Title | default site.Title)
+    "isPartOf" (dict "@id" $webID)
+    "inLanguage" $lang
+  -}}
+  <script type="application/ld+json">
+  {{ dict "@context" "https://schema.org" "@graph" (slice $webpage) | jsonify | safeJS }}
   </script>
 {{ end }}
