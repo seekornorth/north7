@@ -1,0 +1,45 @@
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+{{- $posts := where (where site.RegularPages "Section" "posts") "Params.excludeFromSearch" "!=" true }}
+{{- $recent := where $posts "PublishDate" ">=" (now.AddDate 0 0 -2) }}
+{{- if lt (len $recent) 1 }}
+  {{- /* Tidak ada rilis 2 hari terakhir: pakai 4 artikel terbaru agar sitemap tidak kosong */}}
+  {{- $recent = first 4 (sort $posts "PublishDate" "desc") }}
+{{- end }}
+{{- range $recent }}
+  {{- $p := . }}
+  {{- $img := "" }}
+  {{- with partial "functions/feature-image.html" $p }}
+    {{- if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
+      {{- $img = . }}
+    {{- else }}
+      {{- with $p.Resources.Get . }}{{ $img = .Permalink }}{{ else }}{{ with resources.Get . }}{{ $img = .Permalink }}{{ end }}{{ end }}
+    {{- end }}
+  {{- end }}
+  {{- if not $img }}
+    {{- $imgs := $p.Resources.ByType "image" }}
+    {{- range slice "*feature*" "*cover*" "*thumbnail*" }}
+      {{- if not $img }}{{ with $imgs.GetMatch . }}{{ $img = .Permalink }}{{ end }}{{ end }}
+    {{- end }}
+  {{- end }}
+  <url>
+    <loc>{{ $p.Permalink }}</loc>
+    <news:news>
+      <news:publication>
+        <news:name>{{ site.Title }}</news:name>
+        <news:language>{{ site.Language.Lang }}</news:language>
+      </news:publication>
+      <news:publication_date>{{ $p.PublishDate.Format "2006-01-02T15:04:05-07:00" }}</news:publication_date>
+      <news:title>{{ $p.Title | plainify }}</news:title>
+    </news:news>
+    {{- with $img }}
+    <image:image>
+      <image:loc>{{ . }}</image:loc>
+      <image:title>{{ $p.Title | plainify }}</image:title>
+    </image:image>
+    {{- end }}
+  </url>
+{{- end }}
+</urlset>

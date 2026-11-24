@@ -41,7 +41,16 @@ enableEmoji = true
   priority = 0.5
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS", "JSON", "News"]
+
+# Sitemap Google News dibuat dinamis saat build (layouts/index.news.xml),
+# bukan file statis yang cepat basi.
+[outputFormats.News]
+  mediaType = "application/xml"
+  baseName = "news-sitemap"
+  isPlainText = true
+  isHTML = false
+  noUgly = true
 
 [related]
   includeNewer = true
