@@ -1,0 +1,13 @@
+{{/* Daftar artikel untuk hero slider beranda.
+  Artikel ber-flag featured:true dulu (terbaru duluan); kalau kurang dari 3,
+  dilengkapi artikel terbaru non-featured. Tanpa flag sama sekali = 3 terbaru.
+  Dipakai layouts/index.html dan hero/preload.html supaya slide pertama yang
+  di-preload selalu sama dengan yang dirender. */}}
+{{ $all := where site.RegularPages "Section" "posts" }}
+{{ $all = sort $all "Date" "desc" }}
+{{ $picked := first 3 (sort (where $all "Params.featured" true) "Date" "desc") }}
+{{ if lt (len $picked) 3 }}
+  {{ $fill := first (sub 3 (len $picked)) (where $all "Params.featured" "!=" true) }}
+  {{ $picked = first 3 (union $picked $fill) }}
+{{ end }}
+{{ return $picked }}

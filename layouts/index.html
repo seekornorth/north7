@@ -4,12 +4,7 @@
 {{/* Hero: artikel ber-flag featured:true dulu (terbaru duluan),
   kurang dari 3 dilengkapi artikel terbaru non-featured.
   Tanpa flag sama sekali = 3 terbaru (perilaku lama). */}}
-{{ $picked := first 3 (sort (where $all "Params.featured" true) "Date" "desc") }}
-{{ if lt (len $picked) 3 }}
-  {{ $fill := first (sub 3 (len $picked)) (where $all "Params.featured" "!=" true) }}
-  {{ $picked = first 3 (union $picked $fill) }}
-{{ end }}
-{{ $featured := $picked }}
+{{ $featured := partial "functions/featured-posts.html" . }}
 {{ $news := first 6 $all }}
 {{ $trending := first 5 $all }}
 {{ $reviews := where $all "Params.categories" "intersect" (slice "Ulasan" "ulasan") }}

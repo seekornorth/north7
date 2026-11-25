@@ -1,0 +1,45 @@
+{{/* Sumber gambar kartu/hero: kembalikan dict url/w/h untuk satu halaman.
+  Dipakai nrt-img.html (render <img>) dan hero/preload.html (preload LCP),
+  supaya keduanya selalu menunjuk berkas hasil resize yang sama.
+  Args: page (Page), width (int, default 800) */}}
+{{ $p := .page }}
+{{ $w := .width | default 800 }}
+{{ $res := "" }}
+{{ $url := "" }}
+{{ $iw := 0 }}
+{{ $ih := 0 }}
+{{ with partial "functions/feature-image.html" $p }}
+  {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
+    {{ $url = . }}
+  {{ else }}
+    {{ $res = $p.Resources.Get . }}
+    {{ if not $res }}{{ $res = resources.Get . }}{{ end }}
+  {{ end }}
+{{ end }}
+{{ if and (not $res) (not $url) }}
+  {{ $images := $p.Resources.ByType "image" }}
+  {{ range slice "*feature*" "*cover*" "*thumbnail*" "*hero*" }}
+    {{ if not $res }}{{ $res = $images.GetMatch . }}{{ end }}
+  {{ end }}
+{{ end }}
+{{ if and (not $res) (not $url) }}{{ $res = resources.Get "img/logo.png" }}{{ end }}
+{{ if $res }}
+  {{ if eq $res.MediaType.SubType "svg" }}
+    {{ $url = $res.RelPermalink }}
+  {{ else }}
+    {{ $iw = $res.Width }}
+    {{ $ih = $res.Height }}
+    {{ with try ($res.Resize (printf "%dx webp q75" $w)) }}
+      {{ with .Value }}
+        {{ $url = .RelPermalink }}
+        {{ $iw = .Width }}
+        {{ $ih = .Height }}
+      {{ else }}
+        {{ $url = $res.RelPermalink }}
+      {{ end }}
+    {{ else }}
+      {{ $url = $res.RelPermalink }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ return (dict "url" $url "w" $iw "h" $ih) }}

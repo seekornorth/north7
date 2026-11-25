@@ -1,7 +1,11 @@
-{{/* Preload gambar hero yang jadi elemen LCP di halaman artikel.
-     Tanpa ini, browser baru menemukan gambar setelah HTML body diparse dan CSS
-     selesai; dengan preload, unduhan mulai lebih awal. Spesifikasi resize harus
-     sama persis dengan partial "hero/background.html" supaya URL-nya cocok. */}}
+{{/* Preload gambar yang jadi elemen LCP.
+     Tanpa preload, browser baru menemukan gambar setelah HTML body diparse dan
+     CSS selesai; dengan preload, unduhan mulai lebih awal.
+
+     Artikel: spesifikasi resize harus sama persis dengan partial
+     "hero/background.html" supaya URL-nya cocok.
+     Beranda: slide pertama hero slider, URL-nya dari nrt-img-meta.html (helper
+     yang sama dengan nrt-img.html). */}}
 {{ if and .IsPage (site.Params.article.showHero | default true) }}
   {{ $heroStyle := .Params.heroStyle }}
   {{ if not $heroStyle }}{{ $heroStyle = site.Params.article.heroStyle }}{{ end }}
@@ -33,6 +37,12 @@
       {{ end }}
     {{ end }}
     {{ with $url }}
+      <link rel="preload" as="image" href="{{ . }}" fetchpriority="high">
+    {{ end }}
+  {{ end }}
+{{ else if .IsHome }}
+  {{ with index (partial "functions/featured-posts.html" .) 0 }}
+    {{ with (partial "nrt-img-meta.html" (dict "page" . "width" 1200)).url }}
       <link rel="preload" as="image" href="{{ . }}" fetchpriority="high">
     {{ end }}
   {{ end }}

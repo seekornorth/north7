@@ -1,53 +1,14 @@
 {{/* <img> teroptimasi: resize + WebP + lazy-load + prioritas LCP.
   Args: page (Page), width (int, default 800), eager (bool), class (str), alt (str) */}}
 {{ $p := .page }}
-{{ $w := .width | default 800 }}
 {{ $eager := .eager | default false }}
 {{ $class := .class | default "" }}
 {{ $alt := .alt | default $p.Title }}
-{{ $res := "" }}
-{{ $url := "" }}
-{{ $iw := 0 }}
-{{ $ih := 0 }}
-{{ with partial "functions/feature-image.html" $p }}
-  {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
-    {{ $url = . }}
-  {{ else }}
-    {{ $res = $p.Resources.Get . }}
-    {{ if not $res }}{{ $res = resources.Get . }}{{ end }}
-  {{ end }}
-{{ end }}
-{{ if and (not $res) (not $url) }}
-  {{ $images := $p.Resources.ByType "image" }}
-  {{ range slice "*feature*" "*cover*" "*thumbnail*" "*hero*" }}
-    {{ if not $res }}{{ $res = $images.GetMatch . }}{{ end }}
-  {{ end }}
-{{ end }}
-{{ if and (not $res) (not $url) }}{{ $res = resources.Get "img/logo.png" }}{{ end }}
-{{ if $res }}
-  {{ if eq $res.MediaType.SubType "svg" }}
-    {{ $url = $res.RelPermalink }}
-  {{ else }}
-    {{/* Dimensi asli sebagai fallback agar atribut width/height selalu ada */}}
-    {{ $iw = $res.Width }}
-    {{ $ih = $res.Height }}
-    {{ with try ($res.Resize (printf "%dx webp q75" $w)) }}
-      {{ with .Value }}
-        {{ $url = .RelPermalink }}
-        {{ $iw = .Width }}
-        {{ $ih = .Height }}
-      {{ else }}
-        {{ $url = $res.RelPermalink }}
-      {{ end }}
-    {{ else }}
-      {{ $url = $res.RelPermalink }}
-    {{ end }}
-  {{ end }}
-{{ end }}
+{{ $meta := partial "nrt-img-meta.html" (dict "page" $p "width" (.width | default 800)) }}
 <img
-  src="{{ $url }}"
+  src="{{ $meta.url }}"
   alt="{{ $alt }}"
   class="nozoom{{ with $class }} {{ . }}{{ end }}"
   loading="{{ cond $eager "eager" "lazy" }}"
   decoding="async"
-  fetchpriority="{{ cond $eager "high" "low" }}"{{ if and $iw $ih }} width="{{ $iw }}" height="{{ $ih }}"{{ end }} />
+  fetchpriority="{{ cond $eager "high" "low" }}"{{ if and $meta.w $meta.h }} width="{{ $meta.w }}" height="{{ $meta.h }}"{{ end }} />
