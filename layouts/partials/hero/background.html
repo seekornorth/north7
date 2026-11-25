@@ -47,8 +47,14 @@
     {{ $featuredW = .Width }}
     {{ $featuredH = .Height }}
     {{ if not (or $disableImageOptimization (eq .MediaType.SubType "svg")) }}
-      {{ $size := site.Store.Get "backgroundImageWidth" }}
-      {{ $featuredURL = (partial "functions/resize.html" (dict "resource" . "spec" $size)).RelPermalink }}
+      {{ $size := site.Store.Get "backgroundImageWidth" | default "1200x" }}
+      {{/* Sumber cover di repo berupa PNG ~590 KB. Tanpa format modern, Hugo
+        menyajikan PNG hasil resize ~270 KB untuk latar yang tertutup overlay
+        gelap 60%. WebP q72 memotongnya jadi puluhan KB tanpa beda yang terlihat. */}}
+      {{ $resized := partial "functions/resize.html" (dict "resource" . "spec" (printf "%s webp q72" $size)) }}
+      {{ $featuredURL = $resized.RelPermalink }}
+      {{ $featuredW = $resized.Width }}
+      {{ $featuredH = $resized.Height }}
     {{ end }}
   {{ end }}
 {{ end }}
@@ -98,6 +104,7 @@
     {{ $heroFade := resources.Get "js/hero-scroll-fade.js" }}
     {{ $heroFade = $heroFade | resources.Minify | resources.Fingerprint ($.Site.Params.fingerprintAlgorithm | default "sha512") }}
     <script
+      defer
       type="text/javascript"
       src="{{ $heroFade.RelPermalink }}"
       integrity="{{ $heroFade.Data.Integrity }}"

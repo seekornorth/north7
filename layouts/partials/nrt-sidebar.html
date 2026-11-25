@@ -7,7 +7,12 @@
   <!-- Profil mini -->
   <div class="nrt-widget">
     <div class="nrt-profile">
-      {{ with resources.Get "img/logo.png" }}<img class="nozoom" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="North7" loading="{{ $logoLoading }}" decoding="async" />{{ end }}
+      {{/* Logo asli 1080x1080; di sini cuma tampil 46x46. Resize sekali. */}}
+      {{ with resources.Get "img/logo.png" }}
+        {{ $logo := . }}
+        {{ with try (.Resize "96x96 webp q80") }}{{ with .Value }}{{ $logo = . }}{{ end }}{{ end }}
+        <img class="nozoom" src="{{ $logo.RelPermalink }}" width="{{ $logo.Width }}" height="{{ $logo.Height }}" alt="North7" loading="{{ $logoLoading }}" decoding="async" />
+      {{ end }}
       <div>
         <strong>North7</strong>
         <p>{{ site.Params.description }}</p>
@@ -31,9 +36,13 @@
     <h2 class="nrt-widget-title">Panduan Populer</h2>
     <div class="nrt-side-posts">
       {{ range $topGuides }}
+      {{ $guideTitle := .Title }}
       <a class="nrt-side-post" href="{{ .RelPermalink }}">
         {{ with .Resources.GetMatch "cover*" }}
-          <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ $.Title }}" loading="lazy" decoding="async" />
+          {{/* Thumbnail 68x48; sebelumnya memakai cover penuh sampai 900px. */}}
+          {{ $thumb := . }}
+          {{ with try (.Fill "136x96 webp q70") }}{{ with .Value }}{{ $thumb = . }}{{ end }}{{ end }}
+          <img src="{{ $thumb.RelPermalink }}" width="{{ $thumb.Width }}" height="{{ $thumb.Height }}" alt="{{ $guideTitle }}" loading="lazy" decoding="async" />
         {{ else }}
           {{ with resources.Get "img/logo.png" }}<img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="North7" loading="lazy" />{{ end }}
         {{ end }}

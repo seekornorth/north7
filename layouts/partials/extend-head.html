@@ -1,9 +1,39 @@
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-6MN7X3DE8T"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+{{/* Google tag (gtag.js) — dimuat belakangan, bukan saat render.
+     gtag.js ~183 KB dan memakan ~1,3 detik main thread di HP kelas menengah,
+     padahal tidak dibutuhkan untuk menampilkan apa pun. Kalau dimuat di awal,
+     TBT naik ~1 detik dan skor Lighthouse jatuh.
 
-  gtag('config', 'G-6MN7X3DE8T');
+     Sekarang: muat saat pengunjung benar-benar berinteraksi (scroll, klik,
+     sentuh, atau tekan tombol), dengan jaring pengaman 10 detik setelah load
+     supaya kunjungan yang cuma membaca tetap tercatat. Pageview yang masuk
+     jadi bergeser beberapa detik, bukan hilang. */}}
+<script>
+  (function () {
+    var id = "G-6MN7X3DE8T";
+    var loaded = false;
+    var events = ["pointerdown", "keydown", "scroll", "touchstart", "wheel"];
+
+    function load() {
+      if (loaded) return;
+      loaded = true;
+      events.forEach(function (e) { window.removeEventListener(e, load, { passive: true }); });
+
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function () { window.dataLayer.push(arguments); };
+      gtag("js", new Date());
+      gtag("config", id);
+
+      var s = document.createElement("script");
+      s.async = true;
+      s.src = "https://www.googletagmanager.com/gtag/js?id=" + id;
+      document.head.appendChild(s);
+    }
+
+    events.forEach(function (e) { window.addEventListener(e, load, { passive: true }); });
+    if (document.readyState === "complete") {
+      setTimeout(load, 10000);
+    } else {
+      window.addEventListener("load", function () { setTimeout(load, 10000); });
+    }
+  })();
 </script>

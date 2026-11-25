@@ -243,6 +243,7 @@
   {{ $alg := .Site.Params.fingerprintAlgorithm | default "sha512" }}
 
   {{/* CSS */}}
+  {{ partial "hero/preload.html" . }}
   {{ $cssResources := slice }}
   {{ $schemeName := .Site.Params.colorScheme | default "blowfish" }}
   {{ $cssScheme := resources.Get (printf "css/schemes/%s.css" (lower $schemeName)) | default (resources.Get "css/schemes/blowfish.css") }}
@@ -261,12 +262,11 @@
     href="{{ $bundleCSS.RelPermalink }}"
     integrity="{{ $bundleCSS.Data.Integrity }}">
 
-  {{/* JS loaded immediately */}}
-  {{ $jsAppearance := resources.Get "js/appearance.js" | resources.ExecuteAsTemplate "js/appearance.js" . | resources.Minify | resources.Fingerprint $alg }}
-  <script
-    type="text/javascript"
-    src="{{ $jsAppearance.RelPermalink }}"
-    integrity="{{ $jsAppearance.Data.Integrity }}"></script>
+  {{/* Skrip tema dipakai paling awal supaya tidak ada kedip tema.
+    Dulu dimuat sebagai file eksternal tanpa defer, jadi jadi satu request
+    render-blocking di <head>. Isinya <1 KB, lebih murah di-inline. */}}
+  {{ $jsAppearance := resources.Get "js/appearance.js" | resources.ExecuteAsTemplate "js/appearance.js" . | resources.Minify }}
+  <script>{{ $jsAppearance.Content | safeJS }}</script>
   {{ partial "language-redirect.html" . }}
   {{ $enableA11y := .Site.Params.enableA11y | default false }}
   {{ if $enableA11y }}
@@ -295,6 +295,7 @@
   {{ if and .IsPage $showReadingProgress }}
     {{ $jsReadingProgress := resources.Get "js/reading-progress.js" | resources.Minify | resources.Fingerprint $alg }}
     <script
+      defer
       type="text/javascript"
       src="{{ $jsReadingProgress.RelPermalink }}"
       integrity="{{ $jsReadingProgress.Data.Integrity }}"></script>
@@ -302,13 +303,17 @@
 
   {{/* JS deferred */}}
   {{ $jsResources := slice }}
+  {{ $jsSearch := "" }}
   {{ if site.Params.footer.showScrollToTop | default true }}
     {{ $jsResources = $jsResources | append (resources.Get "js/scroll-to-top.js") }}
   {{ end }}
   {{ if .Site.Params.enableSearch | default false }}
+    {{/* Fuse.js (~18 KB) cuma dipakai saat modal pencarian dibuka. Dulu ikut
+      bundle utama di setiap halaman, padahal 87% isinya tidak terpakai.
+      Sekarang dibundel terpisah dan dimuat saat idle. */}}
     {{ $fuseRaw := resources.Get "lib/fuse/fuse.min.cjs" }}
     {{ $fuse := resources.FromString "lib/fuse/fuse.min.js" (replace $fuseRaw.Content "module.exports=" "window.Fuse=") }}
-    {{ $jsResources = $jsResources | append $fuse | append (resources.Get "js/search.js") }}
+    {{ $jsSearch = slice $fuse (resources.Get "js/search.js") | resources.Concat "js/search.bundle.js" | resources.Minify | resources.Fingerprint $alg }}
   {{ end }}
   {{ if .Site.Params.enableCodeCopy | default false }}
     {{ $jsResources = $jsResources | append (resources.Get "js/code.js") }}
@@ -330,6 +335,49 @@
       integrity="{{ $bundleJS.Data.Integrity }}"
       data-copy="{{ i18n "code.copy" }}"
       data-copied="{{ i18n "code.copied" }}"></script>
+  {{ end }}
+
+  {{/* Pencarian dimuat menyusul: saat browser idle, atau begitu tombol cari disentuh. */}}
+  {{ with $jsSearch }}
+  <script>
+    (function () {
+      var src = "{{ .RelPermalink }}";
+      var loaded = false;
+      var pendingEl = null;
+
+      function load() {
+        if (loaded) return;
+        loaded = true;
+        var s = document.createElement("script");
+        s.async = true;
+        s.src = src;
+        s.onload = function () {
+          if (pendingEl) pendingEl.click();
+          pendingEl = null;
+        };
+        document.head.appendChild(s);
+      }
+
+      function idle() {
+        if ("requestIdleCallback" in window) {
+          requestIdleCallback(load, { timeout: 2500 });
+        } else {
+          setTimeout(load, 1500);
+        }
+      }
+
+      document.addEventListener("pointerdown", function (e) {
+        if (loaded) return;
+        var el = e.target.closest("#search-button, #search-button-mobile");
+        if (!el) return;
+        pendingEl = el;
+        load();
+      }, { passive: true });
+
+      if (document.readyState === "complete") idle();
+      else window.addEventListener("load", idle);
+    })();
+  </script>
   {{ end }}
 
   {{/* Conditional loaded resources */}}

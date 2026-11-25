@@ -1,0 +1,39 @@
+{{/* Preload gambar hero yang jadi elemen LCP di halaman artikel.
+     Tanpa ini, browser baru menemukan gambar setelah HTML body diparse dan CSS
+     selesai; dengan preload, unduhan mulai lebih awal. Spesifikasi resize harus
+     sama persis dengan partial "hero/background.html" supaya URL-nya cocok. */}}
+{{ if and .IsPage (site.Params.article.showHero | default true) }}
+  {{ $heroStyle := .Params.heroStyle }}
+  {{ if not $heroStyle }}{{ $heroStyle = site.Params.article.heroStyle }}{{ end }}
+  {{ if eq $heroStyle "background" }}
+    {{ $featured := "" }}
+    {{ $url := "" }}
+    {{ with partial "functions/feature-image.html" . }}
+      {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
+        {{ if site.Params.hotlinkFeatureImage }}
+          {{ $url = . }}
+        {{ else }}
+          {{ $featured = resources.GetRemote . }}
+        {{ end }}
+      {{ else }}
+        {{ $featured = $.Resources.Get . }}
+        {{ if not $featured }}{{ $featured = resources.Get . }}{{ end }}
+      {{ end }}
+    {{ end }}
+    {{ if and (not $featured) (not $url) }}
+      {{ $images := .Resources.ByType "image" }}
+      {{ range slice "*background*" "*feature*" "*cover*" "*thumbnail*" }}
+        {{ if not $featured }}{{ $featured = $images.GetMatch . }}{{ end }}
+      {{ end }}
+    {{ end }}
+    {{ with $featured }}
+      {{ if ne .MediaType.SubType "svg" }}
+        {{ $size := site.Store.Get "backgroundImageWidth" | default "1200x" }}
+        {{ $url = (partial "functions/resize.html" (dict "resource" . "spec" (printf "%s webp q72" $size))).RelPermalink }}
+      {{ end }}
+    {{ end }}
+    {{ with $url }}
+      <link rel="preload" as="image" href="{{ . }}" fetchpriority="high">
+    {{ end }}
+  {{ end }}
+{{ end }}

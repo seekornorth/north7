@@ -24,7 +24,8 @@
     <div class="nrt-hero-track">
       {{ range $i, $p := $featured }}
       <article class="nrt-slide{{ if eq $i 0 }} is-active{{ end }}" data-slide="{{ $i }}">
-        {{ partial "nrt-img.html" (dict "page" $p "width" 1600 "eager" (eq $i 0) "class" "nrt-slide-bg" "alt" $p.Title) }}
+        {{/* 1200px sudah cukup: hero selebar konten, dan slide tertutup overlay gelap. */}}
+        {{ partial "nrt-img.html" (dict "page" $p "width" 1200 "eager" (eq $i 0) "class" "nrt-slide-bg" "alt" $p.Title) }}
         <div class="nrt-slide-overlay"></div>
         <div class="nrt-slide-content">
           <div class="nrt-slide-cats">
