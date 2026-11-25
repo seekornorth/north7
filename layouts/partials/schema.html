@@ -200,6 +200,12 @@
             "position": {{ $bpos }},
             "name": "{{ . | safeJS }}",
             "item": {{ with $techCatPage }}{{ . }}{{ else }}{{ printf "%skategori/%s/" site.Home.Permalink ((replace . "/" "-") | urlize) }}{{ end }}
+          }{{ end }}{{ with index $.Params.tags 0 }}{{ $bpos = add $bpos 1 }},
+          {
+            "@type": "ListItem",
+            "position": {{ $bpos }},
+            "name": "{{ . | safeJS }}",
+            "item": {{ printf "%stopik/%s/" site.Home.Permalink (. | urlize) }}
           }{{ end }}{{ $bpos = add $bpos 1 }},
           {
             "@type": "ListItem",

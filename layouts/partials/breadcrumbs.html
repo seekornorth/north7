@@ -9,8 +9,13 @@
       {{ $first := index . 0 }}
       {{ $crumbs = $crumbs | append (dict "name" $first "url" (printf "/kategori/%s/" ((replace $first "/" "-") | urlize))) }}
     {{ end }}
-    {{/* Tag tidak dimasukkan ke breadcrumb: chip topik di bawah artikel sudah
-      menautkannya, dan sebagian tag tipis noindex. */}}
+    {{/* Tag pertama ikut di breadcrumb. Tag ini lalu dilewati di chip topik
+      (partials/nrt-toc-tags.html) supaya tidak ada tautan ganda ke halaman
+      taksonomi yang sama dalam satu artikel. */}}
+    {{ with .Params.tags }}
+      {{ $first := index . 0 }}
+      {{ $crumbs = $crumbs | append (dict "name" $first "url" (printf "/topik/%s/" ($first | urlize))) }}
+    {{ end }}
     {{ range $crumbs }}
       <li class="inline">
         <a class="hover:underline decoration-neutral-300 dark:underline-neutral-600" href="{{ .url | relLangURL }}">{{ .name }}</a><span class="px-1 text-primary-500">/</span>

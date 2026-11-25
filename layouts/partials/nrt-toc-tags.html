@@ -1,9 +1,11 @@
-{{/* Chip topik artikel. Hanya tampil untuk tag yang punya >=3 artikel:
-  tag tipis sudah noindex, jadi menautkannya cuma membuang link juice.
-  Dirender sekali saja per halaman (dipanggil dari layouts/_default/single.html). */}}
+{{/* Chip topik artikel, dirender sekali per halaman (layouts/_default/single.html).
+  Aturan supaya tidak ada tautan ganda ke taksonomi yang sama:
+  1. Tag pertama dilewati — sudah ditautkan di breadcrumb artikel.
+  2. Hanya tag dengan >=3 artikel: tag tipis sudah noindex, jadi menautkannya
+     cuma membuang link juice. */}}
 {{ with .Params.tags }}
   {{ $valid := slice }}
-  {{ range . }}
+  {{ range after 1 . }}
     {{ $term := urlize . }}
     {{ $pages := index site.Taxonomies.tags $term }}
     {{ if $pages }}
