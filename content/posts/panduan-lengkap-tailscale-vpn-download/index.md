@@ -293,8 +293,4 @@ tailscale up --accept-dns=false
 
 Melalui langkah instalasi dan konfigurasi di atas, kini seluruh mesin server, laptop, dan perangkat mobile ente telah terhubung rapat dalam satu ekosistem jaringan mesh pribadi yang aman, kencang, dan bebas dari kerumitan CGNAT.
 
-> **Baca Juga:**
-> - [Cara Setup Tailscale Subnet Router di Ubuntu Linux](/cara-setup-tailscale-subnet-router-di-ubuntu-linux/)
-> - [Panduan Lengkap WireGuard Linux Client Setup](/panduan-lengkap-wireguard-linux-client-setup/)
-
 Sumber: [Tailscale Official Documentation](https://tailscale.com/download)

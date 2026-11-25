@@ -80,8 +80,4 @@ Bagi pengelola server atau kluster komputasi yang belum sempat memperbarui versi
 
 Pihak Stealthium menegaskan bahwa NvRoot dan ForgePtr barulah permulaan. Peneliti keamanan tersebut mengonfirmasi masih memegang lebih dari 25 kerentanan berisiko Tinggi dan Kritis lainnya di seluruh ekosistem piranti lunak komputasi AI milik NVIDIA yang kini sedang menunggu giliran untuk diungkapkan secara bertahap.
 
-> **Baca Juga:**
-> - [Celah APT Debian Buka Akses Eksekusi Kode Root via MITM](/celah-apt-debian-buka-akses-root-mitm/)
-> - [Kmorph Pulihkan Kernel Linux dari Crash Tanpa Perlu Reboot](/kmorph-pulihkan-kernel-linux-tanpa-reboot/)
-
 Sumber: [Stealthium Research](https://stealthium.io/blog/nvroot)

@@ -73,8 +73,4 @@ Pelacak ini mulai dijual secara bebas melalui toko resmi Google Store per tangga
 
 Setelah membaca lebih jauh mengenai arsitektur peranti kerasnya, langkah Google memakai baterai koin standar CR2032 patut diapresiasi karena pengguna tidak perlu membuang perangkat saat daya habis setahun kemudian. Ditambah sertifikasi IP67 dan bodi baja pipih yang tahan benturan, Pixel Tag menjadi opsi pelacak yang sangat matang bagi para pengguna Android yang ingin barang berharganya tetap terpantau rapi.
 
-> **Baca Juga:**
-> - [Google Find Hub Hadirkan Fitur Pengingat Barang Tertinggal](/google-find-hub-pengingat-barang-tertinggal/)
-> - [XREAL AURA Meluncur Resmi, Kacamata Android XR Pertama](/xreal-aura-kacamata-android-xr-pertama/)
-
 Sumber: [Google Blog](https://blog.google/products-and-platforms/devices/pixel/google-pixel-tag/)

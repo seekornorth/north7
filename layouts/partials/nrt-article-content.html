@@ -22,19 +22,29 @@
   {{ $limit := site.Params.article.inArticleRelatedLimit | default 1 }}
   {{ $allRelated := .Site.RegularPages.Related . }}
 
-  {{/* replikasi daftar related bawah supaya bisa dikecualikan */}}
-  {{ $bottomLimit := site.Params.article.relatedContentLimit | default 4 }}
-  {{ $bottom := first $bottomLimit $allRelated }}
+  {{/* URL yang sudah ditautkan inline di isi artikel tidak perlu diulang. */}}
+  {{ $bodyLinks := slice }}
+  {{ range findRE `href="/[^"#?]*"` .Content }}
+    {{ $bodyLinks = $bodyLinks | append (replaceRE `^href="|"$` "" .) }}
+  {{ end }}
+
+  {{/* replikasi persis daftar related bawah (partials/related.html) supaya
+    link tengah tidak pernah sama dengan kartu bawah. */}}
+  {{ $bottomLimit := site.Params.article.relatedContentLimit | default 3 }}
+  {{ $bottom := first $bottomLimit (where $allRelated "RelPermalink" "not in" $bodyLinks) }}
   {{ if lt (len $bottom) 1 }}
-    {{ $bottom = first $bottomLimit (where (sort (where site.RegularPages "Section" "posts") "Date" "desc") "RelPermalink" "!=" .RelPermalink) }}
+    {{ $latest := where (sort (where site.RegularPages "Section" "posts") "Date" "desc") "RelPermalink" "!=" .RelPermalink }}
+    {{ $bottom = first $bottomLimit (where $latest "RelPermalink" "not in" $bodyLinks) }}
   {{ end }}
   {{ $excl := slice .RelPermalink }}
   {{ range $bottom }}{{ $excl = $excl | append .RelPermalink }}{{ end }}
 
   {{ $cands := where $allRelated "RelPermalink" "not in" $excl }}
+  {{ $cands = where $cands "RelPermalink" "not in" $bodyLinks }}
   {{ if lt (len $cands) 1 }}
     {{ $latest := first (add $bottomLimit 1) (where (sort (where site.RegularPages "Section" "posts") "Date" "desc") "RelPermalink" "!=" .RelPermalink) }}
     {{ $cands = where $latest "RelPermalink" "not in" $excl }}
+    {{ $cands = where $cands "RelPermalink" "not in" $bodyLinks }}
   {{ end }}
 
   {{ $related := first $limit $cands }}

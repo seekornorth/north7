@@ -107,8 +107,4 @@ Pusat dokumentasi resmi WhatsApp memberikan sejumlah catatan penting yang wajib 
 
 Dengan memanfaatkan fitur kunci chat dan kode rahasia bawaan ini, privasi percakapan penting Anda kini terlindungi secara maksimal tanpa rasa khawatir saat meminjamkan ponsel kepada siapa pun.
 
-> **Baca Juga:**
-> - [Cara Mengatasi Lupa Kunci Chat WA dan Kode Rahasia](/cara-mengatasi-lupa-kunci-chat-wa/)
-> - [Cara Sembunyikan Foto Video di iPhone dengan Face ID](/cara-sembunyikan-foto-video-di-iphone/)
-
 Sumber: [Pusat Bantuan WhatsApp](https://faq.whatsapp.com/764072925284841/?locale=id_ID)

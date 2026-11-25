@@ -53,8 +53,4 @@ SpaceX mulai membuka pemesanan Starlink Mini 2 melalui sistem undangan khusus ba
 
 Bagi pengguna yang menginginkan unit perangkat keras saja, bocoran katalog sistem Starlink mencantumkan banderol terminal terpisah sekitar $249, sementara modul baterai klip tambahan dijual seharga $50 per unit. Dengan kombinasi baterai fleksibel, port daya USB-C terstandarisasi, dan antena yang makin tipis, Starlink Mini 2 menetapkan standar baru bagi perangkat internet satelit konsumer yang benar-benar siap diajak menjelajah.
 
-> **Baca Juga:**
-> - [Sprout Sulap iPod Lawas Jadi Modern Pakai Raspberry Pi](/sprout-ipod-lawas-raspberry-pi/)
-> - [ArmSoM Sige7s Bawa Chip RK3588S Seukuran Raspberry Pi](/armsom-sige7s-bawa-chip-rk3588s-seukuran-raspberry-pi/)
-
 Sumber: [SpaceX Starlink](https://starlink.com/mini-2)

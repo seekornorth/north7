@@ -83,8 +83,4 @@ Meskipun menyuguhkan konsep yang sangat segar, ada beberapa catatan realistis ya
 
 Namun di luar keterbatasan daya tersebut, kehadiran Aina Ring membuktikan bahwa inovasi cincin pintar tidak harus terpaku pada grafik denyut nadi dan catatan waktu tidur. Menjadikan cincin sebagai pusat aksi instan dengan joystick fisik mini membuka babak baru yang sangat menarik bagi masa depan perangkat pendamping komputasi harian.
 
-> **Baca Juga:**
-> - [XREAL AURA Meluncur Resmi, Kacamata Android XR Pertama](/xreal-aura-kacamata-android-xr-pertama/)
-> - [Google Find Hub Hadirkan Fitur Pengingat Barang Tertinggal](/google-find-hub-pengingat-barang-tertinggal/)
-
 Sumber: [Aina](https://www.aina.com/)

@@ -271,8 +271,4 @@ Jika Anda mengalami situasi darurat di mana port ditutup oleh firewall atau konf
 
 Penerapan kombinasi kunci Ed25519, penutupan akses root langsung, isolasi konfigurasi modular drop-in, serta penyelarasan socket activation systemd di Ubuntu 24.04 LTS membentuk fondasi pertahanan jaringan yang solid dan tahan terhadap pemindaian otomatis di internet.
 
-> **Baca Juga:**
-> - [Cara Setting Fail2ban di Linux untuk Amankan Server SSH](/cara-setting-fail2ban/)
-> - [Panduan Lengkap Nftables Rocky Linux](/panduan-lengkap-nftables-rocky-linux/)
-
 Sumber: [Ubuntu Server Documentation](https://ubuntu.com/server/docs/openssh-server)

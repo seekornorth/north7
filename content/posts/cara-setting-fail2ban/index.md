@@ -293,8 +293,4 @@ sudo fail2ban-regex systemd-journal /etc/fail2ban/filter.d/sshd.conf
 
 Jika terdeteksi kegagalan tangkapan pola, perbarui paket Fail2ban dari repositori distribusi Anda ke versi 1.0.2 atau 1.1.0 yang sudah menyertakan patch identifikasi `sshd-session` secara baku.
 
-> **Baca Juga:**
-> - [Panduan Lengkap Linux Nftables Examples](/panduan-lengkap-linux-nftables-examples/)
-> - [Panduan Lengkap Linux Nftables Firewall](/panduan-lengkap-linux-nftables-firewall/)
-
 Sumber: [Fail2ban Official Documentation](https://github.com/fail2ban/fail2ban)

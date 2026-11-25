@@ -305,8 +305,4 @@ sudo tcpdump -i eth0 -nn -s 96 -C 100 -W 10 -w /var/log/capture_ring.pcap
 
 Perintah di atas akan membuat berkas berputar (*ring buffer*) sebanyak 10 berkas (`capture_ring.pcap0` hingga `capture_ring.pcap9`), masing-masing berukuran maksimal 100 MB. Ketika berkas kesepuluh penuh, tcpdump akan secara otomatis menimpa berkas tertua, memastikan penggunaan disk tidak akan pernah melebihi 1 GB.
 
-> **Baca Juga:**
-> - [Cara Mengatasi ss Command Not Found di Linux](/cara-mengatasi-ss-command-not-found-di-linux/)
-> - [Panduan Lengkap SSH Hardening Ubuntu 24.04](/panduan-lengkap-ssh-hardening-ubuntu-2404/)
-
 Sumber: [TCPDUMP & LIBPCAP Official Documentation](https://www.tcpdump.org)

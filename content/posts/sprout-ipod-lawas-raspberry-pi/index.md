@@ -57,8 +57,4 @@ Dari sisi perangkat lunak, Certain Things membangun antarmuka pengguna khusus da
 
 Seluruh cetak biru perangkat keras Sprout, mulai dari skema rangkaian hingga tata letak papan sirkuit PCB, dilisensikan secara terbuka di bawah lisensi CERN-OHL-S v2. Sementara itu kode sumber sistem operasi dan runtime Sprout dilisensikan melalui skema MPL-2.0. Proyek ini dijadwalkan meluncurkan kampanye pendanaan publik melalui platform Crowd Supply, dengan repositori kode yang akan dibuka untuk umum di GitHub agar komunitas modder global dapat ikut berkontribusi menyempurnakan fiturnya.
 
-> **Baca Juga:**
-> - [Razer Hammerhead V3 Chroma Bawa ANC ke Earbud Kabel USB-C](/razer-hammerhead-v3-chroma-earbud-kabel-usb-c/)
-> - [ArmSoM Sige7s Bawa Chip RK3588S Seukuran Raspberry Pi](/armsom-sige7s-bawa-chip-rk3588s-seukuran-raspberry-pi/)
-
 Sumber: [Certain Things](https://certainthings.studio/sprout/)

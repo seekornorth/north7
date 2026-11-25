@@ -53,8 +53,4 @@ Namun, keterbukaan tanpa filter tersebut kini menghadapi tantangan skalabilitas 
 
 Bagi komunitas Linux, menjaga kewarasan para pemelihara kode seperti Lorenzo jauh lebih berharga daripada membiarkan tumpukan patch otomatis masuk tanpa kendali. Bagaimanapun juga, keandalan sistem operasi yang menopang server dunia, superkomputer, hingga perangkat di saku kita tetap bertumpu pada ketajaman intuisi dan tanggung jawab moral insinyur manusia.
 
-> **Baca Juga:**
-> - [Kbuild Linux 7.4 Percepat Kompilasi Kernel](/kbuild-linux-7-4-percepat-kompilasi-kernel/)
-> - [OpenAI Temukan 948 Celah LPE di Kernel Linux](/openai-temukan-948-celah-lpe-kernel-linux/)
-
 Sumber: [Linux Kernel Mailing List](https://lore.kernel.org/lkml/avMRk95T26rsq4JK@gremlin/)

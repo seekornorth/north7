@@ -22,9 +22,11 @@
     {{ end }}
   {{ end }}
   {{ if not .Site.Params.disableTextInHeader | default true }}
-  <a href="{{ "" | relLangURL }}" class="text-base font-medium truncate min-w-0 shrink">
+  {{/* Teks brand bukan tautan kedua ke beranda: logo di atas sudah menautkannya.
+    Tautan ganda ke URL yang sama tidak menambah link juice. */}}
+  <span class="text-base font-medium truncate min-w-0 shrink">
     North7
-  </a>
+  </span>
   {{ end }}
   <div class="flex items-center ms-auto">
     <div class="hidden md:flex">

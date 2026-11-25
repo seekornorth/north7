@@ -81,8 +81,4 @@ Bencana terbesar dalam tata kelola basis data adalah ketika data rusak tersimpan
 
 Kehadiran `hwpoison-panic` di Linux 7.5 membuktikan bahwa ekosistem kernel Linux terus menyempurnakan perkakas validasi tingkat rendah. Sekarang, para perekayasa keandalan sistem (*Site Reliability Engineer*) tidak perlu lagi menebak-nebak apakah sistem failover mereka sanggup bereaksi cepat saat modul memori server mereka mendadak rusak di lapangan.
 
-> **Baca Juga:**
-> - [Celah NvRoot dan ForgePtr di Driver NVIDIA Jebol Host Linux](/celah-nvroot-forgeptr-driver-nvidia-linux/)
-> - [Kmorph Pulihkan Kernel Linux dari Crash Tanpa Perlu Reboot](/kmorph-pulihkan-kernel-linux-tanpa-reboot/)
-
 Sumber: [Linux Kernel Git](https://git.kernel.org/pub/scm/linux/kernel/git/mm/linux.git/commit/?h=for-next&id=0a936c44f2dcfbc95ffcdec30b04cc9a59c84e86)

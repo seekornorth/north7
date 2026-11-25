@@ -361,8 +361,4 @@ sudo chmod 600 /etc/cloudflared/*.json
 
 Melalui arsitektur outbound yang kokoh ini, Anda memperoleh kemudahan publikasi layanan tanpa perlu mengorbankan postur keamanan perimeter jaringan lokal Anda.
 
-> **Baca Juga:**
-> - [Cara Setup Caddy Reverse Proxy dengan SSL Otomatis](/cara-setup-caddy-reverse-proxy-ssl-otomatis/)
-> - [Panduan Lengkap WireGuard Linux Client Setup](/panduan-lengkap-wireguard-linux-client-setup/)
-
 Sumber: [Cloudflare Zero Trust Documentation](https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/)

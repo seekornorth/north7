@@ -57,8 +57,4 @@ Bagi pengguna Linux yang membutuhkan konfigurasi banyak monitor eksternal, keter
 
 Proyek Vino kini memang harus terhenti di bawah bayang-bayang tuntutan hukum. Namun, jejak diskusi teknis dan patch yang sempat diajukan di milis publik telah membuktikan bahwa komunitas dengan dukungan perkakas modern sanggup menembus kerumitan protokol tertutup, kendati tembok regulasi paten masih berdiri kokoh menghalangi kebebasan perangkat keras.
 
-> **Baca Juga:**
-> - [Banjir Patch AI, Lorenzo Stoakes Mundur Jadi Reviewer Linux](/banjir-patch-ai-lorenzo-stoakes-mundur-reviewer-linux/)
-> - [Kernel Linux 7.4 Hapus Driver C Binder demi Rust](/linux-7-4-hapus-driver-c-binder-resmikan-rust/)
-
 Sumber: [Linux Kernel Mailing List](https://lore.kernel.org/dri-devel/20260826163913.7052-1-mike@fireburn.co.uk/)

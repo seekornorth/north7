@@ -1,12 +1,23 @@
-{{/* Tag artikel di bawah TOC (sidebar kanan), gaya sama dengan .nrt-tags homepage.
-  Hanya tampil di halaman artikel yang punya tags. */}}
+{{/* Chip topik artikel. Hanya tampil untuk tag yang punya >=3 artikel:
+  tag tipis sudah noindex, jadi menautkannya cuma membuang link juice.
+  Dirender sekali saja per halaman (dipanggil dari layouts/_default/single.html). */}}
 {{ with .Params.tags }}
-  <div class="nrt-toc-tags" aria-label="Topik artikel">
-    <div class="nrt-widget-title">Topik</div>
-    <div class="nrt-tags">
-      {{ range . }}
-        <a href="{{ (printf "/topik/%s/" (. | urlize)) | relLangURL }}">#{{ . }}</a>
-      {{ end }}
+  {{ $valid := slice }}
+  {{ range . }}
+    {{ $term := urlize . }}
+    {{ $pages := index site.Taxonomies.tags $term }}
+    {{ if $pages }}
+      {{ if ge (len $pages) 3 }}{{ $valid = $valid | append . }}{{ end }}
+    {{ end }}
+  {{ end }}
+  {{ with $valid }}
+    <div class="nrt-toc-tags" aria-label="Topik artikel">
+      <div class="nrt-widget-title">Topik</div>
+      <div class="nrt-tags">
+        {{ range . }}
+          <a href="{{ (printf "/topik/%s/" (. | urlize)) | relLangURL }}">#{{ . }}</a>
+        {{ end }}
+      </div>
     </div>
-  </div>
+  {{ end }}
 {{ end }}

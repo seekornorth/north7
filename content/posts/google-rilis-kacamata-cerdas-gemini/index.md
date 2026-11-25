@@ -67,8 +67,4 @@ Masa pra-pesan untuk lini Intelligent Eyewear dari Warby Parker dan Gentle Monst
 
 Melihat peta persaingan kacamata pintar yang selama ini didominasi oleh satu ekosistem saja, kemunculan perangkat kolaborasi Google dan Samsung ini menghadirkan alternatif yang sangat menarik bagi konsumen teknologi. Keberhasilan perangkat ini ke depan tentu akan bergantung pada sejauh mana pengguna merasa nyaman mengandalkan bantuan kecerdasan buatan langsung di depan mata tanpa harus mengorbankan privasi orang-orang di sekitarnya.
 
-> **Baca Juga:**
-> - [XREAL AURA Meluncur Resmi, Kacamata Android XR Pertama](/xreal-aura-kacamata-android-xr-pertama/)
-> - [Google Pixel Tag Resmi Dijual, Pesaing Ramping AirTag](/google-pixel-tag-resmi-dijual-pesaing-airtag/)
-
 Sumber: [Google Blog](https://blog.google/innovation-and-ai/technology/xr-ar/google-intelligent-eyewear-collections-pre-order/)

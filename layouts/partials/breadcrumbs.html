@@ -9,17 +9,15 @@
       {{ $first := index . 0 }}
       {{ $crumbs = $crumbs | append (dict "name" $first "url" (printf "/kategori/%s/" ((replace $first "/" "-") | urlize))) }}
     {{ end }}
-    {{ with .Params.tags }}
-      {{ $first := index . 0 }}
-      {{ $crumbs = $crumbs | append (dict "name" $first "url" (printf "/topik/%s/" ($first | urlize))) }}
-    {{ end }}
+    {{/* Tag tidak dimasukkan ke breadcrumb: chip topik di bawah artikel sudah
+      menautkannya, dan sebagian tag tipis noindex. */}}
     {{ range $crumbs }}
       <li class="inline">
         <a class="hover:underline decoration-neutral-300 dark:underline-neutral-600" href="{{ .url | relLangURL }}">{{ .name }}</a><span class="px-1 text-primary-500">/</span>
       </li>
     {{ end }}
     <li class="hidden">
-      <a class="hover:underline decoration-neutral-300 dark:underline-neutral-600" href="{{ .RelPermalink }}">{{ .Title }}</a><span class="px-1 text-primary-500">/</span>
+      <span>{{ .Title }}</span>
     </li>
   {{ else }}
     {{ template "nrt-crumb" (dict "p1" . "p2" .) }}

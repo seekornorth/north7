@@ -1,11 +1,28 @@
-{{/* Override: cocokkan related per kategori dulu,
-  kalau kosong fallback ke artikel terbaru (selain halaman ini). */}}
+{{/* Override: kartu "Artikel Terkait" di bawah artikel.
+  Aturan supaya link juice tidak terbuang:
+  1. Buang artikel yang sudah ditautkan di dalam isi (inline kontekstual) —
+     tautan kedua ke URL yang sama tidak menambah nilai.
+  2. Batasi jumlahnya (relatedContentLimit, default 3).
+  3. Kalau hasilnya kosong, fallback ke artikel terbaru yang juga belum
+     ditautkan di isi.
+*/}}
 {{ if .Params.showRelatedContent | default (.Site.Params.article.showRelatedContent | default false) }}
-  {{ $limit := .Site.Params.article.relatedContentLimit | default 4 }}
-  {{ $related := .Site.RegularPages.Related . | first $limit }}
-  {{ if lt (len $related) 1 }}
-    {{ $related = first $limit (where (sort (where site.RegularPages "Section" "posts") "Date" "desc") "Permalink" "!=" .Permalink) }}
+  {{ $limit := .Site.Params.article.relatedContentLimit | default 3 }}
+
+  {{/* Kumpulkan URL yang sudah ada di isi artikel. */}}
+  {{ $bodyLinks := slice }}
+  {{ range findRE `href="/[^"#?]*"` .Content }}
+    {{ $bodyLinks = $bodyLinks | append (replaceRE `^href="|"$` "" .) }}
   {{ end }}
+
+  {{ $related := where (.Site.RegularPages.Related .) "RelPermalink" "not in" $bodyLinks }}
+  {{ $related = first $limit $related }}
+
+  {{ if lt (len $related) 1 }}
+    {{ $latest := where (sort (where site.RegularPages "Section" "posts") "Date" "desc") "RelPermalink" "!=" .RelPermalink }}
+    {{ $related = first $limit (where $latest "RelPermalink" "not in" $bodyLinks) }}
+  {{ end }}
+
   {{ with $related }}
     <h2 class="mt-8 text-2xl font-extrabold mb-10">{{ i18n "article.related_articles" | emojify }}</h2>
     <section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">

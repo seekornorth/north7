@@ -365,8 +365,4 @@ Fitur ini memungkinkan sistem melakukan bootstrap inisial hingga otentikasi capt
 
 Konfigurasi klien DNS over HTTPS di Linux memberikan benteng pertahanan fundamental dari pengintaian ISP, serangan keracunan cache DNS, serta manipulasi lalu lintas data. Dengan kombinasi DNSCrypt-Proxy, sistem penguncian resolvconf, dan validasi berkala via tcpdump, infrastruktur Linux Anda beroperasi dengan privasi dan integritas jaringan tingkat tinggi.
 
-> **Baca Juga:**
-> - [Panduan Lengkap Tcpdump Linux Ubuntu](/panduan-lengkap-tcpdump-linux-ubuntu/)
-> - [Cara Setting Fail2ban di Linux untuk Amankan Server SSH](/cara-setting-fail2ban/)
-
 Sumber: [DNSCrypt-Proxy Documentation](https://github.com/DNSCrypt/dnscrypt-proxy/wiki)
